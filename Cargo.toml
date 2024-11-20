@@ -1,0 +1,19 @@
+[package]
+name = "rtp"
+version = "1.0.0"
+authors = ["glacierx <rong.xian@gmail.com>"]
+edition = "2021"
+
+[lib]
+name = "rtp"
+path = "src/lib.rs"
+
+[features]
+channel = ["crossbeam-channel"]
+
+[dependencies]
+crossbeam-channel = { version = "0.5", optional = true }
+tokio="1.31"
+
+[build-dependencies]
+bindgen="0.70"
