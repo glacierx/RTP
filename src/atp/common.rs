@@ -1,6 +1,3 @@
-mod binding;
-pub use binding::*;
-
 use encoding::{ DecoderTrap, Encoding };
 use encoding::all::GB18030;
 use simple_error::SimpleError;
@@ -8,6 +5,7 @@ use std::borrow::Cow;
 use std::fmt;
 use std::os::raw::c_int;
 use time::{ Timespec, Tm };
+use super::binding::*;
 
 /// 交易接口中的查询操作的限制为:
 ///   每秒钟最多只能进行一次查询操作。
