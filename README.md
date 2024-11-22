@@ -9,6 +9,13 @@ Rust binding for CTP and it's variations
 
 `rtp` provides safe and ergonomic Rust bindings for the CTP (Comprehensive Transaction Platform) trading system, widely used in Chinese financial markets. This project aims to bring Rust's safety and performance guarantees to the CTP ecosystem while maintaining compatibility with various CTP-compatible implementations.
 
+## CTP versions
+
+|sdk|version|original URL|
+|--|--|--|
+|CTP|6.7.7_210240607|http://www.sfit.com.cn/DocumentDown/api_3/5_2_2/v6.7.7_traderapi_20240607.zip|
+|ATP|6.3.15|N/A|
+
 ## 🌟 Features
 
 - **Safe Abstractions**: Zero-cost abstractions over CTP's C++ interfaces with Rust's safety guarantees

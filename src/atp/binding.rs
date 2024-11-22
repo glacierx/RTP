@@ -3,7 +3,8 @@
 #![allow(non_snake_case)]
 #![allow(non_upper_case_globals)]
 #![allow(clippy::unreadable_literal)]
-include!("./generated/ThostFtdcUserApiStruct.rs");
+include!("./generated/atp_structs.rs");
+include!("./generated/atp_errors.rs");
 
 pub const THOST_FTDC_BOOL_True: TThostFtdcBoolType = 1;
 pub const THOST_FTDC_BOOL_False: TThostFtdcBoolType = 0;
