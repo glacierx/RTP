@@ -1313,103 +1313,103 @@ pub enum THOST_TE_RESUME_TYPE {
     THOST_TERT_QUICK = 2,
     THOST_TERT_NONE = 3,
 }
-#[doc = "\nTFtdcTraderIDType��һ������������Ա��������\n"]
+#[doc = "\nTFtdcTraderIDType是一个交易所交易员代码类型\n"]
 pub type TThostFtdcTraderIDType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcInvestorIDType��һ��Ͷ���ߴ�������\n"]
+#[doc = "\nTFtdcInvestorIDType是一个投资者代码类型\n"]
 pub type TThostFtdcInvestorIDType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcBrokerIDType��һ�����\u{379}�˾��������\n"]
+#[doc = "\nTFtdcBrokerIDType是一个经纪公司代码类型\n"]
 pub type TThostFtdcBrokerIDType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcBrokerAbbrType��һ�����\u{379}�˾�������\n"]
+#[doc = "\nTFtdcBrokerAbbrType是一个经纪公司简称类型\n"]
 pub type TThostFtdcBrokerAbbrType = [::std::os::raw::c_uchar; 9usize];
-#[doc = "\nTFtdcBrokerNameType��һ�����\u{379}�˾��������\n"]
+#[doc = "\nTFtdcBrokerNameType是一个经纪公司名称类型\n"]
 pub type TThostFtdcBrokerNameType = [::std::os::raw::c_uchar; 81usize];
-#[doc = "\nTFtdcOldExchangeInstIDType��һ����Լ�ڽ������Ĵ�������\n"]
+#[doc = "\nTFtdcOldExchangeInstIDType是一个合约在交易所的代码类型\n"]
 pub type TThostFtdcOldExchangeInstIDType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcExchangeInstIDType��һ����Լ�ڽ������Ĵ�������\n"]
+#[doc = "\nTFtdcExchangeInstIDType是一个合约在交易所的代码类型\n"]
 pub type TThostFtdcExchangeInstIDType = [::std::os::raw::c_uchar; 81usize];
-#[doc = "\nTFtdcOrderRefType��һ��������������\n"]
+#[doc = "\nTFtdcOrderRefType是一个报单引用类型\n"]
 pub type TThostFtdcOrderRefType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcParticipantIDType��һ����Ա��������\n"]
+#[doc = "\nTFtdcParticipantIDType是一个会员代码类型\n"]
 pub type TThostFtdcParticipantIDType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcUserIDType��һ���û���������\n"]
+#[doc = "\nTFtdcUserIDType是一个用户代码类型\n"]
 pub type TThostFtdcUserIDType = [::std::os::raw::c_uchar; 16usize];
-#[doc = "\nTFtdcPasswordType��һ����������\n"]
+#[doc = "\nTFtdcPasswordType是一个密码类型\n"]
 pub type TThostFtdcPasswordType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcClientIDType��һ�����ױ�������\n"]
+#[doc = "\nTFtdcClientIDType是一个交易编码类型\n"]
 pub type TThostFtdcClientIDType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcInstrumentIDType��һ����Լ��������\n"]
+#[doc = "\nTFtdcInstrumentIDType是一个合约代码类型\n"]
 pub type TThostFtdcInstrumentIDType = [::std::os::raw::c_uchar; 81usize];
-#[doc = "\nTFtdcOldInstrumentIDType��һ����Լ��������\n"]
+#[doc = "\nTFtdcOldInstrumentIDType是一个合约代码类型\n"]
 pub type TThostFtdcOldInstrumentIDType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcInstrumentCodeType��һ����Լ��ʶ������\n"]
+#[doc = "\nTFtdcInstrumentCodeType是一个合约标识码类型\n"]
 pub type TThostFtdcInstrumentCodeType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcMarketIDType��һ���г���������\n"]
+#[doc = "\nTFtdcMarketIDType是一个市场代码类型\n"]
 pub type TThostFtdcMarketIDType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcProductNameType��һ����Ʒ��������\n"]
+#[doc = "\nTFtdcProductNameType是一个产品名称类型\n"]
 pub type TThostFtdcProductNameType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcExchangeIDType��һ����������������\n"]
+#[doc = "\nTFtdcExchangeIDType是一个交易所代码类型\n"]
 pub type TThostFtdcExchangeIDType = [::std::os::raw::c_uchar; 9usize];
-#[doc = "\nTFtdcExchangeNameType��һ����������������\n"]
+#[doc = "\nTFtdcExchangeNameType是一个交易所名称类型\n"]
 pub type TThostFtdcExchangeNameType = [::std::os::raw::c_uchar; 61usize];
-#[doc = "\nTFtdcExchangeAbbrType��һ���������������\n"]
+#[doc = "\nTFtdcExchangeAbbrType是一个交易所简称类型\n"]
 pub type TThostFtdcExchangeAbbrType = [::std::os::raw::c_uchar; 9usize];
-#[doc = "\nTFtdcExchangeFlagType��һ����������־����\n"]
+#[doc = "\nTFtdcExchangeFlagType是一个交易所标志类型\n"]
 pub type TThostFtdcExchangeFlagType = [::std::os::raw::c_uchar; 2usize];
-#[doc = "\nTFtdcMacAddressType��һ��Mac��\u{5b7}����\n"]
+#[doc = "\nTFtdcMacAddressType是一个Mac地址类型\n"]
 pub type TThostFtdcMacAddressType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcSystemIDType��һ��ϵͳ�������\n"]
+#[doc = "\nTFtdcSystemIDType是一个系统编号类型\n"]
 pub type TThostFtdcSystemIDType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcClientLoginRemarkType��һ���ͻ���¼��ע2����\n"]
+#[doc = "\nTFtdcClientLoginRemarkType是一个客户登录备注2类型\n"]
 pub type TThostFtdcClientLoginRemarkType = [::std::os::raw::c_uchar; 151usize];
 pub type TThostFtdcExchangePropertyType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcDateType��һ����������\n"]
+#[doc = "\nTFtdcDateType是一个日期类型\n"]
 pub type TThostFtdcDateType = [::std::os::raw::c_uchar; 9usize];
-#[doc = "\nTFtdcTimeType��һ��ʱ������\n"]
+#[doc = "\nTFtdcTimeType是一个时间类型\n"]
 pub type TThostFtdcTimeType = [::std::os::raw::c_uchar; 9usize];
-#[doc = "\nTFtdcLongTimeType��һ����ʱ������\n"]
+#[doc = "\nTFtdcLongTimeType是一个长时间类型\n"]
 pub type TThostFtdcLongTimeType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcInstrumentNameType��һ����Լ��������\n"]
+#[doc = "\nTFtdcInstrumentNameType是一个合约名称类型\n"]
 pub type TThostFtdcInstrumentNameType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcSettlementGroupIDType��һ���������������\n"]
+#[doc = "\nTFtdcSettlementGroupIDType是一个结算组代码类型\n"]
 pub type TThostFtdcSettlementGroupIDType = [::std::os::raw::c_uchar; 9usize];
-#[doc = "\nTFtdcOrderSysIDType��һ�������������\n"]
+#[doc = "\nTFtdcOrderSysIDType是一个报单编号类型\n"]
 pub type TThostFtdcOrderSysIDType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcTradeIDType��һ���ɽ��������\n"]
+#[doc = "\nTFtdcTradeIDType是一个成交编号类型\n"]
 pub type TThostFtdcTradeIDType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcCommandTypeType��һ��DB������������\n"]
+#[doc = "\nTFtdcCommandTypeType是一个DB命令类型类型\n"]
 pub type TThostFtdcCommandTypeType = [::std::os::raw::c_uchar; 65usize];
-#[doc = "\nTFtdcOldIPAddressType��һ��IP��\u{5b7}����\n"]
+#[doc = "\nTFtdcOldIPAddressType是一个IP地址类型\n"]
 pub type TThostFtdcOldIPAddressType = [::std::os::raw::c_uchar; 16usize];
-#[doc = "\nTFtdcIPAddressType��һ��IP��\u{5b7}����\n"]
+#[doc = "\nTFtdcIPAddressType是一个IP地址类型\n"]
 pub type TThostFtdcIPAddressType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcIPPortType��һ��IP�˿�����\n"]
+#[doc = "\nTFtdcIPPortType是一个IP端口类型\n"]
 pub type TThostFtdcIPPortType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcProductInfoType��һ����Ʒ��Ϣ����\n"]
+#[doc = "\nTFtdcProductInfoType是一个产品信息类型\n"]
 pub type TThostFtdcProductInfoType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcProtocolInfoType��һ��Э����Ϣ����\n"]
+#[doc = "\nTFtdcProtocolInfoType是一个协议信息类型\n"]
 pub type TThostFtdcProtocolInfoType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcBusinessUnitType��һ��ҵ��Ԫ����\n"]
+#[doc = "\nTFtdcBusinessUnitType是一个业务单元类型\n"]
 pub type TThostFtdcBusinessUnitType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcDepositSeqNoType��һ���������ˮ������\n"]
+#[doc = "\nTFtdcDepositSeqNoType是一个出入金流水号类型\n"]
 pub type TThostFtdcDepositSeqNoType = [::std::os::raw::c_uchar; 15usize];
-#[doc = "\nTFtdcIdentifiedCardNoType��һ��\u{5a4}����������\n"]
+#[doc = "\nTFtdcIdentifiedCardNoType是一个证件号码类型\n"]
 pub type TThostFtdcIdentifiedCardNoType = [::std::os::raw::c_uchar; 51usize];
 pub type TThostFtdcIdCardTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcOrderLocalIDType��һ�����ر����������\n"]
+#[doc = "\nTFtdcOrderLocalIDType是一个本地报单编号类型\n"]
 pub type TThostFtdcOrderLocalIDType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcUserNameType��һ���û���������\n"]
+#[doc = "\nTFtdcUserNameType是一个用户名称类型\n"]
 pub type TThostFtdcUserNameType = [::std::os::raw::c_uchar; 81usize];
-#[doc = "\nTFtdcPartyNameType��һ����������������\n"]
+#[doc = "\nTFtdcPartyNameType是一个参与人名称类型\n"]
 pub type TThostFtdcPartyNameType = [::std::os::raw::c_uchar; 81usize];
-#[doc = "\nTFtdcErrorMsgType��һ��������Ϣ����\n"]
+#[doc = "\nTFtdcErrorMsgType是一个错误信息类型\n"]
 pub type TThostFtdcErrorMsgType = [::std::os::raw::c_uchar; 81usize];
-#[doc = "\nTFtdcFieldNameType��һ���\u{5b6}�������\n"]
+#[doc = "\nTFtdcFieldNameType是一个字段名类型\n"]
 pub type TThostFtdcFieldNameType = [::std::os::raw::c_uchar; 2049usize];
-#[doc = "\nTFtdcFieldContentType��һ���\u{5b6}���������\n"]
+#[doc = "\nTFtdcFieldContentType是一个字段内容类型\n"]
 pub type TThostFtdcFieldContentType = [::std::os::raw::c_uchar; 2049usize];
-#[doc = "\nTFtdcSystemNameType��һ��ϵͳ��������\n"]
+#[doc = "\nTFtdcSystemNameType是一个系统名称类型\n"]
 pub type TThostFtdcSystemNameType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcContentType��һ����Ϣ��������\n"]
+#[doc = "\nTFtdcContentType是一个消息正文类型\n"]
 pub type TThostFtdcContentType = [::std::os::raw::c_uchar; 501usize];
 pub type TThostFtdcInvestorRangeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcDepartmentRangeType = ::std::os::raw::c_uchar;
@@ -1451,106 +1451,106 @@ pub type TThostFtdcSpecPosiTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcPriceSourceType = ::std::os::raw::c_uchar;
 pub type TThostFtdcInstrumentStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcInstStatusEnterReasonType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcOrderActionRefType��һ������������������\n"]
+#[doc = "\nTFtdcOrderActionRefType是一个报单操作引用类型\n"]
 pub type TThostFtdcOrderActionRefType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcInstallCountType��һ����װ��������\n"]
+#[doc = "\nTFtdcInstallCountType是一个安装数量类型\n"]
 pub type TThostFtdcInstallCountType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcInstallIDType��һ����װ�������\n"]
+#[doc = "\nTFtdcInstallIDType是一个安装编号类型\n"]
 pub type TThostFtdcInstallIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcErrorIDType��һ�������������\n"]
+#[doc = "\nTFtdcErrorIDType是一个错误代码类型\n"]
 pub type TThostFtdcErrorIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcSettlementIDType��һ������������\n"]
+#[doc = "\nTFtdcSettlementIDType是一个结算编号类型\n"]
 pub type TThostFtdcSettlementIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcVolumeType��һ����������\n"]
+#[doc = "\nTFtdcVolumeType是一个数量类型\n"]
 pub type TThostFtdcVolumeType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcFrontIDType��һ��ǰ�ñ������\n"]
+#[doc = "\nTFtdcFrontIDType是一个前置编号类型\n"]
 pub type TThostFtdcFrontIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcSessionIDType��һ���Ự�������\n"]
+#[doc = "\nTFtdcSessionIDType是一个会话编号类型\n"]
 pub type TThostFtdcSessionIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcSequenceNoType��һ���������\n"]
+#[doc = "\nTFtdcSequenceNoType是一个序号类型\n"]
 pub type TThostFtdcSequenceNoType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcCommandNoType��һ��DB�����������\n"]
+#[doc = "\nTFtdcCommandNoType是一个DB命令序号类型\n"]
 pub type TThostFtdcCommandNoType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcMillisecType��һ��ʱ�䣨���룩����\n"]
+#[doc = "\nTFtdcMillisecType是一个时间（毫秒）类型\n"]
 pub type TThostFtdcMillisecType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcSecType��һ��ʱ�䣨�룩����\n"]
+#[doc = "\nTFtdcSecType是一个时间（秒）类型\n"]
 pub type TThostFtdcSecType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcVolumeMultipleType��һ����Լ������������\n"]
+#[doc = "\nTFtdcVolumeMultipleType是一个合约数量乘数类型\n"]
 pub type TThostFtdcVolumeMultipleType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcTradingSegmentSNType��һ�����\u{5fd}\u{5f6}α������\n"]
+#[doc = "\nTFtdcTradingSegmentSNType是一个交易阶段编号类型\n"]
 pub type TThostFtdcTradingSegmentSNType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcRequestIDType��һ������������\n"]
+#[doc = "\nTFtdcRequestIDType是一个请求编号类型\n"]
 pub type TThostFtdcRequestIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcYearType��һ���������\n"]
+#[doc = "\nTFtdcYearType是一个年份类型\n"]
 pub type TThostFtdcYearType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcMonthType��һ���·�����\n"]
+#[doc = "\nTFtdcMonthType是一个月份类型\n"]
 pub type TThostFtdcMonthType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcBoolType��һ������������\n"]
+#[doc = "\nTFtdcBoolType是一个布尔型类型\n"]
 pub type TThostFtdcBoolType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcPriceType��һ���۸�����\n"]
+#[doc = "\nTFtdcPriceType是一个价格类型\n"]
 pub type TThostFtdcPriceType = f64;
-#[doc = "\nTFtdcCombOffsetFlagType��һ����Ͽ�ƽ��־����\n"]
+#[doc = "\nTFtdcCombOffsetFlagType是一个组合开平标志类型\n"]
 pub type TThostFtdcCombOffsetFlagType = [::std::os::raw::c_uchar; 5usize];
-#[doc = "\nTFtdcCombHedgeFlagType��һ�����Ͷ���ױ���־����\n"]
+#[doc = "\nTFtdcCombHedgeFlagType是一个组合投机套保标志类型\n"]
 pub type TThostFtdcCombHedgeFlagType = [::std::os::raw::c_uchar; 5usize];
-#[doc = "\nTFtdcRatioType��һ����������\n"]
+#[doc = "\nTFtdcRatioType是一个比率类型\n"]
 pub type TThostFtdcRatioType = f64;
-#[doc = "\nTFtdcMoneyType��һ���ʽ�����\n"]
+#[doc = "\nTFtdcMoneyType是一个资金类型\n"]
 pub type TThostFtdcMoneyType = f64;
-#[doc = "\nTFtdcLargeVolumeType��һ�������������\n"]
+#[doc = "\nTFtdcLargeVolumeType是一个大额数量类型\n"]
 pub type TThostFtdcLargeVolumeType = f64;
-#[doc = "\nTFtdcSequenceSeriesType��һ������ϵ�к�����\n"]
+#[doc = "\nTFtdcSequenceSeriesType是一个序列系列号类型\n"]
 pub type TThostFtdcSequenceSeriesType = ::std::os::raw::c_short;
-#[doc = "\nTFtdcCommPhaseNoType��һ��\u{368}Ѷʱ�α������\n"]
+#[doc = "\nTFtdcCommPhaseNoType是一个通讯时段编号类型\n"]
 pub type TThostFtdcCommPhaseNoType = ::std::os::raw::c_short;
-#[doc = "\nTFtdcSequenceLabelType��һ�����б������\n"]
+#[doc = "\nTFtdcSequenceLabelType是一个序列编号类型\n"]
 pub type TThostFtdcSequenceLabelType = [::std::os::raw::c_uchar; 2usize];
-#[doc = "\nTFtdcUnderlyingMultipleType��һ��������Ʒ��������\n"]
+#[doc = "\nTFtdcUnderlyingMultipleType是一个基础商品乘数类型\n"]
 pub type TThostFtdcUnderlyingMultipleType = f64;
-#[doc = "\nTFtdcPriorityType��һ�����ȼ�����\n"]
+#[doc = "\nTFtdcPriorityType是一个优先级类型\n"]
 pub type TThostFtdcPriorityType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcContractCodeType��һ����\u{36c}�������\n"]
+#[doc = "\nTFtdcContractCodeType是一个合同编号类型\n"]
 pub type TThostFtdcContractCodeType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcCityType��һ��������\n"]
+#[doc = "\nTFtdcCityType是一个市类型\n"]
 pub type TThostFtdcCityType = [::std::os::raw::c_uchar; 51usize];
-#[doc = "\nTFtdcIsStockType��һ���Ƿ��������\n"]
+#[doc = "\nTFtdcIsStockType是一个是否股民类型\n"]
 pub type TThostFtdcIsStockType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcChannelType��һ����������\n"]
+#[doc = "\nTFtdcChannelType是一个渠道类型\n"]
 pub type TThostFtdcChannelType = [::std::os::raw::c_uchar; 51usize];
-#[doc = "\nTFtdcAddressType��һ��\u{368}Ѷ��\u{5b7}����\n"]
+#[doc = "\nTFtdcAddressType是一个通讯地址类型\n"]
 pub type TThostFtdcAddressType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcZipCodeType��һ��������������\n"]
+#[doc = "\nTFtdcZipCodeType是一个邮政编码类型\n"]
 pub type TThostFtdcZipCodeType = [::std::os::raw::c_uchar; 7usize];
-#[doc = "\nTFtdcTelephoneType��һ����ϵ�绰����\n"]
+#[doc = "\nTFtdcTelephoneType是一个联系电话类型\n"]
 pub type TThostFtdcTelephoneType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcFaxType��һ����������\n"]
+#[doc = "\nTFtdcFaxType是一个传真类型\n"]
 pub type TThostFtdcFaxType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcMobileType��һ���\u{5bb}�����\n"]
+#[doc = "\nTFtdcMobileType是一个手机类型\n"]
 pub type TThostFtdcMobileType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcEMailType��һ�������ʼ�����\n"]
+#[doc = "\nTFtdcEMailType是一个电子邮件类型\n"]
 pub type TThostFtdcEMailType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcMemoType��һ����ע����\n"]
+#[doc = "\nTFtdcMemoType是一个备注类型\n"]
 pub type TThostFtdcMemoType = [::std::os::raw::c_uchar; 161usize];
-#[doc = "\nTFtdcCompanyCodeType��һ����ҵ��������\n"]
+#[doc = "\nTFtdcCompanyCodeType是一个企业代码类型\n"]
 pub type TThostFtdcCompanyCodeType = [::std::os::raw::c_uchar; 51usize];
-#[doc = "\nTFtdcWebsiteType��һ����վ��\u{5b7}����\n"]
+#[doc = "\nTFtdcWebsiteType是一个网站地址类型\n"]
 pub type TThostFtdcWebsiteType = [::std::os::raw::c_uchar; 51usize];
-#[doc = "\nTFtdcTaxNoType��һ��˰��ǼǺ�����\n"]
+#[doc = "\nTFtdcTaxNoType是一个税务登记号类型\n"]
 pub type TThostFtdcTaxNoType = [::std::os::raw::c_uchar; 31usize];
 pub type TThostFtdcBatchStatusType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcPropertyIDType��һ�����Դ�������\n"]
+#[doc = "\nTFtdcPropertyIDType是一个属性代码类型\n"]
 pub type TThostFtdcPropertyIDType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcPropertyNameType��һ��������������\n"]
+#[doc = "\nTFtdcPropertyNameType是一个属性名称类型\n"]
 pub type TThostFtdcPropertyNameType = [::std::os::raw::c_uchar; 65usize];
-#[doc = "\nTFtdcLicenseNoType��һ��Ӫҵ\u{5b4}�պ�����\n"]
+#[doc = "\nTFtdcLicenseNoType是一个营业执照号类型\n"]
 pub type TThostFtdcLicenseNoType = [::std::os::raw::c_uchar; 51usize];
-#[doc = "\nTFtdcAgentIDType��һ�������˴�������\n"]
+#[doc = "\nTFtdcAgentIDType是一个经纪人代码类型\n"]
 pub type TThostFtdcAgentIDType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcAgentNameType��һ����������������\n"]
+#[doc = "\nTFtdcAgentNameType是一个经纪人名称类型\n"]
 pub type TThostFtdcAgentNameType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcAgentGroupIDType��һ�����������������\n"]
+#[doc = "\nTFtdcAgentGroupIDType是一个经纪人组代码类型\n"]
 pub type TThostFtdcAgentGroupIDType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcAgentGroupNameType��һ������������������\n"]
+#[doc = "\nTFtdcAgentGroupNameType是一个经纪人组名称类型\n"]
 pub type TThostFtdcAgentGroupNameType = [::std::os::raw::c_uchar; 41usize];
 pub type TThostFtdcReturnStyleType = ::std::os::raw::c_uchar;
 pub type TThostFtdcReturnPatternType = ::std::os::raw::c_uchar;
@@ -1561,115 +1561,115 @@ pub type TThostFtdcInvestorSettlementParamIDType = ::std::os::raw::c_uchar;
 pub type TThostFtdcExchangeSettlementParamIDType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSystemParamIDType = ::std::os::raw::c_uchar;
 pub type TThostFtdcTradeParamIDType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcSettlementParamValueType��һ����������\u{5b5}����\n"]
+#[doc = "\nTFtdcSettlementParamValueType是一个参数代码值类型\n"]
 pub type TThostFtdcSettlementParamValueType = [::std::os::raw::c_uchar; 256usize];
-#[doc = "\nTFtdcCounterIDType��һ����������������\n"]
+#[doc = "\nTFtdcCounterIDType是一个计数器代码类型\n"]
 pub type TThostFtdcCounterIDType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcInvestorGroupNameType��һ��Ͷ���߷�����������\n"]
+#[doc = "\nTFtdcInvestorGroupNameType是一个投资者分组名称类型\n"]
 pub type TThostFtdcInvestorGroupNameType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcBrandCodeType��һ���ƺ�����\n"]
+#[doc = "\nTFtdcBrandCodeType是一个牌号类型\n"]
 pub type TThostFtdcBrandCodeType = [::std::os::raw::c_uchar; 257usize];
-#[doc = "\nTFtdcWarehouseType��һ���\u{5bf}�����\n"]
+#[doc = "\nTFtdcWarehouseType是一个仓库类型\n"]
 pub type TThostFtdcWarehouseType = [::std::os::raw::c_uchar; 257usize];
-#[doc = "\nTFtdcProductDateType��һ����������\n"]
+#[doc = "\nTFtdcProductDateType是一个产期类型\n"]
 pub type TThostFtdcProductDateType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcGradeType��һ���ȼ�����\n"]
+#[doc = "\nTFtdcGradeType是一个等级类型\n"]
 pub type TThostFtdcGradeType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcClassifyType��һ���������\n"]
+#[doc = "\nTFtdcClassifyType是一个类别类型\n"]
 pub type TThostFtdcClassifyType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcPositionType��һ����λ����\n"]
+#[doc = "\nTFtdcPositionType是一个货位类型\n"]
 pub type TThostFtdcPositionType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcYieldlyType��һ����������\n"]
+#[doc = "\nTFtdcYieldlyType是一个产地类型\n"]
 pub type TThostFtdcYieldlyType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcWeightType��һ��������������\n"]
+#[doc = "\nTFtdcWeightType是一个公定重量类型\n"]
 pub type TThostFtdcWeightType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcSubEntryFundNoType��һ�������ʽ���ˮ������\n"]
+#[doc = "\nTFtdcSubEntryFundNoType是一个分项资金流水号类型\n"]
 pub type TThostFtdcSubEntryFundNoType = ::std::os::raw::c_int;
 pub type TThostFtdcFileIDType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcFileNameType��һ���ļ���������\n"]
+#[doc = "\nTFtdcFileNameType是一个文件名称类型\n"]
 pub type TThostFtdcFileNameType = [::std::os::raw::c_uchar; 257usize];
 pub type TThostFtdcFileTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFileFormatType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFileUploadStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcTransferDirectionType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcUploadModeType��һ���ϴ��ļ���������\n"]
+#[doc = "\nTFtdcUploadModeType是一个上传文件类型类型\n"]
 pub type TThostFtdcUploadModeType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcAccountIDType��һ��Ͷ�����ʺ�����\n"]
+#[doc = "\nTFtdcAccountIDType是一个投资者帐号类型\n"]
 pub type TThostFtdcAccountIDType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcBankFlagType��һ������ͳһ��ʶ��������\n"]
+#[doc = "\nTFtdcBankFlagType是一个银行统一标识类型类型\n"]
 pub type TThostFtdcBankFlagType = [::std::os::raw::c_uchar; 4usize];
-#[doc = "\nTFtdcBankAccountType��һ�������˻�����\n"]
+#[doc = "\nTFtdcBankAccountType是一个银行账户类型\n"]
 pub type TThostFtdcBankAccountType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcOpenNameType��һ�������˻��Ŀ�������������\n"]
+#[doc = "\nTFtdcOpenNameType是一个银行账户的开户人名称类型\n"]
 pub type TThostFtdcOpenNameType = [::std::os::raw::c_uchar; 61usize];
-#[doc = "\nTFtdcOpenBankType��һ�������˻��Ŀ���������\n"]
+#[doc = "\nTFtdcOpenBankType是一个银行账户的开户行类型\n"]
 pub type TThostFtdcOpenBankType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcBankNameType��һ��������������\n"]
+#[doc = "\nTFtdcBankNameType是一个银行名称类型\n"]
 pub type TThostFtdcBankNameType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcPublishPathType��һ������·������\n"]
+#[doc = "\nTFtdcPublishPathType是一个发布路径类型\n"]
 pub type TThostFtdcPublishPathType = [::std::os::raw::c_uchar; 257usize];
-#[doc = "\nTFtdcOperatorIDType��һ������Ա��������\n"]
+#[doc = "\nTFtdcOperatorIDType是一个操作员代码类型\n"]
 pub type TThostFtdcOperatorIDType = [::std::os::raw::c_uchar; 65usize];
-#[doc = "\nTFtdcMonthCountType��һ���·���������\n"]
+#[doc = "\nTFtdcMonthCountType是一个月份数量类型\n"]
 pub type TThostFtdcMonthCountType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcAdvanceMonthArrayType��һ���·���ǰ��������\n"]
+#[doc = "\nTFtdcAdvanceMonthArrayType是一个月份提前数组类型\n"]
 pub type TThostFtdcAdvanceMonthArrayType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcDateExprType��һ�����ڱ���ʽ����\n"]
+#[doc = "\nTFtdcDateExprType是一个日期表达式类型\n"]
 pub type TThostFtdcDateExprType = [::std::os::raw::c_uchar; 1025usize];
-#[doc = "\nTFtdcInstrumentIDExprType��һ����Լ�������ʽ����\n"]
+#[doc = "\nTFtdcInstrumentIDExprType是一个合约代码表达式类型\n"]
 pub type TThostFtdcInstrumentIDExprType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcInstrumentNameExprType��һ����Լ���Ʊ���ʽ����\n"]
+#[doc = "\nTFtdcInstrumentNameExprType是一个合约名称表达式类型\n"]
 pub type TThostFtdcInstrumentNameExprType = [::std::os::raw::c_uchar; 41usize];
 pub type TThostFtdcSpecialCreateRuleType = ::std::os::raw::c_uchar;
 pub type TThostFtdcBasisPriceTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcProductLifePhaseType = ::std::os::raw::c_uchar;
 pub type TThostFtdcDeliveryModeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcLogLevelType��һ����־��������\n"]
+#[doc = "\nTFtdcLogLevelType是一个日志级别类型\n"]
 pub type TThostFtdcLogLevelType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcProcessNameType��һ���洢������������\n"]
+#[doc = "\nTFtdcProcessNameType是一个存储过程名称类型\n"]
 pub type TThostFtdcProcessNameType = [::std::os::raw::c_uchar; 257usize];
-#[doc = "\nTFtdcOperationMemoType��һ������ժҪ����\n"]
+#[doc = "\nTFtdcOperationMemoType是一个操作摘要类型\n"]
 pub type TThostFtdcOperationMemoType = [::std::os::raw::c_uchar; 1025usize];
 pub type TThostFtdcFundIOTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFundTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFundDirectionType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFundStatusType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcBillNoType��һ��Ʊ�ݺ�����\n"]
+#[doc = "\nTFtdcBillNoType是一个票据号类型\n"]
 pub type TThostFtdcBillNoType = [::std::os::raw::c_uchar; 15usize];
-#[doc = "\nTFtdcBillNameType��һ��Ʊ����������\n"]
+#[doc = "\nTFtdcBillNameType是一个票据名称类型\n"]
 pub type TThostFtdcBillNameType = [::std::os::raw::c_uchar; 33usize];
 pub type TThostFtdcPublishStatusType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcEnumValueIDType��һ��ö��\u{5b5}��������\n"]
+#[doc = "\nTFtdcEnumValueIDType是一个枚举值代码类型\n"]
 pub type TThostFtdcEnumValueIDType = [::std::os::raw::c_uchar; 65usize];
-#[doc = "\nTFtdcEnumValueTypeType��һ��ö��\u{5b5}��������\n"]
+#[doc = "\nTFtdcEnumValueTypeType是一个枚举值类型类型\n"]
 pub type TThostFtdcEnumValueTypeType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcEnumValueLabelType��һ��ö��\u{5b5}��������\n"]
+#[doc = "\nTFtdcEnumValueLabelType是一个枚举值名称类型\n"]
 pub type TThostFtdcEnumValueLabelType = [::std::os::raw::c_uchar; 65usize];
-#[doc = "\nTFtdcEnumValueResultType��һ��ö��\u{5b5}�������\n"]
+#[doc = "\nTFtdcEnumValueResultType是一个枚举值结果类型\n"]
 pub type TThostFtdcEnumValueResultType = [::std::os::raw::c_uchar; 33usize];
 pub type TThostFtdcSystemStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSettlementStatusType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcRangeIntTypeType��һ���\u{7b6}�\u{5b5}��������\n"]
+#[doc = "\nTFtdcRangeIntTypeType是一个限定值类型类型\n"]
 pub type TThostFtdcRangeIntTypeType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcRangeIntFromType��һ���\u{7b6}�\u{5b5}��������\n"]
+#[doc = "\nTFtdcRangeIntFromType是一个限定值下限类型\n"]
 pub type TThostFtdcRangeIntFromType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcRangeIntToType��һ���\u{7b6}�\u{5b5}��������\n"]
+#[doc = "\nTFtdcRangeIntToType是一个限定值上限类型\n"]
 pub type TThostFtdcRangeIntToType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcFunctionIDType��һ�����\u{734}�������\n"]
+#[doc = "\nTFtdcFunctionIDType是一个功能代码类型\n"]
 pub type TThostFtdcFunctionIDType = [::std::os::raw::c_uchar; 25usize];
-#[doc = "\nTFtdcFunctionValueCodeType��һ�����\u{731}�������\n"]
+#[doc = "\nTFtdcFunctionValueCodeType是一个功能编码类型\n"]
 pub type TThostFtdcFunctionValueCodeType = [::std::os::raw::c_uchar; 257usize];
-#[doc = "\nTFtdcFunctionNameType��һ��������������\n"]
+#[doc = "\nTFtdcFunctionNameType是一个功能名称类型\n"]
 pub type TThostFtdcFunctionNameType = [::std::os::raw::c_uchar; 65usize];
-#[doc = "\nTFtdcRoleIDType��һ����ɫ�������\n"]
+#[doc = "\nTFtdcRoleIDType是一个角色编号类型\n"]
 pub type TThostFtdcRoleIDType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcRoleNameType��һ����ɫ��������\n"]
+#[doc = "\nTFtdcRoleNameType是一个角色名称类型\n"]
 pub type TThostFtdcRoleNameType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcDescriptionType��һ����������\n"]
+#[doc = "\nTFtdcDescriptionType是一个描述类型\n"]
 pub type TThostFtdcDescriptionType = [::std::os::raw::c_uchar; 401usize];
-#[doc = "\nTFtdcCombineIDType��һ����ϱ������\n"]
+#[doc = "\nTFtdcCombineIDType是一个组合编号类型\n"]
 pub type TThostFtdcCombineIDType = [::std::os::raw::c_uchar; 25usize];
-#[doc = "\nTFtdcCombineTypeType��һ�������������\n"]
+#[doc = "\nTFtdcCombineTypeType是一个组合类型类型\n"]
 pub type TThostFtdcCombineTypeType = [::std::os::raw::c_uchar; 25usize];
 pub type TThostFtdcInvestorTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcBrokerTypeType = ::std::os::raw::c_uchar;
@@ -1679,86 +1679,86 @@ pub type TThostFtdcPasswordTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcAlgorithmType = ::std::os::raw::c_uchar;
 pub type TThostFtdcIncludeCloseProfitType = ::std::os::raw::c_uchar;
 pub type TThostFtdcAllWithoutTradeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCommentType��һ��ӯ���㷨˵������\n"]
+#[doc = "\nTFtdcCommentType是一个盈亏算法说明类型\n"]
 pub type TThostFtdcCommentType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcVersionType��һ���汾������\n"]
+#[doc = "\nTFtdcVersionType是一个版本号类型\n"]
 pub type TThostFtdcVersionType = [::std::os::raw::c_uchar; 4usize];
-#[doc = "\nTFtdcTradeCodeType��һ�����״�������\n"]
+#[doc = "\nTFtdcTradeCodeType是一个交易代码类型\n"]
 pub type TThostFtdcTradeCodeType = [::std::os::raw::c_uchar; 7usize];
-#[doc = "\nTFtdcTradeDateType��һ��������������\n"]
+#[doc = "\nTFtdcTradeDateType是一个交易日期类型\n"]
 pub type TThostFtdcTradeDateType = [::std::os::raw::c_uchar; 9usize];
-#[doc = "\nTFtdcTradeTimeType��һ������ʱ������\n"]
+#[doc = "\nTFtdcTradeTimeType是一个交易时间类型\n"]
 pub type TThostFtdcTradeTimeType = [::std::os::raw::c_uchar; 9usize];
-#[doc = "\nTFtdcTradeSerialType��һ��������ˮ������\n"]
+#[doc = "\nTFtdcTradeSerialType是一个发起方流水号类型\n"]
 pub type TThostFtdcTradeSerialType = [::std::os::raw::c_uchar; 9usize];
-#[doc = "\nTFtdcTradeSerialNoType��һ��������ˮ������\n"]
+#[doc = "\nTFtdcTradeSerialNoType是一个发起方流水号类型\n"]
 pub type TThostFtdcTradeSerialNoType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcFutureIDType��һ���ڻ���˾��������\n"]
+#[doc = "\nTFtdcFutureIDType是一个期货公司代码类型\n"]
 pub type TThostFtdcFutureIDType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcBankIDType��һ�����д�������\n"]
+#[doc = "\nTFtdcBankIDType是一个银行代码类型\n"]
 pub type TThostFtdcBankIDType = [::std::os::raw::c_uchar; 4usize];
-#[doc = "\nTFtdcBankBrchIDType��һ�����з����Ĵ�������\n"]
+#[doc = "\nTFtdcBankBrchIDType是一个银行分中心代码类型\n"]
 pub type TThostFtdcBankBrchIDType = [::std::os::raw::c_uchar; 5usize];
-#[doc = "\nTFtdcBankBranchIDType��һ�������Ĵ�������\n"]
+#[doc = "\nTFtdcBankBranchIDType是一个分中心代码类型\n"]
 pub type TThostFtdcBankBranchIDType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcOperNoType��һ�����\u{5f9}�Ա����\n"]
+#[doc = "\nTFtdcOperNoType是一个交易柜员类型\n"]
 pub type TThostFtdcOperNoType = [::std::os::raw::c_uchar; 17usize];
-#[doc = "\nTFtdcDeviceIDType��һ��������־����\n"]
+#[doc = "\nTFtdcDeviceIDType是一个渠道标志类型\n"]
 pub type TThostFtdcDeviceIDType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcRecordNumType��һ����¼������\n"]
+#[doc = "\nTFtdcRecordNumType是一个记录数类型\n"]
 pub type TThostFtdcRecordNumType = [::std::os::raw::c_uchar; 7usize];
-#[doc = "\nTFtdcFutureAccountType��һ���ڻ��ʽ��˺�����\n"]
+#[doc = "\nTFtdcFutureAccountType是一个期货资金账号类型\n"]
 pub type TThostFtdcFutureAccountType = [::std::os::raw::c_uchar; 22usize];
 pub type TThostFtdcFuturePwdFlagType = ::std::os::raw::c_uchar;
 pub type TThostFtdcTransferTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcFutureAccPwdType��һ���ڻ��ʽ���������\n"]
+#[doc = "\nTFtdcFutureAccPwdType是一个期货资金密码类型\n"]
 pub type TThostFtdcFutureAccPwdType = [::std::os::raw::c_uchar; 17usize];
-#[doc = "\nTFtdcCurrencyCodeType��һ����������\n"]
+#[doc = "\nTFtdcCurrencyCodeType是一个币种类型\n"]
 pub type TThostFtdcCurrencyCodeType = [::std::os::raw::c_uchar; 4usize];
-#[doc = "\nTFtdcRetCodeType��һ����Ӧ��������\n"]
+#[doc = "\nTFtdcRetCodeType是一个响应代码类型\n"]
 pub type TThostFtdcRetCodeType = [::std::os::raw::c_uchar; 5usize];
-#[doc = "\nTFtdcRetInfoType��һ����Ӧ��Ϣ����\n"]
+#[doc = "\nTFtdcRetInfoType是一个响应信息类型\n"]
 pub type TThostFtdcRetInfoType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcTradeAmtType��һ���������������\n"]
+#[doc = "\nTFtdcTradeAmtType是一个银行总余额类型\n"]
 pub type TThostFtdcTradeAmtType = [::std::os::raw::c_uchar; 20usize];
-#[doc = "\nTFtdcUseAmtType��һ�����п����������\n"]
+#[doc = "\nTFtdcUseAmtType是一个银行可用余额类型\n"]
 pub type TThostFtdcUseAmtType = [::std::os::raw::c_uchar; 20usize];
-#[doc = "\nTFtdcFetchAmtType��һ�����п�ȡ�������\n"]
+#[doc = "\nTFtdcFetchAmtType是一个银行可取余额类型\n"]
 pub type TThostFtdcFetchAmtType = [::std::os::raw::c_uchar; 20usize];
 pub type TThostFtdcTransferValidFlagType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCertCodeType��һ��\u{5a4}����������\n"]
+#[doc = "\nTFtdcCertCodeType是一个证件号码类型\n"]
 pub type TThostFtdcCertCodeType = [::std::os::raw::c_uchar; 21usize];
 pub type TThostFtdcReasonType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcFundProjectIDType��һ���ʽ���Ŀ�������\n"]
+#[doc = "\nTFtdcFundProjectIDType是一个资金项目编号类型\n"]
 pub type TThostFtdcFundProjectIDType = [::std::os::raw::c_uchar; 5usize];
 pub type TThostFtdcSexType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcProfessionType��һ��\u{5b0}ҵ����\n"]
+#[doc = "\nTFtdcProfessionType是一个职业类型\n"]
 pub type TThostFtdcProfessionType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcNationalType��һ����������\n"]
+#[doc = "\nTFtdcNationalType是一个国籍类型\n"]
 pub type TThostFtdcNationalType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcProvinceType��һ��ʡ����\n"]
+#[doc = "\nTFtdcProvinceType是一个省类型\n"]
 pub type TThostFtdcProvinceType = [::std::os::raw::c_uchar; 51usize];
-#[doc = "\nTFtdcRegionType��һ��������\n"]
+#[doc = "\nTFtdcRegionType是一个区类型\n"]
 pub type TThostFtdcRegionType = [::std::os::raw::c_uchar; 16usize];
-#[doc = "\nTFtdcCountryType��һ����������\n"]
+#[doc = "\nTFtdcCountryType是一个国家类型\n"]
 pub type TThostFtdcCountryType = [::std::os::raw::c_uchar; 16usize];
-#[doc = "\nTFtdcLicenseNOType��һ��Ӫҵ\u{5b4}������\n"]
+#[doc = "\nTFtdcLicenseNOType是一个营业执照类型\n"]
 pub type TThostFtdcLicenseNOType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcCompanyTypeType��һ����ҵ��������\n"]
+#[doc = "\nTFtdcCompanyTypeType是一个企业性质类型\n"]
 pub type TThostFtdcCompanyTypeType = [::std::os::raw::c_uchar; 16usize];
-#[doc = "\nTFtdcBusinessScopeType��һ����Ӫ��Χ����\n"]
+#[doc = "\nTFtdcBusinessScopeType是一个经营范围类型\n"]
 pub type TThostFtdcBusinessScopeType = [::std::os::raw::c_uchar; 1001usize];
-#[doc = "\nTFtdcCapitalCurrencyType��һ��ע���ʱ���������\n"]
+#[doc = "\nTFtdcCapitalCurrencyType是一个注册资本币种类型\n"]
 pub type TThostFtdcCapitalCurrencyType = [::std::os::raw::c_uchar; 4usize];
 pub type TThostFtdcUserTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcBranchIDType��һ��Ӫҵ���������\n"]
+#[doc = "\nTFtdcBranchIDType是一个营业部编号类型\n"]
 pub type TThostFtdcBranchIDType = [::std::os::raw::c_uchar; 9usize];
 pub type TThostFtdcRateTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcNoteTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSettlementStyleType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcBrokerDNSType��һ����������\n"]
+#[doc = "\nTFtdcBrokerDNSType是一个域名类型\n"]
 pub type TThostFtdcBrokerDNSType = [::std::os::raw::c_uchar; 256usize];
-#[doc = "\nTFtdcSentenceType��һ���������\n"]
+#[doc = "\nTFtdcSentenceType是一个语句类型\n"]
 pub type TThostFtdcSentenceType = [::std::os::raw::c_uchar; 501usize];
 pub type TThostFtdcSettlementBillTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcUserRightTypeType = ::std::os::raw::c_uchar;
@@ -1771,27 +1771,27 @@ pub type TThostFtdcHandleTradingAccountAlgoIDType = ::std::os::raw::c_uchar;
 pub type TThostFtdcPersonTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcQueryInvestorRangeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcInvestorRiskStatusType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcLegIDType��һ�����ȱ������\n"]
+#[doc = "\nTFtdcLegIDType是一个单腿编号类型\n"]
 pub type TThostFtdcLegIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcLegMultipleType��һ�����ȳ�������\n"]
+#[doc = "\nTFtdcLegMultipleType是一个单腿乘数类型\n"]
 pub type TThostFtdcLegMultipleType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcImplyLevelType��һ��������������\n"]
+#[doc = "\nTFtdcImplyLevelType是一个派生层数类型\n"]
 pub type TThostFtdcImplyLevelType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcClearAccountType��һ�������˻�����\n"]
+#[doc = "\nTFtdcClearAccountType是一个结算账户类型\n"]
 pub type TThostFtdcClearAccountType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcOrganNOType��һ�������˻�����\n"]
+#[doc = "\nTFtdcOrganNOType是一个结算账户类型\n"]
 pub type TThostFtdcOrganNOType = [::std::os::raw::c_uchar; 6usize];
-#[doc = "\nTFtdcClearbarchIDType��һ�������˻����к�����\n"]
+#[doc = "\nTFtdcClearbarchIDType是一个结算账户联行号类型\n"]
 pub type TThostFtdcClearbarchIDType = [::std::os::raw::c_uchar; 6usize];
 pub type TThostFtdcUserEventTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcUserEventInfoType��һ���û��¼���Ϣ����\n"]
+#[doc = "\nTFtdcUserEventInfoType是一个用户事件信息类型\n"]
 pub type TThostFtdcUserEventInfoType = [::std::os::raw::c_uchar; 1025usize];
 pub type TThostFtdcCloseStyleType = ::std::os::raw::c_uchar;
 pub type TThostFtdcStatModeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcParkedOrderStatusType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcParkedOrderIDType��һ��Ԥ�\u{71a35}��������\n"]
+#[doc = "\nTFtdcParkedOrderIDType是一个预埋报单编号类型\n"]
 pub type TThostFtdcParkedOrderIDType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcParkedOrderActionIDType��һ��Ԥ�\u{73df5}��������\n"]
+#[doc = "\nTFtdcParkedOrderActionIDType是一个预埋撤单编号类型\n"]
 pub type TThostFtdcParkedOrderActionIDType = [::std::os::raw::c_uchar; 13usize];
 pub type TThostFtdcVirDealStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcOrgSystemIDType = ::std::os::raw::c_uchar;
@@ -1800,195 +1800,195 @@ pub type TThostFtdcVirBankAccTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcVirementStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcVirementAvailAbilityType = ::std::os::raw::c_uchar;
 pub type TThostFtdcVirementTradeCodeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcPhotoTypeNameType��һ��Ӱ��������������\n"]
+#[doc = "\nTFtdcPhotoTypeNameType是一个影像类型名称类型\n"]
 pub type TThostFtdcPhotoTypeNameType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcPhotoTypeIDType��һ��Ӱ�����ʹ�������\n"]
+#[doc = "\nTFtdcPhotoTypeIDType是一个影像类型代码类型\n"]
 pub type TThostFtdcPhotoTypeIDType = [::std::os::raw::c_uchar; 5usize];
-#[doc = "\nTFtdcPhotoNameType��һ��Ӱ����������\n"]
+#[doc = "\nTFtdcPhotoNameType是一个影像名称类型\n"]
 pub type TThostFtdcPhotoNameType = [::std::os::raw::c_uchar; 161usize];
-#[doc = "\nTFtdcTopicIDType��һ�������������\n"]
+#[doc = "\nTFtdcTopicIDType是一个主题代码类型\n"]
 pub type TThostFtdcTopicIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcReportTypeIDType��һ�����ױ������ͱ�ʶ����\n"]
+#[doc = "\nTFtdcReportTypeIDType是一个交易报告类型标识类型\n"]
 pub type TThostFtdcReportTypeIDType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcCharacterIDType��һ������������������\n"]
+#[doc = "\nTFtdcCharacterIDType是一个交易特征代码类型\n"]
 pub type TThostFtdcCharacterIDType = [::std::os::raw::c_uchar; 5usize];
-#[doc = "\nTFtdcAMLParamIDType��һ��������������\n"]
+#[doc = "\nTFtdcAMLParamIDType是一个参数代码类型\n"]
 pub type TThostFtdcAMLParamIDType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcAMLInvestorTypeType��һ��Ͷ������������\n"]
+#[doc = "\nTFtdcAMLInvestorTypeType是一个投资者类型类型\n"]
 pub type TThostFtdcAMLInvestorTypeType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcAMLIdCardTypeType��һ��\u{5a4}����������\n"]
+#[doc = "\nTFtdcAMLIdCardTypeType是一个证件类型类型\n"]
 pub type TThostFtdcAMLIdCardTypeType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcAMLTradeDirectType��һ���ʽ������������\n"]
+#[doc = "\nTFtdcAMLTradeDirectType是一个资金进出方向类型\n"]
 pub type TThostFtdcAMLTradeDirectType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcAMLTradeModelType��һ���ʽ������ʽ����\n"]
+#[doc = "\nTFtdcAMLTradeModelType是一个资金进出方式类型\n"]
 pub type TThostFtdcAMLTradeModelType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcAMLOpParamValueType��һ��ҵ���������\u{5b5}����\n"]
+#[doc = "\nTFtdcAMLOpParamValueType是一个业务参数代码值类型\n"]
 pub type TThostFtdcAMLOpParamValueType = f64;
-#[doc = "\nTFtdcAMLCustomerCardTypeType��һ���ͻ�����\u{5a4}��/\u{5a4}���ļ���������\n"]
+#[doc = "\nTFtdcAMLCustomerCardTypeType是一个客户身份证件/证明文件类型类型\n"]
 pub type TThostFtdcAMLCustomerCardTypeType = [::std::os::raw::c_uchar; 81usize];
-#[doc = "\nTFtdcAMLInstitutionNameType��һ�����ڻ���������������\n"]
+#[doc = "\nTFtdcAMLInstitutionNameType是一个金融机构网点名称类型\n"]
 pub type TThostFtdcAMLInstitutionNameType = [::std::os::raw::c_uchar; 65usize];
-#[doc = "\nTFtdcAMLDistrictIDType��һ�����ڻ����������ڵ�������������������\n"]
+#[doc = "\nTFtdcAMLDistrictIDType是一个金融机构网点所在地区行政区划代码类型\n"]
 pub type TThostFtdcAMLDistrictIDType = [::std::os::raw::c_uchar; 7usize];
-#[doc = "\nTFtdcAMLRelationShipType��һ�����ڻ����������\u{ef7b}�\u{5f5}Ĺ�ϵ����\n"]
+#[doc = "\nTFtdcAMLRelationShipType是一个金融机构网点与大额交易的关系类型\n"]
 pub type TThostFtdcAMLRelationShipType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcAMLInstitutionTypeType��һ�����ڻ������������������\n"]
+#[doc = "\nTFtdcAMLInstitutionTypeType是一个金融机构网点代码类型类型\n"]
 pub type TThostFtdcAMLInstitutionTypeType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcAMLInstitutionIDType��һ�����ڻ��������������\n"]
+#[doc = "\nTFtdcAMLInstitutionIDType是一个金融机构网点代码类型\n"]
 pub type TThostFtdcAMLInstitutionIDType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcAMLAccountTypeType��һ���˻���������\n"]
+#[doc = "\nTFtdcAMLAccountTypeType是一个账户类型类型\n"]
 pub type TThostFtdcAMLAccountTypeType = [::std::os::raw::c_uchar; 5usize];
-#[doc = "\nTFtdcAMLTradingTypeType��һ�����\u{5f7}�ʽ����\n"]
+#[doc = "\nTFtdcAMLTradingTypeType是一个交易方式类型\n"]
 pub type TThostFtdcAMLTradingTypeType = [::std::os::raw::c_uchar; 7usize];
-#[doc = "\nTFtdcAMLTransactClassType��һ��������\u{5a7}���\u{5f7}������������\n"]
+#[doc = "\nTFtdcAMLTransactClassType是一个涉外收支交易分类与代码类型\n"]
 pub type TThostFtdcAMLTransactClassType = [::std::os::raw::c_uchar; 7usize];
-#[doc = "\nTFtdcAMLCapitalIOType��һ���ʽ��ո���ʶ����\n"]
+#[doc = "\nTFtdcAMLCapitalIOType是一个资金收付标识类型\n"]
 pub type TThostFtdcAMLCapitalIOType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcAMLSiteType��һ�����\u{5f5}ص�����\n"]
+#[doc = "\nTFtdcAMLSiteType是一个交易地点类型\n"]
 pub type TThostFtdcAMLSiteType = [::std::os::raw::c_uchar; 10usize];
-#[doc = "\nTFtdcAMLCapitalPurposeType��һ���ʽ���;����\n"]
+#[doc = "\nTFtdcAMLCapitalPurposeType是一个资金用途类型\n"]
 pub type TThostFtdcAMLCapitalPurposeType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcAMLReportTypeType��һ��������������\n"]
+#[doc = "\nTFtdcAMLReportTypeType是一个报文类型类型\n"]
 pub type TThostFtdcAMLReportTypeType = [::std::os::raw::c_uchar; 2usize];
-#[doc = "\nTFtdcAMLSerialNoType��һ���������\n"]
+#[doc = "\nTFtdcAMLSerialNoType是一个编号类型\n"]
 pub type TThostFtdcAMLSerialNoType = [::std::os::raw::c_uchar; 5usize];
-#[doc = "\nTFtdcAMLStatusType��һ��״\u{32c}����\n"]
+#[doc = "\nTFtdcAMLStatusType是一个状态类型\n"]
 pub type TThostFtdcAMLStatusType = [::std::os::raw::c_uchar; 2usize];
 pub type TThostFtdcAMLGenStatusType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcAMLSeqCodeType��һ��ҵ���ʶ������\n"]
+#[doc = "\nTFtdcAMLSeqCodeType是一个业务标识号类型\n"]
 pub type TThostFtdcAMLSeqCodeType = [::std::os::raw::c_uchar; 65usize];
-#[doc = "\nTFtdcAMLFileNameType��һ��AML�ļ�������\n"]
+#[doc = "\nTFtdcAMLFileNameType是一个AML文件名类型\n"]
 pub type TThostFtdcAMLFileNameType = [::std::os::raw::c_uchar; 257usize];
-#[doc = "\nTFtdcAMLMoneyType��һ����ϴǮ�ʽ�����\n"]
+#[doc = "\nTFtdcAMLMoneyType是一个反洗钱资金类型\n"]
 pub type TThostFtdcAMLMoneyType = f64;
-#[doc = "\nTFtdcAMLFileAmountType��һ����ϴǮ�ʽ�����\n"]
+#[doc = "\nTFtdcAMLFileAmountType是一个反洗钱资金类型\n"]
 pub type TThostFtdcAMLFileAmountType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcCFMMCKeyType��һ����Կ����(��\u{5a4}����)����\n"]
+#[doc = "\nTFtdcCFMMCKeyType是一个密钥类型(保证金监管)类型\n"]
 pub type TThostFtdcCFMMCKeyType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcCFMMCTokenType��һ����������(��\u{5a4}����)����\n"]
+#[doc = "\nTFtdcCFMMCTokenType是一个令牌类型(保证金监管)类型\n"]
 pub type TThostFtdcCFMMCTokenType = [::std::os::raw::c_uchar; 21usize];
 pub type TThostFtdcCFMMCKeyKindType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcAMLReportNameType��һ��������������\n"]
+#[doc = "\nTFtdcAMLReportNameType是一个报文名称类型\n"]
 pub type TThostFtdcAMLReportNameType = [::std::os::raw::c_uchar; 81usize];
-#[doc = "\nTFtdcIndividualNameType��һ��������������\n"]
+#[doc = "\nTFtdcIndividualNameType是一个个人姓名类型\n"]
 pub type TThostFtdcIndividualNameType = [::std::os::raw::c_uchar; 51usize];
-#[doc = "\nTFtdcCurrencyIDType��һ�����\u{5b4}�������\n"]
+#[doc = "\nTFtdcCurrencyIDType是一个币种代码类型\n"]
 pub type TThostFtdcCurrencyIDType = [::std::os::raw::c_uchar; 4usize];
-#[doc = "\nTFtdcCustNumberType��һ���ͻ��������\n"]
+#[doc = "\nTFtdcCustNumberType是一个客户编号类型\n"]
 pub type TThostFtdcCustNumberType = [::std::os::raw::c_uchar; 36usize];
-#[doc = "\nTFtdcOrganCodeType��һ��������������\n"]
+#[doc = "\nTFtdcOrganCodeType是一个机构编码类型\n"]
 pub type TThostFtdcOrganCodeType = [::std::os::raw::c_uchar; 36usize];
-#[doc = "\nTFtdcOrganNameType��һ��������������\n"]
+#[doc = "\nTFtdcOrganNameType是一个机构名称类型\n"]
 pub type TThostFtdcOrganNameType = [::std::os::raw::c_uchar; 71usize];
-#[doc = "\nTFtdcSuperOrganCodeType��һ���ϼ���������,���ڻ���˾�\u{732}���������������\n"]
+#[doc = "\nTFtdcSuperOrganCodeType是一个上级机构编码,即期货公司总部、银行总行类型\n"]
 pub type TThostFtdcSuperOrganCodeType = [::std::os::raw::c_uchar; 12usize];
-#[doc = "\nTFtdcSubBranchIDType��һ����\u{5a7}��������\n"]
+#[doc = "\nTFtdcSubBranchIDType是一个分支机构类型\n"]
 pub type TThostFtdcSubBranchIDType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcSubBranchNameType��һ����\u{5a7}������������\n"]
+#[doc = "\nTFtdcSubBranchNameType是一个分支机构名称类型\n"]
 pub type TThostFtdcSubBranchNameType = [::std::os::raw::c_uchar; 71usize];
-#[doc = "\nTFtdcBranchNetCodeType��һ���������������\n"]
+#[doc = "\nTFtdcBranchNetCodeType是一个机构网点号类型\n"]
 pub type TThostFtdcBranchNetCodeType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcBranchNetNameType��һ������������������\n"]
+#[doc = "\nTFtdcBranchNetNameType是一个机构网点名称类型\n"]
 pub type TThostFtdcBranchNetNameType = [::std::os::raw::c_uchar; 71usize];
-#[doc = "\nTFtdcOrganFlagType��һ��������ʶ����\n"]
+#[doc = "\nTFtdcOrganFlagType是一个机构标识类型\n"]
 pub type TThostFtdcOrganFlagType = [::std::os::raw::c_uchar; 2usize];
-#[doc = "\nTFtdcBankCodingForFutureType��һ�����ж��ڻ���˾�ı�������\n"]
+#[doc = "\nTFtdcBankCodingForFutureType是一个银行对期货公司的编码类型\n"]
 pub type TThostFtdcBankCodingForFutureType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcBankReturnCodeType��һ�����жԷ�����Ķ�������\n"]
+#[doc = "\nTFtdcBankReturnCodeType是一个银行对返回码的定义类型\n"]
 pub type TThostFtdcBankReturnCodeType = [::std::os::raw::c_uchar; 7usize];
-#[doc = "\nTFtdcPlateReturnCodeType��һ������ת��ƽ\u{328}�Է�����Ķ�������\n"]
+#[doc = "\nTFtdcPlateReturnCodeType是一个银期转帐平台对返回码的定义类型\n"]
 pub type TThostFtdcPlateReturnCodeType = [::std::os::raw::c_uchar; 5usize];
-#[doc = "\nTFtdcBankSubBranchIDType��һ�����з�\u{5a7}������������\n"]
+#[doc = "\nTFtdcBankSubBranchIDType是一个银行分支机构编码类型\n"]
 pub type TThostFtdcBankSubBranchIDType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcFutureBranchIDType��һ���ڻ���\u{5a7}������������\n"]
+#[doc = "\nTFtdcFutureBranchIDType是一个期货分支机构编码类型\n"]
 pub type TThostFtdcFutureBranchIDType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcReturnCodeType��һ�����ش�������\n"]
+#[doc = "\nTFtdcReturnCodeType是一个返回代码类型\n"]
 pub type TThostFtdcReturnCodeType = [::std::os::raw::c_uchar; 7usize];
-#[doc = "\nTFtdcOperatorCodeType��һ������Ա����\n"]
+#[doc = "\nTFtdcOperatorCodeType是一个操作员类型\n"]
 pub type TThostFtdcOperatorCodeType = [::std::os::raw::c_uchar; 17usize];
-#[doc = "\nTFtdcClearDepIDType��һ�����������ʻ�����������\n"]
+#[doc = "\nTFtdcClearDepIDType是一个机构结算帐户机构号类型\n"]
 pub type TThostFtdcClearDepIDType = [::std::os::raw::c_uchar; 6usize];
-#[doc = "\nTFtdcClearBrchIDType��һ�����������ʻ����к�����\n"]
+#[doc = "\nTFtdcClearBrchIDType是一个机构结算帐户联行号类型\n"]
 pub type TThostFtdcClearBrchIDType = [::std::os::raw::c_uchar; 6usize];
-#[doc = "\nTFtdcClearNameType��һ�����������ʻ���������\n"]
+#[doc = "\nTFtdcClearNameType是一个机构结算帐户名称类型\n"]
 pub type TThostFtdcClearNameType = [::std::os::raw::c_uchar; 71usize];
-#[doc = "\nTFtdcBankAccountNameType��һ�������ʻ���������\n"]
+#[doc = "\nTFtdcBankAccountNameType是一个银行帐户名称类型\n"]
 pub type TThostFtdcBankAccountNameType = [::std::os::raw::c_uchar; 71usize];
-#[doc = "\nTFtdcInvDepIDType��һ������Ͷ�����˺Ż���������\n"]
+#[doc = "\nTFtdcInvDepIDType是一个机构投资人账号机构号类型\n"]
 pub type TThostFtdcInvDepIDType = [::std::os::raw::c_uchar; 6usize];
-#[doc = "\nTFtdcInvBrchIDType��һ������Ͷ�������к�����\n"]
+#[doc = "\nTFtdcInvBrchIDType是一个机构投资人联行号类型\n"]
 pub type TThostFtdcInvBrchIDType = [::std::os::raw::c_uchar; 6usize];
-#[doc = "\nTFtdcMessageFormatVersionType��һ����Ϣ��ʽ�汾����\n"]
+#[doc = "\nTFtdcMessageFormatVersionType是一个信息格式版本类型\n"]
 pub type TThostFtdcMessageFormatVersionType = [::std::os::raw::c_uchar; 36usize];
-#[doc = "\nTFtdcDigestType��һ��ժҪ����\n"]
+#[doc = "\nTFtdcDigestType是一个摘要类型\n"]
 pub type TThostFtdcDigestType = [::std::os::raw::c_uchar; 36usize];
-#[doc = "\nTFtdcAuthenticDataType��һ����\u{5a4}��������\n"]
+#[doc = "\nTFtdcAuthenticDataType是一个认证数据类型\n"]
 pub type TThostFtdcAuthenticDataType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcPasswordKeyType��һ����Կ����\n"]
+#[doc = "\nTFtdcPasswordKeyType是一个密钥类型\n"]
 pub type TThostFtdcPasswordKeyType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcFutureAccountNameType��һ���ڻ��ʻ���������\n"]
+#[doc = "\nTFtdcFutureAccountNameType是一个期货帐户名称类型\n"]
 pub type TThostFtdcFutureAccountNameType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcMobilePhoneType��һ���\u{5bb}�����\n"]
+#[doc = "\nTFtdcMobilePhoneType是一个手机类型\n"]
 pub type TThostFtdcMobilePhoneType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcFutureMainKeyType��һ���ڻ���˾����Կ����\n"]
+#[doc = "\nTFtdcFutureMainKeyType是一个期货公司主密钥类型\n"]
 pub type TThostFtdcFutureMainKeyType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcFutureWorkKeyType��һ���ڻ���˾������Կ����\n"]
+#[doc = "\nTFtdcFutureWorkKeyType是一个期货公司工作密钥类型\n"]
 pub type TThostFtdcFutureWorkKeyType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcFutureTransKeyType��һ���ڻ���˾������Կ����\n"]
+#[doc = "\nTFtdcFutureTransKeyType是一个期货公司传输密钥类型\n"]
 pub type TThostFtdcFutureTransKeyType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcBankMainKeyType��һ����������Կ����\n"]
+#[doc = "\nTFtdcBankMainKeyType是一个银行主密钥类型\n"]
 pub type TThostFtdcBankMainKeyType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcBankWorkKeyType��һ�����й�����Կ����\n"]
+#[doc = "\nTFtdcBankWorkKeyType是一个银行工作密钥类型\n"]
 pub type TThostFtdcBankWorkKeyType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcBankTransKeyType��һ�����д�����Կ����\n"]
+#[doc = "\nTFtdcBankTransKeyType是一个银行传输密钥类型\n"]
 pub type TThostFtdcBankTransKeyType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcBankServerDescriptionType��һ�����з�����������Ϣ����\n"]
+#[doc = "\nTFtdcBankServerDescriptionType是一个银行服务器描述信息类型\n"]
 pub type TThostFtdcBankServerDescriptionType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcAddInfoType��һ��������Ϣ����\n"]
+#[doc = "\nTFtdcAddInfoType是一个附加信息类型\n"]
 pub type TThostFtdcAddInfoType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcDescrInfoForReturnCodeType��һ����������������\n"]
+#[doc = "\nTFtdcDescrInfoForReturnCodeType是一个返回码描述类型\n"]
 pub type TThostFtdcDescrInfoForReturnCodeType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcCountryCodeType��һ�����Ҵ�������\n"]
+#[doc = "\nTFtdcCountryCodeType是一个国家代码类型\n"]
 pub type TThostFtdcCountryCodeType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcSerialType��һ����ˮ������\n"]
+#[doc = "\nTFtdcSerialType是一个流水号类型\n"]
 pub type TThostFtdcSerialType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcPlateSerialType��һ��ƽ\u{328}��ˮ������\n"]
+#[doc = "\nTFtdcPlateSerialType是一个平台流水号类型\n"]
 pub type TThostFtdcPlateSerialType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcBankSerialType��һ��������ˮ������\n"]
+#[doc = "\nTFtdcBankSerialType是一个银行流水号类型\n"]
 pub type TThostFtdcBankSerialType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcCorrectSerialType��һ��������������ˮ������\n"]
+#[doc = "\nTFtdcCorrectSerialType是一个被冲正交易流水号类型\n"]
 pub type TThostFtdcCorrectSerialType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcFutureSerialType��һ���ڻ���˾��ˮ������\n"]
+#[doc = "\nTFtdcFutureSerialType是一个期货公司流水号类型\n"]
 pub type TThostFtdcFutureSerialType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcApplicationIDType��һ��Ӧ�ñ�ʶ����\n"]
+#[doc = "\nTFtdcApplicationIDType是一个应用标识类型\n"]
 pub type TThostFtdcApplicationIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcBankProxyIDType��һ�����д�����ʶ����\n"]
+#[doc = "\nTFtdcBankProxyIDType是一个银行代理标识类型\n"]
 pub type TThostFtdcBankProxyIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcFBTCoreIDType��һ������ת�ʺ���ϵͳ��ʶ����\n"]
+#[doc = "\nTFtdcFBTCoreIDType是一个银期转帐核心系统标识类型\n"]
 pub type TThostFtdcFBTCoreIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcServerPortType��һ������˿ں�����\n"]
+#[doc = "\nTFtdcServerPortType是一个服务端口号类型\n"]
 pub type TThostFtdcServerPortType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcRepealedTimesType��һ���Ѿ�������������\n"]
+#[doc = "\nTFtdcRepealedTimesType是一个已经冲正次数类型\n"]
 pub type TThostFtdcRepealedTimesType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcRepealTimeIntervalType��һ������ʱ��������\n"]
+#[doc = "\nTFtdcRepealTimeIntervalType是一个冲正时间间隔类型\n"]
 pub type TThostFtdcRepealTimeIntervalType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcTotalTimesType��һ��ÿ���ۼ�ת�ʴ�������\n"]
+#[doc = "\nTFtdcTotalTimesType是一个每日累计转帐次数类型\n"]
 pub type TThostFtdcTotalTimesType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcFBTRequestIDType��һ������ID����\n"]
+#[doc = "\nTFtdcFBTRequestIDType是一个请求ID类型\n"]
 pub type TThostFtdcFBTRequestIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcTIDType��һ������ID����\n"]
+#[doc = "\nTFtdcTIDType是一个交易ID类型\n"]
 pub type TThostFtdcTIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcTradeAmountType��һ�����\u{5fd}�\u{e8e8}Ԫ������\n"]
+#[doc = "\nTFtdcTradeAmountType是一个交易金额（元）类型\n"]
 pub type TThostFtdcTradeAmountType = f64;
-#[doc = "\nTFtdcCustFeeType��һ��Ӧ�տͻ����ã�Ԫ������\n"]
+#[doc = "\nTFtdcCustFeeType是一个应收客户费用（元）类型\n"]
 pub type TThostFtdcCustFeeType = f64;
-#[doc = "\nTFtdcFutureFeeType��һ��Ӧ���ڻ���˾���ã�Ԫ������\n"]
+#[doc = "\nTFtdcFutureFeeType是一个应收期货公司费用（元）类型\n"]
 pub type TThostFtdcFutureFeeType = f64;
-#[doc = "\nTFtdcSingleMaxAmtType��һ����������\u{7b6}�����\n"]
+#[doc = "\nTFtdcSingleMaxAmtType是一个单笔最高限额类型\n"]
 pub type TThostFtdcSingleMaxAmtType = f64;
-#[doc = "\nTFtdcSingleMinAmtType��һ����������\u{7b6}�����\n"]
+#[doc = "\nTFtdcSingleMinAmtType是一个单笔最低限额类型\n"]
 pub type TThostFtdcSingleMinAmtType = f64;
-#[doc = "\nTFtdcTotalAmtType��һ��ÿ���ۼ�ת�ʶ������\n"]
+#[doc = "\nTFtdcTotalAmtType是一个每日累计转帐额度类型\n"]
 pub type TThostFtdcTotalAmtType = f64;
 pub type TThostFtdcCertificationTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFileBusinessCodeType = ::std::os::raw::c_uchar;
@@ -2024,14 +2024,14 @@ pub type TThostFtdcFutureAccTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcOrganStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcCCBFeeModeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcCommApiTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcServiceIDType��һ������������\n"]
+#[doc = "\nTFtdcServiceIDType是一个服务编号类型\n"]
 pub type TThostFtdcServiceIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcServiceLineNoType��һ��������·�������\n"]
+#[doc = "\nTFtdcServiceLineNoType是一个服务线路编号类型\n"]
 pub type TThostFtdcServiceLineNoType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcServiceNameType��һ������������\n"]
+#[doc = "\nTFtdcServiceNameType是一个服务名类型\n"]
 pub type TThostFtdcServiceNameType = [::std::os::raw::c_uchar; 61usize];
 pub type TThostFtdcLinkStatusType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCommApiPointerType��һ��\u{368}ѶAPI\u{5b8}������\n"]
+#[doc = "\nTFtdcCommApiPointerType是一个通讯API指针类型\n"]
 pub type TThostFtdcCommApiPointerType = ::std::os::raw::c_int;
 pub type TThostFtdcPwdFlagType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSecuAccTypeType = ::std::os::raw::c_uchar;
@@ -2039,177 +2039,177 @@ pub type TThostFtdcTransferStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSponsorTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcReqRspTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFBTUserEventTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcBankIDByBankType��һ�������Լ��ı�������\n"]
+#[doc = "\nTFtdcBankIDByBankType是一个银行自己的编码类型\n"]
 pub type TThostFtdcBankIDByBankType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcBankOperNoType��һ�����в���Ա������\n"]
+#[doc = "\nTFtdcBankOperNoType是一个银行操作员号类型\n"]
 pub type TThostFtdcBankOperNoType = [::std::os::raw::c_uchar; 4usize];
-#[doc = "\nTFtdcBankCustNoType��һ�����пͻ�������\n"]
+#[doc = "\nTFtdcBankCustNoType是一个银行客户号类型\n"]
 pub type TThostFtdcBankCustNoType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcDBOPSeqNoType��һ�����������к�����\n"]
+#[doc = "\nTFtdcDBOPSeqNoType是一个递增的序列号类型\n"]
 pub type TThostFtdcDBOPSeqNoType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcTableNameType��һ��FBT��������\n"]
+#[doc = "\nTFtdcTableNameType是一个FBT表名类型\n"]
 pub type TThostFtdcTableNameType = [::std::os::raw::c_uchar; 61usize];
-#[doc = "\nTFtdcPKNameType��һ��FBT����������������\n"]
+#[doc = "\nTFtdcPKNameType是一个FBT表操作主键名类型\n"]
 pub type TThostFtdcPKNameType = [::std::os::raw::c_uchar; 201usize];
-#[doc = "\nTFtdcPKValueType��һ��FBT����������\u{5b5}����\n"]
+#[doc = "\nTFtdcPKValueType是一个FBT表操作主键值类型\n"]
 pub type TThostFtdcPKValueType = [::std::os::raw::c_uchar; 501usize];
 pub type TThostFtdcDBOperationType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSyncFlagType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcTargetIDType��һ��\u{36c}��Ŀ��������\n"]
+#[doc = "\nTFtdcTargetIDType是一个同步目标编号类型\n"]
 pub type TThostFtdcTargetIDType = [::std::os::raw::c_uchar; 4usize];
 pub type TThostFtdcSyncTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcFBETimeType��һ�����\u{5bb}���ʱ������\n"]
+#[doc = "\nTFtdcFBETimeType是一个各种换汇时间类型\n"]
 pub type TThostFtdcFBETimeType = [::std::os::raw::c_uchar; 7usize];
-#[doc = "\nTFtdcFBEBankNoType��һ�����������к�����\n"]
+#[doc = "\nTFtdcFBEBankNoType是一个换汇银行行号类型\n"]
 pub type TThostFtdcFBEBankNoType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcFBECertNoType��һ������ƾ\u{5a4}������\n"]
+#[doc = "\nTFtdcFBECertNoType是一个换汇凭证号类型\n"]
 pub type TThostFtdcFBECertNoType = [::std::os::raw::c_uchar; 13usize];
 pub type TThostFtdcExDirectionType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcFBEBankAccountType��һ�����������˻�����\n"]
+#[doc = "\nTFtdcFBEBankAccountType是一个换汇银行账户类型\n"]
 pub type TThostFtdcFBEBankAccountType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcFBEBankAccountNameType��һ�����������˻�������\n"]
+#[doc = "\nTFtdcFBEBankAccountNameType是一个换汇银行账户名类型\n"]
 pub type TThostFtdcFBEBankAccountNameType = [::std::os::raw::c_uchar; 61usize];
-#[doc = "\nTFtdcFBEAmtType��һ�����\u{5bb}���������\n"]
+#[doc = "\nTFtdcFBEAmtType是一个各种换汇金额类型\n"]
 pub type TThostFtdcFBEAmtType = f64;
-#[doc = "\nTFtdcFBEBusinessTypeType��һ������ҵ����������\n"]
+#[doc = "\nTFtdcFBEBusinessTypeType是一个换汇业务类型类型\n"]
 pub type TThostFtdcFBEBusinessTypeType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcFBEPostScriptType��һ�����㸽������\n"]
+#[doc = "\nTFtdcFBEPostScriptType是一个换汇附言类型\n"]
 pub type TThostFtdcFBEPostScriptType = [::std::os::raw::c_uchar; 61usize];
-#[doc = "\nTFtdcFBERemarkType��һ�����㱸ע����\n"]
+#[doc = "\nTFtdcFBERemarkType是一个换汇备注类型\n"]
 pub type TThostFtdcFBERemarkType = [::std::os::raw::c_uchar; 71usize];
-#[doc = "\nTFtdcExRateType��һ�������������\n"]
+#[doc = "\nTFtdcExRateType是一个换汇汇率类型\n"]
 pub type TThostFtdcExRateType = f64;
 pub type TThostFtdcFBEResultFlagType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcFBERtnMsgType��һ�����㷵����Ϣ����\n"]
+#[doc = "\nTFtdcFBERtnMsgType是一个换汇返回信息类型\n"]
 pub type TThostFtdcFBERtnMsgType = [::std::os::raw::c_uchar; 61usize];
-#[doc = "\nTFtdcFBEExtendMsgType��һ��������չ��Ϣ����\n"]
+#[doc = "\nTFtdcFBEExtendMsgType是一个换汇扩展信息类型\n"]
 pub type TThostFtdcFBEExtendMsgType = [::std::os::raw::c_uchar; 61usize];
-#[doc = "\nTFtdcFBEBusinessSerialType��һ�����������ˮ������\n"]
+#[doc = "\nTFtdcFBEBusinessSerialType是一个换汇记账流水号类型\n"]
 pub type TThostFtdcFBEBusinessSerialType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcFBESystemSerialType��һ��������ˮ������\n"]
+#[doc = "\nTFtdcFBESystemSerialType是一个换汇流水号类型\n"]
 pub type TThostFtdcFBESystemSerialType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcFBETotalExCntType��һ�����㽻���\u{731}�������\n"]
+#[doc = "\nTFtdcFBETotalExCntType是一个换汇交易总笔数类型\n"]
 pub type TThostFtdcFBETotalExCntType = ::std::os::raw::c_int;
 pub type TThostFtdcFBEExchStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFBEFileFlagType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFBEAlreadyTradeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcFBEOpenBankType��һ�������˻�����������\n"]
+#[doc = "\nTFtdcFBEOpenBankType是一个换汇账户开户行类型\n"]
 pub type TThostFtdcFBEOpenBankType = [::std::os::raw::c_uchar; 61usize];
 pub type TThostFtdcFBEUserEventTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcFBEFileNameType��һ����������ļ�������\n"]
+#[doc = "\nTFtdcFBEFileNameType是一个换汇相关文件名类型\n"]
 pub type TThostFtdcFBEFileNameType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcFBEBatchSerialType��һ���������κ�����\n"]
+#[doc = "\nTFtdcFBEBatchSerialType是一个换汇批次号类型\n"]
 pub type TThostFtdcFBEBatchSerialType = [::std::os::raw::c_uchar; 21usize];
 pub type TThostFtdcFBEReqFlagType = ::std::os::raw::c_uchar;
 pub type TThostFtdcNotifyClassType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcRiskNofityInfoType��һ���ͻ�����\u{368}\u{5aa}��Ϣ����\n"]
+#[doc = "\nTFtdcRiskNofityInfoType是一个客户风险通知消息类型\n"]
 pub type TThostFtdcRiskNofityInfoType = [::std::os::raw::c_uchar; 257usize];
-#[doc = "\nTFtdcForceCloseSceneIdType��һ��ǿƽ�����������\n"]
+#[doc = "\nTFtdcForceCloseSceneIdType是一个强平场景编号类型\n"]
 pub type TThostFtdcForceCloseSceneIdType = [::std::os::raw::c_uchar; 24usize];
 pub type TThostFtdcForceCloseTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcInstrumentIDsType��һ�������Ʒ����,��+�\u{5b8}�,��cu+zn����\n"]
+#[doc = "\nTFtdcInstrumentIDsType是一个多个产品代码,用+分隔,如cu+zn类型\n"]
 pub type TThostFtdcInstrumentIDsType = [::std::os::raw::c_uchar; 101usize];
 pub type TThostFtdcRiskNotifyMethodType = ::std::os::raw::c_uchar;
 pub type TThostFtdcRiskNotifyStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcRiskUserEventType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcParamIDType��һ��������������\n"]
+#[doc = "\nTFtdcParamIDType是一个参数代码类型\n"]
 pub type TThostFtdcParamIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcParamNameType��һ������������\n"]
+#[doc = "\nTFtdcParamNameType是一个参数名类型\n"]
 pub type TThostFtdcParamNameType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcParamValueType��һ������\u{5b5}����\n"]
+#[doc = "\nTFtdcParamValueType是一个参数值类型\n"]
 pub type TThostFtdcParamValueType = [::std::os::raw::c_uchar; 41usize];
 pub type TThostFtdcConditionalOrderSortTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSendTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcClientIDStatusType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcIndustryIDType��һ����ҵ��������\n"]
+#[doc = "\nTFtdcIndustryIDType是一个行业编码类型\n"]
 pub type TThostFtdcIndustryIDType = [::std::os::raw::c_uchar; 17usize];
-#[doc = "\nTFtdcQuestionIDType��һ��������Ϣ�������\n"]
+#[doc = "\nTFtdcQuestionIDType是一个特有信息编号类型\n"]
 pub type TThostFtdcQuestionIDType = [::std::os::raw::c_uchar; 5usize];
-#[doc = "\nTFtdcQuestionContentType��һ��������Ϣ˵������\n"]
+#[doc = "\nTFtdcQuestionContentType是一个特有信息说明类型\n"]
 pub type TThostFtdcQuestionContentType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcOptionIDType��һ��ѡ��������\n"]
+#[doc = "\nTFtdcOptionIDType是一个选项编号类型\n"]
 pub type TThostFtdcOptionIDType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcOptionContentType��һ��ѡ��˵������\n"]
+#[doc = "\nTFtdcOptionContentType是一个选项说明类型\n"]
 pub type TThostFtdcOptionContentType = [::std::os::raw::c_uchar; 61usize];
 pub type TThostFtdcQuestionTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcProcessIDType��һ��ҵ����ˮ������\n"]
+#[doc = "\nTFtdcProcessIDType是一个业务流水号类型\n"]
 pub type TThostFtdcProcessIDType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcSeqNoType��һ����ˮ������\n"]
+#[doc = "\nTFtdcSeqNoType是一个流水号类型\n"]
 pub type TThostFtdcSeqNoType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcUOAProcessStatusType��һ������״\u{32c}����\n"]
+#[doc = "\nTFtdcUOAProcessStatusType是一个流程状态类型\n"]
 pub type TThostFtdcUOAProcessStatusType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcProcessTypeType��һ�����\u{339}�����������\n"]
+#[doc = "\nTFtdcProcessTypeType是一个流程功能类型类型\n"]
 pub type TThostFtdcProcessTypeType = [::std::os::raw::c_uchar; 3usize];
 pub type TThostFtdcBusinessTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcCfmmcReturnCodeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcExReturnCodeType��һ������������������\n"]
+#[doc = "\nTFtdcExReturnCodeType是一个交易所返回码类型\n"]
 pub type TThostFtdcExReturnCodeType = ::std::os::raw::c_int;
 pub type TThostFtdcClientTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcExchangeIDTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcExClientIDTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcClientClassifyType��һ���ͻ�����������\n"]
+#[doc = "\nTFtdcClientClassifyType是一个客户分类码类型\n"]
 pub type TThostFtdcClientClassifyType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcUOAOrganTypeType��һ����λ��������\n"]
+#[doc = "\nTFtdcUOAOrganTypeType是一个单位性质类型\n"]
 pub type TThostFtdcUOAOrganTypeType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcUOACountryCodeType��һ�����Ҵ�������\n"]
+#[doc = "\nTFtdcUOACountryCodeType是一个国家代码类型\n"]
 pub type TThostFtdcUOACountryCodeType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcAreaCodeType��һ����������\n"]
+#[doc = "\nTFtdcAreaCodeType是一个区号类型\n"]
 pub type TThostFtdcAreaCodeType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcFuturesIDType��һ���������Ϊ�ͻ�����Ĵ�������\n"]
+#[doc = "\nTFtdcFuturesIDType是一个监控中心为客户分配的代码类型\n"]
 pub type TThostFtdcFuturesIDType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcCffmcDateType��һ����������\n"]
+#[doc = "\nTFtdcCffmcDateType是一个日期类型\n"]
 pub type TThostFtdcCffmcDateType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcCffmcTimeType��һ��ʱ������\n"]
+#[doc = "\nTFtdcCffmcTimeType是一个时间类型\n"]
 pub type TThostFtdcCffmcTimeType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcNocIDType��һ����\u{5af}������������\n"]
+#[doc = "\nTFtdcNocIDType是一个组织机构代码类型\n"]
 pub type TThostFtdcNocIDType = [::std::os::raw::c_uchar; 21usize];
 pub type TThostFtdcUpdateFlagType = ::std::os::raw::c_uchar;
 pub type TThostFtdcApplyOperateIDType = ::std::os::raw::c_uchar;
 pub type TThostFtdcApplyStatusIDType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSendMethodType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcEventTypeType��һ��ҵ�������������\n"]
+#[doc = "\nTFtdcEventTypeType是一个业务操作类型类型\n"]
 pub type TThostFtdcEventTypeType = [::std::os::raw::c_uchar; 33usize];
 pub type TThostFtdcEventModeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcUOAAutoSendType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcQueryDepthType��һ����ѯ�������\n"]
+#[doc = "\nTFtdcQueryDepthType是一个查询深度类型\n"]
 pub type TThostFtdcQueryDepthType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcDataCenterIDType��һ���������Ĵ�������\n"]
+#[doc = "\nTFtdcDataCenterIDType是一个数据中心代码类型\n"]
 pub type TThostFtdcDataCenterIDType = ::std::os::raw::c_int;
 pub type TThostFtdcFlowIDType = ::std::os::raw::c_uchar;
 pub type TThostFtdcCheckLevelType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCheckNoType��һ��������������\n"]
+#[doc = "\nTFtdcCheckNoType是一个操作次数类型\n"]
 pub type TThostFtdcCheckNoType = ::std::os::raw::c_int;
 pub type TThostFtdcCheckStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcUsedStatusType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcRateTemplateNameType��һ��ģ����������\n"]
+#[doc = "\nTFtdcRateTemplateNameType是一个模型名称类型\n"]
 pub type TThostFtdcRateTemplateNameType = [::std::os::raw::c_uchar; 61usize];
-#[doc = "\nTFtdcPropertyStringType��һ�����ڲ�ѯ��Ͷ�������\u{5b6}�����\n"]
+#[doc = "\nTFtdcPropertyStringType是一个用于查询的投资属性字段类型\n"]
 pub type TThostFtdcPropertyStringType = [::std::os::raw::c_uchar; 2049usize];
 pub type TThostFtdcBankAcountOriginType = ::std::os::raw::c_uchar;
 pub type TThostFtdcMonthBillTradeSumType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFBTTradeCodeEnumType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcRateTemplateIDType��һ��ģ�ʹ�������\n"]
+#[doc = "\nTFtdcRateTemplateIDType是一个模型代码类型\n"]
 pub type TThostFtdcRateTemplateIDType = [::std::os::raw::c_uchar; 9usize];
-#[doc = "\nTFtdcRiskRateType��һ�����ն�����\n"]
+#[doc = "\nTFtdcRiskRateType是一个风险度类型\n"]
 pub type TThostFtdcRiskRateType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcTimestampType��һ��ʱ�������\n"]
+#[doc = "\nTFtdcTimestampType是一个时间戳类型\n"]
 pub type TThostFtdcTimestampType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcInvestorIDRuleNameType��һ���Ŷι�����������\n"]
+#[doc = "\nTFtdcInvestorIDRuleNameType是一个号段规则名称类型\n"]
 pub type TThostFtdcInvestorIDRuleNameType = [::std::os::raw::c_uchar; 61usize];
-#[doc = "\nTFtdcInvestorIDRuleExprType��һ���Ŷι������ʽ����\n"]
+#[doc = "\nTFtdcInvestorIDRuleExprType是一个号段规则表达式类型\n"]
 pub type TThostFtdcInvestorIDRuleExprType = [::std::os::raw::c_uchar; 513usize];
-#[doc = "\nTFtdcLastDriftType��һ���ϴ�OTPƯ��\u{5b5}����\n"]
+#[doc = "\nTFtdcLastDriftType是一个上次OTP漂移值类型\n"]
 pub type TThostFtdcLastDriftType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcLastSuccessType��һ���ϴ�OTP�ɹ�\u{5b5}����\n"]
+#[doc = "\nTFtdcLastSuccessType是一个上次OTP成功值类型\n"]
 pub type TThostFtdcLastSuccessType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcAuthKeyType��һ��������Կ����\n"]
+#[doc = "\nTFtdcAuthKeyType是一个令牌密钥类型\n"]
 pub type TThostFtdcAuthKeyType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcSerialNumberType��һ�����к�����\n"]
+#[doc = "\nTFtdcSerialNumberType是一个序列号类型\n"]
 pub type TThostFtdcSerialNumberType = [::std::os::raw::c_uchar; 17usize];
 pub type TThostFtdcOTPTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcOTPVendorsIDType��һ����\u{32c}�����ṩ������\n"]
+#[doc = "\nTFtdcOTPVendorsIDType是一个动态令牌提供商类型\n"]
 pub type TThostFtdcOTPVendorsIDType = [::std::os::raw::c_uchar; 2usize];
-#[doc = "\nTFtdcOTPVendorsNameType��һ����\u{32c}�����ṩ����������\n"]
+#[doc = "\nTFtdcOTPVendorsNameType是一个动态令牌提供商名称类型\n"]
 pub type TThostFtdcOTPVendorsNameType = [::std::os::raw::c_uchar; 61usize];
 pub type TThostFtdcOTPStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcBrokerUserTypeType = ::std::os::raw::c_uchar;
@@ -2218,87 +2218,87 @@ pub type TThostFtdcFundEventTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcAccountSourceTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcCodeSourceTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcUserRangeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcTimeSpanType��һ��ʱ��������\n"]
+#[doc = "\nTFtdcTimeSpanType是一个时间跨度类型\n"]
 pub type TThostFtdcTimeSpanType = [::std::os::raw::c_uchar; 9usize];
-#[doc = "\nTFtdcImportSequenceIDType��һ����\u{32c}���Ƶ������α������\n"]
+#[doc = "\nTFtdcImportSequenceIDType是一个动态令牌导入批次编号类型\n"]
 pub type TThostFtdcImportSequenceIDType = [::std::os::raw::c_uchar; 17usize];
 pub type TThostFtdcByGroupType = ::std::os::raw::c_uchar;
 pub type TThostFtdcTradeSumStatModeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcComTypeType��һ����ϳɽ���������\n"]
+#[doc = "\nTFtdcComTypeType是一个组合成交类型类型\n"]
 pub type TThostFtdcComTypeType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcUserProductIDType��һ����Ʒ��ʶ����\n"]
+#[doc = "\nTFtdcUserProductIDType是一个产品标识类型\n"]
 pub type TThostFtdcUserProductIDType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcUserProductNameType��һ����Ʒ��������\n"]
+#[doc = "\nTFtdcUserProductNameType是一个产品名称类型\n"]
 pub type TThostFtdcUserProductNameType = [::std::os::raw::c_uchar; 65usize];
-#[doc = "\nTFtdcUserProductMemoType��һ����Ʒ˵������\n"]
+#[doc = "\nTFtdcUserProductMemoType是一个产品说明类型\n"]
 pub type TThostFtdcUserProductMemoType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcCSRCCancelFlagType��һ������������־����\n"]
+#[doc = "\nTFtdcCSRCCancelFlagType是一个新增或变更标志类型\n"]
 pub type TThostFtdcCSRCCancelFlagType = [::std::os::raw::c_uchar; 2usize];
-#[doc = "\nTFtdcCSRCDateType��һ����������\n"]
+#[doc = "\nTFtdcCSRCDateType是一个日期类型\n"]
 pub type TThostFtdcCSRCDateType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcCSRCInvestorNameType��һ���ͻ���������\n"]
+#[doc = "\nTFtdcCSRCInvestorNameType是一个客户名称类型\n"]
 pub type TThostFtdcCSRCInvestorNameType = [::std::os::raw::c_uchar; 201usize];
-#[doc = "\nTFtdcCSRCOpenInvestorNameType��һ���ͻ���������\n"]
+#[doc = "\nTFtdcCSRCOpenInvestorNameType是一个客户名称类型\n"]
 pub type TThostFtdcCSRCOpenInvestorNameType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcCSRCInvestorIDType��һ���ͻ���������\n"]
+#[doc = "\nTFtdcCSRCInvestorIDType是一个客户代码类型\n"]
 pub type TThostFtdcCSRCInvestorIDType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcCSRCIdentifiedCardNoType��һ��\u{5a4}����������\n"]
+#[doc = "\nTFtdcCSRCIdentifiedCardNoType是一个证件号码类型\n"]
 pub type TThostFtdcCSRCIdentifiedCardNoType = [::std::os::raw::c_uchar; 51usize];
-#[doc = "\nTFtdcCSRCClientIDType��һ�����ױ�������\n"]
+#[doc = "\nTFtdcCSRCClientIDType是一个交易编码类型\n"]
 pub type TThostFtdcCSRCClientIDType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcCSRCBankFlagType��һ�����б�ʶ����\n"]
+#[doc = "\nTFtdcCSRCBankFlagType是一个银行标识类型\n"]
 pub type TThostFtdcCSRCBankFlagType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcCSRCBankAccountType��һ�������˻�����\n"]
+#[doc = "\nTFtdcCSRCBankAccountType是一个银行账户类型\n"]
 pub type TThostFtdcCSRCBankAccountType = [::std::os::raw::c_uchar; 23usize];
-#[doc = "\nTFtdcCSRCOpenNameType��һ������������\n"]
+#[doc = "\nTFtdcCSRCOpenNameType是一个开户人类型\n"]
 pub type TThostFtdcCSRCOpenNameType = [::std::os::raw::c_uchar; 401usize];
-#[doc = "\nTFtdcCSRCMemoType��һ��˵������\n"]
+#[doc = "\nTFtdcCSRCMemoType是一个说明类型\n"]
 pub type TThostFtdcCSRCMemoType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcCSRCTimeType��һ��ʱ������\n"]
+#[doc = "\nTFtdcCSRCTimeType是一个时间类型\n"]
 pub type TThostFtdcCSRCTimeType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcCSRCTradeIDType��һ���ɽ���ˮ������\n"]
+#[doc = "\nTFtdcCSRCTradeIDType是一个成交流水号类型\n"]
 pub type TThostFtdcCSRCTradeIDType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcCSRCExchangeInstIDType��һ����Լ��������\n"]
+#[doc = "\nTFtdcCSRCExchangeInstIDType是一个合约代码类型\n"]
 pub type TThostFtdcCSRCExchangeInstIDType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcCSRCMortgageNameType��һ����ѺƷ��������\n"]
+#[doc = "\nTFtdcCSRCMortgageNameType是一个质押品名称类型\n"]
 pub type TThostFtdcCSRCMortgageNameType = [::std::os::raw::c_uchar; 7usize];
-#[doc = "\nTFtdcCSRCReasonType��һ����������\n"]
+#[doc = "\nTFtdcCSRCReasonType是一个事由类型\n"]
 pub type TThostFtdcCSRCReasonType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcIsSettlementType��һ���Ƿ�Ϊ�ǽ����Ա����\n"]
+#[doc = "\nTFtdcIsSettlementType是一个是否为非结算会员类型\n"]
 pub type TThostFtdcIsSettlementType = [::std::os::raw::c_uchar; 2usize];
-#[doc = "\nTFtdcCSRCMoneyType��һ���ʽ�����\n"]
+#[doc = "\nTFtdcCSRCMoneyType是一个资金类型\n"]
 pub type TThostFtdcCSRCMoneyType = f64;
-#[doc = "\nTFtdcCSRCPriceType��һ���۸�����\n"]
+#[doc = "\nTFtdcCSRCPriceType是一个价格类型\n"]
 pub type TThostFtdcCSRCPriceType = f64;
-#[doc = "\nTFtdcCSRCOptionsTypeType��һ����Ȩ��������\n"]
+#[doc = "\nTFtdcCSRCOptionsTypeType是一个期权类型类型\n"]
 pub type TThostFtdcCSRCOptionsTypeType = [::std::os::raw::c_uchar; 2usize];
-#[doc = "\nTFtdcCSRCStrikePriceType��һ��\u{5b4}�м�����\n"]
+#[doc = "\nTFtdcCSRCStrikePriceType是一个执行价类型\n"]
 pub type TThostFtdcCSRCStrikePriceType = f64;
-#[doc = "\nTFtdcCSRCTargetProductIDType��һ�����Ʒ������\n"]
+#[doc = "\nTFtdcCSRCTargetProductIDType是一个标的品种类型\n"]
 pub type TThostFtdcCSRCTargetProductIDType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcCSRCTargetInstrIDType��һ����ĺ�Լ����\n"]
+#[doc = "\nTFtdcCSRCTargetInstrIDType是一个标的合约类型\n"]
 pub type TThostFtdcCSRCTargetInstrIDType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcCommModelNameType��һ����������ģ����������\n"]
+#[doc = "\nTFtdcCommModelNameType是一个手续费率模板名称类型\n"]
 pub type TThostFtdcCommModelNameType = [::std::os::raw::c_uchar; 161usize];
-#[doc = "\nTFtdcCommModelMemoType��һ����������ģ�屸ע����\n"]
+#[doc = "\nTFtdcCommModelMemoType是一个手续费率模板备注类型\n"]
 pub type TThostFtdcCommModelMemoType = [::std::os::raw::c_uchar; 1025usize];
 pub type TThostFtdcExprSetModeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcRateInvestorRangeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcAgentBrokerIDType��һ���������\u{379}�˾��������\n"]
+#[doc = "\nTFtdcAgentBrokerIDType是一个代理经纪公司代码类型\n"]
 pub type TThostFtdcAgentBrokerIDType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcDRIdentityIDType��һ���������Ĵ�������\n"]
+#[doc = "\nTFtdcDRIdentityIDType是一个交易中心代码类型\n"]
 pub type TThostFtdcDRIdentityIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcDRIdentityNameType��һ������������������\n"]
+#[doc = "\nTFtdcDRIdentityNameType是一个交易中心名称类型\n"]
 pub type TThostFtdcDRIdentityNameType = [::std::os::raw::c_uchar; 65usize];
-#[doc = "\nTFtdcDBLinkIDType��һ��DBLink��ʶ������\n"]
+#[doc = "\nTFtdcDBLinkIDType是一个DBLink标识号类型\n"]
 pub type TThostFtdcDBLinkIDType = [::std::os::raw::c_uchar; 31usize];
 pub type TThostFtdcSyncDataStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcTradeSourceType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFlexStatModeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcByInvestorRangeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcSRiskRateType��һ�����ն�����\n"]
+#[doc = "\nTFtdcSRiskRateType是一个风险度类型\n"]
 pub type TThostFtdcSRiskRateType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcSequenceNo12Type��һ���������\n"]
+#[doc = "\nTFtdcSequenceNo12Type是一个序号类型\n"]
 pub type TThostFtdcSequenceNo12Type = ::std::os::raw::c_int;
 pub type TThostFtdcPropertyInvestorRangeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFileStatusType = ::std::os::raw::c_uchar;
@@ -2308,36 +2308,36 @@ pub type TThostFtdcSysOperTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcCSRCDataQueyTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFreezeStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcStandardStatusType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCSRCFreezeStatusType��һ������״\u{32c}����\n"]
+#[doc = "\nTFtdcCSRCFreezeStatusType是一个休眠状态类型\n"]
 pub type TThostFtdcCSRCFreezeStatusType = [::std::os::raw::c_uchar; 2usize];
 pub type TThostFtdcRightParamTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcRightTemplateIDType��һ��ģ���������\n"]
+#[doc = "\nTFtdcRightTemplateIDType是一个模板代码类型\n"]
 pub type TThostFtdcRightTemplateIDType = [::std::os::raw::c_uchar; 9usize];
-#[doc = "\nTFtdcRightTemplateNameType��һ��ģ����������\n"]
+#[doc = "\nTFtdcRightTemplateNameType是一个模板名称类型\n"]
 pub type TThostFtdcRightTemplateNameType = [::std::os::raw::c_uchar; 61usize];
 pub type TThostFtdcDataStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcAMLCheckStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcAmlDateTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcAmlCheckLevelType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcAmlCheckFlowType��һ����ϴǮ���ݳ�ȡ�����������\n"]
+#[doc = "\nTFtdcAmlCheckFlowType是一个反洗钱数据抽取审核流程类型\n"]
 pub type TThostFtdcAmlCheckFlowType = [::std::os::raw::c_uchar; 2usize];
-#[doc = "\nTFtdcDataTypeType��һ��������������\n"]
+#[doc = "\nTFtdcDataTypeType是一个数据类型类型\n"]
 pub type TThostFtdcDataTypeType = [::std::os::raw::c_uchar; 129usize];
 pub type TThostFtdcExportFileTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSettleManagerTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcSettleManagerIDType��һ���������ô�������\n"]
+#[doc = "\nTFtdcSettleManagerIDType是一个结算配置代码类型\n"]
 pub type TThostFtdcSettleManagerIDType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcSettleManagerNameType��һ������������������\n"]
+#[doc = "\nTFtdcSettleManagerNameType是一个结算配置名称类型\n"]
 pub type TThostFtdcSettleManagerNameType = [::std::os::raw::c_uchar; 129usize];
 pub type TThostFtdcSettleManagerLevelType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSettleManagerGroupType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCheckResultMemoType��һ���˶Խ��˵������\n"]
+#[doc = "\nTFtdcCheckResultMemoType是一个核对结果说明类型\n"]
 pub type TThostFtdcCheckResultMemoType = [::std::os::raw::c_uchar; 1025usize];
-#[doc = "\nTFtdcFunctionUrlType��һ��������������\n"]
+#[doc = "\nTFtdcFunctionUrlType是一个功能链接类型\n"]
 pub type TThostFtdcFunctionUrlType = [::std::os::raw::c_uchar; 1025usize];
-#[doc = "\nTFtdcAuthInfoType��һ���ͻ�����\u{5a4}��Ϣ����\n"]
+#[doc = "\nTFtdcAuthInfoType是一个客户端认证信息类型\n"]
 pub type TThostFtdcAuthInfoType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcAuthCodeType��һ���ͻ�����\u{5a4}������\n"]
+#[doc = "\nTFtdcAuthCodeType是一个客户端认证码类型\n"]
 pub type TThostFtdcAuthCodeType = [::std::os::raw::c_uchar; 17usize];
 pub type TThostFtdcLimitUseTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcDataResourceType = ::std::os::raw::c_uchar;
@@ -2350,129 +2350,129 @@ pub type TThostFtdcReportStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSaveStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSettArchiveStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcCTPTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcToolIDType��һ�����ߴ�������\n"]
+#[doc = "\nTFtdcToolIDType是一个工具代码类型\n"]
 pub type TThostFtdcToolIDType = [::std::os::raw::c_uchar; 9usize];
-#[doc = "\nTFtdcToolNameType��һ��������������\n"]
+#[doc = "\nTFtdcToolNameType是一个工具名称类型\n"]
 pub type TThostFtdcToolNameType = [::std::os::raw::c_uchar; 81usize];
 pub type TThostFtdcCloseDealTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcMortgageFundUseRangeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCurrencyUnitType��һ�����\u{5b5}�λ��������\n"]
+#[doc = "\nTFtdcCurrencyUnitType是一个币种单位数量类型\n"]
 pub type TThostFtdcCurrencyUnitType = f64;
-#[doc = "\nTFtdcExchangeRateType��һ����������\n"]
+#[doc = "\nTFtdcExchangeRateType是一个汇率类型\n"]
 pub type TThostFtdcExchangeRateType = f64;
 pub type TThostFtdcSpecProductTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFundMortgageTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcAccountSettlementParamIDType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCurrencyNameType��һ��������������\n"]
+#[doc = "\nTFtdcCurrencyNameType是一个币种名称类型\n"]
 pub type TThostFtdcCurrencyNameType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcCurrencySignType��һ�����\u{5b7}�������\n"]
+#[doc = "\nTFtdcCurrencySignType是一个币种符号类型\n"]
 pub type TThostFtdcCurrencySignType = [::std::os::raw::c_uchar; 4usize];
 pub type TThostFtdcFundMortDirectionType = ::std::os::raw::c_uchar;
 pub type TThostFtdcBusinessClassType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSwapSourceTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcCurrExDirectionType = ::std::os::raw::c_uchar;
 pub type TThostFtdcCurrencySwapStatusType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCurrExchCertNoType��һ��ƾ\u{5a4}������\n"]
+#[doc = "\nTFtdcCurrExchCertNoType是一个凭证号类型\n"]
 pub type TThostFtdcCurrExchCertNoType = [::std::os::raw::c_uchar; 13usize];
-#[doc = "\nTFtdcBatchSerialNoType��һ�����κ�����\n"]
+#[doc = "\nTFtdcBatchSerialNoType是一个批次号类型\n"]
 pub type TThostFtdcBatchSerialNoType = [::std::os::raw::c_uchar; 21usize];
 pub type TThostFtdcReqFlagType = ::std::os::raw::c_uchar;
 pub type TThostFtdcResFlagType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcPageControlType��һ������ҳ���������\n"]
+#[doc = "\nTFtdcPageControlType是一个换汇页面控制类型\n"]
 pub type TThostFtdcPageControlType = [::std::os::raw::c_uchar; 2usize];
-#[doc = "\nTFtdcRecordCountType��һ����¼������\n"]
+#[doc = "\nTFtdcRecordCountType是一个记录数类型\n"]
 pub type TThostFtdcRecordCountType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcCurrencySwapMemoType��һ��������ȷ����Ϣ����\n"]
+#[doc = "\nTFtdcCurrencySwapMemoType是一个换汇需确认信息类型\n"]
 pub type TThostFtdcCurrencySwapMemoType = [::std::os::raw::c_uchar; 101usize];
 pub type TThostFtdcExStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcClientRegionType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcWorkPlaceType��һ��������λ����\n"]
+#[doc = "\nTFtdcWorkPlaceType是一个工作单位类型\n"]
 pub type TThostFtdcWorkPlaceType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcBusinessPeriodType��һ����Ӫ��������\n"]
+#[doc = "\nTFtdcBusinessPeriodType是一个经营期限类型\n"]
 pub type TThostFtdcBusinessPeriodType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcWebSiteType��һ����\u{5b7}����\n"]
+#[doc = "\nTFtdcWebSiteType是一个网址类型\n"]
 pub type TThostFtdcWebSiteType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcUOAIdCardTypeType��һ��ͳһ����\u{5a4}����������\n"]
+#[doc = "\nTFtdcUOAIdCardTypeType是一个统一开户证件类型类型\n"]
 pub type TThostFtdcUOAIdCardTypeType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcClientModeType��һ������ģʽ����\n"]
+#[doc = "\nTFtdcClientModeType是一个开户模式类型\n"]
 pub type TThostFtdcClientModeType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcInvestorFullNameType��һ��Ͷ����ȫ������\n"]
+#[doc = "\nTFtdcInvestorFullNameType是一个投资者全称类型\n"]
 pub type TThostFtdcInvestorFullNameType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcUOABrokerIDType��һ�������н����ID����\n"]
+#[doc = "\nTFtdcUOABrokerIDType是一个境外中介机构ID类型\n"]
 pub type TThostFtdcUOABrokerIDType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcUOAZipCodeType��һ��������������\n"]
+#[doc = "\nTFtdcUOAZipCodeType是一个邮政编码类型\n"]
 pub type TThostFtdcUOAZipCodeType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcUOAEMailType��һ��������������\n"]
+#[doc = "\nTFtdcUOAEMailType是一个电子邮箱类型\n"]
 pub type TThostFtdcUOAEMailType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcOldCityType��һ����������\n"]
+#[doc = "\nTFtdcOldCityType是一个城市类型\n"]
 pub type TThostFtdcOldCityType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcCorporateIdentifiedCardNoType��һ�����˴���\u{5a4}����������\n"]
+#[doc = "\nTFtdcCorporateIdentifiedCardNoType是一个法人代表证件号码类型\n"]
 pub type TThostFtdcCorporateIdentifiedCardNoType = [::std::os::raw::c_uchar; 101usize];
 pub type TThostFtdcHasBoardType = ::std::os::raw::c_uchar;
 pub type TThostFtdcStartModeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcTemplateTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcLoginModeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcPromptTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcLedgerManageIDType��һ���\u{5bb}������ʲ���������\n"]
+#[doc = "\nTFtdcLedgerManageIDType是一个分户管理资产编码类型\n"]
 pub type TThostFtdcLedgerManageIDType = [::std::os::raw::c_uchar; 51usize];
-#[doc = "\nTFtdcInvestVarietyType��һ��Ͷ��Ʒ������\n"]
+#[doc = "\nTFtdcInvestVarietyType是一个投资品种类型\n"]
 pub type TThostFtdcInvestVarietyType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcBankAccountTypeType��һ���˻��������\n"]
+#[doc = "\nTFtdcBankAccountTypeType是一个账户类别类型\n"]
 pub type TThostFtdcBankAccountTypeType = [::std::os::raw::c_uchar; 2usize];
-#[doc = "\nTFtdcLedgerManageBankType��һ��������������\n"]
+#[doc = "\nTFtdcLedgerManageBankType是一个开户银行类型\n"]
 pub type TThostFtdcLedgerManageBankType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcCffexDepartmentNameType��һ������Ӫҵ������\n"]
+#[doc = "\nTFtdcCffexDepartmentNameType是一个开户营业部类型\n"]
 pub type TThostFtdcCffexDepartmentNameType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcCffexDepartmentCodeType��һ��Ӫҵ����������\n"]
+#[doc = "\nTFtdcCffexDepartmentCodeType是一个营业部代码类型\n"]
 pub type TThostFtdcCffexDepartmentCodeType = [::std::os::raw::c_uchar; 9usize];
 pub type TThostFtdcHasTrusteeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCSRCMemo1Type��һ��˵������\n"]
+#[doc = "\nTFtdcCSRCMemo1Type是一个说明类型\n"]
 pub type TThostFtdcCSRCMemo1Type = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcAssetmgrCFullNameType��һ�������ʲ�����ҵ����ڻ���˾ȫ������\n"]
+#[doc = "\nTFtdcAssetmgrCFullNameType是一个代理资产管理业务的期货公司全称类型\n"]
 pub type TThostFtdcAssetmgrCFullNameType = [::std::os::raw::c_uchar; 101usize];
-#[doc = "\nTFtdcAssetmgrApprovalNOType��һ���ʲ�����ҵ�����ĺ�����\n"]
+#[doc = "\nTFtdcAssetmgrApprovalNOType是一个资产管理业务批文号类型\n"]
 pub type TThostFtdcAssetmgrApprovalNOType = [::std::os::raw::c_uchar; 51usize];
-#[doc = "\nTFtdcAssetmgrMgrNameType��һ���ʲ�����ҵ��������������\n"]
+#[doc = "\nTFtdcAssetmgrMgrNameType是一个资产管理业务负责人姓名类型\n"]
 pub type TThostFtdcAssetmgrMgrNameType = [::std::os::raw::c_uchar; 401usize];
 pub type TThostFtdcAmTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCSRCAmTypeType��һ��������������\n"]
+#[doc = "\nTFtdcCSRCAmTypeType是一个机构类型类型\n"]
 pub type TThostFtdcCSRCAmTypeType = [::std::os::raw::c_uchar; 5usize];
 pub type TThostFtdcCSRCFundIOTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcCusAccountTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCSRCNationalType��һ����������\n"]
+#[doc = "\nTFtdcCSRCNationalType是一个国籍类型\n"]
 pub type TThostFtdcCSRCNationalType = [::std::os::raw::c_uchar; 4usize];
-#[doc = "\nTFtdcCSRCSecAgentIDType��һ����������ID����\n"]
+#[doc = "\nTFtdcCSRCSecAgentIDType是一个二级代理ID类型\n"]
 pub type TThostFtdcCSRCSecAgentIDType = [::std::os::raw::c_uchar; 11usize];
 pub type TThostFtdcLanguageTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcAmAccountType��һ��Ͷ���˻�����\n"]
+#[doc = "\nTFtdcAmAccountType是一个投资账户类型\n"]
 pub type TThostFtdcAmAccountType = [::std::os::raw::c_uchar; 23usize];
 pub type TThostFtdcAssetmgrClientTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcAssetmgrTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcUOMType��һ��������λ����\n"]
+#[doc = "\nTFtdcUOMType是一个计量单位类型\n"]
 pub type TThostFtdcUOMType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcSHFEInstLifePhaseType��һ����������Լ��������״\u{32c}����\n"]
+#[doc = "\nTFtdcSHFEInstLifePhaseType是一个上期所合约生命周期状态类型\n"]
 pub type TThostFtdcSHFEInstLifePhaseType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcSHFEProductClassType��һ����Ʒ��������\n"]
+#[doc = "\nTFtdcSHFEProductClassType是一个产品类型类型\n"]
 pub type TThostFtdcSHFEProductClassType = [::std::os::raw::c_uchar; 11usize];
-#[doc = "\nTFtdcPriceDecimalType��һ���۸�С��λ����\n"]
+#[doc = "\nTFtdcPriceDecimalType是一个价格小数位类型\n"]
 pub type TThostFtdcPriceDecimalType = [::std::os::raw::c_uchar; 2usize];
-#[doc = "\nTFtdcInTheMoneyFlagType��һ��ƽ\u{5b5}��Ȩ��־����\n"]
+#[doc = "\nTFtdcInTheMoneyFlagType是一个平值期权标志类型\n"]
 pub type TThostFtdcInTheMoneyFlagType = [::std::os::raw::c_uchar; 2usize];
 pub type TThostFtdcCheckInstrTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcDeliveryTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcBigMoneyType��һ���ʽ�����\n"]
+#[doc = "\nTFtdcBigMoneyType是一个资金类型\n"]
 pub type TThostFtdcBigMoneyType = f64;
 pub type TThostFtdcMaxMarginSideAlgorithmType = ::std::os::raw::c_uchar;
 pub type TThostFtdcDAClientTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCombinInstrIDType��һ��������Լ��������\n"]
+#[doc = "\nTFtdcCombinInstrIDType是一个套利合约代码类型\n"]
 pub type TThostFtdcCombinInstrIDType = [::std::os::raw::c_uchar; 61usize];
-#[doc = "\nTFtdcCombinSettlePriceType��һ�����Ƚ��������\n"]
+#[doc = "\nTFtdcCombinSettlePriceType是一个各腿结算价类型\n"]
 pub type TThostFtdcCombinSettlePriceType = [::std::os::raw::c_uchar; 61usize];
-#[doc = "\nTFtdcDCEPriorityType��һ�����ȼ�����\n"]
+#[doc = "\nTFtdcDCEPriorityType是一个优先级类型\n"]
 pub type TThostFtdcDCEPriorityType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcTradeGroupIDType��һ���ɽ��������\n"]
+#[doc = "\nTFtdcTradeGroupIDType是一个成交组号类型\n"]
 pub type TThostFtdcTradeGroupIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcIsCheckPrepaType��һ���Ƿ�У�鿪�������ʽ�����\n"]
+#[doc = "\nTFtdcIsCheckPrepaType是一个是否校验开户可用资金类型\n"]
 pub type TThostFtdcIsCheckPrepaType = ::std::os::raw::c_int;
 pub type TThostFtdcUOAAssetmgrTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcDirectionEnType = ::std::os::raw::c_uchar;
@@ -2482,19 +2482,19 @@ pub type TThostFtdcFundIOTypeEnType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFundTypeEnType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFundDirectionEnType = ::std::os::raw::c_uchar;
 pub type TThostFtdcFundMortDirectionEnType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcSwapBusinessTypeType��һ������ҵ����������\n"]
+#[doc = "\nTFtdcSwapBusinessTypeType是一个换汇业务种类类型\n"]
 pub type TThostFtdcSwapBusinessTypeType = [::std::os::raw::c_uchar; 3usize];
 pub type TThostFtdcOptionsTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcStrikeModeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcStrikeTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcApplyTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcGiveUpDataSourceType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcExecOrderSysIDType��һ��\u{5b4}������ϵͳ�������\n"]
+#[doc = "\nTFtdcExecOrderSysIDType是一个执行宣告系统编号类型\n"]
 pub type TThostFtdcExecOrderSysIDType = [::std::os::raw::c_uchar; 21usize];
 pub type TThostFtdcExecResultType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcStrikeSequenceType��һ��\u{5b4}���������\n"]
+#[doc = "\nTFtdcStrikeSequenceType是一个执行序号类型\n"]
 pub type TThostFtdcStrikeSequenceType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcStrikeTimeType��һ��\u{5b4}��ʱ������\n"]
+#[doc = "\nTFtdcStrikeTimeType是一个执行时间类型\n"]
 pub type TThostFtdcStrikeTimeType = [::std::os::raw::c_uchar; 13usize];
 pub type TThostFtdcCombinationTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcDceCombinationTypeType = ::std::os::raw::c_uchar;
@@ -2513,82 +2513,82 @@ pub type TThostFtdcCFFEXUploadFileNameType = ::std::os::raw::c_uchar;
 pub type TThostFtdcCombDirectionType = ::std::os::raw::c_uchar;
 pub type TThostFtdcStrikeOffsetTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcReserveOpenAccStasType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcLoginRemarkType��һ����¼��ע����\n"]
+#[doc = "\nTFtdcLoginRemarkType是一个登录备注类型\n"]
 pub type TThostFtdcLoginRemarkType = [::std::os::raw::c_uchar; 36usize];
-#[doc = "\nTFtdcInvestUnitIDType��һ��Ͷ�ʵ�Ԫ��������\n"]
+#[doc = "\nTFtdcInvestUnitIDType是一个投资单元代码类型\n"]
 pub type TThostFtdcInvestUnitIDType = [::std::os::raw::c_uchar; 17usize];
-#[doc = "\nTFtdcBulletinIDType��һ������������\n"]
+#[doc = "\nTFtdcBulletinIDType是一个公告编号类型\n"]
 pub type TThostFtdcBulletinIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcNewsTypeType��һ��������������\n"]
+#[doc = "\nTFtdcNewsTypeType是一个公告类型类型\n"]
 pub type TThostFtdcNewsTypeType = [::std::os::raw::c_uchar; 3usize];
-#[doc = "\nTFtdcNewsUrgencyType��һ�������\u{336}�����\n"]
+#[doc = "\nTFtdcNewsUrgencyType是一个紧急程度类型\n"]
 pub type TThostFtdcNewsUrgencyType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcAbstractType��һ����ϢժҪ����\n"]
+#[doc = "\nTFtdcAbstractType是一个消息摘要类型\n"]
 pub type TThostFtdcAbstractType = [::std::os::raw::c_uchar; 81usize];
-#[doc = "\nTFtdcComeFromType��һ����Ϣ��Դ����\n"]
+#[doc = "\nTFtdcComeFromType是一个消息来源类型\n"]
 pub type TThostFtdcComeFromType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcURLLinkType��һ��WEB��\u{5b7}����\n"]
+#[doc = "\nTFtdcURLLinkType是一个WEB地址类型\n"]
 pub type TThostFtdcURLLinkType = [::std::os::raw::c_uchar; 201usize];
-#[doc = "\nTFtdcLongIndividualNameType��һ����������������\n"]
+#[doc = "\nTFtdcLongIndividualNameType是一个长个人姓名类型\n"]
 pub type TThostFtdcLongIndividualNameType = [::std::os::raw::c_uchar; 161usize];
-#[doc = "\nTFtdcLongFBEBankAccountNameType��һ�������������˻�������\n"]
+#[doc = "\nTFtdcLongFBEBankAccountNameType是一个长换汇银行账户名类型\n"]
 pub type TThostFtdcLongFBEBankAccountNameType = [::std::os::raw::c_uchar; 161usize];
-#[doc = "\nTFtdcDateTimeType��һ������ʱ������\n"]
+#[doc = "\nTFtdcDateTimeType是一个日期时间类型\n"]
 pub type TThostFtdcDateTimeType = [::std::os::raw::c_uchar; 17usize];
 pub type TThostFtdcWeakPasswordSourceType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcRandomStringType��һ�����������\n"]
+#[doc = "\nTFtdcRandomStringType是一个随机串类型\n"]
 pub type TThostFtdcRandomStringType = [::std::os::raw::c_uchar; 17usize];
-#[doc = "\nTFtdcOrderMemoType��һ�����������\u{5b6}�����\n"]
+#[doc = "\nTFtdcOrderMemoType是一个报单回显字段类型\n"]
 pub type TThostFtdcOrderMemoType = [::std::os::raw::c_uchar; 13usize];
 pub type TThostFtdcOptSelfCloseFlagType = ::std::os::raw::c_uchar;
 pub type TThostFtdcBizTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcAppTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcAppIDType��һ��App��������\n"]
+#[doc = "\nTFtdcAppIDType是一个App代码类型\n"]
 pub type TThostFtdcAppIDType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcSystemInfoLenType��һ��ϵͳ��Ϣ��������\n"]
+#[doc = "\nTFtdcSystemInfoLenType是一个系统信息长度类型\n"]
 pub type TThostFtdcSystemInfoLenType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcAdditionalInfoLenType��һ��������Ϣ��������\n"]
+#[doc = "\nTFtdcAdditionalInfoLenType是一个补充信息长度类型\n"]
 pub type TThostFtdcAdditionalInfoLenType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcClientSystemInfoType��һ�������ն�ϵͳ��Ϣ����\n"]
+#[doc = "\nTFtdcClientSystemInfoType是一个交易终端系统信息类型\n"]
 pub type TThostFtdcClientSystemInfoType = [::std::os::raw::c_uchar; 273usize];
-#[doc = "\nTFtdcAdditionalInfoType��һ��ϵͳ�ⲿ��Ϣ����\n"]
+#[doc = "\nTFtdcAdditionalInfoType是一个系统外部信息类型\n"]
 pub type TThostFtdcAdditionalInfoType = [::std::os::raw::c_uchar; 261usize];
-#[doc = "\nTFtdcBase64ClientSystemInfoType��һ��base64�����ն�ϵͳ��Ϣ����\n"]
+#[doc = "\nTFtdcBase64ClientSystemInfoType是一个base64交易终端系统信息类型\n"]
 pub type TThostFtdcBase64ClientSystemInfoType = [::std::os::raw::c_uchar; 365usize];
-#[doc = "\nTFtdcBase64AdditionalInfoType��һ��base64ϵͳ�ⲿ��Ϣ����\n"]
+#[doc = "\nTFtdcBase64AdditionalInfoType是一个base64系统外部信息类型\n"]
 pub type TThostFtdcBase64AdditionalInfoType = [::std::os::raw::c_uchar; 349usize];
-#[doc = "\nTFtdcCurrentAuthMethodType��һ����ǰ���õ���\u{5a4}ģʽ��0����������\u{5a4}ģʽ A�ӵ�λ��ʼ���һλ����ͼƬ��\u{5a4}�룬�����ڶ�λ������\u{32c}���\u{e8ec}��������λ����������\u{5a4}������\n"]
+#[doc = "\nTFtdcCurrentAuthMethodType是一个当前可用的认证模式，0代表无需认证模式 A从低位开始最后一位代表图片验证码，倒数第二位代表动态口令，倒数第三位代表短信验证码类型\n"]
 pub type TThostFtdcCurrentAuthMethodType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcCaptchaInfoLenType��һ��ͼƬ��\u{5a4}��Ϣ��������\n"]
+#[doc = "\nTFtdcCaptchaInfoLenType是一个图片验证信息长度类型\n"]
 pub type TThostFtdcCaptchaInfoLenType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcCaptchaInfoType��һ��ͼƬ��\u{5a4}��Ϣ����\n"]
+#[doc = "\nTFtdcCaptchaInfoType是一个图片验证信息类型\n"]
 pub type TThostFtdcCaptchaInfoType = [::std::os::raw::c_uchar; 2561usize];
-#[doc = "\nTFtdcUserTextSeqType��һ���û�������\u{5a4}��ı������\n"]
+#[doc = "\nTFtdcUserTextSeqType是一个用户短信验证码的编号类型\n"]
 pub type TThostFtdcUserTextSeqType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcHandshakeDataType��һ������������������\n"]
+#[doc = "\nTFtdcHandshakeDataType是一个握手数据内容类型\n"]
 pub type TThostFtdcHandshakeDataType = [::std::os::raw::c_uchar; 301usize];
-#[doc = "\nTFtdcHandshakeDataLenType��һ�������������ݳ�������\n"]
+#[doc = "\nTFtdcHandshakeDataLenType是一个握手数据内容长度类型\n"]
 pub type TThostFtdcHandshakeDataLenType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcCryptoKeyVersionType��һ��api��front\u{368}����Կ�汾������\n"]
+#[doc = "\nTFtdcCryptoKeyVersionType是一个api与front通信密钥版本号类型\n"]
 pub type TThostFtdcCryptoKeyVersionType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcRsaKeyVersionType��һ����Կ�汾������\n"]
+#[doc = "\nTFtdcRsaKeyVersionType是一个公钥版本号类型\n"]
 pub type TThostFtdcRsaKeyVersionType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcSoftwareProviderIDType��һ������������ID����\n"]
+#[doc = "\nTFtdcSoftwareProviderIDType是一个交易软件商ID类型\n"]
 pub type TThostFtdcSoftwareProviderIDType = [::std::os::raw::c_uchar; 22usize];
-#[doc = "\nTFtdcCollectTimeType��һ����Ϣ�ɼ�ʱ������\n"]
+#[doc = "\nTFtdcCollectTimeType是一个信息采集时间类型\n"]
 pub type TThostFtdcCollectTimeType = [::std::os::raw::c_uchar; 21usize];
-#[doc = "\nTFtdcQueryFreqType��һ����ѯƵ������\n"]
+#[doc = "\nTFtdcQueryFreqType是一个查询频率类型\n"]
 pub type TThostFtdcQueryFreqType = ::std::os::raw::c_int;
 pub type TThostFtdcResponseValueType = ::std::os::raw::c_uchar;
 pub type TThostFtdcOTCTradeTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcMatchTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcOTCTraderIDType��һ��OTC����Ա��������\n"]
+#[doc = "\nTFtdcOTCTraderIDType是一个OTC交易员代码类型\n"]
 pub type TThostFtdcOTCTraderIDType = [::std::os::raw::c_uchar; 31usize];
-#[doc = "\nTFtdcRiskValueType��һ���ڻ�����\u{5b5}����\n"]
+#[doc = "\nTFtdcRiskValueType是一个期货风险值类型\n"]
 pub type TThostFtdcRiskValueType = f64;
-#[doc = "\nTFtdcIDBNameType��һ������������������\n"]
+#[doc = "\nTFtdcIDBNameType是一个握手数据内容类型\n"]
 pub type TThostFtdcIDBNameType = [::std::os::raw::c_uchar; 100usize];
-#[doc = "\nTFtdcDiscountRatioType��һ���ۿ�������\n"]
+#[doc = "\nTFtdcDiscountRatioType是一个折扣率类型\n"]
 pub type TThostFtdcDiscountRatioType = f64;
 pub type TThostFtdcAuthTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcClassTypeType = ::std::os::raw::c_uchar;
@@ -2597,95 +2597,95 @@ pub type TThostFtdcProductStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcSyncDeltaStatusType = ::std::os::raw::c_uchar;
 pub type TThostFtdcActionDirectionType = ::std::os::raw::c_uchar;
 pub type TThostFtdcOrderCancelAlgType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcSyncDescriptionType��һ��\u{5f7}ƽ��������\n"]
+#[doc = "\nTFtdcSyncDescriptionType是一个追平描述类型\n"]
 pub type TThostFtdcSyncDescriptionType = [::std::os::raw::c_uchar; 257usize];
-#[doc = "\nTFtdcCommonIntType��һ��\u{368}��int��������\n"]
+#[doc = "\nTFtdcCommonIntType是一个通用int类型类型\n"]
 pub type TThostFtdcCommonIntType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcSysVersionType��һ��ϵͳ�汾����\n"]
+#[doc = "\nTFtdcSysVersionType是一个系统版本类型\n"]
 pub type TThostFtdcSysVersionType = [::std::os::raw::c_uchar; 41usize];
 pub type TThostFtdcOpenLimitControlLevelType = ::std::os::raw::c_uchar;
 pub type TThostFtdcOrderFreqControlLevelType = ::std::os::raw::c_uchar;
 pub type TThostFtdcEnumBoolType = ::std::os::raw::c_uchar;
 pub type TThostFtdcTimeRangeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcDeltaType��һ��Delta��������\n"]
+#[doc = "\nTFtdcDeltaType是一个Delta类型类型\n"]
 pub type TThostFtdcDeltaType = f64;
-#[doc = "\nTFtdcSpreadIdType��һ���\u{5bf}������ȼ�����\n"]
+#[doc = "\nTFtdcSpreadIdType是一个抵扣组优先级类型\n"]
 pub type TThostFtdcSpreadIdType = ::std::os::raw::c_int;
 pub type TThostFtdcPortfolioType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcPortfolioDefIDType��һ��SPBM����ײ�ID����\n"]
+#[doc = "\nTFtdcPortfolioDefIDType是一个SPBM组合套餐ID类型\n"]
 pub type TThostFtdcPortfolioDefIDType = ::std::os::raw::c_int;
 pub type TThostFtdcWithDrawParamIDType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcWithDrawParamValueType��һ��������Ʋ�����������\n"]
+#[doc = "\nTFtdcWithDrawParamValueType是一个可提控制参数内容类型\n"]
 pub type TThostFtdcWithDrawParamValueType = [::std::os::raw::c_uchar; 41usize];
 pub type TThostFtdcInvstTradingRightType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcThostFunctionCodeType��һ��Thost�ն˹��\u{734}�������\n"]
+#[doc = "\nTFtdcThostFunctionCodeType是一个Thost终端功能代码类型\n"]
 pub type TThostFtdcThostFunctionCodeType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcSPMMDiscountRatioType��һ��SPMM�ۿ�������\n"]
+#[doc = "\nTFtdcSPMMDiscountRatioType是一个SPMM折扣率类型\n"]
 pub type TThostFtdcSPMMDiscountRatioType = f64;
-#[doc = "\nTFtdcSPMMModelDescType��һ��SPMMģ����������\n"]
+#[doc = "\nTFtdcSPMMModelDescType是一个SPMM模板描述类型\n"]
 pub type TThostFtdcSPMMModelDescType = [::std::os::raw::c_uchar; 129usize];
-#[doc = "\nTFtdcSPMMModelIDType��һ��SPMMģ��ID����\n"]
+#[doc = "\nTFtdcSPMMModelIDType是一个SPMM模板ID类型\n"]
 pub type TThostFtdcSPMMModelIDType = [::std::os::raw::c_uchar; 33usize];
-#[doc = "\nTFtdcSPMMProductIDType��һ��SPMM��ƷȺ��Ʒ��ID����\n"]
+#[doc = "\nTFtdcSPMMProductIDType是一个SPMM商品群商品组ID类型\n"]
 pub type TThostFtdcSPMMProductIDType = [::std::os::raw::c_uchar; 41usize];
 pub type TThostFtdcInstMarginCalIDType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcProductIDType��һ����ƷID����\n"]
+#[doc = "\nTFtdcProductIDType是一个产品ID类型\n"]
 pub type TThostFtdcProductIDType = [::std::os::raw::c_uchar; 41usize];
-#[doc = "\nTFtdcHedgeRateType��һ��HedgeRate��������\n"]
+#[doc = "\nTFtdcHedgeRateType是一个HedgeRate类型类型\n"]
 pub type TThostFtdcHedgeRateType = f64;
-#[doc = "\nTFtdcRCAMSPriorityType��һ�����ȼ�����\n"]
+#[doc = "\nTFtdcRCAMSPriorityType是一个优先级类型\n"]
 pub type TThostFtdcRCAMSPriorityType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcAdjustValueType��һ����ͷ��Ȩ���յ�����\u{5fc}��������\n"]
+#[doc = "\nTFtdcAdjustValueType是一个空头期权风险调整标准类型类型\n"]
 pub type TThostFtdcAdjustValueType = f64;
 pub type TThostFtdcRCAMSCombinationTypeType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcRuleIdType��һ������id����\n"]
+#[doc = "\nTFtdcRuleIdType是一个策略id类型\n"]
 pub type TThostFtdcRuleIdType = [::std::os::raw::c_uchar; 51usize];
 pub type TThostFtdcPortfTypeType = ::std::os::raw::c_uchar;
 pub type TThostFtdcInstrumentClassType = ::std::os::raw::c_uchar;
-#[doc = "\nTFtdcCommodityGroupIDType��һ����ƷȺ������\n"]
+#[doc = "\nTFtdcCommodityGroupIDType是一个商品群号类型\n"]
 pub type TThostFtdcCommodityGroupIDType = ::std::os::raw::c_int;
-#[doc = "\nTFtdcStdPositionType��һ����\u{5fc}�\u{5b2}���������\n"]
+#[doc = "\nTFtdcStdPositionType是一个标准持仓类型类型\n"]
 pub type TThostFtdcStdPositionType = f64;
 pub type TThostFtdcProdChangeFlagType = ::std::os::raw::c_uchar;
 pub type TThostFtdcPwdRcdSrcType = ::std::os::raw::c_uchar;
-#[doc = "��Ϣ�\u{5b7}�"]
+#[doc = "信息分发"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcDisseminationField {
-    #[doc = "����ϵ�к�"]
+    #[doc = "序列系列号"]
     pub SequenceSeries: TThostFtdcSequenceSeriesType,
-    #[doc = "���к�"]
+    #[doc = "序列号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
 }
-#[doc = "�û���¼����"]
+#[doc = "用户登录请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqUserLoginField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "�ӿڶ˲�Ʒ��Ϣ"]
+    #[doc = "接口端产品信息"]
     pub InterfaceProductInfo: TThostFtdcProductInfoType,
-    #[doc = "Э����Ϣ"]
+    #[doc = "协议信息"]
     pub ProtocolInfo: TThostFtdcProtocolInfoType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��\u{32c}����"]
+    #[doc = "动态密码"]
     pub OneTimePassword: TThostFtdcPasswordType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "��¼��ע"]
+    #[doc = "登录备注"]
     pub LoginRemark: TThostFtdcLoginRemarkType,
-    #[doc = "�ն�IP�˿�"]
+    #[doc = "终端IP端口"]
     pub ClientIPPort: TThostFtdcIPPortType,
-    #[doc = "�ն�IP��\u{5b7}"]
+    #[doc = "终端IP地址"]
     pub ClientIPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcReqUserLoginField {
@@ -2697,39 +2697,39 @@ impl Default for CThostFtdcReqUserLoginField {
         }
     }
 }
-#[doc = "�û���¼Ӧ��"]
+#[doc = "用户登录应答"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRspUserLoginField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "��¼�ɹ�ʱ��"]
+    #[doc = "登录成功时间"]
     pub LoginTime: TThostFtdcTimeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统名称"]
     pub SystemName: TThostFtdcSystemNameType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "��\u{f1a35}�����"]
+    #[doc = "最大报单引用"]
     pub MaxOrderRef: TThostFtdcOrderRefType,
-    #[doc = "������ʱ��"]
+    #[doc = "上期所时间"]
     pub SHFETime: TThostFtdcTimeType,
-    #[doc = "������ʱ��"]
+    #[doc = "大商所时间"]
     pub DCETime: TThostFtdcTimeType,
-    #[doc = "\u{5a3}����ʱ��"]
+    #[doc = "郑商所时间"]
     pub CZCETime: TThostFtdcTimeType,
-    #[doc = "�н���ʱ��"]
+    #[doc = "中金所时间"]
     pub FFEXTime: TThostFtdcTimeType,
-    #[doc = "��Դ����ʱ��"]
+    #[doc = "能源中心时间"]
     pub INETime: TThostFtdcTimeType,
-    #[doc = "��\u{328}�汾��Ϣ"]
+    #[doc = "后台版本信息"]
     pub SysVersion: TThostFtdcSysVersionType,
-    #[doc = "������ʱ��"]
+    #[doc = "广期所时间"]
     pub GFEXTime: TThostFtdcTimeType,
 }
 impl Default for CThostFtdcRspUserLoginField {
@@ -2741,37 +2741,37 @@ impl Default for CThostFtdcRspUserLoginField {
         }
     }
 }
-#[doc = "�û��ǳ�����"]
+#[doc = "用户登出请求"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcUserLogoutField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
-#[doc = "ǿ�ƽ���Ա�˳�"]
+#[doc = "强制交易员退出"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcForceUserLogoutField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
-#[doc = "�ͻ�����\u{5a4}����"]
+#[doc = "客户端认证请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqAuthenticateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "��\u{5a4}��"]
+    #[doc = "认证码"]
     pub AuthCode: TThostFtdcAuthCodeType,
-    #[doc = "App����"]
+    #[doc = "App代码"]
     pub AppID: TThostFtdcAppIDType,
 }
 impl Default for CThostFtdcReqAuthenticateField {
@@ -2783,19 +2783,19 @@ impl Default for CThostFtdcReqAuthenticateField {
         }
     }
 }
-#[doc = "�ͻ�����\u{5a4}��Ӧ"]
+#[doc = "客户端认证响应"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRspAuthenticateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "App����"]
+    #[doc = "App代码"]
     pub AppID: TThostFtdcAppIDType,
-    #[doc = "App����"]
+    #[doc = "App类型"]
     pub AppType: TThostFtdcAppTypeType,
 }
 impl Default for CThostFtdcRspAuthenticateField {
@@ -2807,27 +2807,27 @@ impl Default for CThostFtdcRspAuthenticateField {
         }
     }
 }
-#[doc = "�ͻ�����\u{5a4}��Ϣ"]
+#[doc = "客户端认证信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcAuthenticationInfoField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "��\u{5a4}��Ϣ"]
+    #[doc = "认证信息"]
     pub AuthInfo: TThostFtdcAuthInfoType,
-    #[doc = "�Ƿ�Ϊ��\u{5a4}���"]
+    #[doc = "是否为认证结果"]
     pub IsResult: TThostFtdcBoolType,
-    #[doc = "App����"]
+    #[doc = "App代码"]
     pub AppID: TThostFtdcAppIDType,
-    #[doc = "App����"]
+    #[doc = "App类型"]
     pub AppType: TThostFtdcAppTypeType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "�ն�IP��\u{5b7}"]
+    #[doc = "终端IP地址"]
     pub ClientIPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcAuthenticationInfoField {
@@ -2839,37 +2839,37 @@ impl Default for CThostFtdcAuthenticationInfoField {
         }
     }
 }
-#[doc = "�û���¼Ӧ��2"]
+#[doc = "用户登录应答2"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRspUserLogin2Field {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "��¼�ɹ�ʱ��"]
+    #[doc = "登录成功时间"]
     pub LoginTime: TThostFtdcTimeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统名称"]
     pub SystemName: TThostFtdcSystemNameType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "��\u{f1a35}�����"]
+    #[doc = "最大报单引用"]
     pub MaxOrderRef: TThostFtdcOrderRefType,
-    #[doc = "������ʱ��"]
+    #[doc = "上期所时间"]
     pub SHFETime: TThostFtdcTimeType,
-    #[doc = "������ʱ��"]
+    #[doc = "大商所时间"]
     pub DCETime: TThostFtdcTimeType,
-    #[doc = "\u{5a3}����ʱ��"]
+    #[doc = "郑商所时间"]
     pub CZCETime: TThostFtdcTimeType,
-    #[doc = "�н���ʱ��"]
+    #[doc = "中金所时间"]
     pub FFEXTime: TThostFtdcTimeType,
-    #[doc = "��Դ����ʱ��"]
+    #[doc = "能源中心时间"]
     pub INETime: TThostFtdcTimeType,
-    #[doc = "�����"]
+    #[doc = "随机串"]
     pub RandomString: TThostFtdcRandomStringType,
 }
 impl Default for CThostFtdcRspUserLogin2Field {
@@ -2881,69 +2881,69 @@ impl Default for CThostFtdcRspUserLogin2Field {
         }
     }
 }
-#[doc = "����ת�ʱ���ͷ"]
+#[doc = "银期转帐报文头"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcTransferHeaderField {
-    #[doc = "�汾�ţ�������1.0"]
+    #[doc = "版本号，常量，1.0"]
     pub Version: TThostFtdcVersionType,
-    #[doc = "���״��룬����"]
+    #[doc = "交易代码，必填"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "�������ڣ����\u{e8ec}��ʽ��yyyymmdd"]
+    #[doc = "交易日期，必填，格式：yyyymmdd"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ�䣬���\u{e8ec}��ʽ��hhmmss"]
+    #[doc = "交易时间，必填，格式：hhmmss"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ�ţ�N/A"]
+    #[doc = "发起方流水号，N/A"]
     pub TradeSerial: TThostFtdcTradeSerialType,
-    #[doc = "�ڻ���˾���룬����"]
+    #[doc = "期货公司代码，必填"]
     pub FutureID: TThostFtdcFutureIDType,
-    #[doc = "���д��룬���ݲ�ѯ���еõ�������"]
+    #[doc = "银行代码，根据查询银行得到，必填"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з����Ĵ��룬���ݲ�ѯ���еõ�������"]
+    #[doc = "银行分中心代码，根据查询银行得到，必填"]
     pub BankBrchID: TThostFtdcBankBrchIDType,
-    #[doc = "����Ա��N/A"]
+    #[doc = "操作员，N/A"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "�����豸���\u{363}�N/A"]
+    #[doc = "交易设备类型，N/A"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "��¼����N/A"]
+    #[doc = "记录数，N/A"]
     pub RecordNum: TThostFtdcRecordNumType,
-    #[doc = "�Ự��ţ�N/A"]
+    #[doc = "会话编号，N/A"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�����ţ�N/A"]
+    #[doc = "请求编号，N/A"]
     pub RequestID: TThostFtdcRequestIDType,
 }
-#[doc = "�����ʽ�ת�ڻ�����TradeCode=202001"]
+#[doc = "银行资金转期货请求，TradeCode=202001"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcTransferBankToFutureReqField {
-    #[doc = "�ڻ��ʽ��˻�"]
+    #[doc = "期货资金账户"]
     pub FutureAccount: TThostFtdcAccountIDType,
-    #[doc = "�����־"]
+    #[doc = "密码标志"]
     pub FuturePwdFlag: TThostFtdcFuturePwdFlagType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub FutureAccPwd: TThostFtdcFutureAccPwdType,
-    #[doc = "ת�˽��"]
+    #[doc = "转账金额"]
     pub TradeAmt: TThostFtdcMoneyType,
-    #[doc = "�ͻ�������"]
+    #[doc = "客户手续费"]
     pub CustFee: TThostFtdcMoneyType,
-    #[doc = "���\u{5a3}�RMB-����� USD-��Բ HKD-��Ԫ"]
+    #[doc = "币种：RMB-人民币 USD-美圆 HKD-港元"]
     pub CurrencyCode: TThostFtdcCurrencyCodeType,
 }
-#[doc = "�����ʽ�ת�ڻ�������Ӧ"]
+#[doc = "银行资金转期货请求响应"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTransferBankToFutureRspField {
-    #[doc = "��Ӧ����"]
+    #[doc = "响应代码"]
     pub RetCode: TThostFtdcRetCodeType,
-    #[doc = "��Ӧ��Ϣ"]
+    #[doc = "响应信息"]
     pub RetInfo: TThostFtdcRetInfoType,
-    #[doc = "�ʽ��˻�"]
+    #[doc = "资金账户"]
     pub FutureAccount: TThostFtdcAccountIDType,
-    #[doc = "ת�ʽ��"]
+    #[doc = "转帐金额"]
     pub TradeAmt: TThostFtdcMoneyType,
-    #[doc = "Ӧ�տͻ�������"]
+    #[doc = "应收客户手续费"]
     pub CustFee: TThostFtdcMoneyType,
-    #[doc = "����"]
+    #[doc = "币种"]
     pub CurrencyCode: TThostFtdcCurrencyCodeType,
 }
 impl Default for CThostFtdcTransferBankToFutureRspField {
@@ -2955,38 +2955,38 @@ impl Default for CThostFtdcTransferBankToFutureRspField {
         }
     }
 }
-#[doc = "�ڻ��ʽ�ת��������TradeCode=202002"]
+#[doc = "期货资金转银行请求，TradeCode=202002"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcTransferFutureToBankReqField {
-    #[doc = "�ڻ��ʽ��˻�"]
+    #[doc = "期货资金账户"]
     pub FutureAccount: TThostFtdcAccountIDType,
-    #[doc = "�����־"]
+    #[doc = "密码标志"]
     pub FuturePwdFlag: TThostFtdcFuturePwdFlagType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub FutureAccPwd: TThostFtdcFutureAccPwdType,
-    #[doc = "ת�˽��"]
+    #[doc = "转账金额"]
     pub TradeAmt: TThostFtdcMoneyType,
-    #[doc = "�ͻ�������"]
+    #[doc = "客户手续费"]
     pub CustFee: TThostFtdcMoneyType,
-    #[doc = "���\u{5a3}�RMB-����� USD-��Բ HKD-��Ԫ"]
+    #[doc = "币种：RMB-人民币 USD-美圆 HKD-港元"]
     pub CurrencyCode: TThostFtdcCurrencyCodeType,
 }
-#[doc = "�ڻ��ʽ�ת����������Ӧ"]
+#[doc = "期货资金转银行请求响应"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTransferFutureToBankRspField {
-    #[doc = "��Ӧ����"]
+    #[doc = "响应代码"]
     pub RetCode: TThostFtdcRetCodeType,
-    #[doc = "��Ӧ��Ϣ"]
+    #[doc = "响应信息"]
     pub RetInfo: TThostFtdcRetInfoType,
-    #[doc = "�ʽ��˻�"]
+    #[doc = "资金账户"]
     pub FutureAccount: TThostFtdcAccountIDType,
-    #[doc = "ת�ʽ��"]
+    #[doc = "转帐金额"]
     pub TradeAmt: TThostFtdcMoneyType,
-    #[doc = "Ӧ�տͻ�������"]
+    #[doc = "应收客户手续费"]
     pub CustFee: TThostFtdcMoneyType,
-    #[doc = "����"]
+    #[doc = "币种"]
     pub CurrencyCode: TThostFtdcCurrencyCodeType,
 }
 impl Default for CThostFtdcTransferFutureToBankRspField {
@@ -2998,36 +2998,36 @@ impl Default for CThostFtdcTransferFutureToBankRspField {
         }
     }
 }
-#[doc = "��ѯ�����ʽ�����TradeCode=204002"]
+#[doc = "查询银行资金请求，TradeCode=204002"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcTransferQryBankReqField {
-    #[doc = "�ڻ��ʽ��˻�"]
+    #[doc = "期货资金账户"]
     pub FutureAccount: TThostFtdcAccountIDType,
-    #[doc = "�����־"]
+    #[doc = "密码标志"]
     pub FuturePwdFlag: TThostFtdcFuturePwdFlagType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub FutureAccPwd: TThostFtdcFutureAccPwdType,
-    #[doc = "���\u{5a3}�RMB-����� USD-��Բ HKD-��Ԫ"]
+    #[doc = "币种：RMB-人民币 USD-美圆 HKD-港元"]
     pub CurrencyCode: TThostFtdcCurrencyCodeType,
 }
-#[doc = "��ѯ�����ʽ�������Ӧ"]
+#[doc = "查询银行资金请求响应"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTransferQryBankRspField {
-    #[doc = "��Ӧ����"]
+    #[doc = "响应代码"]
     pub RetCode: TThostFtdcRetCodeType,
-    #[doc = "��Ӧ��Ϣ"]
+    #[doc = "响应信息"]
     pub RetInfo: TThostFtdcRetInfoType,
-    #[doc = "�ʽ��˻�"]
+    #[doc = "资金账户"]
     pub FutureAccount: TThostFtdcAccountIDType,
-    #[doc = "�������"]
+    #[doc = "银行余额"]
     pub TradeAmt: TThostFtdcMoneyType,
-    #[doc = "���п������"]
+    #[doc = "银行可用余额"]
     pub UseAmt: TThostFtdcMoneyType,
-    #[doc = "���п�ȡ���"]
+    #[doc = "银行可取余额"]
     pub FetchAmt: TThostFtdcMoneyType,
-    #[doc = "����"]
+    #[doc = "币种"]
     pub CurrencyCode: TThostFtdcCurrencyCodeType,
 }
 impl Default for CThostFtdcTransferQryBankRspField {
@@ -3039,44 +3039,44 @@ impl Default for CThostFtdcTransferQryBankRspField {
         }
     }
 }
-#[doc = "��ѯ���н�����ϸ����TradeCode=204999"]
+#[doc = "查询银行交易明细请求，TradeCode=204999"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcTransferQryDetailReqField {
-    #[doc = "�ڻ��ʽ��˻�"]
+    #[doc = "期货资金账户"]
     pub FutureAccount: TThostFtdcAccountIDType,
 }
-#[doc = "��ѯ���н�����ϸ������Ӧ"]
+#[doc = "查询银行交易明细请求响应"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTransferQryDetailRspField {
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "���״���"]
+    #[doc = "交易代码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "�ڻ���ˮ��"]
+    #[doc = "期货流水号"]
     pub FutureSerial: TThostFtdcTradeSerialNoType,
-    #[doc = "�ڻ���˾����"]
+    #[doc = "期货公司代码"]
     pub FutureID: TThostFtdcFutureIDType,
-    #[doc = "�ʽ��ʺ�"]
+    #[doc = "资金帐号"]
     pub FutureAccount: TThostFtdcFutureAccountType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcTradeSerialNoType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з����Ĵ���"]
+    #[doc = "银行分中心代码"]
     pub BankBrchID: TThostFtdcBankBrchIDType,
-    #[doc = "�����˺�"]
+    #[doc = "银行账号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub CertCode: TThostFtdcCertCodeType,
-    #[doc = "���Ҵ���"]
+    #[doc = "货币代码"]
     pub CurrencyCode: TThostFtdcCurrencyCodeType,
-    #[doc = "�������"]
+    #[doc = "发生金额"]
     pub TxAmount: TThostFtdcMoneyType,
-    #[doc = "��Ч��־"]
+    #[doc = "有效标志"]
     pub Flag: TThostFtdcTransferValidFlagType,
 }
 impl Default for CThostFtdcTransferQryDetailRspField {
@@ -3088,13 +3088,13 @@ impl Default for CThostFtdcTransferQryDetailRspField {
         }
     }
 }
-#[doc = "��Ӧ��Ϣ"]
+#[doc = "响应信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRspInfoField {
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
 }
 impl Default for CThostFtdcRspInfoField {
@@ -3106,15 +3106,15 @@ impl Default for CThostFtdcRspInfoField {
         }
     }
 }
-#[doc = "������"]
+#[doc = "交易所"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "����������"]
+    #[doc = "交易所名称"]
     pub ExchangeName: TThostFtdcExchangeNameType,
-    #[doc = "����������"]
+    #[doc = "交易所属性"]
     pub ExchangeProperty: TThostFtdcExchangePropertyType,
 }
 impl Default for CThostFtdcExchangeField {
@@ -3126,51 +3126,51 @@ impl Default for CThostFtdcExchangeField {
         }
     }
 }
-#[doc = "��Ʒ"]
+#[doc = "产品"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcProductField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品名称"]
     pub ProductName: TThostFtdcProductNameType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品类型"]
     pub ProductClass: TThostFtdcProductClassType,
-    #[doc = "��Լ��������"]
+    #[doc = "合约数量乘数"]
     pub VolumeMultiple: TThostFtdcVolumeMultipleType,
-    #[doc = "��С�䶯��λ"]
+    #[doc = "最小变动价位"]
     pub PriceTick: TThostFtdcPriceType,
-    #[doc = "�м۵�����µ���"]
+    #[doc = "市价单最大下单量"]
     pub MaxMarketOrderVolume: TThostFtdcVolumeType,
-    #[doc = "�м۵���С�µ���"]
+    #[doc = "市价单最小下单量"]
     pub MinMarketOrderVolume: TThostFtdcVolumeType,
-    #[doc = "�\u{7bc}۵�����µ���"]
+    #[doc = "限价单最大下单量"]
     pub MaxLimitOrderVolume: TThostFtdcVolumeType,
-    #[doc = "�\u{7bc}۵���С�µ���"]
+    #[doc = "限价单最小下单量"]
     pub MinLimitOrderVolume: TThostFtdcVolumeType,
-    #[doc = "�\u{5b2}�����"]
+    #[doc = "持仓类型"]
     pub PositionType: TThostFtdcPositionTypeType,
-    #[doc = "�\u{5b2}���������"]
+    #[doc = "持仓日期类型"]
     pub PositionDateType: TThostFtdcPositionDateTypeType,
-    #[doc = "ƽ�\u{5b4}�������"]
+    #[doc = "平仓处理类型"]
     pub CloseDealType: TThostFtdcCloseDealTypeType,
-    #[doc = "���ױ�������"]
+    #[doc = "交易币种类型"]
     pub TradeCurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "��Ѻ�ʽ���÷�Χ"]
+    #[doc = "质押资金可用范围"]
     pub MortgageFundUseRange: TThostFtdcMortgageFundUseRangeType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Լ������Ʒ����"]
+    #[doc = "合约基础商品乘数"]
     pub UnderlyingMultiple: TThostFtdcUnderlyingMultipleType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
-    #[doc = "��������Ʒ����"]
+    #[doc = "交易所产品代码"]
     pub ExchangeProductID: TThostFtdcInstrumentIDType,
-    #[doc = "��������������"]
+    #[doc = "开仓量限制粒度"]
     pub OpenLimitControlLevel: TThostFtdcOpenLimitControlLevelType,
-    #[doc = "����Ƶ�ʿ�������"]
+    #[doc = "报单频率控制粒度"]
     pub OrderFreqControlLevel: TThostFtdcOrderFreqControlLevelType,
 }
 impl Default for CThostFtdcProductField {
@@ -3182,79 +3182,79 @@ impl Default for CThostFtdcProductField {
         }
     }
 }
-#[doc = "��Լ"]
+#[doc = "合约"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约名称"]
     pub InstrumentName: TThostFtdcInstrumentNameType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve3: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品类型"]
     pub ProductClass: TThostFtdcProductClassType,
-    #[doc = "�������"]
+    #[doc = "交割年份"]
     pub DeliveryYear: TThostFtdcYearType,
-    #[doc = "������"]
+    #[doc = "交割月"]
     pub DeliveryMonth: TThostFtdcMonthType,
-    #[doc = "�м۵�����µ���"]
+    #[doc = "市价单最大下单量"]
     pub MaxMarketOrderVolume: TThostFtdcVolumeType,
-    #[doc = "�м۵���С�µ���"]
+    #[doc = "市价单最小下单量"]
     pub MinMarketOrderVolume: TThostFtdcVolumeType,
-    #[doc = "�\u{7bc}۵�����µ���"]
+    #[doc = "限价单最大下单量"]
     pub MaxLimitOrderVolume: TThostFtdcVolumeType,
-    #[doc = "�\u{7bc}۵���С�µ���"]
+    #[doc = "限价单最小下单量"]
     pub MinLimitOrderVolume: TThostFtdcVolumeType,
-    #[doc = "��Լ��������"]
+    #[doc = "合约数量乘数"]
     pub VolumeMultiple: TThostFtdcVolumeMultipleType,
-    #[doc = "��С�䶯��λ"]
+    #[doc = "最小变动价位"]
     pub PriceTick: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "创建日"]
     pub CreateDate: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "上市日"]
     pub OpenDate: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "到期日"]
     pub ExpireDate: TThostFtdcDateType,
-    #[doc = "��ʼ������"]
+    #[doc = "开始交割日"]
     pub StartDelivDate: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "结束交割日"]
     pub EndDelivDate: TThostFtdcDateType,
-    #[doc = "��Լ��������״\u{32c}"]
+    #[doc = "合约生命周期状态"]
     pub InstLifePhase: TThostFtdcInstLifePhaseType,
-    #[doc = "��ǰ�Ƿ���"]
+    #[doc = "当前是否交易"]
     pub IsTrading: TThostFtdcBoolType,
-    #[doc = "�\u{5b2}�����"]
+    #[doc = "持仓类型"]
     pub PositionType: TThostFtdcPositionTypeType,
-    #[doc = "�\u{5b2}���������"]
+    #[doc = "持仓日期类型"]
     pub PositionDateType: TThostFtdcPositionDateTypeType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "多头保证金率"]
     pub LongMarginRatio: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "空头保证金率"]
     pub ShortMarginRatio: TThostFtdcRatioType,
-    #[doc = "�Ƿ�ʹ�ô�\u{ed65}�\u{7f1}�\u{5a4}���㷨"]
+    #[doc = "是否使用大额单边保证金算法"]
     pub MaxMarginSideAlgorithm: TThostFtdcMaxMarginSideAlgorithmType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve4: TThostFtdcOldInstrumentIDType,
-    #[doc = "\u{5b4}�м�"]
+    #[doc = "执行价"]
     pub StrikePrice: TThostFtdcPriceType,
-    #[doc = "��Ȩ����"]
+    #[doc = "期权类型"]
     pub OptionsType: TThostFtdcOptionsTypeType,
-    #[doc = "��Լ������Ʒ����"]
+    #[doc = "合约基础商品乘数"]
     pub UnderlyingMultiple: TThostFtdcUnderlyingMultipleType,
-    #[doc = "�������"]
+    #[doc = "组合类型"]
     pub CombinationType: TThostFtdcCombinationTypeType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
-    #[doc = "������Ʒ����"]
+    #[doc = "基础商品代码"]
     pub UnderlyingInstrID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcInstrumentField {
@@ -3266,17 +3266,17 @@ impl Default for CThostFtdcInstrumentField {
         }
     }
 }
-#[doc = "���\u{379}�˾"]
+#[doc = "经纪公司"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{379}�˾���"]
+    #[doc = "经纪公司简称"]
     pub BrokerAbbr: TThostFtdcBrokerAbbrType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司名称"]
     pub BrokerName: TThostFtdcBrokerNameType,
-    #[doc = "�Ƿ��Ծ"]
+    #[doc = "是否活跃"]
     pub IsActive: TThostFtdcBoolType,
 }
 impl Default for CThostFtdcBrokerField {
@@ -3288,27 +3288,27 @@ impl Default for CThostFtdcBrokerField {
         }
     }
 }
-#[doc = "����������Ա"]
+#[doc = "交易所交易员"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTraderField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "��װ����"]
+    #[doc = "安装数量"]
     pub InstallCount: TThostFtdcInstallCountType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "����ʱѡ��ϯλ�㷨"]
+    #[doc = "撤单时选择席位算法"]
     pub OrderCancelAlg: TThostFtdcOrderCancelAlgType,
-    #[doc = "���ױ��\u{330}�װ����"]
+    #[doc = "交易报盘安装数量"]
     pub TradeInstallCount: TThostFtdcInstallCountType,
-    #[doc = "���鱨�\u{330}�װ����"]
+    #[doc = "行情报盘安装数量"]
     pub MDInstallCount: TThostFtdcInstallCountType,
 }
 impl Default for CThostFtdcTraderField {
@@ -3320,39 +3320,39 @@ impl Default for CThostFtdcTraderField {
         }
     }
 }
-#[doc = "Ͷ����"]
+#[doc = "投资者"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorField {
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���߷������"]
+    #[doc = "投资者分组代码"]
     pub InvestorGroupID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ��������"]
+    #[doc = "投资者名称"]
     pub InvestorName: TThostFtdcPartyNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdentifiedCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�Ƿ��Ծ"]
+    #[doc = "是否活跃"]
     pub IsActive: TThostFtdcBoolType,
-    #[doc = "��ϵ�绰"]
+    #[doc = "联系电话"]
     pub Telephone: TThostFtdcTelephoneType,
-    #[doc = "\u{368}Ѷ��\u{5b7}"]
+    #[doc = "通讯地址"]
     pub Address: TThostFtdcAddressType,
-    #[doc = "��������"]
+    #[doc = "开户日期"]
     pub OpenDate: TThostFtdcDateType,
-    #[doc = "�\u{5bb}�"]
+    #[doc = "手机"]
     pub Mobile: TThostFtdcMobileType,
-    #[doc = "��������ģ�����"]
+    #[doc = "手续费率模板代码"]
     pub CommModelID: TThostFtdcInvestorIDType,
-    #[doc = "��\u{5a4}����ģ�����"]
+    #[doc = "保证金率模板代码"]
     pub MarginModelID: TThostFtdcInvestorIDType,
-    #[doc = "�Ƿ�Ƶ�ʿ���"]
+    #[doc = "是否频率控制"]
     pub IsOrderFreq: TThostFtdcEnumBoolType,
-    #[doc = "�Ƿ\u{7fab2}�����"]
+    #[doc = "是否开仓限制"]
     pub IsOpenVolLimit: TThostFtdcEnumBoolType,
 }
 impl Default for CThostFtdcInvestorField {
@@ -3364,53 +3364,53 @@ impl Default for CThostFtdcInvestorField {
         }
     }
 }
-#[doc = "���ױ���"]
+#[doc = "交易编码"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcTradingCodeField {
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "�Ƿ��Ծ"]
+    #[doc = "是否活跃"]
     pub IsActive: TThostFtdcBoolType,
-    #[doc = "���ױ�������"]
+    #[doc = "交易编码类型"]
     pub ClientIDType: TThostFtdcClientIDTypeType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "ҵ������"]
+    #[doc = "业务类型"]
     pub BizType: TThostFtdcBizTypeType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
 }
-#[doc = "��Ա����;��\u{379}�˾������ձ�"]
+#[doc = "会员编码和经纪公司编码对照表"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcPartBrokerField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�Ƿ��Ծ"]
+    #[doc = "是否活跃"]
     pub IsActive: TThostFtdcBoolType,
 }
-#[doc = "�����û�"]
+#[doc = "管理用户"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSuperUserField {
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户名称"]
     pub UserName: TThostFtdcUserNameType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "�Ƿ��Ծ"]
+    #[doc = "是否活跃"]
     pub IsActive: TThostFtdcBoolType,
 }
 impl Default for CThostFtdcSuperUserField {
@@ -3422,24 +3422,24 @@ impl Default for CThostFtdcSuperUserField {
         }
     }
 }
-#[doc = "�����û�����Ȩ��"]
+#[doc = "管理用户功能权限"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSuperUserFunctionField {
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "���\u{734}���"]
+    #[doc = "功能代码"]
     pub FunctionCode: TThostFtdcFunctionCodeType,
 }
-#[doc = "Ͷ������"]
+#[doc = "投资者组"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorGroupField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���߷������"]
+    #[doc = "投资者分组代码"]
     pub InvestorGroupID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ���߷�������"]
+    #[doc = "投资者分组名称"]
     pub InvestorGroupName: TThostFtdcInvestorGroupNameType,
 }
 impl Default for CThostFtdcInvestorGroupField {
@@ -3451,212 +3451,212 @@ impl Default for CThostFtdcInvestorGroupField {
         }
     }
 }
-#[doc = "�ʽ��˻�"]
+#[doc = "资金账户"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcTradingAccountField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ϴ���Ѻ���"]
+    #[doc = "上次质押金额"]
     pub PreMortgage: TThostFtdcMoneyType,
-    #[doc = "�ϴ����ö��"]
+    #[doc = "上次信用额度"]
     pub PreCredit: TThostFtdcMoneyType,
-    #[doc = "�ϴδ���"]
+    #[doc = "上次存款额"]
     pub PreDeposit: TThostFtdcMoneyType,
-    #[doc = "�ϴν���\u{5fc}����"]
+    #[doc = "上次结算准备金"]
     pub PreBalance: TThostFtdcMoneyType,
-    #[doc = "�ϴ�ռ�õı�\u{5a4}��"]
+    #[doc = "上次占用的保证金"]
     pub PreMargin: TThostFtdcMoneyType,
-    #[doc = "��Ϣ����"]
+    #[doc = "利息基数"]
     pub InterestBase: TThostFtdcMoneyType,
-    #[doc = "��Ϣ����"]
+    #[doc = "利息收入"]
     pub Interest: TThostFtdcMoneyType,
-    #[doc = "�����"]
+    #[doc = "入金金额"]
     pub Deposit: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "出金金额"]
     pub Withdraw: TThostFtdcMoneyType,
-    #[doc = "����ı�\u{5a4}��"]
+    #[doc = "冻结的保证金"]
     pub FrozenMargin: TThostFtdcMoneyType,
-    #[doc = "������ʽ�"]
+    #[doc = "冻结的资金"]
     pub FrozenCash: TThostFtdcMoneyType,
-    #[doc = "�����������"]
+    #[doc = "冻结的手续费"]
     pub FrozenCommission: TThostFtdcMoneyType,
-    #[doc = "��ǰ��\u{5a4}���\u{736}�"]
+    #[doc = "当前保证金总额"]
     pub CurrMargin: TThostFtdcMoneyType,
-    #[doc = "�ʽ���"]
+    #[doc = "资金差额"]
     pub CashIn: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "手续费"]
     pub Commission: TThostFtdcMoneyType,
-    #[doc = "ƽ��ӯ��"]
+    #[doc = "平仓盈亏"]
     pub CloseProfit: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}�ӯ��"]
+    #[doc = "持仓盈亏"]
     pub PositionProfit: TThostFtdcMoneyType,
-    #[doc = "�ڻ�����\u{5fc}����"]
+    #[doc = "期货结算准备金"]
     pub Balance: TThostFtdcMoneyType,
-    #[doc = "�����ʽ�"]
+    #[doc = "可用资金"]
     pub Available: TThostFtdcMoneyType,
-    #[doc = "��ȡ�ʽ�"]
+    #[doc = "可取资金"]
     pub WithdrawQuota: TThostFtdcMoneyType,
-    #[doc = "����\u{5fc}����"]
+    #[doc = "基本准备金"]
     pub Reserve: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���ö��"]
+    #[doc = "信用额度"]
     pub Credit: TThostFtdcMoneyType,
-    #[doc = "��Ѻ���"]
+    #[doc = "质押金额"]
     pub Mortgage: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchangeMargin: TThostFtdcMoneyType,
-    #[doc = "Ͷ���\u{7fd}��\u{ec63}\u{5a4}��"]
+    #[doc = "投资者交割保证金"]
     pub DeliveryMargin: TThostFtdcMoneyType,
-    #[doc = "���������\u{ec63}\u{5a4}��"]
+    #[doc = "交易所交割保证金"]
     pub ExchangeDeliveryMargin: TThostFtdcMoneyType,
-    #[doc = "�����ڻ�����\u{5fc}����"]
+    #[doc = "保底期货结算准备金"]
     pub ReserveBalance: TThostFtdcMoneyType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "�ϴλ���������"]
+    #[doc = "上次货币质入金额"]
     pub PreFundMortgageIn: TThostFtdcMoneyType,
-    #[doc = "�ϴλ����ʳ����"]
+    #[doc = "上次货币质出金额"]
     pub PreFundMortgageOut: TThostFtdcMoneyType,
-    #[doc = "����������"]
+    #[doc = "货币质入金额"]
     pub FundMortgageIn: TThostFtdcMoneyType,
-    #[doc = "�����ʳ����"]
+    #[doc = "货币质出金额"]
     pub FundMortgageOut: TThostFtdcMoneyType,
-    #[doc = "������Ѻ���"]
+    #[doc = "货币质押余额"]
     pub FundMortgageAvailable: TThostFtdcMoneyType,
-    #[doc = "����Ѻ���ҽ��"]
+    #[doc = "可质押货币金额"]
     pub MortgageableFund: TThostFtdcMoneyType,
-    #[doc = "�����Ʒռ�ñ�\u{5a4}��"]
+    #[doc = "特殊产品占用保证金"]
     pub SpecProductMargin: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ���ᱣ\u{5a4}��"]
+    #[doc = "特殊产品冻结保证金"]
     pub SpecProductFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ������"]
+    #[doc = "特殊产品手续费"]
     pub SpecProductCommission: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ����������"]
+    #[doc = "特殊产品冻结手续费"]
     pub SpecProductFrozenCommission: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ�\u{5b2}�ӯ��"]
+    #[doc = "特殊产品持仓盈亏"]
     pub SpecProductPositionProfit: TThostFtdcMoneyType,
-    #[doc = "�����Ʒƽ��ӯ��"]
+    #[doc = "特殊产品平仓盈亏"]
     pub SpecProductCloseProfit: TThostFtdcMoneyType,
-    #[doc = "���ݳ\u{5b2}�ӯ���㷨����������Ʒ�\u{5b2}�ӯ��"]
+    #[doc = "根据持仓盈亏算法计算的特殊产品持仓盈亏"]
     pub SpecProductPositionProfitByAlg: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ��������\u{5a4}��"]
+    #[doc = "特殊产品交易所保证金"]
     pub SpecProductExchangeMargin: TThostFtdcMoneyType,
-    #[doc = "ҵ������"]
+    #[doc = "业务类型"]
     pub BizType: TThostFtdcBizTypeType,
-    #[doc = "��ʱ���㶳����"]
+    #[doc = "延时换汇冻结金额"]
     pub FrozenSwap: TThostFtdcMoneyType,
-    #[doc = "ʣ�\u{efb}����"]
+    #[doc = "剩余换汇额度"]
     pub RemainSwap: TThostFtdcMoneyType,
 }
-#[doc = "Ͷ���\u{7f3}\u{5b2}�"]
+#[doc = "投资者持仓"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorPositionField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "�\u{5b2}\u{5b6}�շ���"]
+    #[doc = "持仓多空方向"]
     pub PosiDirection: TThostFtdcPosiDirectionType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "�\u{5b2}�����"]
+    #[doc = "持仓日期"]
     pub PositionDate: TThostFtdcPositionDateType,
-    #[doc = "���ճ\u{5b2}�"]
+    #[doc = "上日持仓"]
     pub YdPosition: TThostFtdcVolumeType,
-    #[doc = "���ճ\u{5b2}�"]
+    #[doc = "今日持仓"]
     pub Position: TThostFtdcVolumeType,
-    #[doc = "��ͷ����"]
+    #[doc = "多头冻结"]
     pub LongFrozen: TThostFtdcVolumeType,
-    #[doc = "��ͷ����"]
+    #[doc = "空头冻结"]
     pub ShortFrozen: TThostFtdcVolumeType,
-    #[doc = "���\u{5b6}�����"]
+    #[doc = "开仓冻结金额"]
     pub LongFrozenAmount: TThostFtdcMoneyType,
-    #[doc = "���\u{5b6}�����"]
+    #[doc = "开仓冻结金额"]
     pub ShortFrozenAmount: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "开仓量"]
     pub OpenVolume: TThostFtdcVolumeType,
-    #[doc = "ƽ����"]
+    #[doc = "平仓量"]
     pub CloseVolume: TThostFtdcVolumeType,
-    #[doc = "���\u{5bd}��"]
+    #[doc = "开仓金额"]
     pub OpenAmount: TThostFtdcMoneyType,
-    #[doc = "ƽ�\u{5bd}��"]
+    #[doc = "平仓金额"]
     pub CloseAmount: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}\u{5b3}ɱ�"]
+    #[doc = "持仓成本"]
     pub PositionCost: TThostFtdcMoneyType,
-    #[doc = "�ϴ�ռ�õı�\u{5a4}��"]
+    #[doc = "上次占用的保证金"]
     pub PreMargin: TThostFtdcMoneyType,
-    #[doc = "ռ�õı�\u{5a4}��"]
+    #[doc = "占用的保证金"]
     pub UseMargin: TThostFtdcMoneyType,
-    #[doc = "����ı�\u{5a4}��"]
+    #[doc = "冻结的保证金"]
     pub FrozenMargin: TThostFtdcMoneyType,
-    #[doc = "������ʽ�"]
+    #[doc = "冻结的资金"]
     pub FrozenCash: TThostFtdcMoneyType,
-    #[doc = "�����������"]
+    #[doc = "冻结的手续费"]
     pub FrozenCommission: TThostFtdcMoneyType,
-    #[doc = "�ʽ���"]
+    #[doc = "资金差额"]
     pub CashIn: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "手续费"]
     pub Commission: TThostFtdcMoneyType,
-    #[doc = "ƽ��ӯ��"]
+    #[doc = "平仓盈亏"]
     pub CloseProfit: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}�ӯ��"]
+    #[doc = "持仓盈亏"]
     pub PositionProfit: TThostFtdcMoneyType,
-    #[doc = "�ϴν����"]
+    #[doc = "上次结算价"]
     pub PreSettlementPrice: TThostFtdcPriceType,
-    #[doc = "���ν����"]
+    #[doc = "本次结算价"]
     pub SettlementPrice: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���\u{5b3}ɱ�"]
+    #[doc = "开仓成本"]
     pub OpenCost: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchangeMargin: TThostFtdcMoneyType,
-    #[doc = "��ϳɽ��γɵĳ\u{5b2}�"]
+    #[doc = "组合成交形成的持仓"]
     pub CombPosition: TThostFtdcVolumeType,
-    #[doc = "��϶�ͷ����"]
+    #[doc = "组合多头冻结"]
     pub CombLongFrozen: TThostFtdcVolumeType,
-    #[doc = "��Ͽ�ͷ����"]
+    #[doc = "组合空头冻结"]
     pub CombShortFrozen: TThostFtdcVolumeType,
-    #[doc = "���ն���ƽ��ӯ��"]
+    #[doc = "逐日盯市平仓盈亏"]
     pub CloseProfitByDate: TThostFtdcMoneyType,
-    #[doc = "��ʶԳ�ƽ��ӯ��"]
+    #[doc = "逐笔对冲平仓盈亏"]
     pub CloseProfitByTrade: TThostFtdcMoneyType,
-    #[doc = "���ճ\u{5b2}�"]
+    #[doc = "今日持仓"]
     pub TodayPosition: TThostFtdcVolumeType,
-    #[doc = "��\u{5a4}����"]
+    #[doc = "保证金率"]
     pub MarginRateByMoney: TThostFtdcRatioType,
-    #[doc = "��\u{5a4}����(������)"]
+    #[doc = "保证金率(按手数)"]
     pub MarginRateByVolume: TThostFtdcRatioType,
-    #[doc = "\u{5b4}�ж���"]
+    #[doc = "执行冻结"]
     pub StrikeFrozen: TThostFtdcVolumeType,
-    #[doc = "\u{5b4}�ж�����"]
+    #[doc = "执行冻结金额"]
     pub StrikeFrozenAmount: TThostFtdcMoneyType,
-    #[doc = "����\u{5b4}�ж���"]
+    #[doc = "放弃执行冻结"]
     pub AbandonFrozen: TThostFtdcVolumeType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "\u{5b4}�ж�������"]
+    #[doc = "执行冻结的昨仓"]
     pub YdStrikeFrozen: TThostFtdcVolumeType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "�\u{5b2}\u{5b3}ɱ���\u{5b5}"]
+    #[doc = "持仓成本差值"]
     pub PositionCostOffset: TThostFtdcMoneyType,
-    #[doc = "tas�\u{5b2}�����"]
+    #[doc = "tas持仓手数"]
     pub TasPosition: TThostFtdcVolumeType,
-    #[doc = "tas�\u{5b2}\u{5b3}ɱ�"]
+    #[doc = "tas持仓成本"]
     pub TasPositionCost: TThostFtdcMoneyType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcInvestorPositionField {
@@ -3668,35 +3668,35 @@ impl Default for CThostFtdcInvestorPositionField {
         }
     }
 }
-#[doc = "��Լ��\u{5a4}����"]
+#[doc = "合约保证金率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentMarginRateField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "多头保证金率"]
     pub LongMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "多头保证金费"]
     pub LongMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "空头保证金率"]
     pub ShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "空头保证金费"]
     pub ShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "�Ƿ���Խ�������ȡ"]
+    #[doc = "是否相对交易所收取"]
     pub IsRelative: TThostFtdcBoolType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcInstrumentMarginRateField {
@@ -3708,37 +3708,37 @@ impl Default for CThostFtdcInstrumentMarginRateField {
         }
     }
 }
-#[doc = "��Լ��������"]
+#[doc = "合约手续费率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentCommissionRateField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������������"]
+    #[doc = "开仓手续费率"]
     pub OpenRatioByMoney: TThostFtdcRatioType,
-    #[doc = "����������"]
+    #[doc = "开仓手续费"]
     pub OpenRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平仓手续费率"]
     pub CloseRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平仓手续费"]
     pub CloseRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平今手续费率"]
     pub CloseTodayRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平今手续费"]
     pub CloseTodayRatioByVolume: TThostFtdcRatioType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "ҵ������"]
+    #[doc = "业务类型"]
     pub BizType: TThostFtdcBizTypeType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcInstrumentCommissionRateField {
@@ -3750,105 +3750,105 @@ impl Default for CThostFtdcInstrumentCommissionRateField {
         }
     }
 }
-#[doc = "�������"]
+#[doc = "深度行情"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcDepthMarketDataField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "���¼�"]
+    #[doc = "最新价"]
     pub LastPrice: TThostFtdcPriceType,
-    #[doc = "�ϴν����"]
+    #[doc = "上次结算价"]
     pub PreSettlementPrice: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "昨收盘"]
     pub PreClosePrice: TThostFtdcPriceType,
-    #[doc = "��\u{5b2}���"]
+    #[doc = "昨持仓量"]
     pub PreOpenInterest: TThostFtdcLargeVolumeType,
-    #[doc = "����"]
+    #[doc = "今开盘"]
     pub OpenPrice: TThostFtdcPriceType,
-    #[doc = "��\u{7fc}�"]
+    #[doc = "最高价"]
     pub HighestPrice: TThostFtdcPriceType,
-    #[doc = "��ͼ�"]
+    #[doc = "最低价"]
     pub LowestPrice: TThostFtdcPriceType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "�ɽ����"]
+    #[doc = "成交金额"]
     pub Turnover: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}���"]
+    #[doc = "持仓量"]
     pub OpenInterest: TThostFtdcLargeVolumeType,
-    #[doc = "������"]
+    #[doc = "今收盘"]
     pub ClosePrice: TThostFtdcPriceType,
-    #[doc = "���ν����"]
+    #[doc = "本次结算价"]
     pub SettlementPrice: TThostFtdcPriceType,
-    #[doc = "��\u{363}���"]
+    #[doc = "涨停板价"]
     pub UpperLimitPrice: TThostFtdcPriceType,
-    #[doc = "��\u{363}���"]
+    #[doc = "跌停板价"]
     pub LowerLimitPrice: TThostFtdcPriceType,
-    #[doc = "����ʵ��"]
+    #[doc = "昨虚实度"]
     pub PreDelta: TThostFtdcRatioType,
-    #[doc = "����ʵ��"]
+    #[doc = "今虚实度"]
     pub CurrDelta: TThostFtdcRatioType,
-    #[doc = "����\u{7b8}�ʱ��"]
+    #[doc = "最后修改时间"]
     pub UpdateTime: TThostFtdcTimeType,
-    #[doc = "����\u{7b8}ĺ���"]
+    #[doc = "最后修改毫秒"]
     pub UpdateMillisec: TThostFtdcMillisecType,
-    #[doc = "�����һ"]
+    #[doc = "申买价一"]
     pub BidPrice1: TThostFtdcPriceType,
-    #[doc = "������һ"]
+    #[doc = "申买量一"]
     pub BidVolume1: TThostFtdcVolumeType,
-    #[doc = "������һ"]
+    #[doc = "申卖价一"]
     pub AskPrice1: TThostFtdcPriceType,
-    #[doc = "������һ"]
+    #[doc = "申卖量一"]
     pub AskVolume1: TThostFtdcVolumeType,
-    #[doc = "����۶�"]
+    #[doc = "申买价二"]
     pub BidPrice2: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申买量二"]
     pub BidVolume2: TThostFtdcVolumeType,
-    #[doc = "�����۶�"]
+    #[doc = "申卖价二"]
     pub AskPrice2: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申卖量二"]
     pub AskVolume2: TThostFtdcVolumeType,
-    #[doc = "�������"]
+    #[doc = "申买价三"]
     pub BidPrice3: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申买量三"]
     pub BidVolume3: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "申卖价三"]
     pub AskPrice3: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申卖量三"]
     pub AskVolume3: TThostFtdcVolumeType,
-    #[doc = "�������"]
+    #[doc = "申买价四"]
     pub BidPrice4: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申买量四"]
     pub BidVolume4: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "申卖价四"]
     pub AskPrice4: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申卖量四"]
     pub AskVolume4: TThostFtdcVolumeType,
-    #[doc = "�������"]
+    #[doc = "申买价五"]
     pub BidPrice5: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申买量五"]
     pub BidVolume5: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "申卖价五"]
     pub AskPrice5: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申卖量五"]
     pub AskVolume5: TThostFtdcVolumeType,
-    #[doc = "���վ���"]
+    #[doc = "当日均价"]
     pub AveragePrice: TThostFtdcPriceType,
-    #[doc = "ҵ������"]
+    #[doc = "业务日期"]
     pub ActionDay: TThostFtdcDateType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "�ϴ���"]
+    #[doc = "上带价"]
     pub BandingUpperPrice: TThostFtdcPriceType,
-    #[doc = "�´���"]
+    #[doc = "下带价"]
     pub BandingLowerPrice: TThostFtdcPriceType,
 }
 impl Default for CThostFtdcDepthMarketDataField {
@@ -3860,21 +3860,21 @@ impl Default for CThostFtdcDepthMarketDataField {
         }
     }
 }
-#[doc = "Ͷ���ߺ�Լ����Ȩ��"]
+#[doc = "投资者合约交易权限"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentTradingRightField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����Ȩ��"]
+    #[doc = "交易权限"]
     pub TradingRight: TThostFtdcTradingRightType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcInstrumentTradingRightField {
@@ -3886,23 +3886,23 @@ impl Default for CThostFtdcInstrumentTradingRightField {
         }
     }
 }
-#[doc = "���\u{379}�˾�û�"]
+#[doc = "经纪公司用户"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerUserField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户名称"]
     pub UserName: TThostFtdcUserNameType,
-    #[doc = "�û�����"]
+    #[doc = "用户类型"]
     pub UserType: TThostFtdcUserTypeType,
-    #[doc = "�Ƿ��Ծ"]
+    #[doc = "是否活跃"]
     pub IsActive: TThostFtdcBoolType,
-    #[doc = "�Ƿ�ʹ������"]
+    #[doc = "是否使用令牌"]
     pub IsUsingOTP: TThostFtdcBoolType,
-    #[doc = "�Ƿ�ǿ���ն���\u{5a4}"]
+    #[doc = "是否强制终端认证"]
     pub IsAuthForce: TThostFtdcBoolType,
 }
 impl Default for CThostFtdcBrokerUserField {
@@ -3914,23 +3914,23 @@ impl Default for CThostFtdcBrokerUserField {
         }
     }
 }
-#[doc = "���\u{379}�˾�û�����"]
+#[doc = "经纪公司用户口令"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerUserPasswordField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "�ϴ��\u{7b8}�ʱ��"]
+    #[doc = "上次修改时间"]
     pub LastUpdateTime: TThostFtdcDateTimeType,
-    #[doc = "�ϴε�½ʱ��"]
+    #[doc = "上次登陆时间"]
     pub LastLoginTime: TThostFtdcDateTimeType,
-    #[doc = "�������ʱ��"]
+    #[doc = "密码过期时间"]
     pub ExpireDate: TThostFtdcDateType,
-    #[doc = "���������ʱ��"]
+    #[doc = "弱密码过期时间"]
     pub WeakExpireDate: TThostFtdcDateType,
 }
 impl Default for CThostFtdcBrokerUserPasswordField {
@@ -3942,60 +3942,60 @@ impl Default for CThostFtdcBrokerUserPasswordField {
         }
     }
 }
-#[doc = "���\u{379}�˾�û�����Ȩ��"]
+#[doc = "经纪公司用户功能权限"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcBrokerUserFunctionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "���\u{379}�˾���\u{734}���"]
+    #[doc = "经纪公司功能代码"]
     pub BrokerFunctionCode: TThostFtdcBrokerFunctionCodeType,
 }
-#[doc = "����������Ա���\u{33b}�"]
+#[doc = "交易所交易员报盘机"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTraderOfferField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "���ر������"]
+    #[doc = "本地报单编号"]
     pub OrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������Ա����״\u{32c}"]
+    #[doc = "交易所交易员连接状态"]
     pub TraderConnectStatus: TThostFtdcTraderConnectStatusType,
-    #[doc = "�����������������"]
+    #[doc = "发出连接请求的日期"]
     pub ConnectRequestDate: TThostFtdcDateType,
-    #[doc = "�������������ʱ��"]
+    #[doc = "发出连接请求的时间"]
     pub ConnectRequestTime: TThostFtdcTimeType,
-    #[doc = "�ϴα�������"]
+    #[doc = "上次报告日期"]
     pub LastReportDate: TThostFtdcDateType,
-    #[doc = "�ϴα���ʱ��"]
+    #[doc = "上次报告时间"]
     pub LastReportTime: TThostFtdcTimeType,
-    #[doc = "�����������"]
+    #[doc = "完成连接日期"]
     pub ConnectDate: TThostFtdcDateType,
-    #[doc = "�������ʱ��"]
+    #[doc = "完成连接时间"]
     pub ConnectTime: TThostFtdcTimeType,
-    #[doc = "��������"]
+    #[doc = "启动日期"]
     pub StartDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "启动时间"]
     pub StartTime: TThostFtdcTimeType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��ϯλ���ɽ����"]
+    #[doc = "本席位最大成交编号"]
     pub MaxTradeID: TThostFtdcTradeIDType,
-    #[doc = "��ϯλ��\u{f1a35}�����"]
+    #[doc = "本席位最大报单备拷"]
     pub MaxOrderMessageReference: TThostFtdcReturnCodeType,
-    #[doc = "����ʱѡ��ϯλ�㷨"]
+    #[doc = "撤单时选择席位算法"]
     pub OrderCancelAlg: TThostFtdcOrderCancelAlgType,
 }
 impl Default for CThostFtdcTraderOfferField {
@@ -4007,25 +4007,25 @@ impl Default for CThostFtdcTraderOfferField {
         }
     }
 }
-#[doc = "Ͷ���\u{7fd}�����"]
+#[doc = "投资者结算结果"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSettlementInfoField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "��Ϣ����"]
+    #[doc = "消息正文"]
     pub Content: TThostFtdcContentType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
 impl Default for CThostFtdcSettlementInfoField {
@@ -4037,31 +4037,31 @@ impl Default for CThostFtdcSettlementInfoField {
         }
     }
 }
-#[doc = "��Լ��\u{5a4}���ʵ���"]
+#[doc = "合约保证金率调整"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentMarginRateAdjustField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "多头保证金率"]
     pub LongMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "多头保证金费"]
     pub LongMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "空头保证金率"]
     pub ShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "空头保证金费"]
     pub ShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "�Ƿ���Խ�������ȡ"]
+    #[doc = "是否相对交易所收取"]
     pub IsRelative: TThostFtdcBoolType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcInstrumentMarginRateAdjustField {
@@ -4073,27 +4073,27 @@ impl Default for CThostFtdcInstrumentMarginRateAdjustField {
         }
     }
 }
-#[doc = "��������\u{5a4}����"]
+#[doc = "交易所保证金率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeMarginRateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "多头保证金率"]
     pub LongMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "多头保证金费"]
     pub LongMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "空头保证金率"]
     pub ShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "空头保证金费"]
     pub ShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcExchangeMarginRateField {
@@ -4105,41 +4105,41 @@ impl Default for CThostFtdcExchangeMarginRateField {
         }
     }
 }
-#[doc = "��������\u{5a4}���ʵ���"]
+#[doc = "交易所保证金率调整"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeMarginRateAdjustField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "���潻����Ͷ���߶�ͷ��\u{5a4}����"]
+    #[doc = "跟随交易所投资者多头保证金率"]
     pub LongMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "���潻����Ͷ���߶�ͷ��\u{5a4}���"]
+    #[doc = "跟随交易所投资者多头保证金费"]
     pub LongMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "���潻����Ͷ���߿�ͷ��\u{5a4}����"]
+    #[doc = "跟随交易所投资者空头保证金率"]
     pub ShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "���潻����Ͷ���߿�ͷ��\u{5a4}���"]
+    #[doc = "跟随交易所投资者空头保证金费"]
     pub ShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��������ͷ��\u{5a4}����"]
+    #[doc = "交易所多头保证金率"]
     pub ExchLongMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��������ͷ��\u{5a4}���"]
+    #[doc = "交易所多头保证金费"]
     pub ExchLongMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��������ͷ��\u{5a4}����"]
+    #[doc = "交易所空头保证金率"]
     pub ExchShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��������ͷ��\u{5a4}���"]
+    #[doc = "交易所空头保证金费"]
     pub ExchShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "�����潻����Ͷ���߶�ͷ��\u{5a4}����"]
+    #[doc = "不跟随交易所投资者多头保证金率"]
     pub NoLongMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "�����潻����Ͷ���߶�ͷ��\u{5a4}���"]
+    #[doc = "不跟随交易所投资者多头保证金费"]
     pub NoLongMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "�����潻����Ͷ���߿�ͷ��\u{5a4}����"]
+    #[doc = "不跟随交易所投资者空头保证金率"]
     pub NoShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "�����潻����Ͷ���߿�ͷ��\u{5a4}���"]
+    #[doc = "不跟随交易所投资者空头保证金费"]
     pub NoShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcExchangeMarginRateAdjustField {
@@ -4151,105 +4151,105 @@ impl Default for CThostFtdcExchangeMarginRateAdjustField {
         }
     }
 }
-#[doc = "����"]
+#[doc = "汇率"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcExchangeRateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Դ����"]
+    #[doc = "源币种"]
     pub FromCurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "Դ���\u{5b5}�λ����"]
+    #[doc = "源币种单位数量"]
     pub FromCurrencyUnit: TThostFtdcCurrencyUnitType,
-    #[doc = "Ŀ�����"]
+    #[doc = "目标币种"]
     pub ToCurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "����"]
+    #[doc = "汇率"]
     pub ExchangeRate: TThostFtdcExchangeRateType,
 }
-#[doc = "��������"]
+#[doc = "结算引用"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSettlementRefField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
 }
-#[doc = "��ǰʱ��"]
+#[doc = "当前时间"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcCurrentTimeField {
-    #[doc = "��ǰ������"]
+    #[doc = "当前交易日"]
     pub CurrDate: TThostFtdcDateType,
-    #[doc = "��ǰʱ��"]
+    #[doc = "当前时间"]
     pub CurrTime: TThostFtdcTimeType,
-    #[doc = "��ǰʱ�䣨���룩"]
+    #[doc = "当前时间（毫秒）"]
     pub CurrMillisec: TThostFtdcMillisecType,
-    #[doc = "��Ȼ����"]
+    #[doc = "自然日期"]
     pub ActionDay: TThostFtdcDateType,
 }
-#[doc = "\u{368}Ѷ�\u{5f6}�"]
+#[doc = "通讯阶段"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcCommPhaseField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "\u{368}Ѷʱ�α��"]
+    #[doc = "通讯时段编号"]
     pub CommPhaseNo: TThostFtdcCommPhaseNoType,
-    #[doc = "ϵͳ���"]
+    #[doc = "系统编号"]
     pub SystemID: TThostFtdcSystemIDType,
 }
-#[doc = "��¼��Ϣ"]
+#[doc = "登录信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcLoginInfoField {
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��¼����"]
+    #[doc = "登录日期"]
     pub LoginDate: TThostFtdcDateType,
-    #[doc = "��¼ʱ��"]
+    #[doc = "登录时间"]
     pub LoginTime: TThostFtdcTimeType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "�ӿڶ˲�Ʒ��Ϣ"]
+    #[doc = "接口端产品信息"]
     pub InterfaceProductInfo: TThostFtdcProductInfoType,
-    #[doc = "Э����Ϣ"]
+    #[doc = "协议信息"]
     pub ProtocolInfo: TThostFtdcProtocolInfoType,
-    #[doc = "ϵͳ����"]
+    #[doc = "系统名称"]
     pub SystemName: TThostFtdcSystemNameType,
-    #[doc = "����,������"]
+    #[doc = "密码,已弃用"]
     pub PasswordDeprecated: TThostFtdcPasswordType,
-    #[doc = "��\u{f1a35}�����"]
+    #[doc = "最大报单引用"]
     pub MaxOrderRef: TThostFtdcOrderRefType,
-    #[doc = "������ʱ��"]
+    #[doc = "上期所时间"]
     pub SHFETime: TThostFtdcTimeType,
-    #[doc = "������ʱ��"]
+    #[doc = "大商所时间"]
     pub DCETime: TThostFtdcTimeType,
-    #[doc = "\u{5a3}����ʱ��"]
+    #[doc = "郑商所时间"]
     pub CZCETime: TThostFtdcTimeType,
-    #[doc = "�н���ʱ��"]
+    #[doc = "中金所时间"]
     pub FFEXTime: TThostFtdcTimeType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��\u{32c}����"]
+    #[doc = "动态密码"]
     pub OneTimePassword: TThostFtdcPasswordType,
-    #[doc = "��Դ����ʱ��"]
+    #[doc = "能源中心时间"]
     pub INETime: TThostFtdcTimeType,
-    #[doc = "��ѯʱ�Ƿ���Ҫ����"]
+    #[doc = "查询时是否需要流控"]
     pub IsQryControl: TThostFtdcBoolType,
-    #[doc = "��¼��ע"]
+    #[doc = "登录备注"]
     pub LoginRemark: TThostFtdcLoginRemarkType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcLoginInfoField {
@@ -4261,15 +4261,15 @@ impl Default for CThostFtdcLoginInfoField {
         }
     }
 }
-#[doc = "��¼��Ϣ"]
+#[doc = "登录信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcLogoutAllField {
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "ϵͳ����"]
+    #[doc = "系统名称"]
     pub SystemName: TThostFtdcSystemNameType,
 }
 impl Default for CThostFtdcLogoutAllField {
@@ -4281,30 +4281,30 @@ impl Default for CThostFtdcLogoutAllField {
         }
     }
 }
-#[doc = "ǰ��״\u{32c}"]
+#[doc = "前置状态"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcFrontStatusField {
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�ϴα�������"]
+    #[doc = "上次报告日期"]
     pub LastReportDate: TThostFtdcDateType,
-    #[doc = "�ϴα���ʱ��"]
+    #[doc = "上次报告时间"]
     pub LastReportTime: TThostFtdcTimeType,
-    #[doc = "�Ƿ��Ծ"]
+    #[doc = "是否活跃"]
     pub IsActive: TThostFtdcBoolType,
 }
-#[doc = "�û�������"]
+#[doc = "用户口令变更"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcUserPasswordUpdateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "ԭ���Ŀ���"]
+    #[doc = "原来的口令"]
     pub OldPassword: TThostFtdcPasswordType,
-    #[doc = "�µĿ���"]
+    #[doc = "新的口令"]
     pub NewPassword: TThostFtdcPasswordType,
 }
 impl Default for CThostFtdcUserPasswordUpdateField {
@@ -4316,77 +4316,77 @@ impl Default for CThostFtdcUserPasswordUpdateField {
         }
     }
 }
-#[doc = "���뱨��"]
+#[doc = "输入报单"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInputOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "报单引用"]
     pub OrderRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�����۸�����"]
+    #[doc = "报单价格条件"]
     pub OrderPriceType: TThostFtdcOrderPriceTypeType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "��Ͽ�ƽ��־"]
+    #[doc = "组合开平标志"]
     pub CombOffsetFlag: TThostFtdcCombOffsetFlagType,
-    #[doc = "���Ͷ���ױ���־"]
+    #[doc = "组合投机套保标志"]
     pub CombHedgeFlag: TThostFtdcCombHedgeFlagType,
-    #[doc = "�۸�"]
+    #[doc = "价格"]
     pub LimitPrice: TThostFtdcPriceType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub VolumeTotalOriginal: TThostFtdcVolumeType,
-    #[doc = "��Ч������"]
+    #[doc = "有效期类型"]
     pub TimeCondition: TThostFtdcTimeConditionType,
-    #[doc = "GTD����"]
+    #[doc = "GTD日期"]
     pub GTDDate: TThostFtdcDateType,
-    #[doc = "�ɽ�������"]
+    #[doc = "成交量类型"]
     pub VolumeCondition: TThostFtdcVolumeConditionType,
-    #[doc = "��С�ɽ���"]
+    #[doc = "最小成交量"]
     pub MinVolume: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "触发条件"]
     pub ContingentCondition: TThostFtdcContingentConditionType,
-    #[doc = "\u{5b9}���"]
+    #[doc = "止损价"]
     pub StopPrice: TThostFtdcPriceType,
-    #[doc = "ǿƽԭ��"]
+    #[doc = "强平原因"]
     pub ForceCloseReason: TThostFtdcForceCloseReasonType,
-    #[doc = "�Զ������־"]
+    #[doc = "自动挂起标志"]
     pub IsAutoSuspend: TThostFtdcBoolType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "�û�ǿƽ��־"]
+    #[doc = "用户强平标志"]
     pub UserForceClose: TThostFtdcBoolType,
-    #[doc = "��������־"]
+    #[doc = "互换单标志"]
     pub IsSwapOrder: TThostFtdcBoolType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "�ʽ��˺�"]
+    #[doc = "资金账号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "���ױ���"]
+    #[doc = "交易编码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "���������\u{5b6}�"]
+    #[doc = "报单回显字段"]
     pub OrderMemo: TThostFtdcOrderMemoType,
-    #[doc = "session��������� api�Զ�ά��"]
+    #[doc = "session上请求计数 api自动维护"]
     pub SessionReqSeq: TThostFtdcSequenceNo12Type,
 }
 impl Default for CThostFtdcInputOrderField {
@@ -4398,145 +4398,145 @@ impl Default for CThostFtdcInputOrderField {
         }
     }
 }
-#[doc = "����"]
+#[doc = "报单"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "报单引用"]
     pub OrderRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�����۸�����"]
+    #[doc = "报单价格条件"]
     pub OrderPriceType: TThostFtdcOrderPriceTypeType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "��Ͽ�ƽ��־"]
+    #[doc = "组合开平标志"]
     pub CombOffsetFlag: TThostFtdcCombOffsetFlagType,
-    #[doc = "���Ͷ���ױ���־"]
+    #[doc = "组合投机套保标志"]
     pub CombHedgeFlag: TThostFtdcCombHedgeFlagType,
-    #[doc = "�۸�"]
+    #[doc = "价格"]
     pub LimitPrice: TThostFtdcPriceType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub VolumeTotalOriginal: TThostFtdcVolumeType,
-    #[doc = "��Ч������"]
+    #[doc = "有效期类型"]
     pub TimeCondition: TThostFtdcTimeConditionType,
-    #[doc = "GTD����"]
+    #[doc = "GTD日期"]
     pub GTDDate: TThostFtdcDateType,
-    #[doc = "�ɽ�������"]
+    #[doc = "成交量类型"]
     pub VolumeCondition: TThostFtdcVolumeConditionType,
-    #[doc = "��С�ɽ���"]
+    #[doc = "最小成交量"]
     pub MinVolume: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "触发条件"]
     pub ContingentCondition: TThostFtdcContingentConditionType,
-    #[doc = "\u{5b9}���"]
+    #[doc = "止损价"]
     pub StopPrice: TThostFtdcPriceType,
-    #[doc = "ǿƽԭ��"]
+    #[doc = "强平原因"]
     pub ForceCloseReason: TThostFtdcForceCloseReasonType,
-    #[doc = "�Զ������־"]
+    #[doc = "自动挂起标志"]
     pub IsAutoSuspend: TThostFtdcBoolType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "���ر������"]
+    #[doc = "本地报单编号"]
     pub OrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�����ύ״\u{32c}"]
+    #[doc = "报单提交状态"]
     pub OrderSubmitStatus: TThostFtdcOrderSubmitStatusType,
-    #[doc = "������ʾ���"]
+    #[doc = "报单提示序号"]
     pub NotifySequence: TThostFtdcSequenceNoType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "�������"]
+    #[doc = "报单编号"]
     pub OrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������Դ"]
+    #[doc = "报单来源"]
     pub OrderSource: TThostFtdcOrderSourceType,
-    #[doc = "����״\u{32c}"]
+    #[doc = "报单状态"]
     pub OrderStatus: TThostFtdcOrderStatusType,
-    #[doc = "��������"]
+    #[doc = "报单类型"]
     pub OrderType: TThostFtdcOrderTypeType,
-    #[doc = "��ɽ�����"]
+    #[doc = "今成交数量"]
     pub VolumeTraded: TThostFtdcVolumeType,
-    #[doc = "ʣ������"]
+    #[doc = "剩余数量"]
     pub VolumeTotal: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "报单日期"]
     pub InsertDate: TThostFtdcDateType,
-    #[doc = "ί��ʱ��"]
+    #[doc = "委托时间"]
     pub InsertTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "激活时间"]
     pub ActiveTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "挂起时间"]
     pub SuspendTime: TThostFtdcTimeType,
-    #[doc = "����\u{7b8}�ʱ��"]
+    #[doc = "最后修改时间"]
     pub UpdateTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "撤销时间"]
     pub CancelTime: TThostFtdcTimeType,
-    #[doc = "����\u{7b8}Ľ���������Ա����"]
+    #[doc = "最后修改交易所交易员代码"]
     pub ActiveTraderID: TThostFtdcTraderIDType,
-    #[doc = "�����Ա���"]
+    #[doc = "结算会员编号"]
     pub ClearingPartID: TThostFtdcParticipantIDType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "״\u{32c}��Ϣ"]
+    #[doc = "状态信息"]
     pub StatusMsg: TThostFtdcErrorMsgType,
-    #[doc = "�û�ǿƽ��־"]
+    #[doc = "用户强平标志"]
     pub UserForceClose: TThostFtdcBoolType,
-    #[doc = "�����û�����"]
+    #[doc = "操作用户代码"]
     pub ActiveUserID: TThostFtdcUserIDType,
-    #[doc = "���\u{379}�˾�������"]
+    #[doc = "经纪公司报单编号"]
     pub BrokerOrderSeq: TThostFtdcSequenceNoType,
-    #[doc = "��ر���"]
+    #[doc = "相关报单"]
     pub RelativeOrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "\u{5a3}�����ɽ�����"]
+    #[doc = "郑商所成交数量"]
     pub ZCETotalTradedVolume: TThostFtdcVolumeType,
-    #[doc = "��������־"]
+    #[doc = "互换单标志"]
     pub IsSwapOrder: TThostFtdcBoolType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "�ʽ��˺�"]
+    #[doc = "资金账号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve3: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "���������\u{5b6}�"]
+    #[doc = "报单回显字段"]
     pub OrderMemo: TThostFtdcOrderMemoType,
-    #[doc = "session��������� api�Զ�ά��"]
+    #[doc = "session上请求计数 api自动维护"]
     pub SessionReqSeq: TThostFtdcSequenceNo12Type,
 }
 impl Default for CThostFtdcOrderField {
@@ -4548,103 +4548,103 @@ impl Default for CThostFtdcOrderField {
         }
     }
 }
-#[doc = "����������"]
+#[doc = "交易所报单"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeOrderField {
-    #[doc = "�����۸�����"]
+    #[doc = "报单价格条件"]
     pub OrderPriceType: TThostFtdcOrderPriceTypeType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "��Ͽ�ƽ��־"]
+    #[doc = "组合开平标志"]
     pub CombOffsetFlag: TThostFtdcCombOffsetFlagType,
-    #[doc = "���Ͷ���ױ���־"]
+    #[doc = "组合投机套保标志"]
     pub CombHedgeFlag: TThostFtdcCombHedgeFlagType,
-    #[doc = "�۸�"]
+    #[doc = "价格"]
     pub LimitPrice: TThostFtdcPriceType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub VolumeTotalOriginal: TThostFtdcVolumeType,
-    #[doc = "��Ч������"]
+    #[doc = "有效期类型"]
     pub TimeCondition: TThostFtdcTimeConditionType,
-    #[doc = "GTD����"]
+    #[doc = "GTD日期"]
     pub GTDDate: TThostFtdcDateType,
-    #[doc = "�ɽ�������"]
+    #[doc = "成交量类型"]
     pub VolumeCondition: TThostFtdcVolumeConditionType,
-    #[doc = "��С�ɽ���"]
+    #[doc = "最小成交量"]
     pub MinVolume: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "触发条件"]
     pub ContingentCondition: TThostFtdcContingentConditionType,
-    #[doc = "\u{5b9}���"]
+    #[doc = "止损价"]
     pub StopPrice: TThostFtdcPriceType,
-    #[doc = "ǿƽԭ��"]
+    #[doc = "强平原因"]
     pub ForceCloseReason: TThostFtdcForceCloseReasonType,
-    #[doc = "�Զ������־"]
+    #[doc = "自动挂起标志"]
     pub IsAutoSuspend: TThostFtdcBoolType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "���ر������"]
+    #[doc = "本地报单编号"]
     pub OrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�����ύ״\u{32c}"]
+    #[doc = "报单提交状态"]
     pub OrderSubmitStatus: TThostFtdcOrderSubmitStatusType,
-    #[doc = "������ʾ���"]
+    #[doc = "报单提示序号"]
     pub NotifySequence: TThostFtdcSequenceNoType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "�������"]
+    #[doc = "报单编号"]
     pub OrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������Դ"]
+    #[doc = "报单来源"]
     pub OrderSource: TThostFtdcOrderSourceType,
-    #[doc = "����״\u{32c}"]
+    #[doc = "报单状态"]
     pub OrderStatus: TThostFtdcOrderStatusType,
-    #[doc = "��������"]
+    #[doc = "报单类型"]
     pub OrderType: TThostFtdcOrderTypeType,
-    #[doc = "��ɽ�����"]
+    #[doc = "今成交数量"]
     pub VolumeTraded: TThostFtdcVolumeType,
-    #[doc = "ʣ������"]
+    #[doc = "剩余数量"]
     pub VolumeTotal: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "报单日期"]
     pub InsertDate: TThostFtdcDateType,
-    #[doc = "ί��ʱ��"]
+    #[doc = "委托时间"]
     pub InsertTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "激活时间"]
     pub ActiveTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "挂起时间"]
     pub SuspendTime: TThostFtdcTimeType,
-    #[doc = "����\u{7b8}�ʱ��"]
+    #[doc = "最后修改时间"]
     pub UpdateTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "撤销时间"]
     pub CancelTime: TThostFtdcTimeType,
-    #[doc = "����\u{7b8}Ľ���������Ա����"]
+    #[doc = "最后修改交易所交易员代码"]
     pub ActiveTraderID: TThostFtdcTraderIDType,
-    #[doc = "�����Ա���"]
+    #[doc = "结算会员编号"]
     pub ClearingPartID: TThostFtdcParticipantIDType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcExchangeOrderField {
@@ -4656,23 +4656,23 @@ impl Default for CThostFtdcExchangeOrderField {
         }
     }
 }
-#[doc = "��������������ʧ��"]
+#[doc = "交易所报单插入失败"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeOrderInsertErrorField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "���ر������"]
+    #[doc = "本地报单编号"]
     pub OrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
 }
 impl Default for CThostFtdcExchangeOrderInsertErrorField {
@@ -4684,51 +4684,51 @@ impl Default for CThostFtdcExchangeOrderInsertErrorField {
         }
     }
 }
-#[doc = "���뱨������"]
+#[doc = "输入报单操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInputOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������������"]
+    #[doc = "报单操作引用"]
     pub OrderActionRef: TThostFtdcOrderActionRefType,
-    #[doc = "��������"]
+    #[doc = "报单引用"]
     pub OrderRef: TThostFtdcOrderRefType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�������"]
+    #[doc = "报单编号"]
     pub OrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "�۸�"]
+    #[doc = "价格"]
     pub LimitPrice: TThostFtdcPriceType,
-    #[doc = "�����仯"]
+    #[doc = "数量变化"]
     pub VolumeChange: TThostFtdcVolumeType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "���������\u{5b6}�"]
+    #[doc = "报单回显字段"]
     pub OrderMemo: TThostFtdcOrderMemoType,
-    #[doc = "session��������� api�Զ�ά��"]
+    #[doc = "session上请求计数 api自动维护"]
     pub SessionReqSeq: TThostFtdcSequenceNo12Type,
 }
 impl Default for CThostFtdcInputOrderActionField {
@@ -4740,75 +4740,75 @@ impl Default for CThostFtdcInputOrderActionField {
         }
     }
 }
-#[doc = "��������"]
+#[doc = "报单操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������������"]
+    #[doc = "报单操作引用"]
     pub OrderActionRef: TThostFtdcOrderActionRefType,
-    #[doc = "��������"]
+    #[doc = "报单引用"]
     pub OrderRef: TThostFtdcOrderRefType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�������"]
+    #[doc = "报单编号"]
     pub OrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "�۸�"]
+    #[doc = "价格"]
     pub LimitPrice: TThostFtdcPriceType,
-    #[doc = "�����仯"]
+    #[doc = "数量变化"]
     pub VolumeChange: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "操作日期"]
     pub ActionDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "操作时间"]
     pub ActionTime: TThostFtdcTimeType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "���ر������"]
+    #[doc = "本地报单编号"]
     pub OrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�������ر��"]
+    #[doc = "操作本地编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��������״\u{32c}"]
+    #[doc = "报单操作状态"]
     pub OrderActionStatus: TThostFtdcOrderActionStatusType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "״\u{32c}��Ϣ"]
+    #[doc = "状态信息"]
     pub StatusMsg: TThostFtdcErrorMsgType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "���������\u{5b6}�"]
+    #[doc = "报单回显字段"]
     pub OrderMemo: TThostFtdcOrderMemoType,
-    #[doc = "session��������� api�Զ�ά��"]
+    #[doc = "session上请求计数 api自动维护"]
     pub SessionReqSeq: TThostFtdcSequenceNo12Type,
 }
 impl Default for CThostFtdcOrderActionField {
@@ -4820,49 +4820,49 @@ impl Default for CThostFtdcOrderActionField {
         }
     }
 }
-#[doc = "��������������"]
+#[doc = "交易所报单操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeOrderActionField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�������"]
+    #[doc = "报单编号"]
     pub OrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "�۸�"]
+    #[doc = "价格"]
     pub LimitPrice: TThostFtdcPriceType,
-    #[doc = "�����仯"]
+    #[doc = "数量变化"]
     pub VolumeChange: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "操作日期"]
     pub ActionDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "操作时间"]
     pub ActionTime: TThostFtdcTimeType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "���ر������"]
+    #[doc = "本地报单编号"]
     pub OrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�������ر��"]
+    #[doc = "操作本地编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��������״\u{32c}"]
+    #[doc = "报单操作状态"]
     pub OrderActionStatus: TThostFtdcOrderActionStatusType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcExchangeOrderActionField {
@@ -4874,25 +4874,25 @@ impl Default for CThostFtdcExchangeOrderActionField {
         }
     }
 }
-#[doc = "��������������ʧ��"]
+#[doc = "交易所报单操作失败"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeOrderActionErrorField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�������"]
+    #[doc = "报单编号"]
     pub OrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "���ر������"]
+    #[doc = "本地报单编号"]
     pub OrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�������ر��"]
+    #[doc = "操作本地编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
 }
 impl Default for CThostFtdcExchangeOrderActionErrorField {
@@ -4904,55 +4904,55 @@ impl Default for CThostFtdcExchangeOrderActionErrorField {
         }
     }
 }
-#[doc = "�������ɽ�"]
+#[doc = "交易所成交"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeTradeField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�ɽ����"]
+    #[doc = "成交编号"]
     pub TradeID: TThostFtdcTradeIDType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "�������"]
+    #[doc = "报单编号"]
     pub OrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "���\u{5fd}�ɫ"]
+    #[doc = "交易角色"]
     pub TradingRole: TThostFtdcTradingRoleType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "��ƽ��־"]
+    #[doc = "开平标志"]
     pub OffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "�۸�"]
+    #[doc = "价格"]
     pub Price: TThostFtdcPriceType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "�ɽ�ʱ��"]
+    #[doc = "成交时期"]
     pub TradeDate: TThostFtdcDateType,
-    #[doc = "�ɽ�ʱ��"]
+    #[doc = "成交时间"]
     pub TradeTime: TThostFtdcTimeType,
-    #[doc = "�ɽ�����"]
+    #[doc = "成交类型"]
     pub TradeType: TThostFtdcTradeTypeType,
-    #[doc = "�ɽ�����Դ"]
+    #[doc = "成交价来源"]
     pub PriceSource: TThostFtdcPriceSourceType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "���ر������"]
+    #[doc = "本地报单编号"]
     pub OrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�����Ա���"]
+    #[doc = "结算会员编号"]
     pub ClearingPartID: TThostFtdcParticipantIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "�ɽ���Դ"]
+    #[doc = "成交来源"]
     pub TradeSource: TThostFtdcTradeSourceType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
 }
 impl Default for CThostFtdcExchangeTradeField {
@@ -4964,75 +4964,75 @@ impl Default for CThostFtdcExchangeTradeField {
         }
     }
 }
-#[doc = "�ɽ�"]
+#[doc = "成交"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTradeField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "报单引用"]
     pub OrderRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�ɽ����"]
+    #[doc = "成交编号"]
     pub TradeID: TThostFtdcTradeIDType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "�������"]
+    #[doc = "报单编号"]
     pub OrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "���\u{5fd}�ɫ"]
+    #[doc = "交易角色"]
     pub TradingRole: TThostFtdcTradingRoleType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "��ƽ��־"]
+    #[doc = "开平标志"]
     pub OffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "�۸�"]
+    #[doc = "价格"]
     pub Price: TThostFtdcPriceType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "�ɽ�ʱ��"]
+    #[doc = "成交时期"]
     pub TradeDate: TThostFtdcDateType,
-    #[doc = "�ɽ�ʱ��"]
+    #[doc = "成交时间"]
     pub TradeTime: TThostFtdcTimeType,
-    #[doc = "�ɽ�����"]
+    #[doc = "成交类型"]
     pub TradeType: TThostFtdcTradeTypeType,
-    #[doc = "�ɽ�����Դ"]
+    #[doc = "成交价来源"]
     pub PriceSource: TThostFtdcPriceSourceType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "���ر������"]
+    #[doc = "本地报单编号"]
     pub OrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�����Ա���"]
+    #[doc = "结算会员编号"]
     pub ClearingPartID: TThostFtdcParticipantIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���\u{379}�˾�������"]
+    #[doc = "经纪公司报单编号"]
     pub BrokerOrderSeq: TThostFtdcSequenceNoType,
-    #[doc = "�ɽ���Դ"]
+    #[doc = "成交来源"]
     pub TradeSource: TThostFtdcTradeSourceType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
 }
 impl Default for CThostFtdcTradeField {
@@ -5044,35 +5044,35 @@ impl Default for CThostFtdcTradeField {
         }
     }
 }
-#[doc = "�û��Ự"]
+#[doc = "用户会话"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcUserSessionField {
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��¼����"]
+    #[doc = "登录日期"]
     pub LoginDate: TThostFtdcDateType,
-    #[doc = "��¼ʱ��"]
+    #[doc = "登录时间"]
     pub LoginTime: TThostFtdcTimeType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "�ӿڶ˲�Ʒ��Ϣ"]
+    #[doc = "接口端产品信息"]
     pub InterfaceProductInfo: TThostFtdcProductInfoType,
-    #[doc = "Э����Ϣ"]
+    #[doc = "协议信息"]
     pub ProtocolInfo: TThostFtdcProtocolInfoType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��¼��ע"]
+    #[doc = "登录备注"]
     pub LoginRemark: TThostFtdcLoginRemarkType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcUserSessionField {
@@ -5084,29 +5084,29 @@ impl Default for CThostFtdcUserSessionField {
         }
     }
 }
-#[doc = "��ѯ��\u{f1a35}�����"]
+#[doc = "查询最大报单数量"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryMaxOrderVolumeField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "��ƽ��־"]
+    #[doc = "开平标志"]
     pub OffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "���������������"]
+    #[doc = "最大允许报单数量"]
     pub MaxVolume: TThostFtdcVolumeType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryMaxOrderVolumeField {
@@ -5118,46 +5118,46 @@ impl Default for CThostFtdcQryMaxOrderVolumeField {
         }
     }
 }
-#[doc = "Ͷ���\u{7fd}�����ȷ����Ϣ"]
+#[doc = "投资者结算结果确认信息"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSettlementInfoConfirmField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "ȷ������"]
+    #[doc = "确认日期"]
     pub ConfirmDate: TThostFtdcDateType,
-    #[doc = "ȷ��ʱ��"]
+    #[doc = "确认时间"]
     pub ConfirmTime: TThostFtdcTimeType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
-#[doc = "�����\u{36c}��"]
+#[doc = "出入金同步"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDepositField {
-    #[doc = "�������ˮ��"]
+    #[doc = "出入金流水号"]
     pub DepositSeqNo: TThostFtdcDepositSeqNoType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "�����"]
+    #[doc = "入金金额"]
     pub Deposit: TThostFtdcMoneyType,
-    #[doc = "�Ƿ�ǿ�ƽ���"]
+    #[doc = "是否强制进行"]
     pub IsForce: TThostFtdcBoolType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "�Ƿ��Ǹ�����Ȩ��ת"]
+    #[doc = "是否是个股期权内转"]
     pub IsFromSopt: TThostFtdcBoolType,
-    #[doc = "�ʽ�����"]
+    #[doc = "资金密码"]
     pub TradingPassword: TThostFtdcPasswordType,
-    #[doc = "�Ƿ���������\u{335}���ת"]
+    #[doc = "是否二级代理商的内转"]
     pub IsSecAgentTranfer: TThostFtdcBoolType,
 }
 impl Default for CThostFtdcSyncDepositField {
@@ -5169,63 +5169,63 @@ impl Default for CThostFtdcSyncDepositField {
         }
     }
 }
-#[doc = "������Ѻ\u{36c}��"]
+#[doc = "货币质押同步"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSyncFundMortgageField {
-    #[doc = "������Ѻ��ˮ��"]
+    #[doc = "货币质押流水号"]
     pub MortgageSeqNo: TThostFtdcDepositSeqNoType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Դ����"]
+    #[doc = "源币种"]
     pub FromCurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "��Ѻ���"]
+    #[doc = "质押金额"]
     pub MortgageAmount: TThostFtdcMoneyType,
-    #[doc = "Ŀ�����"]
+    #[doc = "目标币种"]
     pub ToCurrencyID: TThostFtdcCurrencyIDType,
 }
-#[doc = "���\u{379}�˾\u{36c}��"]
+#[doc = "经纪公司同步"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcBrokerSyncField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
 }
-#[doc = "����\u{36c}���е�Ͷ����"]
+#[doc = "正在同步中的投资者"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingInvestorField {
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���߷������"]
+    #[doc = "投资者分组代码"]
     pub InvestorGroupID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ��������"]
+    #[doc = "投资者名称"]
     pub InvestorName: TThostFtdcPartyNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdentifiedCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�Ƿ��Ծ"]
+    #[doc = "是否活跃"]
     pub IsActive: TThostFtdcBoolType,
-    #[doc = "��ϵ�绰"]
+    #[doc = "联系电话"]
     pub Telephone: TThostFtdcTelephoneType,
-    #[doc = "\u{368}Ѷ��\u{5b7}"]
+    #[doc = "通讯地址"]
     pub Address: TThostFtdcAddressType,
-    #[doc = "��������"]
+    #[doc = "开户日期"]
     pub OpenDate: TThostFtdcDateType,
-    #[doc = "�\u{5bb}�"]
+    #[doc = "手机"]
     pub Mobile: TThostFtdcMobileType,
-    #[doc = "��������ģ�����"]
+    #[doc = "手续费率模板代码"]
     pub CommModelID: TThostFtdcInvestorIDType,
-    #[doc = "��\u{5a4}����ģ�����"]
+    #[doc = "保证金率模板代码"]
     pub MarginModelID: TThostFtdcInvestorIDType,
-    #[doc = "�Ƿ�Ƶ�ʿ���"]
+    #[doc = "是否频率控制"]
     pub IsOrderFreq: TThostFtdcEnumBoolType,
-    #[doc = "�Ƿ\u{7fab2}�����"]
+    #[doc = "是否开仓限制"]
     pub IsOpenVolLimit: TThostFtdcEnumBoolType,
 }
 impl Default for CThostFtdcSyncingInvestorField {
@@ -5237,32 +5237,32 @@ impl Default for CThostFtdcSyncingInvestorField {
         }
     }
 }
-#[doc = "����\u{36c}���еĽ��״���"]
+#[doc = "正在同步中的交易代码"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSyncingTradingCodeField {
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "�Ƿ��Ծ"]
+    #[doc = "是否活跃"]
     pub IsActive: TThostFtdcBoolType,
-    #[doc = "���ױ�������"]
+    #[doc = "交易编码类型"]
     pub ClientIDType: TThostFtdcClientIDTypeType,
 }
-#[doc = "����\u{36c}���е�Ͷ���߷���"]
+#[doc = "正在同步中的投资者分组"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingInvestorGroupField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���߷������"]
+    #[doc = "投资者分组代码"]
     pub InvestorGroupID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ���߷�������"]
+    #[doc = "投资者分组名称"]
     pub InvestorGroupName: TThostFtdcInvestorGroupNameType,
 }
 impl Default for CThostFtdcSyncingInvestorGroupField {
@@ -5274,210 +5274,210 @@ impl Default for CThostFtdcSyncingInvestorGroupField {
         }
     }
 }
-#[doc = "����\u{36c}���еĽ����˺�"]
+#[doc = "正在同步中的交易账号"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSyncingTradingAccountField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ϴ���Ѻ���"]
+    #[doc = "上次质押金额"]
     pub PreMortgage: TThostFtdcMoneyType,
-    #[doc = "�ϴ����ö��"]
+    #[doc = "上次信用额度"]
     pub PreCredit: TThostFtdcMoneyType,
-    #[doc = "�ϴδ���"]
+    #[doc = "上次存款额"]
     pub PreDeposit: TThostFtdcMoneyType,
-    #[doc = "�ϴν���\u{5fc}����"]
+    #[doc = "上次结算准备金"]
     pub PreBalance: TThostFtdcMoneyType,
-    #[doc = "�ϴ�ռ�õı�\u{5a4}��"]
+    #[doc = "上次占用的保证金"]
     pub PreMargin: TThostFtdcMoneyType,
-    #[doc = "��Ϣ����"]
+    #[doc = "利息基数"]
     pub InterestBase: TThostFtdcMoneyType,
-    #[doc = "��Ϣ����"]
+    #[doc = "利息收入"]
     pub Interest: TThostFtdcMoneyType,
-    #[doc = "�����"]
+    #[doc = "入金金额"]
     pub Deposit: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "出金金额"]
     pub Withdraw: TThostFtdcMoneyType,
-    #[doc = "����ı�\u{5a4}��"]
+    #[doc = "冻结的保证金"]
     pub FrozenMargin: TThostFtdcMoneyType,
-    #[doc = "������ʽ�"]
+    #[doc = "冻结的资金"]
     pub FrozenCash: TThostFtdcMoneyType,
-    #[doc = "�����������"]
+    #[doc = "冻结的手续费"]
     pub FrozenCommission: TThostFtdcMoneyType,
-    #[doc = "��ǰ��\u{5a4}���\u{736}�"]
+    #[doc = "当前保证金总额"]
     pub CurrMargin: TThostFtdcMoneyType,
-    #[doc = "�ʽ���"]
+    #[doc = "资金差额"]
     pub CashIn: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "手续费"]
     pub Commission: TThostFtdcMoneyType,
-    #[doc = "ƽ��ӯ��"]
+    #[doc = "平仓盈亏"]
     pub CloseProfit: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}�ӯ��"]
+    #[doc = "持仓盈亏"]
     pub PositionProfit: TThostFtdcMoneyType,
-    #[doc = "�ڻ�����\u{5fc}����"]
+    #[doc = "期货结算准备金"]
     pub Balance: TThostFtdcMoneyType,
-    #[doc = "�����ʽ�"]
+    #[doc = "可用资金"]
     pub Available: TThostFtdcMoneyType,
-    #[doc = "��ȡ�ʽ�"]
+    #[doc = "可取资金"]
     pub WithdrawQuota: TThostFtdcMoneyType,
-    #[doc = "����\u{5fc}����"]
+    #[doc = "基本准备金"]
     pub Reserve: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���ö��"]
+    #[doc = "信用额度"]
     pub Credit: TThostFtdcMoneyType,
-    #[doc = "��Ѻ���"]
+    #[doc = "质押金额"]
     pub Mortgage: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchangeMargin: TThostFtdcMoneyType,
-    #[doc = "Ͷ���\u{7fd}��\u{ec63}\u{5a4}��"]
+    #[doc = "投资者交割保证金"]
     pub DeliveryMargin: TThostFtdcMoneyType,
-    #[doc = "���������\u{ec63}\u{5a4}��"]
+    #[doc = "交易所交割保证金"]
     pub ExchangeDeliveryMargin: TThostFtdcMoneyType,
-    #[doc = "�����ڻ�����\u{5fc}����"]
+    #[doc = "保底期货结算准备金"]
     pub ReserveBalance: TThostFtdcMoneyType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "�ϴλ���������"]
+    #[doc = "上次货币质入金额"]
     pub PreFundMortgageIn: TThostFtdcMoneyType,
-    #[doc = "�ϴλ����ʳ����"]
+    #[doc = "上次货币质出金额"]
     pub PreFundMortgageOut: TThostFtdcMoneyType,
-    #[doc = "����������"]
+    #[doc = "货币质入金额"]
     pub FundMortgageIn: TThostFtdcMoneyType,
-    #[doc = "�����ʳ����"]
+    #[doc = "货币质出金额"]
     pub FundMortgageOut: TThostFtdcMoneyType,
-    #[doc = "������Ѻ���"]
+    #[doc = "货币质押余额"]
     pub FundMortgageAvailable: TThostFtdcMoneyType,
-    #[doc = "����Ѻ���ҽ��"]
+    #[doc = "可质押货币金额"]
     pub MortgageableFund: TThostFtdcMoneyType,
-    #[doc = "�����Ʒռ�ñ�\u{5a4}��"]
+    #[doc = "特殊产品占用保证金"]
     pub SpecProductMargin: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ���ᱣ\u{5a4}��"]
+    #[doc = "特殊产品冻结保证金"]
     pub SpecProductFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ������"]
+    #[doc = "特殊产品手续费"]
     pub SpecProductCommission: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ����������"]
+    #[doc = "特殊产品冻结手续费"]
     pub SpecProductFrozenCommission: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ�\u{5b2}�ӯ��"]
+    #[doc = "特殊产品持仓盈亏"]
     pub SpecProductPositionProfit: TThostFtdcMoneyType,
-    #[doc = "�����Ʒƽ��ӯ��"]
+    #[doc = "特殊产品平仓盈亏"]
     pub SpecProductCloseProfit: TThostFtdcMoneyType,
-    #[doc = "���ݳ\u{5b2}�ӯ���㷨����������Ʒ�\u{5b2}�ӯ��"]
+    #[doc = "根据持仓盈亏算法计算的特殊产品持仓盈亏"]
     pub SpecProductPositionProfitByAlg: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ��������\u{5a4}��"]
+    #[doc = "特殊产品交易所保证金"]
     pub SpecProductExchangeMargin: TThostFtdcMoneyType,
-    #[doc = "��ʱ���㶳����"]
+    #[doc = "延时换汇冻结金额"]
     pub FrozenSwap: TThostFtdcMoneyType,
-    #[doc = "ʣ�\u{efb}����"]
+    #[doc = "剩余换汇额度"]
     pub RemainSwap: TThostFtdcMoneyType,
 }
-#[doc = "����\u{36c}���е�Ͷ���\u{7f3}\u{5b2}�"]
+#[doc = "正在同步中的投资者持仓"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingInvestorPositionField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "�\u{5b2}\u{5b6}�շ���"]
+    #[doc = "持仓多空方向"]
     pub PosiDirection: TThostFtdcPosiDirectionType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "�\u{5b2}�����"]
+    #[doc = "持仓日期"]
     pub PositionDate: TThostFtdcPositionDateType,
-    #[doc = "���ճ\u{5b2}�"]
+    #[doc = "上日持仓"]
     pub YdPosition: TThostFtdcVolumeType,
-    #[doc = "���ճ\u{5b2}�"]
+    #[doc = "今日持仓"]
     pub Position: TThostFtdcVolumeType,
-    #[doc = "��ͷ����"]
+    #[doc = "多头冻结"]
     pub LongFrozen: TThostFtdcVolumeType,
-    #[doc = "��ͷ����"]
+    #[doc = "空头冻结"]
     pub ShortFrozen: TThostFtdcVolumeType,
-    #[doc = "���\u{5b6}�����"]
+    #[doc = "开仓冻结金额"]
     pub LongFrozenAmount: TThostFtdcMoneyType,
-    #[doc = "���\u{5b6}�����"]
+    #[doc = "开仓冻结金额"]
     pub ShortFrozenAmount: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "开仓量"]
     pub OpenVolume: TThostFtdcVolumeType,
-    #[doc = "ƽ����"]
+    #[doc = "平仓量"]
     pub CloseVolume: TThostFtdcVolumeType,
-    #[doc = "���\u{5bd}��"]
+    #[doc = "开仓金额"]
     pub OpenAmount: TThostFtdcMoneyType,
-    #[doc = "ƽ�\u{5bd}��"]
+    #[doc = "平仓金额"]
     pub CloseAmount: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}\u{5b3}ɱ�"]
+    #[doc = "持仓成本"]
     pub PositionCost: TThostFtdcMoneyType,
-    #[doc = "�ϴ�ռ�õı�\u{5a4}��"]
+    #[doc = "上次占用的保证金"]
     pub PreMargin: TThostFtdcMoneyType,
-    #[doc = "ռ�õı�\u{5a4}��"]
+    #[doc = "占用的保证金"]
     pub UseMargin: TThostFtdcMoneyType,
-    #[doc = "����ı�\u{5a4}��"]
+    #[doc = "冻结的保证金"]
     pub FrozenMargin: TThostFtdcMoneyType,
-    #[doc = "������ʽ�"]
+    #[doc = "冻结的资金"]
     pub FrozenCash: TThostFtdcMoneyType,
-    #[doc = "�����������"]
+    #[doc = "冻结的手续费"]
     pub FrozenCommission: TThostFtdcMoneyType,
-    #[doc = "�ʽ���"]
+    #[doc = "资金差额"]
     pub CashIn: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "手续费"]
     pub Commission: TThostFtdcMoneyType,
-    #[doc = "ƽ��ӯ��"]
+    #[doc = "平仓盈亏"]
     pub CloseProfit: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}�ӯ��"]
+    #[doc = "持仓盈亏"]
     pub PositionProfit: TThostFtdcMoneyType,
-    #[doc = "�ϴν����"]
+    #[doc = "上次结算价"]
     pub PreSettlementPrice: TThostFtdcPriceType,
-    #[doc = "���ν����"]
+    #[doc = "本次结算价"]
     pub SettlementPrice: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���\u{5b3}ɱ�"]
+    #[doc = "开仓成本"]
     pub OpenCost: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchangeMargin: TThostFtdcMoneyType,
-    #[doc = "��ϳɽ��γɵĳ\u{5b2}�"]
+    #[doc = "组合成交形成的持仓"]
     pub CombPosition: TThostFtdcVolumeType,
-    #[doc = "��϶�ͷ����"]
+    #[doc = "组合多头冻结"]
     pub CombLongFrozen: TThostFtdcVolumeType,
-    #[doc = "��Ͽ�ͷ����"]
+    #[doc = "组合空头冻结"]
     pub CombShortFrozen: TThostFtdcVolumeType,
-    #[doc = "���ն���ƽ��ӯ��"]
+    #[doc = "逐日盯市平仓盈亏"]
     pub CloseProfitByDate: TThostFtdcMoneyType,
-    #[doc = "��ʶԳ�ƽ��ӯ��"]
+    #[doc = "逐笔对冲平仓盈亏"]
     pub CloseProfitByTrade: TThostFtdcMoneyType,
-    #[doc = "���ճ\u{5b2}�"]
+    #[doc = "今日持仓"]
     pub TodayPosition: TThostFtdcVolumeType,
-    #[doc = "��\u{5a4}����"]
+    #[doc = "保证金率"]
     pub MarginRateByMoney: TThostFtdcRatioType,
-    #[doc = "��\u{5a4}����(������)"]
+    #[doc = "保证金率(按手数)"]
     pub MarginRateByVolume: TThostFtdcRatioType,
-    #[doc = "\u{5b4}�ж���"]
+    #[doc = "执行冻结"]
     pub StrikeFrozen: TThostFtdcVolumeType,
-    #[doc = "\u{5b4}�ж�����"]
+    #[doc = "执行冻结金额"]
     pub StrikeFrozenAmount: TThostFtdcMoneyType,
-    #[doc = "����\u{5b4}�ж���"]
+    #[doc = "放弃执行冻结"]
     pub AbandonFrozen: TThostFtdcVolumeType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "\u{5b4}�ж�������"]
+    #[doc = "执行冻结的昨仓"]
     pub YdStrikeFrozen: TThostFtdcVolumeType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "�\u{5b2}\u{5b3}ɱ���\u{5b5}"]
+    #[doc = "持仓成本差值"]
     pub PositionCostOffset: TThostFtdcMoneyType,
-    #[doc = "tas�\u{5b2}�����"]
+    #[doc = "tas持仓手数"]
     pub TasPosition: TThostFtdcVolumeType,
-    #[doc = "tas�\u{5b2}\u{5b3}ɱ�"]
+    #[doc = "tas持仓成本"]
     pub TasPositionCost: TThostFtdcMoneyType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcSyncingInvestorPositionField {
@@ -5489,31 +5489,31 @@ impl Default for CThostFtdcSyncingInvestorPositionField {
         }
     }
 }
-#[doc = "����\u{36c}���еĺ�Լ��\u{5a4}����"]
+#[doc = "正在同步中的合约保证金率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingInstrumentMarginRateField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "多头保证金率"]
     pub LongMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "多头保证金费"]
     pub LongMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "空头保证金率"]
     pub ShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "空头保证金费"]
     pub ShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "�Ƿ���Խ�������ȡ"]
+    #[doc = "是否相对交易所收取"]
     pub IsRelative: TThostFtdcBoolType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcSyncingInstrumentMarginRateField {
@@ -5525,31 +5525,31 @@ impl Default for CThostFtdcSyncingInstrumentMarginRateField {
         }
     }
 }
-#[doc = "����\u{36c}���еĺ�Լ��������"]
+#[doc = "正在同步中的合约手续费率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingInstrumentCommissionRateField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������������"]
+    #[doc = "开仓手续费率"]
     pub OpenRatioByMoney: TThostFtdcRatioType,
-    #[doc = "����������"]
+    #[doc = "开仓手续费"]
     pub OpenRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平仓手续费率"]
     pub CloseRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平仓手续费"]
     pub CloseRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平今手续费率"]
     pub CloseTodayRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平今手续费"]
     pub CloseTodayRatioByVolume: TThostFtdcRatioType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcSyncingInstrumentCommissionRateField {
@@ -5561,21 +5561,21 @@ impl Default for CThostFtdcSyncingInstrumentCommissionRateField {
         }
     }
 }
-#[doc = "����\u{36c}���еĺ�Լ����Ȩ��"]
+#[doc = "正在同步中的合约交易权限"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncingInstrumentTradingRightField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����Ȩ��"]
+    #[doc = "交易权限"]
     pub TradingRight: TThostFtdcTradingRightType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcSyncingInstrumentTradingRightField {
@@ -5587,27 +5587,27 @@ impl Default for CThostFtdcSyncingInstrumentTradingRightField {
         }
     }
 }
-#[doc = "��ѯ����"]
+#[doc = "查询报单"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�������"]
+    #[doc = "报单编号"]
     pub OrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "��ʼʱ��"]
+    #[doc = "开始时间"]
     pub InsertTimeStart: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "结束时间"]
     pub InsertTimeEnd: TThostFtdcTimeType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryOrderField {
@@ -5619,27 +5619,27 @@ impl Default for CThostFtdcQryOrderField {
         }
     }
 }
-#[doc = "��ѯ�ɽ�"]
+#[doc = "查询成交"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryTradeField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�ɽ����"]
+    #[doc = "成交编号"]
     pub TradeID: TThostFtdcTradeIDType,
-    #[doc = "��ʼʱ��"]
+    #[doc = "开始时间"]
     pub TradeTimeStart: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "结束时间"]
     pub TradeTimeEnd: TThostFtdcTimeType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryTradeField {
@@ -5651,21 +5651,21 @@ impl Default for CThostFtdcQryTradeField {
         }
     }
 }
-#[doc = "��ѯͶ���\u{7f3}\u{5b2}�"]
+#[doc = "查询投资者持仓"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorPositionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryInvestorPositionField {
@@ -5677,71 +5677,71 @@ impl Default for CThostFtdcQryInvestorPositionField {
         }
     }
 }
-#[doc = "��ѯ�ʽ��˻�"]
+#[doc = "查询资金账户"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryTradingAccountField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "ҵ������"]
+    #[doc = "业务类型"]
     pub BizType: TThostFtdcBizTypeType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
 }
-#[doc = "��ѯͶ����"]
+#[doc = "查询投资者"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryInvestorField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
 }
-#[doc = "��ѯ���ױ���"]
+#[doc = "查询交易编码"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryTradingCodeField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "���ױ�������"]
+    #[doc = "交易编码类型"]
     pub ClientIDType: TThostFtdcClientIDTypeType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
 }
-#[doc = "��ѯͶ������"]
+#[doc = "查询投资者组"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryInvestorGroupField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
 }
-#[doc = "��ѯ��Լ��\u{5a4}����"]
+#[doc = "查询合约保证金率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInstrumentMarginRateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryInstrumentMarginRateField {
@@ -5753,21 +5753,21 @@ impl Default for CThostFtdcQryInstrumentMarginRateField {
         }
     }
 }
-#[doc = "��ѯ��������"]
+#[doc = "查询手续费率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInstrumentCommissionRateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryInstrumentCommissionRateField {
@@ -5779,17 +5779,17 @@ impl Default for CThostFtdcQryInstrumentCommissionRateField {
         }
     }
 }
-#[doc = "��ѯ��Լ����Ȩ��"]
+#[doc = "查询合约交易权限"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInstrumentTradingRightField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryInstrumentTradingRightField {
@@ -5801,77 +5801,77 @@ impl Default for CThostFtdcQryInstrumentTradingRightField {
         }
     }
 }
-#[doc = "��ѯ���\u{379}�˾"]
+#[doc = "查询经纪公司"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryBrokerField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
 }
-#[doc = "��ѯ����Ա"]
+#[doc = "查询交易员"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryTraderField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
 }
-#[doc = "��ѯ�����û�����Ȩ��"]
+#[doc = "查询管理用户功能权限"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQrySuperUserFunctionField {
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
-#[doc = "��ѯ�û��Ự"]
+#[doc = "查询用户会话"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryUserSessionField {
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
-#[doc = "��ѯ���\u{379}�˾��Ա����"]
+#[doc = "查询经纪公司会员代码"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryPartBrokerField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
 }
-#[doc = "��ѯǰ��״\u{32c}"]
+#[doc = "查询前置状态"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryFrontStatusField {
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
 }
-#[doc = "��ѯ����������"]
+#[doc = "查询交易所报单"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeOrderField {
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
 }
 impl Default for CThostFtdcQryExchangeOrderField {
@@ -5883,55 +5883,55 @@ impl Default for CThostFtdcQryExchangeOrderField {
         }
     }
 }
-#[doc = "��ѯ��������"]
+#[doc = "查询报单操作"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
 }
-#[doc = "��ѯ��������������"]
+#[doc = "查询交易所报单操作"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryExchangeOrderActionField {
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
 }
-#[doc = "��ѯ�����û�"]
+#[doc = "查询管理用户"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQrySuperUserField {
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
-#[doc = "��ѯ������"]
+#[doc = "查询交易所"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryExchangeField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
 }
-#[doc = "��ѯ��Ʒ"]
+#[doc = "查询产品"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryProductField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品类型"]
     pub ProductClass: TThostFtdcProductClassType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryProductField {
@@ -5943,23 +5943,23 @@ impl Default for CThostFtdcQryProductField {
         }
     }
 }
-#[doc = "��ѯ��Լ"]
+#[doc = "查询合约"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInstrumentField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve3: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryInstrumentField {
@@ -5971,17 +5971,17 @@ impl Default for CThostFtdcQryInstrumentField {
         }
     }
 }
-#[doc = "��ѯ����"]
+#[doc = "查询行情"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryDepthMarketDataField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品类型"]
     pub ProductClass: TThostFtdcProductClassType,
 }
 impl Default for CThostFtdcQryDepthMarketDataField {
@@ -5993,72 +5993,72 @@ impl Default for CThostFtdcQryDepthMarketDataField {
         }
     }
 }
-#[doc = "��ѯ���\u{379}�˾�û�"]
+#[doc = "查询经纪公司用户"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryBrokerUserField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
-#[doc = "��ѯ���\u{379}�˾�û�Ȩ��"]
+#[doc = "查询经纪公司用户权限"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryBrokerUserFunctionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
-#[doc = "��ѯ����Ա���\u{33b}�"]
+#[doc = "查询交易员报盘机"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryTraderOfferField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
 }
-#[doc = "��ѯ�������ˮ"]
+#[doc = "查询出入金流水"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQrySyncDepositField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�������ˮ��"]
+    #[doc = "出入金流水号"]
     pub DepositSeqNo: TThostFtdcDepositSeqNoType,
 }
-#[doc = "��ѯͶ���\u{7fd}�����"]
+#[doc = "查询投资者结算结果"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQrySettlementInfoField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
-#[doc = "��ѯ��������\u{5a4}����"]
+#[doc = "查询交易所保证金率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeMarginRateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryExchangeMarginRateField {
@@ -6070,17 +6070,17 @@ impl Default for CThostFtdcQryExchangeMarginRateField {
         }
     }
 }
-#[doc = "��ѯ������������\u{5a4}����"]
+#[doc = "查询交易所调整保证金率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeMarginRateAdjustField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryExchangeMarginRateAdjustField {
@@ -6092,49 +6092,49 @@ impl Default for CThostFtdcQryExchangeMarginRateAdjustField {
         }
     }
 }
-#[doc = "��ѯ����"]
+#[doc = "查询汇率"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryExchangeRateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Դ����"]
+    #[doc = "源币种"]
     pub FromCurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "Ŀ�����"]
+    #[doc = "目标币种"]
     pub ToCurrencyID: TThostFtdcCurrencyIDType,
 }
-#[doc = "��ѯ������Ѻ��ˮ"]
+#[doc = "查询货币质押流水"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQrySyncFundMortgageField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "������Ѻ��ˮ��"]
+    #[doc = "货币质押流水号"]
     pub MortgageSeqNo: TThostFtdcDepositSeqNoType,
 }
-#[doc = "��ѯ����"]
+#[doc = "查询报单"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryHisOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�������"]
+    #[doc = "报单编号"]
     pub OrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "��ʼʱ��"]
+    #[doc = "开始时间"]
     pub InsertTimeStart: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "结束时间"]
     pub InsertTimeEnd: TThostFtdcTimeType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryHisOrderField {
@@ -6146,25 +6146,25 @@ impl Default for CThostFtdcQryHisOrderField {
         }
     }
 }
-#[doc = "��ǰ��Ȩ��Լ��С��\u{5a4}��"]
+#[doc = "当前期权合约最小保证金"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcOptionInstrMiniMarginField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��λ���\u{5a3}���Ȩ��Լ��С��\u{5a4}��"]
+    #[doc = "单位（手）期权合约最小保证金"]
     pub MinMargin: TThostFtdcMoneyType,
-    #[doc = "ȡ\u{5b5}��ʽ"]
+    #[doc = "取值方式"]
     pub ValueMethod: TThostFtdcValueMethodType,
-    #[doc = "�Ƿ���潻������ȡ"]
+    #[doc = "是否跟随交易所收取"]
     pub IsRelative: TThostFtdcBoolType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcOptionInstrMiniMarginField {
@@ -6176,37 +6176,37 @@ impl Default for CThostFtdcOptionInstrMiniMarginField {
         }
     }
 }
-#[doc = "��ǰ��Ȩ��Լ��\u{5a4}�����ϵ��"]
+#[doc = "当前期权合约保证金调整系数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcOptionInstrMarginAdjustField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ����ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "投机空头保证金调整系数"]
     pub SShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "Ͷ����ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "投机空头保证金调整系数"]
     pub SShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��\u{5b5}��ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "保值空头保证金调整系数"]
     pub HShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��\u{5b5}��ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "保值空头保证金调整系数"]
     pub HShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "������ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "套利空头保证金调整系数"]
     pub AShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "������ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "套利空头保证金调整系数"]
     pub AShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "�Ƿ���潻������ȡ"]
+    #[doc = "是否跟随交易所收取"]
     pub IsRelative: TThostFtdcBoolType,
-    #[doc = "�����\u{33f}�ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "做市商空头保证金调整系数"]
     pub MShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "�����\u{33f}�ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "做市商空头保证金调整系数"]
     pub MShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcOptionInstrMarginAdjustField {
@@ -6218,39 +6218,39 @@ impl Default for CThostFtdcOptionInstrMarginAdjustField {
         }
     }
 }
-#[doc = "��ǰ��Ȩ��Լ�����ѵ���ϸ����"]
+#[doc = "当前期权合约手续费的详细内容"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcOptionInstrCommRateField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������������"]
+    #[doc = "开仓手续费率"]
     pub OpenRatioByMoney: TThostFtdcRatioType,
-    #[doc = "����������"]
+    #[doc = "开仓手续费"]
     pub OpenRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平仓手续费率"]
     pub CloseRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平仓手续费"]
     pub CloseRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平今手续费率"]
     pub CloseTodayRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平今手续费"]
     pub CloseTodayRatioByVolume: TThostFtdcRatioType,
-    #[doc = "\u{5b4}����������"]
+    #[doc = "执行手续费率"]
     pub StrikeRatioByMoney: TThostFtdcRatioType,
-    #[doc = "\u{5b4}��������"]
+    #[doc = "执行手续费"]
     pub StrikeRatioByVolume: TThostFtdcRatioType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcOptionInstrCommRateField {
@@ -6262,33 +6262,33 @@ impl Default for CThostFtdcOptionInstrCommRateField {
         }
     }
 }
-#[doc = "��Ȩ���׳ɱ�"]
+#[doc = "期权交易成本"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcOptionInstrTradeCostField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��Ȩ��Լ��\u{5a4}�\u{32ef1}䲿��"]
+    #[doc = "期权合约保证金不变部分"]
     pub FixedMargin: TThostFtdcMoneyType,
-    #[doc = "��Ȩ��Լ��С��\u{5a4}��"]
+    #[doc = "期权合约最小保证金"]
     pub MiniMargin: TThostFtdcMoneyType,
-    #[doc = "��Ȩ��ԼȨ����"]
+    #[doc = "期权合约权利金"]
     pub Royalty: TThostFtdcMoneyType,
-    #[doc = "��������Ȩ��Լ��\u{5a4}�\u{32ef1}䲿��"]
+    #[doc = "交易所期权合约保证金不变部分"]
     pub ExchFixedMargin: TThostFtdcMoneyType,
-    #[doc = "��������Ȩ��Լ��С��\u{5a4}��"]
+    #[doc = "交易所期权合约最小保证金"]
     pub ExchMiniMargin: TThostFtdcMoneyType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcOptionInstrTradeCostField {
@@ -6300,27 +6300,27 @@ impl Default for CThostFtdcOptionInstrTradeCostField {
         }
     }
 }
-#[doc = "��Ȩ���׳ɱ���ѯ"]
+#[doc = "期权交易成本查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryOptionInstrTradeCostField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��Ȩ��Լ����"]
+    #[doc = "期权合约报价"]
     pub InputPrice: TThostFtdcPriceType,
-    #[doc = "��ļ۸�,��0����������"]
+    #[doc = "标的价格,填0则用昨结算价"]
     pub UnderlyingPrice: TThostFtdcPriceType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryOptionInstrTradeCostField {
@@ -6332,21 +6332,21 @@ impl Default for CThostFtdcQryOptionInstrTradeCostField {
         }
     }
 }
-#[doc = "��Ȩ�������ʲ�ѯ"]
+#[doc = "期权手续费率查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryOptionInstrCommRateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryOptionInstrCommRateField {
@@ -6358,17 +6358,17 @@ impl Default for CThostFtdcQryOptionInstrCommRateField {
         }
     }
 }
-#[doc = "��\u{5b8}�\u{5bb}�\u{5b8}��"]
+#[doc = "股指现货指数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcIndexPriceField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "\u{5b8}���\u{5bb}����\u{33c}�"]
+    #[doc = "指数现货收盘价"]
     pub ClosePrice: TThostFtdcPriceType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcIndexPriceField {
@@ -6380,55 +6380,55 @@ impl Default for CThostFtdcIndexPriceField {
         }
     }
 }
-#[doc = "�����\u{5b4}������"]
+#[doc = "输入的执行宣告"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInputExecOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "\u{5b4}����������"]
+    #[doc = "执行宣告引用"]
     pub ExecOrderRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��ƽ��־"]
+    #[doc = "开平标志"]
     pub OffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "\u{5b4}������"]
+    #[doc = "执行类型"]
     pub ActionType: TThostFtdcActionTypeType,
-    #[doc = "����ͷ������ĳ\u{5b2}\u{5b7}���"]
+    #[doc = "保留头寸申请的持仓方向"]
     pub PosiDirection: TThostFtdcPosiDirectionType,
-    #[doc = "��Ȩ��Ȩ���Ƿ����ڻ�ͷ��ı��,���\u{5b6}��ѷ���"]
+    #[doc = "期权行权后是否保留期货头寸的标记,该字段已废弃"]
     pub ReservePositionFlag: TThostFtdcExecOrderPositionFlagType,
-    #[doc = "��Ȩ��Ȩ�����ɵ�ͷ���Ƿ��Զ�ƽ��"]
+    #[doc = "期权行权后生成的头寸是否自动平仓"]
     pub CloseFlag: TThostFtdcExecOrderCloseFlagType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "�ʽ��˺�"]
+    #[doc = "资金账号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "���ױ���"]
+    #[doc = "交易编码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcInputExecOrderField {
@@ -6440,43 +6440,43 @@ impl Default for CThostFtdcInputExecOrderField {
         }
     }
 }
-#[doc = "����\u{5b4}���������"]
+#[doc = "输入执行宣告操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInputExecOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "\u{5b4}�������������"]
+    #[doc = "执行宣告操作引用"]
     pub ExecOrderActionRef: TThostFtdcOrderActionRefType,
-    #[doc = "\u{5b4}����������"]
+    #[doc = "执行宣告引用"]
     pub ExecOrderRef: TThostFtdcOrderRefType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "\u{5b4}������������"]
+    #[doc = "执行宣告操作编号"]
     pub ExecOrderSysID: TThostFtdcExecOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcInputExecOrderActionField {
@@ -6488,103 +6488,103 @@ impl Default for CThostFtdcInputExecOrderActionField {
         }
     }
 }
-#[doc = "\u{5b4}������"]
+#[doc = "执行宣告"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExecOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "\u{5b4}����������"]
+    #[doc = "执行宣告引用"]
     pub ExecOrderRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��ƽ��־"]
+    #[doc = "开平标志"]
     pub OffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "\u{5b4}������"]
+    #[doc = "执行类型"]
     pub ActionType: TThostFtdcActionTypeType,
-    #[doc = "����ͷ������ĳ\u{5b2}\u{5b7}���"]
+    #[doc = "保留头寸申请的持仓方向"]
     pub PosiDirection: TThostFtdcPosiDirectionType,
-    #[doc = "��Ȩ��Ȩ���Ƿ����ڻ�ͷ��ı��,���\u{5b6}��ѷ���"]
+    #[doc = "期权行权后是否保留期货头寸的标记,该字段已废弃"]
     pub ReservePositionFlag: TThostFtdcExecOrderPositionFlagType,
-    #[doc = "��Ȩ��Ȩ�����ɵ�ͷ���Ƿ��Զ�ƽ��"]
+    #[doc = "期权行权后生成的头寸是否自动平仓"]
     pub CloseFlag: TThostFtdcExecOrderCloseFlagType,
-    #[doc = "����\u{5b4}��������"]
+    #[doc = "本地执行宣告编号"]
     pub ExecOrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "\u{5b4}�������ύ״\u{32c}"]
+    #[doc = "执行宣告提交状态"]
     pub OrderSubmitStatus: TThostFtdcOrderSubmitStatusType,
-    #[doc = "������ʾ���"]
+    #[doc = "报单提示序号"]
     pub NotifySequence: TThostFtdcSequenceNoType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "\u{5b4}��������"]
+    #[doc = "执行宣告编号"]
     pub ExecOrderSysID: TThostFtdcExecOrderSysIDType,
-    #[doc = "��������"]
+    #[doc = "报单日期"]
     pub InsertDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "插入时间"]
     pub InsertTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "撤销时间"]
     pub CancelTime: TThostFtdcTimeType,
-    #[doc = "\u{5b4}�н��"]
+    #[doc = "执行结果"]
     pub ExecResult: TThostFtdcExecResultType,
-    #[doc = "�����Ա���"]
+    #[doc = "结算会员编号"]
     pub ClearingPartID: TThostFtdcParticipantIDType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "״\u{32c}��Ϣ"]
+    #[doc = "状态信息"]
     pub StatusMsg: TThostFtdcErrorMsgType,
-    #[doc = "�����û�����"]
+    #[doc = "操作用户代码"]
     pub ActiveUserID: TThostFtdcUserIDType,
-    #[doc = "���\u{379}�˾�������"]
+    #[doc = "经纪公司报单编号"]
     pub BrokerExecOrderSeq: TThostFtdcSequenceNoType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "�ʽ��˺�"]
+    #[doc = "资金账号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve3: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcExecOrderField {
@@ -6596,69 +6596,69 @@ impl Default for CThostFtdcExecOrderField {
         }
     }
 }
-#[doc = "\u{5b4}���������"]
+#[doc = "执行宣告操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExecOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "\u{5b4}�������������"]
+    #[doc = "执行宣告操作引用"]
     pub ExecOrderActionRef: TThostFtdcOrderActionRefType,
-    #[doc = "\u{5b4}����������"]
+    #[doc = "执行宣告引用"]
     pub ExecOrderRef: TThostFtdcOrderRefType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "\u{5b4}������������"]
+    #[doc = "执行宣告操作编号"]
     pub ExecOrderSysID: TThostFtdcExecOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "��������"]
+    #[doc = "操作日期"]
     pub ActionDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "操作时间"]
     pub ActionTime: TThostFtdcTimeType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "����\u{5b4}��������"]
+    #[doc = "本地执行宣告编号"]
     pub ExecOrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�������ر��"]
+    #[doc = "操作本地编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��������״\u{32c}"]
+    #[doc = "报单操作状态"]
     pub OrderActionStatus: TThostFtdcOrderActionStatusType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "\u{5b4}������"]
+    #[doc = "执行类型"]
     pub ActionType: TThostFtdcActionTypeType,
-    #[doc = "״\u{32c}��Ϣ"]
+    #[doc = "状态信息"]
     pub StatusMsg: TThostFtdcErrorMsgType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcExecOrderActionField {
@@ -6670,25 +6670,25 @@ impl Default for CThostFtdcExecOrderActionField {
         }
     }
 }
-#[doc = "\u{5b4}�������ѯ"]
+#[doc = "执行宣告查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryExecOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "\u{5b4}��������"]
+    #[doc = "执行宣告编号"]
     pub ExecOrderSysID: TThostFtdcExecOrderSysIDType,
-    #[doc = "��ʼʱ��"]
+    #[doc = "开始时间"]
     pub InsertTimeStart: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "结束时间"]
     pub InsertTimeEnd: TThostFtdcTimeType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryExecOrderField {
@@ -6700,73 +6700,73 @@ impl Default for CThostFtdcQryExecOrderField {
         }
     }
 }
-#[doc = "������\u{5b4}��������Ϣ"]
+#[doc = "交易所执行宣告信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeExecOrderField {
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��ƽ��־"]
+    #[doc = "开平标志"]
     pub OffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "\u{5b4}������"]
+    #[doc = "执行类型"]
     pub ActionType: TThostFtdcActionTypeType,
-    #[doc = "����ͷ������ĳ\u{5b2}\u{5b7}���"]
+    #[doc = "保留头寸申请的持仓方向"]
     pub PosiDirection: TThostFtdcPosiDirectionType,
-    #[doc = "��Ȩ��Ȩ���Ƿ����ڻ�ͷ��ı��,���\u{5b6}��ѷ���"]
+    #[doc = "期权行权后是否保留期货头寸的标记,该字段已废弃"]
     pub ReservePositionFlag: TThostFtdcExecOrderPositionFlagType,
-    #[doc = "��Ȩ��Ȩ�����ɵ�ͷ���Ƿ��Զ�ƽ��"]
+    #[doc = "期权行权后生成的头寸是否自动平仓"]
     pub CloseFlag: TThostFtdcExecOrderCloseFlagType,
-    #[doc = "����\u{5b4}��������"]
+    #[doc = "本地执行宣告编号"]
     pub ExecOrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "\u{5b4}�������ύ״\u{32c}"]
+    #[doc = "执行宣告提交状态"]
     pub OrderSubmitStatus: TThostFtdcOrderSubmitStatusType,
-    #[doc = "������ʾ���"]
+    #[doc = "报单提示序号"]
     pub NotifySequence: TThostFtdcSequenceNoType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "\u{5b4}��������"]
+    #[doc = "执行宣告编号"]
     pub ExecOrderSysID: TThostFtdcExecOrderSysIDType,
-    #[doc = "��������"]
+    #[doc = "报单日期"]
     pub InsertDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "插入时间"]
     pub InsertTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "撤销时间"]
     pub CancelTime: TThostFtdcTimeType,
-    #[doc = "\u{5b4}�н��"]
+    #[doc = "执行结果"]
     pub ExecResult: TThostFtdcExecResultType,
-    #[doc = "�����Ա���"]
+    #[doc = "结算会员编号"]
     pub ClearingPartID: TThostFtdcParticipantIDType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcExchangeExecOrderField {
@@ -6778,21 +6778,21 @@ impl Default for CThostFtdcExchangeExecOrderField {
         }
     }
 }
-#[doc = "������\u{5b4}�������ѯ"]
+#[doc = "交易所执行宣告查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeExecOrderField {
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
 }
 impl Default for CThostFtdcQryExchangeExecOrderField {
@@ -6804,64 +6804,64 @@ impl Default for CThostFtdcQryExchangeExecOrderField {
         }
     }
 }
-#[doc = "\u{5b4}�����������ѯ"]
+#[doc = "执行宣告操作查询"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryExecOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
 }
-#[doc = "������\u{5b4}���������"]
+#[doc = "交易所执行宣告操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeExecOrderActionField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "\u{5b4}������������"]
+    #[doc = "执行宣告操作编号"]
     pub ExecOrderSysID: TThostFtdcExecOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "��������"]
+    #[doc = "操作日期"]
     pub ActionDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "操作时间"]
     pub ActionTime: TThostFtdcTimeType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "����\u{5b4}��������"]
+    #[doc = "本地执行宣告编号"]
     pub ExecOrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�������ر��"]
+    #[doc = "操作本地编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��������״\u{32c}"]
+    #[doc = "报单操作状态"]
     pub OrderActionStatus: TThostFtdcOrderActionStatusType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "\u{5b4}������"]
+    #[doc = "执行类型"]
     pub ActionType: TThostFtdcActionTypeType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
 }
 impl Default for CThostFtdcExchangeExecOrderActionField {
@@ -6873,72 +6873,72 @@ impl Default for CThostFtdcExchangeExecOrderActionField {
         }
     }
 }
-#[doc = "������\u{5b4}�����������ѯ"]
+#[doc = "交易所执行宣告操作查询"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryExchangeExecOrderActionField {
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
 }
-#[doc = "����\u{5b4}������"]
+#[doc = "错误执行宣告"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcErrExecOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "\u{5b4}����������"]
+    #[doc = "执行宣告引用"]
     pub ExecOrderRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��ƽ��־"]
+    #[doc = "开平标志"]
     pub OffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "\u{5b4}������"]
+    #[doc = "执行类型"]
     pub ActionType: TThostFtdcActionTypeType,
-    #[doc = "����ͷ������ĳ\u{5b2}\u{5b7}���"]
+    #[doc = "保留头寸申请的持仓方向"]
     pub PosiDirection: TThostFtdcPosiDirectionType,
-    #[doc = "��Ȩ��Ȩ���Ƿ����ڻ�ͷ��ı��,���\u{5b6}��ѷ���"]
+    #[doc = "期权行权后是否保留期货头寸的标记,该字段已废弃"]
     pub ReservePositionFlag: TThostFtdcExecOrderPositionFlagType,
-    #[doc = "��Ȩ��Ȩ�����ɵ�ͷ���Ƿ��Զ�ƽ��"]
+    #[doc = "期权行权后生成的头寸是否自动平仓"]
     pub CloseFlag: TThostFtdcExecOrderCloseFlagType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "�ʽ��˺�"]
+    #[doc = "资金账号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "���ױ���"]
+    #[doc = "交易编码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcErrExecOrderField {
@@ -6950,56 +6950,56 @@ impl Default for CThostFtdcErrExecOrderField {
         }
     }
 }
-#[doc = "��ѯ����\u{5b4}������"]
+#[doc = "查询错误执行宣告"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryErrExecOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
 }
-#[doc = "����\u{5b4}���������"]
+#[doc = "错误执行宣告操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcErrExecOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "\u{5b4}�������������"]
+    #[doc = "执行宣告操作引用"]
     pub ExecOrderActionRef: TThostFtdcOrderActionRefType,
-    #[doc = "\u{5b4}����������"]
+    #[doc = "执行宣告引用"]
     pub ExecOrderRef: TThostFtdcOrderRefType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "\u{5b4}������������"]
+    #[doc = "执行宣告操作编号"]
     pub ExecOrderSysID: TThostFtdcExecOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcErrExecOrderActionField {
@@ -7011,32 +7011,32 @@ impl Default for CThostFtdcErrExecOrderActionField {
         }
     }
 }
-#[doc = "��ѯ����\u{5b4}���������"]
+#[doc = "查询错误执行宣告操作"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryErrExecOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
 }
-#[doc = "Ͷ������Ȩ��Լ����Ȩ��"]
+#[doc = "投资者期权合约交易权限"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcOptionInstrTradingRightField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "����Ȩ��"]
+    #[doc = "交易权限"]
     pub TradingRight: TThostFtdcTradingRightType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcOptionInstrTradingRightField {
@@ -7048,19 +7048,19 @@ impl Default for CThostFtdcOptionInstrTradingRightField {
         }
     }
 }
-#[doc = "��ѯ��Ȩ��Լ����Ȩ��"]
+#[doc = "查询期权合约交易权限"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryOptionInstrTradingRightField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryOptionInstrTradingRightField {
@@ -7072,31 +7072,31 @@ impl Default for CThostFtdcQryOptionInstrTradingRightField {
         }
     }
 }
-#[doc = "�����ѯ��"]
+#[doc = "输入的询价"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInputForQuoteField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "ѯ������"]
+    #[doc = "询价引用"]
     pub ForQuoteRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcInputForQuoteField {
@@ -7108,61 +7108,61 @@ impl Default for CThostFtdcInputForQuoteField {
         }
     }
 }
-#[doc = "ѯ��"]
+#[doc = "询价"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcForQuoteField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "ѯ������"]
+    #[doc = "询价引用"]
     pub ForQuoteRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����ѯ�۱��"]
+    #[doc = "本地询价编号"]
     pub ForQuoteLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "��������"]
+    #[doc = "报单日期"]
     pub InsertDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "插入时间"]
     pub InsertTime: TThostFtdcTimeType,
-    #[doc = "ѯ��״\u{32c}"]
+    #[doc = "询价状态"]
     pub ForQuoteStatus: TThostFtdcForQuoteStatusType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "״\u{32c}��Ϣ"]
+    #[doc = "状态信息"]
     pub StatusMsg: TThostFtdcErrorMsgType,
-    #[doc = "�����û�����"]
+    #[doc = "操作用户代码"]
     pub ActiveUserID: TThostFtdcUserIDType,
-    #[doc = "���\u{379}�˾ѯ�۱��"]
+    #[doc = "经纪公司询价编号"]
     pub BrokerForQutoSeq: TThostFtdcSequenceNoType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve3: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcForQuoteField {
@@ -7174,25 +7174,25 @@ impl Default for CThostFtdcForQuoteField {
         }
     }
 }
-#[doc = "ѯ�۲�ѯ"]
+#[doc = "询价查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryForQuoteField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��ʼʱ��"]
+    #[doc = "开始时间"]
     pub InsertTimeStart: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "结束时间"]
     pub InsertTimeEnd: TThostFtdcTimeType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryForQuoteField {
@@ -7204,37 +7204,37 @@ impl Default for CThostFtdcQryForQuoteField {
         }
     }
 }
-#[doc = "������ѯ����Ϣ"]
+#[doc = "交易所询价信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeForQuoteField {
-    #[doc = "����ѯ�۱��"]
+    #[doc = "本地询价编号"]
     pub ForQuoteLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "��������"]
+    #[doc = "报单日期"]
     pub InsertDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "插入时间"]
     pub InsertTime: TThostFtdcTimeType,
-    #[doc = "ѯ��״\u{32c}"]
+    #[doc = "询价状态"]
     pub ForQuoteStatus: TThostFtdcForQuoteStatusType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcExchangeForQuoteField {
@@ -7246,21 +7246,21 @@ impl Default for CThostFtdcExchangeForQuoteField {
         }
     }
 }
-#[doc = "������ѯ�۲�ѯ"]
+#[doc = "交易所询价查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeForQuoteField {
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
 }
 impl Default for CThostFtdcQryExchangeForQuoteField {
@@ -7272,67 +7272,67 @@ impl Default for CThostFtdcQryExchangeForQuoteField {
         }
     }
 }
-#[doc = "����ı���"]
+#[doc = "输入的报价"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInputQuoteField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "报价引用"]
     pub QuoteRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "���۸�"]
+    #[doc = "卖价格"]
     pub AskPrice: TThostFtdcPriceType,
-    #[doc = "��۸�"]
+    #[doc = "买价格"]
     pub BidPrice: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "卖数量"]
     pub AskVolume: TThostFtdcVolumeType,
-    #[doc = "������"]
+    #[doc = "买数量"]
     pub BidVolume: TThostFtdcVolumeType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "����ƽ��־"]
+    #[doc = "卖开平标志"]
     pub AskOffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "��ƽ��־"]
+    #[doc = "买开平标志"]
     pub BidOffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "��Ͷ���ױ���־"]
+    #[doc = "卖投机套保标志"]
     pub AskHedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��Ͷ���ױ���־"]
+    #[doc = "买投机套保标志"]
     pub BidHedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��������������"]
+    #[doc = "衍生卖报单引用"]
     pub AskOrderRef: TThostFtdcOrderRefType,
-    #[doc = "�����\u{b1a35}�����"]
+    #[doc = "衍生买报单引用"]
     pub BidOrderRef: TThostFtdcOrderRefType,
-    #[doc = "Ӧ�۱��"]
+    #[doc = "应价编号"]
     pub ForQuoteSysID: TThostFtdcOrderSysIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "���ױ���"]
+    #[doc = "交易编码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "���������"]
+    #[doc = "被顶单编号"]
     pub ReplaceSysID: TThostFtdcOrderSysIDType,
-    #[doc = "��Ч������"]
+    #[doc = "有效期类型"]
     pub TimeCondition: TThostFtdcTimeConditionType,
-    #[doc = "���������\u{5b6}�"]
+    #[doc = "报单回显字段"]
     pub OrderMemo: TThostFtdcOrderMemoType,
-    #[doc = "session��������� api�Զ�ά��"]
+    #[doc = "session上请求计数 api自动维护"]
     pub SessionReqSeq: TThostFtdcSequenceNo12Type,
 }
 impl Default for CThostFtdcInputQuoteField {
@@ -7344,49 +7344,49 @@ impl Default for CThostFtdcInputQuoteField {
         }
     }
 }
-#[doc = "���뱨�۲���"]
+#[doc = "输入报价操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInputQuoteActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "���۲�������"]
+    #[doc = "报价操作引用"]
     pub QuoteActionRef: TThostFtdcOrderActionRefType,
-    #[doc = "��������"]
+    #[doc = "报价引用"]
     pub QuoteRef: TThostFtdcOrderRefType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���۲������"]
+    #[doc = "报价操作编号"]
     pub QuoteSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "���ױ���"]
+    #[doc = "交易编码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "���������\u{5b6}�"]
+    #[doc = "报单回显字段"]
     pub OrderMemo: TThostFtdcOrderMemoType,
-    #[doc = "session��������� api�Զ�ά��"]
+    #[doc = "session上请求计数 api自动维护"]
     pub SessionReqSeq: TThostFtdcSequenceNo12Type,
 }
 impl Default for CThostFtdcInputQuoteActionField {
@@ -7398,123 +7398,123 @@ impl Default for CThostFtdcInputQuoteActionField {
         }
     }
 }
-#[doc = "����"]
+#[doc = "报价"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQuoteField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "报价引用"]
     pub QuoteRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "���۸�"]
+    #[doc = "卖价格"]
     pub AskPrice: TThostFtdcPriceType,
-    #[doc = "��۸�"]
+    #[doc = "买价格"]
     pub BidPrice: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "卖数量"]
     pub AskVolume: TThostFtdcVolumeType,
-    #[doc = "������"]
+    #[doc = "买数量"]
     pub BidVolume: TThostFtdcVolumeType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "����ƽ��־"]
+    #[doc = "卖开平标志"]
     pub AskOffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "��ƽ��־"]
+    #[doc = "买开平标志"]
     pub BidOffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "��Ͷ���ױ���־"]
+    #[doc = "卖投机套保标志"]
     pub AskHedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��Ͷ���ױ���־"]
+    #[doc = "买投机套保标志"]
     pub BidHedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "���ر��۱��"]
+    #[doc = "本地报价编号"]
     pub QuoteLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "������ʾ���"]
+    #[doc = "报价提示序号"]
     pub NotifySequence: TThostFtdcSequenceNoType,
-    #[doc = "�����ύ״\u{32c}"]
+    #[doc = "报价提交状态"]
     pub OrderSubmitStatus: TThostFtdcOrderSubmitStatusType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���۱��"]
+    #[doc = "报价编号"]
     pub QuoteSysID: TThostFtdcOrderSysIDType,
-    #[doc = "��������"]
+    #[doc = "报单日期"]
     pub InsertDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "插入时间"]
     pub InsertTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "撤销时间"]
     pub CancelTime: TThostFtdcTimeType,
-    #[doc = "����״\u{32c}"]
+    #[doc = "报价状态"]
     pub QuoteStatus: TThostFtdcOrderStatusType,
-    #[doc = "�����Ա���"]
+    #[doc = "结算会员编号"]
     pub ClearingPartID: TThostFtdcParticipantIDType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "�����������"]
+    #[doc = "卖方报单编号"]
     pub AskOrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "�\u{b7f71}������"]
+    #[doc = "买方报单编号"]
     pub BidOrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "״\u{32c}��Ϣ"]
+    #[doc = "状态信息"]
     pub StatusMsg: TThostFtdcErrorMsgType,
-    #[doc = "�����û�����"]
+    #[doc = "操作用户代码"]
     pub ActiveUserID: TThostFtdcUserIDType,
-    #[doc = "���\u{379}�˾���۱��"]
+    #[doc = "经纪公司报价编号"]
     pub BrokerQuoteSeq: TThostFtdcSequenceNoType,
-    #[doc = "��������������"]
+    #[doc = "衍生卖报单引用"]
     pub AskOrderRef: TThostFtdcOrderRefType,
-    #[doc = "�����\u{b1a35}�����"]
+    #[doc = "衍生买报单引用"]
     pub BidOrderRef: TThostFtdcOrderRefType,
-    #[doc = "Ӧ�۱��"]
+    #[doc = "应价编号"]
     pub ForQuoteSysID: TThostFtdcOrderSysIDType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "�ʽ��˺�"]
+    #[doc = "资金账号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve3: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "���������"]
+    #[doc = "被顶单编号"]
     pub ReplaceSysID: TThostFtdcOrderSysIDType,
-    #[doc = "��Ч������"]
+    #[doc = "有效期类型"]
     pub TimeCondition: TThostFtdcTimeConditionType,
-    #[doc = "���������\u{5b6}�"]
+    #[doc = "报单回显字段"]
     pub OrderMemo: TThostFtdcOrderMemoType,
-    #[doc = "session��������� api�Զ�ά��"]
+    #[doc = "session上请求计数 api自动维护"]
     pub SessionReqSeq: TThostFtdcSequenceNo12Type,
 }
 impl Default for CThostFtdcQuoteField {
@@ -7526,71 +7526,71 @@ impl Default for CThostFtdcQuoteField {
         }
     }
 }
-#[doc = "���۲���"]
+#[doc = "报价操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQuoteActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "���۲�������"]
+    #[doc = "报价操作引用"]
     pub QuoteActionRef: TThostFtdcOrderActionRefType,
-    #[doc = "��������"]
+    #[doc = "报价引用"]
     pub QuoteRef: TThostFtdcOrderRefType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���۲������"]
+    #[doc = "报价操作编号"]
     pub QuoteSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "��������"]
+    #[doc = "操作日期"]
     pub ActionDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "操作时间"]
     pub ActionTime: TThostFtdcTimeType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "���ر��۱��"]
+    #[doc = "本地报价编号"]
     pub QuoteLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�������ر��"]
+    #[doc = "操作本地编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��������״\u{32c}"]
+    #[doc = "报单操作状态"]
     pub OrderActionStatus: TThostFtdcOrderActionStatusType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "״\u{32c}��Ϣ"]
+    #[doc = "状态信息"]
     pub StatusMsg: TThostFtdcErrorMsgType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "���������\u{5b6}�"]
+    #[doc = "报单回显字段"]
     pub OrderMemo: TThostFtdcOrderMemoType,
-    #[doc = "session��������� api�Զ�ά��"]
+    #[doc = "session上请求计数 api自动维护"]
     pub SessionReqSeq: TThostFtdcSequenceNo12Type,
 }
 impl Default for CThostFtdcQuoteActionField {
@@ -7602,27 +7602,27 @@ impl Default for CThostFtdcQuoteActionField {
         }
     }
 }
-#[doc = "���۲�ѯ"]
+#[doc = "报价查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryQuoteField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���۱��"]
+    #[doc = "报价编号"]
     pub QuoteSysID: TThostFtdcOrderSysIDType,
-    #[doc = "��ʼʱ��"]
+    #[doc = "开始时间"]
     pub InsertTimeStart: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "结束时间"]
     pub InsertTimeEnd: TThostFtdcTimeType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryQuoteField {
@@ -7634,83 +7634,83 @@ impl Default for CThostFtdcQryQuoteField {
         }
     }
 }
-#[doc = "������������Ϣ"]
+#[doc = "交易所报价信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeQuoteField {
-    #[doc = "���۸�"]
+    #[doc = "卖价格"]
     pub AskPrice: TThostFtdcPriceType,
-    #[doc = "��۸�"]
+    #[doc = "买价格"]
     pub BidPrice: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "卖数量"]
     pub AskVolume: TThostFtdcVolumeType,
-    #[doc = "������"]
+    #[doc = "买数量"]
     pub BidVolume: TThostFtdcVolumeType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "����ƽ��־"]
+    #[doc = "卖开平标志"]
     pub AskOffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "��ƽ��־"]
+    #[doc = "买开平标志"]
     pub BidOffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "��Ͷ���ױ���־"]
+    #[doc = "卖投机套保标志"]
     pub AskHedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��Ͷ���ױ���־"]
+    #[doc = "买投机套保标志"]
     pub BidHedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "���ر��۱��"]
+    #[doc = "本地报价编号"]
     pub QuoteLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "������ʾ���"]
+    #[doc = "报价提示序号"]
     pub NotifySequence: TThostFtdcSequenceNoType,
-    #[doc = "�����ύ״\u{32c}"]
+    #[doc = "报价提交状态"]
     pub OrderSubmitStatus: TThostFtdcOrderSubmitStatusType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���۱��"]
+    #[doc = "报价编号"]
     pub QuoteSysID: TThostFtdcOrderSysIDType,
-    #[doc = "��������"]
+    #[doc = "报单日期"]
     pub InsertDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "插入时间"]
     pub InsertTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "撤销时间"]
     pub CancelTime: TThostFtdcTimeType,
-    #[doc = "����״\u{32c}"]
+    #[doc = "报价状态"]
     pub QuoteStatus: TThostFtdcOrderStatusType,
-    #[doc = "�����Ա���"]
+    #[doc = "结算会员编号"]
     pub ClearingPartID: TThostFtdcParticipantIDType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "�����������"]
+    #[doc = "卖方报单编号"]
     pub AskOrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "�\u{b7f71}������"]
+    #[doc = "买方报单编号"]
     pub BidOrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "Ӧ�۱��"]
+    #[doc = "应价编号"]
     pub ForQuoteSysID: TThostFtdcOrderSysIDType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "��Ч������"]
+    #[doc = "有效期类型"]
     pub TimeCondition: TThostFtdcTimeConditionType,
 }
 impl Default for CThostFtdcExchangeQuoteField {
@@ -7722,21 +7722,21 @@ impl Default for CThostFtdcExchangeQuoteField {
         }
     }
 }
-#[doc = "���������۲�ѯ"]
+#[doc = "交易所报价查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeQuoteField {
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
 }
 impl Default for CThostFtdcQryExchangeQuoteField {
@@ -7748,54 +7748,54 @@ impl Default for CThostFtdcQryExchangeQuoteField {
         }
     }
 }
-#[doc = "���۲�����ѯ"]
+#[doc = "报价操作查询"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryQuoteActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
 }
-#[doc = "���������۲���"]
+#[doc = "交易所报价操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeQuoteActionField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���۲������"]
+    #[doc = "报价操作编号"]
     pub QuoteSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "��������"]
+    #[doc = "操作日期"]
     pub ActionDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "操作时间"]
     pub ActionTime: TThostFtdcTimeType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "���ر��۱��"]
+    #[doc = "本地报价编号"]
     pub QuoteLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�������ر��"]
+    #[doc = "操作本地编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��������״\u{32c}"]
+    #[doc = "报单操作状态"]
     pub OrderActionStatus: TThostFtdcOrderActionStatusType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcExchangeQuoteActionField {
@@ -7807,34 +7807,34 @@ impl Default for CThostFtdcExchangeQuoteActionField {
         }
     }
 }
-#[doc = "���������۲�����ѯ"]
+#[doc = "交易所报价操作查询"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryExchangeQuoteActionField {
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
 }
-#[doc = "��Ȩ��Լdelta\u{5b5}"]
+#[doc = "期权合约delta值"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcOptionInstrDeltaField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Delta\u{5b5}"]
+    #[doc = "Delta值"]
     pub Delta: TThostFtdcRatioType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcOptionInstrDeltaField {
@@ -7846,23 +7846,23 @@ impl Default for CThostFtdcOptionInstrDeltaField {
         }
     }
 }
-#[doc = "���������\u{335}�ѯ������"]
+#[doc = "发给做市商的询价请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcForQuoteRspField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "ѯ�۱��"]
+    #[doc = "询价编号"]
     pub ForQuoteSysID: TThostFtdcOrderSysIDType,
-    #[doc = "ѯ��ʱ��"]
+    #[doc = "询价时间"]
     pub ForQuoteTime: TThostFtdcTimeType,
-    #[doc = "ҵ������"]
+    #[doc = "业务日期"]
     pub ActionDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcForQuoteRspField {
@@ -7874,23 +7874,23 @@ impl Default for CThostFtdcForQuoteRspField {
         }
     }
 }
-#[doc = "��ǰ��Ȩ��Լ\u{5b4}��ƫ��\u{5b5}����ϸ����"]
+#[doc = "当前期权合约执行偏移值的详细内容"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcStrikeOffsetField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "\u{5b4}��ƫ��\u{5b5}"]
+    #[doc = "执行偏移值"]
     pub Offset: TThostFtdcMoneyType,
-    #[doc = "\u{5b4}��ƫ������"]
+    #[doc = "执行偏移类型"]
     pub OffsetType: TThostFtdcStrikeOffsetTypeType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcStrikeOffsetField {
@@ -7902,17 +7902,17 @@ impl Default for CThostFtdcStrikeOffsetField {
         }
     }
 }
-#[doc = "��Ȩ\u{5b4}��ƫ��\u{5b5}��ѯ"]
+#[doc = "期权执行偏移值查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryStrikeOffsetField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryStrikeOffsetField {
@@ -7924,33 +7924,33 @@ impl Default for CThostFtdcQryStrikeOffsetField {
         }
     }
 }
-#[doc = "����������������"]
+#[doc = "输入批量报单操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInputBatchOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������������"]
+    #[doc = "报单操作引用"]
     pub OrderActionRef: TThostFtdcOrderActionRefType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcInputBatchOrderActionField {
@@ -7962,53 +7962,53 @@ impl Default for CThostFtdcInputBatchOrderActionField {
         }
     }
 }
-#[doc = "������������"]
+#[doc = "批量报单操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcBatchOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������������"]
+    #[doc = "报单操作引用"]
     pub OrderActionRef: TThostFtdcOrderActionRefType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��������"]
+    #[doc = "操作日期"]
     pub ActionDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "操作时间"]
     pub ActionTime: TThostFtdcTimeType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�������ر��"]
+    #[doc = "操作本地编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��������״\u{32c}"]
+    #[doc = "报单操作状态"]
     pub OrderActionStatus: TThostFtdcOrderActionStatusType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "״\u{32c}��Ϣ"]
+    #[doc = "状态信息"]
     pub StatusMsg: TThostFtdcErrorMsgType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcBatchOrderActionField {
@@ -8020,37 +8020,37 @@ impl Default for CThostFtdcBatchOrderActionField {
         }
     }
 }
-#[doc = "������������������"]
+#[doc = "交易所批量报单操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeBatchOrderActionField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��������"]
+    #[doc = "操作日期"]
     pub ActionDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "操作时间"]
     pub ActionTime: TThostFtdcTimeType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�������ر��"]
+    #[doc = "操作本地编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��������״\u{32c}"]
+    #[doc = "报单操作状态"]
     pub OrderActionStatus: TThostFtdcOrderActionStatusType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcExchangeBatchOrderActionField {
@@ -8062,29 +8062,29 @@ impl Default for CThostFtdcExchangeBatchOrderActionField {
         }
     }
 }
-#[doc = "��ѯ������������"]
+#[doc = "查询批量报单操作"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryBatchOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
 }
-#[doc = "��Ϻ�Լ��ȫϵ��"]
+#[doc = "组合合约安全系数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcCombInstrumentGuardField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
     pub GuarantRatio: TThostFtdcRatioType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcCombInstrumentGuardField {
@@ -8096,17 +8096,17 @@ impl Default for CThostFtdcCombInstrumentGuardField {
         }
     }
 }
-#[doc = "��Ϻ�Լ��ȫϵ����ѯ"]
+#[doc = "组合合约安全系数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryCombInstrumentGuardField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryCombInstrumentGuardField {
@@ -8118,43 +8118,43 @@ impl Default for CThostFtdcQryCombInstrumentGuardField {
         }
     }
 }
-#[doc = "������������"]
+#[doc = "输入的申请组合"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInputCombActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "�������"]
+    #[doc = "组合引用"]
     pub CombActionRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "���\u{5b8}�\u{edfd}��"]
+    #[doc = "组合指令方向"]
     pub CombDirection: TThostFtdcCombDirectionType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcInputCombActionField {
@@ -8166,75 +8166,75 @@ impl Default for CThostFtdcInputCombActionField {
         }
     }
 }
-#[doc = "�������"]
+#[doc = "申请组合"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcCombActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "�������"]
+    #[doc = "组合引用"]
     pub CombActionRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "���\u{5b8}�\u{edfd}��"]
+    #[doc = "组合指令方向"]
     pub CombDirection: TThostFtdcCombDirectionType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����������ϱ��"]
+    #[doc = "本地申请组合编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "���״\u{32c}"]
+    #[doc = "组合状态"]
     pub ActionStatus: TThostFtdcOrderActionStatusType,
-    #[doc = "������ʾ���"]
+    #[doc = "报单提示序号"]
     pub NotifySequence: TThostFtdcSequenceNoType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "״\u{32c}��Ϣ"]
+    #[doc = "状态信息"]
     pub StatusMsg: TThostFtdcErrorMsgType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve3: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��ϱ��"]
+    #[doc = "组合编号"]
     pub ComTradeID: TThostFtdcTradeIDType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcCombActionField {
@@ -8246,21 +8246,21 @@ impl Default for CThostFtdcCombActionField {
         }
     }
 }
-#[doc = "������ϲ�ѯ"]
+#[doc = "申请组合查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryCombActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryCombActionField {
@@ -8272,53 +8272,53 @@ impl Default for CThostFtdcQryCombActionField {
         }
     }
 }
-#[doc = "���������������Ϣ"]
+#[doc = "交易所申请组合信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeCombActionField {
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "���\u{5b8}�\u{edfd}��"]
+    #[doc = "组合指令方向"]
     pub CombDirection: TThostFtdcCombDirectionType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����������ϱ��"]
+    #[doc = "本地申请组合编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "���״\u{32c}"]
+    #[doc = "组合状态"]
     pub ActionStatus: TThostFtdcOrderActionStatusType,
-    #[doc = "������ʾ���"]
+    #[doc = "报单提示序号"]
     pub NotifySequence: TThostFtdcSequenceNoType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��ϱ��"]
+    #[doc = "组合编号"]
     pub ComTradeID: TThostFtdcTradeIDType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcExchangeCombActionField {
@@ -8330,21 +8330,21 @@ impl Default for CThostFtdcExchangeCombActionField {
         }
     }
 }
-#[doc = "������������ϲ�ѯ"]
+#[doc = "交易所申请组合查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryExchangeCombActionField {
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
 }
 impl Default for CThostFtdcQryExchangeCombActionField {
@@ -8356,19 +8356,19 @@ impl Default for CThostFtdcQryExchangeCombActionField {
         }
     }
 }
-#[doc = "��Ʒ���ۻ���"]
+#[doc = "产品报价汇率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcProductExchRateField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "���۱�������"]
+    #[doc = "报价币种类型"]
     pub QuoteCurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "����"]
+    #[doc = "汇率"]
     pub ExchangeRate: TThostFtdcExchangeRateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcProductExchRateField {
@@ -8380,15 +8380,15 @@ impl Default for CThostFtdcProductExchRateField {
         }
     }
 }
-#[doc = "��Ʒ���ۻ��ʲ�ѯ"]
+#[doc = "产品报价汇率查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryProductExchRateField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryProductExchRateField {
@@ -8400,17 +8400,17 @@ impl Default for CThostFtdcQryProductExchRateField {
         }
     }
 }
-#[doc = "��ѯѯ�ۼ۲����"]
+#[doc = "查询询价价差参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryForQuoteParamField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryForQuoteParamField {
@@ -8422,21 +8422,21 @@ impl Default for CThostFtdcQryForQuoteParamField {
         }
     }
 }
-#[doc = "ѯ�ۼ۲����"]
+#[doc = "询价价差参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcForQuoteParamField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���¼�"]
+    #[doc = "最新价"]
     pub LastPrice: TThostFtdcPriceType,
-    #[doc = "�۲�"]
+    #[doc = "价差"]
     pub PriceInterval: TThostFtdcPriceType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcForQuoteParamField {
@@ -8448,35 +8448,35 @@ impl Default for CThostFtdcForQuoteParamField {
         }
     }
 }
-#[doc = "��ǰ��������Ȩ��Լ�����ѵ���ϸ����"]
+#[doc = "当前做市商期权合约手续费的详细内容"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcMMOptionInstrCommRateField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������������"]
+    #[doc = "开仓手续费率"]
     pub OpenRatioByMoney: TThostFtdcRatioType,
-    #[doc = "����������"]
+    #[doc = "开仓手续费"]
     pub OpenRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平仓手续费率"]
     pub CloseRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平仓手续费"]
     pub CloseRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平今手续费率"]
     pub CloseTodayRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平今手续费"]
     pub CloseTodayRatioByVolume: TThostFtdcRatioType,
-    #[doc = "\u{5b4}����������"]
+    #[doc = "执行手续费率"]
     pub StrikeRatioByMoney: TThostFtdcRatioType,
-    #[doc = "\u{5b4}��������"]
+    #[doc = "执行手续费"]
     pub StrikeRatioByVolume: TThostFtdcRatioType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcMMOptionInstrCommRateField {
@@ -8488,17 +8488,17 @@ impl Default for CThostFtdcMMOptionInstrCommRateField {
         }
     }
 }
-#[doc = "��������Ȩ�������ʲ�ѯ"]
+#[doc = "做市商期权手续费率查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryMMOptionInstrCommRateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryMMOptionInstrCommRateField {
@@ -8510,31 +8510,31 @@ impl Default for CThostFtdcQryMMOptionInstrCommRateField {
         }
     }
 }
-#[doc = "�����\u{33a}�Լ��������"]
+#[doc = "做市商合约手续费率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcMMInstrumentCommissionRateField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������������"]
+    #[doc = "开仓手续费率"]
     pub OpenRatioByMoney: TThostFtdcRatioType,
-    #[doc = "����������"]
+    #[doc = "开仓手续费"]
     pub OpenRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平仓手续费率"]
     pub CloseRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平仓手续费"]
     pub CloseRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平今手续费率"]
     pub CloseTodayRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平今手续费"]
     pub CloseTodayRatioByVolume: TThostFtdcRatioType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcMMInstrumentCommissionRateField {
@@ -8546,17 +8546,17 @@ impl Default for CThostFtdcMMInstrumentCommissionRateField {
         }
     }
 }
-#[doc = "��ѯ�����\u{33a}�Լ��������"]
+#[doc = "查询做市商合约手续费率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryMMInstrumentCommissionRateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryMMInstrumentCommissionRateField {
@@ -8568,33 +8568,33 @@ impl Default for CThostFtdcQryMMInstrumentCommissionRateField {
         }
     }
 }
-#[doc = "��ǰ���������ѵ���ϸ����"]
+#[doc = "当前报单手续费的详细内容"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentOrderCommRateField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����������"]
+    #[doc = "报单手续费"]
     pub OrderCommByVolume: TThostFtdcRatioType,
-    #[doc = "����������"]
+    #[doc = "撤单手续费"]
     pub OrderActionCommByVolume: TThostFtdcRatioType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "报单手续费"]
     pub OrderCommByTrade: TThostFtdcRatioType,
-    #[doc = "����������"]
+    #[doc = "撤单手续费"]
     pub OrderActionCommByTrade: TThostFtdcRatioType,
 }
 impl Default for CThostFtdcInstrumentOrderCommRateField {
@@ -8606,17 +8606,17 @@ impl Default for CThostFtdcInstrumentOrderCommRateField {
         }
     }
 }
-#[doc = "�����������ʲ�ѯ"]
+#[doc = "报单手续费率查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInstrumentOrderCommRateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryInstrumentOrderCommRateField {
@@ -8628,17 +8628,17 @@ impl Default for CThostFtdcQryInstrumentOrderCommRateField {
         }
     }
 }
-#[doc = "���ײ���"]
+#[doc = "交易参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTradeParamField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��������"]
+    #[doc = "参数代码"]
     pub TradeParamID: TThostFtdcTradeParamIDType,
-    #[doc = "��������\u{5b5}"]
+    #[doc = "参数代码值"]
     pub TradeParamValue: TThostFtdcSettlementParamValueType,
-    #[doc = "��ע"]
+    #[doc = "备注"]
     pub Memo: TThostFtdcMemoType,
 }
 impl Default for CThostFtdcTradeParamField {
@@ -8650,29 +8650,29 @@ impl Default for CThostFtdcTradeParamField {
         }
     }
 }
-#[doc = "��Լ��\u{5a4}���ʵ���"]
+#[doc = "合约保证金率调整"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentMarginRateULField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "多头保证金率"]
     pub LongMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "多头保证金费"]
     pub LongMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "空头保证金率"]
     pub ShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "空头保证金费"]
     pub ShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcInstrumentMarginRateULField {
@@ -8684,25 +8684,25 @@ impl Default for CThostFtdcInstrumentMarginRateULField {
         }
     }
 }
-#[doc = "�ڻ��\u{5b2}����Ʋ���"]
+#[doc = "期货持仓限制参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcFutureLimitPosiParamField {
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����Ͷ��������������"]
+    #[doc = "当日投机开仓数量限制"]
     pub SpecOpenVolume: TThostFtdcVolumeType,
-    #[doc = "��������������������"]
+    #[doc = "当日套利开仓数量限制"]
     pub ArbiOpenVolume: TThostFtdcVolumeType,
-    #[doc = "����Ͷ��+����������������"]
+    #[doc = "当日投机+套利开仓数量限制"]
     pub OpenVolume: TThostFtdcVolumeType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcFutureLimitPosiParamField {
@@ -8714,13 +8714,13 @@ impl Default for CThostFtdcFutureLimitPosiParamField {
         }
     }
 }
-#[doc = "��\u{5b9}��¼IP"]
+#[doc = "禁止登录IP"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcLoginForbiddenIPField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcLoginForbiddenIPField {
@@ -8732,15 +8732,15 @@ impl Default for CThostFtdcLoginForbiddenIPField {
         }
     }
 }
-#[doc = "IP�б�"]
+#[doc = "IP列表"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcIPListField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "�Ƿ������"]
+    #[doc = "是否白名单"]
     pub IsWhite: TThostFtdcBoolType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcIPListField {
@@ -8752,47 +8752,47 @@ impl Default for CThostFtdcIPListField {
         }
     }
 }
-#[doc = "�������Ȩ�ԶԳ�"]
+#[doc = "输入的期权自对冲"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInputOptionSelfCloseField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Ȩ�ԶԳ�����"]
+    #[doc = "期权自对冲引用"]
     pub OptionSelfCloseRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��Ȩ��Ȩ��ͷ���Ƿ��ԶԳ�"]
+    #[doc = "期权行权的头寸是否自对冲"]
     pub OptSelfCloseFlag: TThostFtdcOptSelfCloseFlagType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "�ʽ��˺�"]
+    #[doc = "资金账号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "���ױ���"]
+    #[doc = "交易编码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcInputOptionSelfCloseField {
@@ -8804,43 +8804,43 @@ impl Default for CThostFtdcInputOptionSelfCloseField {
         }
     }
 }
-#[doc = "������Ȩ�ԶԳ����"]
+#[doc = "输入期权自对冲操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInputOptionSelfCloseActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��Ȩ�ԶԳ��������"]
+    #[doc = "期权自对冲操作引用"]
     pub OptionSelfCloseActionRef: TThostFtdcOrderActionRefType,
-    #[doc = "��Ȩ�ԶԳ�����"]
+    #[doc = "期权自对冲引用"]
     pub OptionSelfCloseRef: TThostFtdcOrderRefType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ȩ�ԶԳ�������"]
+    #[doc = "期权自对冲操作编号"]
     pub OptionSelfCloseSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcInputOptionSelfCloseActionField {
@@ -8852,95 +8852,95 @@ impl Default for CThostFtdcInputOptionSelfCloseActionField {
         }
     }
 }
-#[doc = "��Ȩ�ԶԳ�"]
+#[doc = "期权自对冲"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcOptionSelfCloseField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Ȩ�ԶԳ�����"]
+    #[doc = "期权自对冲引用"]
     pub OptionSelfCloseRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��Ȩ��Ȩ��ͷ���Ƿ��ԶԳ�"]
+    #[doc = "期权行权的头寸是否自对冲"]
     pub OptSelfCloseFlag: TThostFtdcOptSelfCloseFlagType,
-    #[doc = "������Ȩ�ԶԳ���"]
+    #[doc = "本地期权自对冲编号"]
     pub OptionSelfCloseLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "��Ȩ�ԶԳ��ύ״\u{32c}"]
+    #[doc = "期权自对冲提交状态"]
     pub OrderSubmitStatus: TThostFtdcOrderSubmitStatusType,
-    #[doc = "������ʾ���"]
+    #[doc = "报单提示序号"]
     pub NotifySequence: TThostFtdcSequenceNoType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "��Ȩ�ԶԳ���"]
+    #[doc = "期权自对冲编号"]
     pub OptionSelfCloseSysID: TThostFtdcOrderSysIDType,
-    #[doc = "��������"]
+    #[doc = "报单日期"]
     pub InsertDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "插入时间"]
     pub InsertTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "撤销时间"]
     pub CancelTime: TThostFtdcTimeType,
-    #[doc = "�ԶԳ���"]
+    #[doc = "自对冲结果"]
     pub ExecResult: TThostFtdcExecResultType,
-    #[doc = "�����Ա���"]
+    #[doc = "结算会员编号"]
     pub ClearingPartID: TThostFtdcParticipantIDType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "״\u{32c}��Ϣ"]
+    #[doc = "状态信息"]
     pub StatusMsg: TThostFtdcErrorMsgType,
-    #[doc = "�����û�����"]
+    #[doc = "操作用户代码"]
     pub ActiveUserID: TThostFtdcUserIDType,
-    #[doc = "���\u{379}�˾�������"]
+    #[doc = "经纪公司报单编号"]
     pub BrokerOptionSelfCloseSeq: TThostFtdcSequenceNoType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "�ʽ��˺�"]
+    #[doc = "资金账号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve3: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcOptionSelfCloseField {
@@ -8952,67 +8952,67 @@ impl Default for CThostFtdcOptionSelfCloseField {
         }
     }
 }
-#[doc = "��Ȩ�ԶԳ����"]
+#[doc = "期权自对冲操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcOptionSelfCloseActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��Ȩ�ԶԳ��������"]
+    #[doc = "期权自对冲操作引用"]
     pub OptionSelfCloseActionRef: TThostFtdcOrderActionRefType,
-    #[doc = "��Ȩ�ԶԳ�����"]
+    #[doc = "期权自对冲引用"]
     pub OptionSelfCloseRef: TThostFtdcOrderRefType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ȩ�ԶԳ�������"]
+    #[doc = "期权自对冲操作编号"]
     pub OptionSelfCloseSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "��������"]
+    #[doc = "操作日期"]
     pub ActionDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "操作时间"]
     pub ActionTime: TThostFtdcTimeType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "������Ȩ�ԶԳ���"]
+    #[doc = "本地期权自对冲编号"]
     pub OptionSelfCloseLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�������ر��"]
+    #[doc = "操作本地编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��������״\u{32c}"]
+    #[doc = "报单操作状态"]
     pub OrderActionStatus: TThostFtdcOrderActionStatusType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "״\u{32c}��Ϣ"]
+    #[doc = "状态信息"]
     pub StatusMsg: TThostFtdcErrorMsgType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcOptionSelfCloseActionField {
@@ -9024,25 +9024,25 @@ impl Default for CThostFtdcOptionSelfCloseActionField {
         }
     }
 }
-#[doc = "��Ȩ�ԶԳ��ѯ"]
+#[doc = "期权自对冲查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryOptionSelfCloseField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ȩ�ԶԳ���"]
+    #[doc = "期权自对冲编号"]
     pub OptionSelfCloseSysID: TThostFtdcOrderSysIDType,
-    #[doc = "��ʼʱ��"]
+    #[doc = "开始时间"]
     pub InsertTimeStart: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "结束时间"]
     pub InsertTimeEnd: TThostFtdcTimeType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryOptionSelfCloseField {
@@ -9054,65 +9054,65 @@ impl Default for CThostFtdcQryOptionSelfCloseField {
         }
     }
 }
-#[doc = "��������Ȩ�ԶԳ���Ϣ"]
+#[doc = "交易所期权自对冲信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeOptionSelfCloseField {
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��Ȩ��Ȩ��ͷ���Ƿ��ԶԳ�"]
+    #[doc = "期权行权的头寸是否自对冲"]
     pub OptSelfCloseFlag: TThostFtdcOptSelfCloseFlagType,
-    #[doc = "������Ȩ�ԶԳ���"]
+    #[doc = "本地期权自对冲编号"]
     pub OptionSelfCloseLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "��Ȩ�ԶԳ��ύ״\u{32c}"]
+    #[doc = "期权自对冲提交状态"]
     pub OrderSubmitStatus: TThostFtdcOrderSubmitStatusType,
-    #[doc = "������ʾ���"]
+    #[doc = "报单提示序号"]
     pub NotifySequence: TThostFtdcSequenceNoType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "��Ȩ�ԶԳ���"]
+    #[doc = "期权自对冲编号"]
     pub OptionSelfCloseSysID: TThostFtdcOrderSysIDType,
-    #[doc = "��������"]
+    #[doc = "报单日期"]
     pub InsertDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "插入时间"]
     pub InsertTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "撤销时间"]
     pub CancelTime: TThostFtdcTimeType,
-    #[doc = "�ԶԳ���"]
+    #[doc = "自对冲结果"]
     pub ExecResult: TThostFtdcExecResultType,
-    #[doc = "�����Ա���"]
+    #[doc = "结算会员编号"]
     pub ClearingPartID: TThostFtdcParticipantIDType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcExchangeOptionSelfCloseField {
@@ -9124,62 +9124,62 @@ impl Default for CThostFtdcExchangeOptionSelfCloseField {
         }
     }
 }
-#[doc = "��Ȩ�ԶԳ������ѯ"]
+#[doc = "期权自对冲操作查询"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryOptionSelfCloseActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
 }
-#[doc = "��������Ȩ�ԶԳ����"]
+#[doc = "交易所期权自对冲操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcExchangeOptionSelfCloseActionField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ȩ�ԶԳ�������"]
+    #[doc = "期权自对冲操作编号"]
     pub OptionSelfCloseSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "��������"]
+    #[doc = "操作日期"]
     pub ActionDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "操作时间"]
     pub ActionTime: TThostFtdcTimeType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "������Ȩ�ԶԳ���"]
+    #[doc = "本地期权自对冲编号"]
     pub OptionSelfCloseLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�������ر��"]
+    #[doc = "操作本地编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��������״\u{32c}"]
+    #[doc = "报单操作状态"]
     pub OrderActionStatus: TThostFtdcOrderActionStatusType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "��Ȩ��Ȩ��ͷ���Ƿ��ԶԳ�"]
+    #[doc = "期权行权的头寸是否自对冲"]
     pub OptSelfCloseFlag: TThostFtdcOptSelfCloseFlagType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
 }
 impl Default for CThostFtdcExchangeOptionSelfCloseActionField {
@@ -9191,63 +9191,63 @@ impl Default for CThostFtdcExchangeOptionSelfCloseActionField {
         }
     }
 }
-#[doc = "��ʱ����\u{36c}��"]
+#[doc = "延时换汇同步"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSyncDelaySwapField {
-    #[doc = "������ˮ��"]
+    #[doc = "换汇流水号"]
     pub DelaySwapSeqNo: TThostFtdcDepositSeqNoType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Դ����"]
+    #[doc = "源币种"]
     pub FromCurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "Դ���"]
+    #[doc = "源金额"]
     pub FromAmount: TThostFtdcMoneyType,
-    #[doc = "Դ���㶳����(���ö���)"]
+    #[doc = "源换汇冻结金额(可用冻结)"]
     pub FromFrozenSwap: TThostFtdcMoneyType,
-    #[doc = "Դʣ�\u{efb}����(���ᶳ��)"]
+    #[doc = "源剩余换汇额度(可提冻结)"]
     pub FromRemainSwap: TThostFtdcMoneyType,
-    #[doc = "Ŀ�����"]
+    #[doc = "目标币种"]
     pub ToCurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "Ŀ����"]
+    #[doc = "目标金额"]
     pub ToAmount: TThostFtdcMoneyType,
-    #[doc = "�Ƿ��\u{5b9}�����"]
+    #[doc = "是否手工换汇"]
     pub IsManualSwap: TThostFtdcBoolType,
-    #[doc = "�Ƿ�������ҵ�ʣ�\u{efb}��������Ϊ0"]
+    #[doc = "是否将所有外币的剩余换汇额度设置为0"]
     pub IsAllRemainSetZero: TThostFtdcBoolType,
 }
-#[doc = "��ѯ��ʱ����\u{36c}��"]
+#[doc = "查询延时换汇同步"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQrySyncDelaySwapField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��ʱ������ˮ��"]
+    #[doc = "延时换汇流水号"]
     pub DelaySwapSeqNo: TThostFtdcDepositSeqNoType,
 }
-#[doc = "Ͷ�ʵ�Ԫ"]
+#[doc = "投资单元"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestUnitField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "Ͷ���ߵ�Ԫ����"]
+    #[doc = "投资者单元名称"]
     pub InvestorUnitName: TThostFtdcPartyNameType,
-    #[doc = "Ͷ���߷������"]
+    #[doc = "投资者分组代码"]
     pub InvestorGroupID: TThostFtdcInvestorIDType,
-    #[doc = "��������ģ�����"]
+    #[doc = "手续费率模板代码"]
     pub CommModelID: TThostFtdcInvestorIDType,
-    #[doc = "��\u{5a4}����ģ�����"]
+    #[doc = "保证金率模板代码"]
     pub MarginModelID: TThostFtdcInvestorIDType,
-    #[doc = "�ʽ��˺�"]
+    #[doc = "资金账号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
 impl Default for CThostFtdcInvestUnitField {
@@ -9259,43 +9259,43 @@ impl Default for CThostFtdcInvestUnitField {
         }
     }
 }
-#[doc = "��ѯͶ�ʵ�Ԫ"]
+#[doc = "查询投资单元"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryInvestUnitField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
 }
-#[doc = "�����������ʽ�У��ģʽ"]
+#[doc = "二级代理商资金校验模式"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSecAgentCheckModeField {
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "����"]
+    #[doc = "币种"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "�����н�����ʽ��ʺ�"]
+    #[doc = "境外中介机构资金帐号"]
     pub BrokerSecAgentID: TThostFtdcAccountIDType,
-    #[doc = "�Ƿ���ҪУ���Լ����ʽ��˻�"]
+    #[doc = "是否需要校验自己的资金账户"]
     pub CheckSelfAccount: TThostFtdcBoolType,
 }
-#[doc = "������������Ϣ"]
+#[doc = "二级代理商信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSecAgentTradeInfoField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�����н�����ʽ��ʺ�"]
+    #[doc = "境外中介机构资金帐号"]
     pub BrokerSecAgentID: TThostFtdcAccountIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������������"]
+    #[doc = "二级代理商姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcSecAgentTradeInfoField {
@@ -9307,59 +9307,59 @@ impl Default for CThostFtdcSecAgentTradeInfoField {
         }
     }
 }
-#[doc = "�г�����"]
+#[doc = "市场行情"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "���¼�"]
+    #[doc = "最新价"]
     pub LastPrice: TThostFtdcPriceType,
-    #[doc = "�ϴν����"]
+    #[doc = "上次结算价"]
     pub PreSettlementPrice: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "昨收盘"]
     pub PreClosePrice: TThostFtdcPriceType,
-    #[doc = "��\u{5b2}���"]
+    #[doc = "昨持仓量"]
     pub PreOpenInterest: TThostFtdcLargeVolumeType,
-    #[doc = "����"]
+    #[doc = "今开盘"]
     pub OpenPrice: TThostFtdcPriceType,
-    #[doc = "��\u{7fc}�"]
+    #[doc = "最高价"]
     pub HighestPrice: TThostFtdcPriceType,
-    #[doc = "��ͼ�"]
+    #[doc = "最低价"]
     pub LowestPrice: TThostFtdcPriceType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "�ɽ����"]
+    #[doc = "成交金额"]
     pub Turnover: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}���"]
+    #[doc = "持仓量"]
     pub OpenInterest: TThostFtdcLargeVolumeType,
-    #[doc = "������"]
+    #[doc = "今收盘"]
     pub ClosePrice: TThostFtdcPriceType,
-    #[doc = "���ν����"]
+    #[doc = "本次结算价"]
     pub SettlementPrice: TThostFtdcPriceType,
-    #[doc = "��\u{363}���"]
+    #[doc = "涨停板价"]
     pub UpperLimitPrice: TThostFtdcPriceType,
-    #[doc = "��\u{363}���"]
+    #[doc = "跌停板价"]
     pub LowerLimitPrice: TThostFtdcPriceType,
-    #[doc = "����ʵ��"]
+    #[doc = "昨虚实度"]
     pub PreDelta: TThostFtdcRatioType,
-    #[doc = "����ʵ��"]
+    #[doc = "今虚实度"]
     pub CurrDelta: TThostFtdcRatioType,
-    #[doc = "����\u{7b8}�ʱ��"]
+    #[doc = "最后修改时间"]
     pub UpdateTime: TThostFtdcTimeType,
-    #[doc = "����\u{7b8}ĺ���"]
+    #[doc = "最后修改毫秒"]
     pub UpdateMillisec: TThostFtdcMillisecType,
-    #[doc = "ҵ������"]
+    #[doc = "业务日期"]
     pub ActionDay: TThostFtdcDateType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
 }
 impl Default for CThostFtdcMarketDataField {
@@ -9371,133 +9371,133 @@ impl Default for CThostFtdcMarketDataField {
         }
     }
 }
-#[doc = "�����������"]
+#[doc = "行情基础属性"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcMarketDataBaseField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "�ϴν����"]
+    #[doc = "上次结算价"]
     pub PreSettlementPrice: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "昨收盘"]
     pub PreClosePrice: TThostFtdcPriceType,
-    #[doc = "��\u{5b2}���"]
+    #[doc = "昨持仓量"]
     pub PreOpenInterest: TThostFtdcLargeVolumeType,
-    #[doc = "����ʵ��"]
+    #[doc = "昨虚实度"]
     pub PreDelta: TThostFtdcRatioType,
 }
-#[doc = "���龲\u{32c}����"]
+#[doc = "行情静态属性"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcMarketDataStaticField {
-    #[doc = "����"]
+    #[doc = "今开盘"]
     pub OpenPrice: TThostFtdcPriceType,
-    #[doc = "��\u{7fc}�"]
+    #[doc = "最高价"]
     pub HighestPrice: TThostFtdcPriceType,
-    #[doc = "��ͼ�"]
+    #[doc = "最低价"]
     pub LowestPrice: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "今收盘"]
     pub ClosePrice: TThostFtdcPriceType,
-    #[doc = "��\u{363}���"]
+    #[doc = "涨停板价"]
     pub UpperLimitPrice: TThostFtdcPriceType,
-    #[doc = "��\u{363}���"]
+    #[doc = "跌停板价"]
     pub LowerLimitPrice: TThostFtdcPriceType,
-    #[doc = "���ν����"]
+    #[doc = "本次结算价"]
     pub SettlementPrice: TThostFtdcPriceType,
-    #[doc = "����ʵ��"]
+    #[doc = "今虚实度"]
     pub CurrDelta: TThostFtdcRatioType,
 }
-#[doc = "�������³ɽ�����"]
+#[doc = "行情最新成交属性"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcMarketDataLastMatchField {
-    #[doc = "���¼�"]
+    #[doc = "最新价"]
     pub LastPrice: TThostFtdcPriceType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "�ɽ����"]
+    #[doc = "成交金额"]
     pub Turnover: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}���"]
+    #[doc = "持仓量"]
     pub OpenInterest: TThostFtdcLargeVolumeType,
 }
-#[doc = "�������ż�����"]
+#[doc = "行情最优价属性"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcMarketDataBestPriceField {
-    #[doc = "�����һ"]
+    #[doc = "申买价一"]
     pub BidPrice1: TThostFtdcPriceType,
-    #[doc = "������һ"]
+    #[doc = "申买量一"]
     pub BidVolume1: TThostFtdcVolumeType,
-    #[doc = "������һ"]
+    #[doc = "申卖价一"]
     pub AskPrice1: TThostFtdcPriceType,
-    #[doc = "������һ"]
+    #[doc = "申卖量一"]
     pub AskVolume1: TThostFtdcVolumeType,
 }
-#[doc = "�����������������"]
+#[doc = "行情申买二、三属性"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcMarketDataBid23Field {
-    #[doc = "����۶�"]
+    #[doc = "申买价二"]
     pub BidPrice2: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申买量二"]
     pub BidVolume2: TThostFtdcVolumeType,
-    #[doc = "�������"]
+    #[doc = "申买价三"]
     pub BidPrice3: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申买量三"]
     pub BidVolume3: TThostFtdcVolumeType,
 }
-#[doc = "������������������"]
+#[doc = "行情申卖二、三属性"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcMarketDataAsk23Field {
-    #[doc = "�����۶�"]
+    #[doc = "申卖价二"]
     pub AskPrice2: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申卖量二"]
     pub AskVolume2: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "申卖价三"]
     pub AskPrice3: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申卖量三"]
     pub AskVolume3: TThostFtdcVolumeType,
 }
-#[doc = "���������ġ�������"]
+#[doc = "行情申买四、五属性"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcMarketDataBid45Field {
-    #[doc = "�������"]
+    #[doc = "申买价四"]
     pub BidPrice4: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申买量四"]
     pub BidVolume4: TThostFtdcVolumeType,
-    #[doc = "�������"]
+    #[doc = "申买价五"]
     pub BidPrice5: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申买量五"]
     pub BidVolume5: TThostFtdcVolumeType,
 }
-#[doc = "���������ġ�������"]
+#[doc = "行情申卖四、五属性"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcMarketDataAsk45Field {
-    #[doc = "��������"]
+    #[doc = "申卖价四"]
     pub AskPrice4: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申卖量四"]
     pub AskVolume4: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "申卖价五"]
     pub AskPrice5: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申卖量五"]
     pub AskVolume5: TThostFtdcVolumeType,
 }
-#[doc = "�������ʱ������"]
+#[doc = "行情更新时间属性"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcMarketDataUpdateTimeField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����\u{7b8}�ʱ��"]
+    #[doc = "最后修改时间"]
     pub UpdateTime: TThostFtdcTimeType,
-    #[doc = "����\u{7b8}ĺ���"]
+    #[doc = "最后修改毫秒"]
     pub UpdateMillisec: TThostFtdcMillisecType,
-    #[doc = "ҵ������"]
+    #[doc = "业务日期"]
     pub ActionDay: TThostFtdcDateType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcMarketDataUpdateTimeField {
@@ -9509,29 +9509,29 @@ impl Default for CThostFtdcMarketDataUpdateTimeField {
         }
     }
 }
-#[doc = "�������´���"]
+#[doc = "行情上下带价"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcMarketDataBandingPriceField {
-    #[doc = "�ϴ���"]
+    #[doc = "上带价"]
     pub BandingUpperPrice: TThostFtdcPriceType,
-    #[doc = "�´���"]
+    #[doc = "下带价"]
     pub BandingLowerPrice: TThostFtdcPriceType,
 }
-#[doc = "���齻������������"]
+#[doc = "行情交易所代码属性"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcMarketDataExchangeField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
 }
-#[doc = "\u{5b8}���ĺ�Լ"]
+#[doc = "指定的合约"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSpecificInstrumentField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcSpecificInstrumentField {
@@ -9543,29 +9543,29 @@ impl Default for CThostFtdcSpecificInstrumentField {
         }
     }
 }
-#[doc = "��Լ״\u{32c}"]
+#[doc = "合约状态"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInstrumentStatusField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "���������"]
+    #[doc = "结算组代码"]
     pub SettlementGroupID: TThostFtdcSettlementGroupIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Լ����״\u{32c}"]
+    #[doc = "合约交易状态"]
     pub InstrumentStatus: TThostFtdcInstrumentStatusType,
-    #[doc = "���\u{5fd}\u{5f6}α��"]
+    #[doc = "交易阶段编号"]
     pub TradingSegmentSN: TThostFtdcTradingSegmentSNType,
-    #[doc = "���뱾״\u{32c}ʱ��"]
+    #[doc = "进入本状态时间"]
     pub EnterTime: TThostFtdcTimeType,
-    #[doc = "���뱾״\u{32c}ԭ��"]
+    #[doc = "进入本状态原因"]
     pub EnterReason: TThostFtdcInstStatusEnterReasonType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcInstrumentStatusField {
@@ -9577,15 +9577,15 @@ impl Default for CThostFtdcInstrumentStatusField {
         }
     }
 }
-#[doc = "��ѯ��Լ״\u{32c}"]
+#[doc = "查询合约状态"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInstrumentStatusField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldExchangeInstIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
 }
 impl Default for CThostFtdcQryInstrumentStatusField {
@@ -9597,32 +9597,32 @@ impl Default for CThostFtdcQryInstrumentStatusField {
         }
     }
 }
-#[doc = "Ͷ�����˻�"]
+#[doc = "投资者账户"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcInvestorAccountField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
-#[doc = "����ӯ���㷨"]
+#[doc = "浮动盈亏算法"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcPositionProfitAlgorithmField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "ӯ���㷨"]
+    #[doc = "盈亏算法"]
     pub Algorithm: TThostFtdcAlgorithmType,
-    #[doc = "��ע"]
+    #[doc = "备注"]
     pub Memo: TThostFtdcMemoType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
 impl Default for CThostFtdcPositionProfitAlgorithmField {
@@ -9634,39 +9634,39 @@ impl Default for CThostFtdcPositionProfitAlgorithmField {
         }
     }
 }
-#[doc = "��Ա�ʽ��ۿ�"]
+#[doc = "会员资金折扣"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcDiscountField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "�ʽ��ۿ۱���"]
+    #[doc = "资金折扣比例"]
     pub Discount: TThostFtdcRatioType,
 }
-#[doc = "��ѯת������"]
+#[doc = "查询转帐银行"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryTransferBankField {
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з����Ĵ���"]
+    #[doc = "银行分中心代码"]
     pub BankBrchID: TThostFtdcBankBrchIDType,
 }
-#[doc = "ת������"]
+#[doc = "转帐银行"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTransferBankField {
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з����Ĵ���"]
+    #[doc = "银行分中心代码"]
     pub BankBrchID: TThostFtdcBankBrchIDType,
-    #[doc = "��������"]
+    #[doc = "银行名称"]
     pub BankName: TThostFtdcBankNameType,
-    #[doc = "�Ƿ��Ծ"]
+    #[doc = "是否活跃"]
     pub IsActive: TThostFtdcBoolType,
 }
 impl Default for CThostFtdcTransferBankField {
@@ -9678,21 +9678,21 @@ impl Default for CThostFtdcTransferBankField {
         }
     }
 }
-#[doc = "��ѯͶ���\u{7f3}\u{5b2}���ϸ"]
+#[doc = "查询投资者持仓明细"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorPositionDetailField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryInvestorPositionDetailField {
@@ -9704,71 +9704,71 @@ impl Default for CThostFtdcQryInvestorPositionDetailField {
         }
     }
 }
-#[doc = "Ͷ���\u{7f3}\u{5b2}���ϸ"]
+#[doc = "投资者持仓明细"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorPositionDetailField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����"]
+    #[doc = "买卖"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "��������"]
+    #[doc = "开仓日期"]
     pub OpenDate: TThostFtdcDateType,
-    #[doc = "�ɽ����"]
+    #[doc = "成交编号"]
     pub TradeID: TThostFtdcTradeIDType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "���\u{5bc}�"]
+    #[doc = "开仓价"]
     pub OpenPrice: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "�ɽ�����"]
+    #[doc = "成交类型"]
     pub TradeType: TThostFtdcTradeTypeType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���ն���ƽ��ӯ��"]
+    #[doc = "逐日盯市平仓盈亏"]
     pub CloseProfitByDate: TThostFtdcMoneyType,
-    #[doc = "��ʶԳ�ƽ��ӯ��"]
+    #[doc = "逐笔对冲平仓盈亏"]
     pub CloseProfitByTrade: TThostFtdcMoneyType,
-    #[doc = "���ն��г\u{5b2}�ӯ��"]
+    #[doc = "逐日盯市持仓盈亏"]
     pub PositionProfitByDate: TThostFtdcMoneyType,
-    #[doc = "��ʶԳ�\u{5b2}�ӯ��"]
+    #[doc = "逐笔对冲持仓盈亏"]
     pub PositionProfitByTrade: TThostFtdcMoneyType,
-    #[doc = "Ͷ���\u{7f1}�\u{5a4}��"]
+    #[doc = "投资者保证金"]
     pub Margin: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchMargin: TThostFtdcMoneyType,
-    #[doc = "��\u{5a4}����"]
+    #[doc = "保证金率"]
     pub MarginRateByMoney: TThostFtdcRatioType,
-    #[doc = "��\u{5a4}����(������)"]
+    #[doc = "保证金率(按手数)"]
     pub MarginRateByVolume: TThostFtdcRatioType,
-    #[doc = "������"]
+    #[doc = "昨结算价"]
     pub LastSettlementPrice: TThostFtdcPriceType,
-    #[doc = "�����"]
+    #[doc = "结算价"]
     pub SettlementPrice: TThostFtdcPriceType,
-    #[doc = "ƽ����"]
+    #[doc = "平仓量"]
     pub CloseVolume: TThostFtdcVolumeType,
-    #[doc = "ƽ�\u{5bd}��"]
+    #[doc = "平仓金额"]
     pub CloseAmount: TThostFtdcMoneyType,
-    #[doc = "�ȿ���ƽʣ������"]
+    #[doc = "先开先平剩余数量"]
     pub TimeFirstVolume: TThostFtdcVolumeType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "����\u{5b2}\u{5b1}�־"]
+    #[doc = "特殊持仓标志"]
     pub SpecPosiType: TThostFtdcSpecPosiTypeType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Ϻ�Լ����"]
+    #[doc = "组合合约代码"]
     pub CombInstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcInvestorPositionDetailField {
@@ -9780,17 +9780,17 @@ impl Default for CThostFtdcInvestorPositionDetailField {
         }
     }
 }
-#[doc = "�ʽ��˻�������"]
+#[doc = "资金账户口令域"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTradingAccountPasswordField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
 impl Default for CThostFtdcTradingAccountPasswordField {
@@ -9802,49 +9802,49 @@ impl Default for CThostFtdcTradingAccountPasswordField {
         }
     }
 }
-#[doc = "���������鱨�\u{33b}�"]
+#[doc = "交易所行情报盘机"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcMDTraderOfferField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "���ر������"]
+    #[doc = "本地报单编号"]
     pub OrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������Ա����״\u{32c}"]
+    #[doc = "交易所交易员连接状态"]
     pub TraderConnectStatus: TThostFtdcTraderConnectStatusType,
-    #[doc = "�����������������"]
+    #[doc = "发出连接请求的日期"]
     pub ConnectRequestDate: TThostFtdcDateType,
-    #[doc = "�������������ʱ��"]
+    #[doc = "发出连接请求的时间"]
     pub ConnectRequestTime: TThostFtdcTimeType,
-    #[doc = "�ϴα�������"]
+    #[doc = "上次报告日期"]
     pub LastReportDate: TThostFtdcDateType,
-    #[doc = "�ϴα���ʱ��"]
+    #[doc = "上次报告时间"]
     pub LastReportTime: TThostFtdcTimeType,
-    #[doc = "�����������"]
+    #[doc = "完成连接日期"]
     pub ConnectDate: TThostFtdcDateType,
-    #[doc = "�������ʱ��"]
+    #[doc = "完成连接时间"]
     pub ConnectTime: TThostFtdcTimeType,
-    #[doc = "��������"]
+    #[doc = "启动日期"]
     pub StartDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "启动时间"]
     pub StartTime: TThostFtdcTimeType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��ϯλ���ɽ����"]
+    #[doc = "本席位最大成交编号"]
     pub MaxTradeID: TThostFtdcTradeIDType,
-    #[doc = "��ϯλ��\u{f1a35}�����"]
+    #[doc = "本席位最大报单备拷"]
     pub MaxOrderMessageReference: TThostFtdcReturnCodeType,
-    #[doc = "����ʱѡ��ϯλ�㷨"]
+    #[doc = "撤单时选择席位算法"]
     pub OrderCancelAlg: TThostFtdcOrderCancelAlgType,
 }
 impl Default for CThostFtdcMDTraderOfferField {
@@ -9856,33 +9856,33 @@ impl Default for CThostFtdcMDTraderOfferField {
         }
     }
 }
-#[doc = "��ѯ���鱨�\u{33b}�"]
+#[doc = "查询行情报盘机"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryMDTraderOfferField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
 }
-#[doc = "��ѯ�ͻ�\u{368}\u{5aa}"]
+#[doc = "查询客户通知"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryNoticeField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
 }
-#[doc = "�ͻ�\u{368}\u{5aa}"]
+#[doc = "客户通知"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcNoticeField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��Ϣ����"]
+    #[doc = "消息正文"]
     pub Content: TThostFtdcContentType,
-    #[doc = "���\u{379}�˾\u{368}\u{5aa}�������к�"]
+    #[doc = "经纪公司通知内容序列号"]
     pub SequenceLabel: TThostFtdcSequenceLabelType,
 }
 impl Default for CThostFtdcNoticeField {
@@ -9894,75 +9894,75 @@ impl Default for CThostFtdcNoticeField {
         }
     }
 }
-#[doc = "�û�Ȩ��"]
+#[doc = "用户权限"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcUserRightField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�ͻ�Ȩ������"]
+    #[doc = "客户权限类型"]
     pub UserRightType: TThostFtdcUserRightTypeType,
-    #[doc = "�Ƿ��\u{5b9}"]
+    #[doc = "是否禁止"]
     pub IsForbidden: TThostFtdcBoolType,
 }
-#[doc = "��ѯ������Ϣȷ����"]
+#[doc = "查询结算信息确认域"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQrySettlementInfoConfirmField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
-#[doc = "װ�ؽ�����Ϣ"]
+#[doc = "装载结算信息"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcLoadSettlementInfoField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
 }
-#[doc = "���\u{379}�˾�����ʽ��㷨��"]
+#[doc = "经纪公司可提资金算法表"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcBrokerWithdrawAlgorithmField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�����ʽ��㷨"]
+    #[doc = "可提资金算法"]
     pub WithdrawAlgorithm: TThostFtdcAlgorithmType,
-    #[doc = "�ʽ�ʹ����"]
+    #[doc = "资金使用率"]
     pub UsingRatio: TThostFtdcRatioType,
-    #[doc = "�����Ƿ����ƽ��ӯ��"]
+    #[doc = "可提是否包含平仓盈利"]
     pub IncludeCloseProfit: TThostFtdcIncludeCloseProfitType,
-    #[doc = "�����\u{7b2}����\u{7b3}ɽ��ͻ��Ƿ��\u{73f}����������"]
+    #[doc = "本日无仓且无成交客户是否受可提比例限制"]
     pub AllWithoutTrade: TThostFtdcAllWithoutTradeType,
-    #[doc = "�����Ƿ����ƽ��ӯ��"]
+    #[doc = "可用是否包含平仓盈利"]
     pub AvailIncludeCloseProfit: TThostFtdcIncludeCloseProfitType,
-    #[doc = "�Ƿ������û��¼�"]
+    #[doc = "是否启用用户事件"]
     pub IsBrokerUserEvent: TThostFtdcBoolType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "������Ѻ����"]
+    #[doc = "货币质押比率"]
     pub FundMortgageRatio: TThostFtdcRatioType,
-    #[doc = "Ȩ���㷨"]
+    #[doc = "权益算法"]
     pub BalanceAlgorithm: TThostFtdcBalanceAlgorithmType,
 }
-#[doc = "�ʽ��˻���������"]
+#[doc = "资金账户口令变更域"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTradingAccountPasswordUpdateV1Field {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "ԭ���Ŀ���"]
+    #[doc = "原来的口令"]
     pub OldPassword: TThostFtdcPasswordType,
-    #[doc = "�µĿ���"]
+    #[doc = "新的口令"]
     pub NewPassword: TThostFtdcPasswordType,
 }
 impl Default for CThostFtdcTradingAccountPasswordUpdateV1Field {
@@ -9974,19 +9974,19 @@ impl Default for CThostFtdcTradingAccountPasswordUpdateV1Field {
         }
     }
 }
-#[doc = "�ʽ��˻���������"]
+#[doc = "资金账户口令变更域"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTradingAccountPasswordUpdateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "ԭ���Ŀ���"]
+    #[doc = "原来的口令"]
     pub OldPassword: TThostFtdcPasswordType,
-    #[doc = "�µĿ���"]
+    #[doc = "新的口令"]
     pub NewPassword: TThostFtdcPasswordType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
 impl Default for CThostFtdcTradingAccountPasswordUpdateField {
@@ -9998,19 +9998,19 @@ impl Default for CThostFtdcTradingAccountPasswordUpdateField {
         }
     }
 }
-#[doc = "��ѯ��Ϻ�Լ����"]
+#[doc = "查询组合合约分腿"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryCombinationLegField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "���ȱ��"]
+    #[doc = "单腿编号"]
     pub LegID: TThostFtdcLegIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Ϻ�Լ����"]
+    #[doc = "组合合约代码"]
     pub CombInstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "���Ⱥ�Լ����"]
+    #[doc = "单腿合约代码"]
     pub LegInstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryCombinationLegField {
@@ -10022,32 +10022,32 @@ impl Default for CThostFtdcQryCombinationLegField {
         }
     }
 }
-#[doc = "��ѯ��Ϻ�Լ����"]
+#[doc = "查询组合合约分腿"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQrySyncStatusField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
 }
-#[doc = "��Ͻ��\u{5fa}�Լ�ĵ���"]
+#[doc = "组合交易合约的单腿"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcCombinationLegField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "���ȱ��"]
+    #[doc = "单腿编号"]
     pub LegID: TThostFtdcLegIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "���ȳ���"]
+    #[doc = "单腿乘数"]
     pub LegMultiple: TThostFtdcLegMultipleType,
-    #[doc = "��������"]
+    #[doc = "派生层数"]
     pub ImplyLevel: TThostFtdcImplyLevelType,
-    #[doc = "��Ϻ�Լ����"]
+    #[doc = "组合合约代码"]
     pub CombInstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "���Ⱥ�Լ����"]
+    #[doc = "单腿合约代码"]
     pub LegInstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcCombinationLegField {
@@ -10059,51 +10059,51 @@ impl Default for CThostFtdcCombinationLegField {
         }
     }
 }
-#[doc = "����\u{36c}��״\u{32c}"]
+#[doc = "数据同步状态"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSyncStatusField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����\u{36c}��״\u{32c}"]
+    #[doc = "数据同步状态"]
     pub DataSyncStatus: TThostFtdcDataSyncStatusType,
 }
-#[doc = "��ѯ��ϵ��"]
+#[doc = "查询联系人"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryLinkManField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
 }
-#[doc = "��ϵ��"]
+#[doc = "联系人"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcLinkManField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��ϵ������"]
+    #[doc = "联系人类型"]
     pub PersonType: TThostFtdcPersonTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdentifiedCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "����"]
+    #[doc = "名称"]
     pub PersonName: TThostFtdcPartyNameType,
-    #[doc = "��ϵ�绰"]
+    #[doc = "联系电话"]
     pub Telephone: TThostFtdcTelephoneType,
-    #[doc = "\u{368}Ѷ��\u{5b7}"]
+    #[doc = "通讯地址"]
     pub Address: TThostFtdcAddressType,
-    #[doc = "��������"]
+    #[doc = "邮政编码"]
     pub ZipCode: TThostFtdcZipCodeType,
-    #[doc = "���ȼ�"]
+    #[doc = "优先级"]
     pub Priority: TThostFtdcPriorityType,
-    #[doc = "������������"]
+    #[doc = "开户邮政编码"]
     pub UOAZipCode: TThostFtdcUOAZipCodeType,
-    #[doc = "ȫ��"]
+    #[doc = "全称"]
     pub PersonFullName: TThostFtdcInvestorFullNameType,
 }
 impl Default for CThostFtdcLinkManField {
@@ -10115,44 +10115,44 @@ impl Default for CThostFtdcLinkManField {
         }
     }
 }
-#[doc = "��ѯ���\u{379}�˾�û��¼�"]
+#[doc = "查询经纪公司用户事件"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryBrokerUserEventField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�û��¼�����"]
+    #[doc = "用户事件类型"]
     pub UserEventType: TThostFtdcUserEventTypeType,
 }
-#[doc = "��ѯ���\u{379}�˾�û��¼�"]
+#[doc = "查询经纪公司用户事件"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerUserEventField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�û��¼�����"]
+    #[doc = "用户事件类型"]
     pub UserEventType: TThostFtdcUserEventTypeType,
-    #[doc = "�û��¼����"]
+    #[doc = "用户事件序号"]
     pub EventSequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "�¼���������"]
+    #[doc = "事件发生日期"]
     pub EventDate: TThostFtdcDateType,
-    #[doc = "�¼�����ʱ��"]
+    #[doc = "事件发生时间"]
     pub EventTime: TThostFtdcTimeType,
-    #[doc = "�û��¼���Ϣ"]
+    #[doc = "用户事件信息"]
     pub UserEventInfo: TThostFtdcUserEventInfoType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "�������Ĵ���"]
+    #[doc = "交易中心代码"]
     pub DRIdentityID: TThostFtdcDRIdentityIDType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
 }
 impl Default for CThostFtdcBrokerUserEventField {
@@ -10164,28 +10164,28 @@ impl Default for CThostFtdcBrokerUserEventField {
         }
     }
 }
-#[doc = "��ѯǩԼ��������"]
+#[doc = "查询签约银行请求"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryContractBankField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з����Ĵ���"]
+    #[doc = "银行分中心代码"]
     pub BankBrchID: TThostFtdcBankBrchIDType,
 }
-#[doc = "��ѯǩԼ������Ӧ"]
+#[doc = "查询签约银行响应"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcContractBankField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з����Ĵ���"]
+    #[doc = "银行分中心代码"]
     pub BankBrchID: TThostFtdcBankBrchIDType,
-    #[doc = "��������"]
+    #[doc = "银行名称"]
     pub BankName: TThostFtdcBankNameType,
 }
 impl Default for CThostFtdcContractBankField {
@@ -10197,55 +10197,55 @@ impl Default for CThostFtdcContractBankField {
         }
     }
 }
-#[doc = "Ͷ������ϳ\u{5b2}���ϸ"]
+#[doc = "投资者组合持仓明细"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorPositionCombineDetailField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "��������"]
+    #[doc = "开仓日期"]
     pub OpenDate: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��ϱ��"]
+    #[doc = "组合编号"]
     pub ComTradeID: TThostFtdcTradeIDType,
-    #[doc = "��ϱ��"]
+    #[doc = "撮合编号"]
     pub TradeID: TThostFtdcTradeIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����"]
+    #[doc = "买卖"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "�\u{5b2}���"]
+    #[doc = "持仓量"]
     pub TotalAmt: TThostFtdcVolumeType,
-    #[doc = "Ͷ���\u{7f1}�\u{5a4}��"]
+    #[doc = "投资者保证金"]
     pub Margin: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchMargin: TThostFtdcMoneyType,
-    #[doc = "��\u{5a4}����"]
+    #[doc = "保证金率"]
     pub MarginRateByMoney: TThostFtdcRatioType,
-    #[doc = "��\u{5a4}����(������)"]
+    #[doc = "保证金率(按手数)"]
     pub MarginRateByVolume: TThostFtdcRatioType,
-    #[doc = "���ȱ��"]
+    #[doc = "单腿编号"]
     pub LegID: TThostFtdcLegIDType,
-    #[doc = "���ȳ���"]
+    #[doc = "单腿乘数"]
     pub LegMultiple: TThostFtdcLegMultipleType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldInstrumentIDType,
-    #[doc = "�ɽ����"]
+    #[doc = "成交组号"]
     pub TradeGroupID: TThostFtdcTradeGroupIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��ϳ\u{5b2}\u{5ba}�Լ����"]
+    #[doc = "组合持仓合约编码"]
     pub CombInstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcInvestorPositionCombineDetailField {
@@ -10257,83 +10257,83 @@ impl Default for CThostFtdcInvestorPositionCombineDetailField {
         }
     }
 }
-#[doc = "Ԥ��"]
+#[doc = "预埋单"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcParkedOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "报单引用"]
     pub OrderRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�����۸�����"]
+    #[doc = "报单价格条件"]
     pub OrderPriceType: TThostFtdcOrderPriceTypeType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "��Ͽ�ƽ��־"]
+    #[doc = "组合开平标志"]
     pub CombOffsetFlag: TThostFtdcCombOffsetFlagType,
-    #[doc = "���Ͷ���ױ���־"]
+    #[doc = "组合投机套保标志"]
     pub CombHedgeFlag: TThostFtdcCombHedgeFlagType,
-    #[doc = "�۸�"]
+    #[doc = "价格"]
     pub LimitPrice: TThostFtdcPriceType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub VolumeTotalOriginal: TThostFtdcVolumeType,
-    #[doc = "��Ч������"]
+    #[doc = "有效期类型"]
     pub TimeCondition: TThostFtdcTimeConditionType,
-    #[doc = "GTD����"]
+    #[doc = "GTD日期"]
     pub GTDDate: TThostFtdcDateType,
-    #[doc = "�ɽ�������"]
+    #[doc = "成交量类型"]
     pub VolumeCondition: TThostFtdcVolumeConditionType,
-    #[doc = "��С�ɽ���"]
+    #[doc = "最小成交量"]
     pub MinVolume: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "触发条件"]
     pub ContingentCondition: TThostFtdcContingentConditionType,
-    #[doc = "\u{5b9}���"]
+    #[doc = "止损价"]
     pub StopPrice: TThostFtdcPriceType,
-    #[doc = "ǿƽԭ��"]
+    #[doc = "强平原因"]
     pub ForceCloseReason: TThostFtdcForceCloseReasonType,
-    #[doc = "�Զ������־"]
+    #[doc = "自动挂起标志"]
     pub IsAutoSuspend: TThostFtdcBoolType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "�û�ǿƽ��־"]
+    #[doc = "用户强平标志"]
     pub UserForceClose: TThostFtdcBoolType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ԥ�\u{71a35}����"]
+    #[doc = "预埋报单编号"]
     pub ParkedOrderID: TThostFtdcParkedOrderIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户类型"]
     pub UserType: TThostFtdcUserTypeType,
-    #[doc = "Ԥ��״\u{32c}"]
+    #[doc = "预埋单状态"]
     pub Status: TThostFtdcParkedOrderStatusType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "��������־"]
+    #[doc = "互换单标志"]
     pub IsSwapOrder: TThostFtdcBoolType,
-    #[doc = "�ʽ��˺�"]
+    #[doc = "资金账号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "���ױ���"]
+    #[doc = "交易编码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcParkedOrderField {
@@ -10345,57 +10345,57 @@ impl Default for CThostFtdcParkedOrderField {
         }
     }
 }
-#[doc = "����Ԥ�\u{75972}���"]
+#[doc = "输入预埋单操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcParkedOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������������"]
+    #[doc = "报单操作引用"]
     pub OrderActionRef: TThostFtdcOrderActionRefType,
-    #[doc = "��������"]
+    #[doc = "报单引用"]
     pub OrderRef: TThostFtdcOrderRefType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�������"]
+    #[doc = "报单编号"]
     pub OrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "�۸�"]
+    #[doc = "价格"]
     pub LimitPrice: TThostFtdcPriceType,
-    #[doc = "�����仯"]
+    #[doc = "数量变化"]
     pub VolumeChange: TThostFtdcVolumeType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ԥ�\u{73df5}������"]
+    #[doc = "预埋撤单单编号"]
     pub ParkedOrderActionID: TThostFtdcParkedOrderActionIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户类型"]
     pub UserType: TThostFtdcUserTypeType,
-    #[doc = "Ԥ�\u{73df5}�״\u{32c}"]
+    #[doc = "预埋撤单状态"]
     pub Status: TThostFtdcParkedOrderStatusType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcParkedOrderActionField {
@@ -10407,21 +10407,21 @@ impl Default for CThostFtdcParkedOrderActionField {
         }
     }
 }
-#[doc = "��ѯԤ��"]
+#[doc = "查询预埋单"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryParkedOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryParkedOrderField {
@@ -10433,21 +10433,21 @@ impl Default for CThostFtdcQryParkedOrderField {
         }
     }
 }
-#[doc = "��ѯԤ�\u{73df5}�"]
+#[doc = "查询预埋撤单"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryParkedOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryParkedOrderActionField {
@@ -10459,64 +10459,64 @@ impl Default for CThostFtdcQryParkedOrderActionField {
         }
     }
 }
-#[doc = "ɾ��Ԥ��"]
+#[doc = "删除预埋单"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcRemoveParkedOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ԥ�\u{71a35}����"]
+    #[doc = "预埋报单编号"]
     pub ParkedOrderID: TThostFtdcParkedOrderIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
 }
-#[doc = "ɾ��Ԥ�\u{73df5}�"]
+#[doc = "删除预埋撤单"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcRemoveParkedOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ԥ�\u{73df5}����"]
+    #[doc = "预埋撤单编号"]
     pub ParkedOrderActionID: TThostFtdcParkedOrderActionIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
 }
-#[doc = "���\u{379}�˾�����ʽ��㷨��"]
+#[doc = "经纪公司可提资金算法表"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcInvestorWithdrawAlgorithmField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "�����ʽ����"]
+    #[doc = "可提资金比例"]
     pub UsingRatio: TThostFtdcRatioType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "������Ѻ����"]
+    #[doc = "货币质押比率"]
     pub FundMortgageRatio: TThostFtdcRatioType,
 }
-#[doc = "��ѯ��ϳ\u{5b2}���ϸ"]
+#[doc = "查询组合持仓明细"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorPositionCombineDetailField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��ϳ\u{5b2}\u{5ba}�Լ����"]
+    #[doc = "组合持仓合约编码"]
     pub CombInstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryInvestorPositionCombineDetailField {
@@ -10528,22 +10528,22 @@ impl Default for CThostFtdcQryInvestorPositionCombineDetailField {
         }
     }
 }
-#[doc = "�ɽ�����"]
+#[doc = "成交均价"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcMarketDataAveragePriceField {
-    #[doc = "���վ���"]
+    #[doc = "当日均价"]
     pub AveragePrice: TThostFtdcPriceType,
 }
-#[doc = "У��Ͷ��������"]
+#[doc = "校验投资者密码"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcVerifyInvestorPasswordField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub Password: TThostFtdcPasswordType,
 }
 impl Default for CThostFtdcVerifyInvestorPasswordField {
@@ -10555,23 +10555,23 @@ impl Default for CThostFtdcVerifyInvestorPasswordField {
         }
     }
 }
-#[doc = "�û�IP"]
+#[doc = "用户IP"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcUserIPField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "IP��\u{5b7}����"]
+    #[doc = "IP地址掩码"]
     pub IPMask: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcUserIPField {
@@ -10583,23 +10583,23 @@ impl Default for CThostFtdcUserIPField {
         }
     }
 }
-#[doc = "�û��¼�\u{368}\u{5aa}��Ϣ"]
+#[doc = "用户事件通知信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTradingNoticeInfoField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����ʱ��"]
+    #[doc = "发送时间"]
     pub SendTime: TThostFtdcTimeType,
-    #[doc = "��Ϣ����"]
+    #[doc = "消息正文"]
     pub FieldContent: TThostFtdcContentType,
-    #[doc = "����ϵ�к�"]
+    #[doc = "序列系列号"]
     pub SequenceSeries: TThostFtdcSequenceSeriesType,
-    #[doc = "���к�"]
+    #[doc = "序列号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
 }
 impl Default for CThostFtdcTradingNoticeInfoField {
@@ -10611,27 +10611,27 @@ impl Default for CThostFtdcTradingNoticeInfoField {
         }
     }
 }
-#[doc = "�û��¼�\u{368}\u{5aa}"]
+#[doc = "用户事件通知"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTradingNoticeField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����ϵ�к�"]
+    #[doc = "序列系列号"]
     pub SequenceSeries: TThostFtdcSequenceSeriesType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����ʱ��"]
+    #[doc = "发送时间"]
     pub SendTime: TThostFtdcTimeType,
-    #[doc = "���к�"]
+    #[doc = "序列号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "��Ϣ����"]
+    #[doc = "消息正文"]
     pub FieldContent: TThostFtdcContentType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
 }
 impl Default for CThostFtdcTradingNoticeField {
@@ -10643,101 +10643,101 @@ impl Default for CThostFtdcTradingNoticeField {
         }
     }
 }
-#[doc = "��ѯ�����¼�\u{368}\u{5aa}"]
+#[doc = "查询交易事件通知"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryTradingNoticeField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
 }
-#[doc = "��ѯ���\u{f1a35}�"]
+#[doc = "查询错误报单"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryErrOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
 }
-#[doc = "���\u{f1a35}�"]
+#[doc = "错误报单"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcErrOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "报单引用"]
     pub OrderRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�����۸�����"]
+    #[doc = "报单价格条件"]
     pub OrderPriceType: TThostFtdcOrderPriceTypeType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "��Ͽ�ƽ��־"]
+    #[doc = "组合开平标志"]
     pub CombOffsetFlag: TThostFtdcCombOffsetFlagType,
-    #[doc = "���Ͷ���ױ���־"]
+    #[doc = "组合投机套保标志"]
     pub CombHedgeFlag: TThostFtdcCombHedgeFlagType,
-    #[doc = "�۸�"]
+    #[doc = "价格"]
     pub LimitPrice: TThostFtdcPriceType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub VolumeTotalOriginal: TThostFtdcVolumeType,
-    #[doc = "��Ч������"]
+    #[doc = "有效期类型"]
     pub TimeCondition: TThostFtdcTimeConditionType,
-    #[doc = "GTD����"]
+    #[doc = "GTD日期"]
     pub GTDDate: TThostFtdcDateType,
-    #[doc = "�ɽ�������"]
+    #[doc = "成交量类型"]
     pub VolumeCondition: TThostFtdcVolumeConditionType,
-    #[doc = "��С�ɽ���"]
+    #[doc = "最小成交量"]
     pub MinVolume: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "触发条件"]
     pub ContingentCondition: TThostFtdcContingentConditionType,
-    #[doc = "\u{5b9}���"]
+    #[doc = "止损价"]
     pub StopPrice: TThostFtdcPriceType,
-    #[doc = "ǿƽԭ��"]
+    #[doc = "强平原因"]
     pub ForceCloseReason: TThostFtdcForceCloseReasonType,
-    #[doc = "�Զ������־"]
+    #[doc = "自动挂起标志"]
     pub IsAutoSuspend: TThostFtdcBoolType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "�û�ǿƽ��־"]
+    #[doc = "用户强平标志"]
     pub UserForceClose: TThostFtdcBoolType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "��������־"]
+    #[doc = "互换单标志"]
     pub IsSwapOrder: TThostFtdcBoolType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "�ʽ��˺�"]
+    #[doc = "资金账号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "���ױ���"]
+    #[doc = "交易编码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "���������\u{5b6}�"]
+    #[doc = "报单回显字段"]
     pub OrderMemo: TThostFtdcOrderMemoType,
-    #[doc = "session��������� api�Զ�ά��"]
+    #[doc = "session上请求计数 api自动维护"]
     pub SessionReqSeq: TThostFtdcSequenceNo12Type,
 }
 impl Default for CThostFtdcErrOrderField {
@@ -10749,145 +10749,145 @@ impl Default for CThostFtdcErrOrderField {
         }
     }
 }
-#[doc = "��ѯ���\u{f1a35}�����"]
+#[doc = "查询错误报单操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcErrorConditionalOrderField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "报单引用"]
     pub OrderRef: TThostFtdcOrderRefType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�����۸�����"]
+    #[doc = "报单价格条件"]
     pub OrderPriceType: TThostFtdcOrderPriceTypeType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "��Ͽ�ƽ��־"]
+    #[doc = "组合开平标志"]
     pub CombOffsetFlag: TThostFtdcCombOffsetFlagType,
-    #[doc = "���Ͷ���ױ���־"]
+    #[doc = "组合投机套保标志"]
     pub CombHedgeFlag: TThostFtdcCombHedgeFlagType,
-    #[doc = "�۸�"]
+    #[doc = "价格"]
     pub LimitPrice: TThostFtdcPriceType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub VolumeTotalOriginal: TThostFtdcVolumeType,
-    #[doc = "��Ч������"]
+    #[doc = "有效期类型"]
     pub TimeCondition: TThostFtdcTimeConditionType,
-    #[doc = "GTD����"]
+    #[doc = "GTD日期"]
     pub GTDDate: TThostFtdcDateType,
-    #[doc = "�ɽ�������"]
+    #[doc = "成交量类型"]
     pub VolumeCondition: TThostFtdcVolumeConditionType,
-    #[doc = "��С�ɽ���"]
+    #[doc = "最小成交量"]
     pub MinVolume: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "触发条件"]
     pub ContingentCondition: TThostFtdcContingentConditionType,
-    #[doc = "\u{5b9}���"]
+    #[doc = "止损价"]
     pub StopPrice: TThostFtdcPriceType,
-    #[doc = "ǿƽԭ��"]
+    #[doc = "强平原因"]
     pub ForceCloseReason: TThostFtdcForceCloseReasonType,
-    #[doc = "�Զ������־"]
+    #[doc = "自动挂起标志"]
     pub IsAutoSuspend: TThostFtdcBoolType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "���ر������"]
+    #[doc = "本地报单编号"]
     pub OrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldExchangeInstIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�����ύ״\u{32c}"]
+    #[doc = "报单提交状态"]
     pub OrderSubmitStatus: TThostFtdcOrderSubmitStatusType,
-    #[doc = "������ʾ���"]
+    #[doc = "报单提示序号"]
     pub NotifySequence: TThostFtdcSequenceNoType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "�������"]
+    #[doc = "报单编号"]
     pub OrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������Դ"]
+    #[doc = "报单来源"]
     pub OrderSource: TThostFtdcOrderSourceType,
-    #[doc = "����״\u{32c}"]
+    #[doc = "报单状态"]
     pub OrderStatus: TThostFtdcOrderStatusType,
-    #[doc = "��������"]
+    #[doc = "报单类型"]
     pub OrderType: TThostFtdcOrderTypeType,
-    #[doc = "��ɽ�����"]
+    #[doc = "今成交数量"]
     pub VolumeTraded: TThostFtdcVolumeType,
-    #[doc = "ʣ������"]
+    #[doc = "剩余数量"]
     pub VolumeTotal: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "报单日期"]
     pub InsertDate: TThostFtdcDateType,
-    #[doc = "ί��ʱ��"]
+    #[doc = "委托时间"]
     pub InsertTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "激活时间"]
     pub ActiveTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "挂起时间"]
     pub SuspendTime: TThostFtdcTimeType,
-    #[doc = "����\u{7b8}�ʱ��"]
+    #[doc = "最后修改时间"]
     pub UpdateTime: TThostFtdcTimeType,
-    #[doc = "����ʱ��"]
+    #[doc = "撤销时间"]
     pub CancelTime: TThostFtdcTimeType,
-    #[doc = "����\u{7b8}Ľ���������Ա����"]
+    #[doc = "最后修改交易所交易员代码"]
     pub ActiveTraderID: TThostFtdcTraderIDType,
-    #[doc = "�����Ա���"]
+    #[doc = "结算会员编号"]
     pub ClearingPartID: TThostFtdcParticipantIDType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "״\u{32c}��Ϣ"]
+    #[doc = "状态信息"]
     pub StatusMsg: TThostFtdcErrorMsgType,
-    #[doc = "�û�ǿƽ��־"]
+    #[doc = "用户强平标志"]
     pub UserForceClose: TThostFtdcBoolType,
-    #[doc = "�����û�����"]
+    #[doc = "操作用户代码"]
     pub ActiveUserID: TThostFtdcUserIDType,
-    #[doc = "���\u{379}�˾�������"]
+    #[doc = "经纪公司报单编号"]
     pub BrokerOrderSeq: TThostFtdcSequenceNoType,
-    #[doc = "��ر���"]
+    #[doc = "相关报单"]
     pub RelativeOrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "\u{5a3}�����ɽ�����"]
+    #[doc = "郑商所成交数量"]
     pub ZCETotalTradedVolume: TThostFtdcVolumeType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "��������־"]
+    #[doc = "互换单标志"]
     pub IsSwapOrder: TThostFtdcBoolType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "�ʽ��˺�"]
+    #[doc = "资金账号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve3: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcErrorConditionalOrderField {
@@ -10899,88 +10899,88 @@ impl Default for CThostFtdcErrorConditionalOrderField {
         }
     }
 }
-#[doc = "��ѯ���\u{f1a35}�����"]
+#[doc = "查询错误报单操作"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryErrOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
 }
-#[doc = "���\u{f1a35}�����"]
+#[doc = "错误报单操作"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcErrOrderActionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������������"]
+    #[doc = "报单操作引用"]
     pub OrderActionRef: TThostFtdcOrderActionRefType,
-    #[doc = "��������"]
+    #[doc = "报单引用"]
     pub OrderRef: TThostFtdcOrderRefType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "ǰ�ñ��"]
+    #[doc = "前置编号"]
     pub FrontID: TThostFtdcFrontIDType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�������"]
+    #[doc = "报单编号"]
     pub OrderSysID: TThostFtdcOrderSysIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionFlag: TThostFtdcActionFlagType,
-    #[doc = "�۸�"]
+    #[doc = "价格"]
     pub LimitPrice: TThostFtdcPriceType,
-    #[doc = "�����仯"]
+    #[doc = "数量变化"]
     pub VolumeChange: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "操作日期"]
     pub ActionDate: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "操作时间"]
     pub ActionTime: TThostFtdcTimeType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "���ر������"]
+    #[doc = "本地报单编号"]
     pub OrderLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "�������ر��"]
+    #[doc = "操作本地编号"]
     pub ActionLocalID: TThostFtdcOrderLocalIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户代码"]
     pub ClientID: TThostFtdcClientIDType,
-    #[doc = "ҵ��Ԫ"]
+    #[doc = "业务单元"]
     pub BusinessUnit: TThostFtdcBusinessUnitType,
-    #[doc = "��������״\u{32c}"]
+    #[doc = "报单操作状态"]
     pub OrderActionStatus: TThostFtdcOrderActionStatusType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "״\u{32c}��Ϣ"]
+    #[doc = "状态信息"]
     pub StatusMsg: TThostFtdcErrorMsgType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ӫҵ�����"]
+    #[doc = "营业部编号"]
     pub BranchID: TThostFtdcBranchIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldIPAddressType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
-    #[doc = "���������\u{5b6}�"]
+    #[doc = "报单回显字段"]
     pub OrderMemo: TThostFtdcOrderMemoType,
-    #[doc = "session��������� api�Զ�ά��"]
+    #[doc = "session上请求计数 api自动维护"]
     pub SessionReqSeq: TThostFtdcSequenceNo12Type,
 }
 impl Default for CThostFtdcErrOrderActionField {
@@ -10992,49 +10992,49 @@ impl Default for CThostFtdcErrOrderActionField {
         }
     }
 }
-#[doc = "��ѯ������״\u{32c}"]
+#[doc = "查询交易所状态"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryExchangeSequenceField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
 }
-#[doc = "������״\u{32c}"]
+#[doc = "交易所状态"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcExchangeSequenceField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���"]
+    #[doc = "序号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "��Լ����״\u{32c}"]
+    #[doc = "合约交易状态"]
     pub MarketStatus: TThostFtdcInstrumentStatusType,
 }
-#[doc = "���ݼ۸��ѯ��\u{f1a35}�����"]
+#[doc = "根据价格查询最大报单数量"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryMaxOrderVolumeWithPriceField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "��ƽ��־"]
+    #[doc = "开平标志"]
     pub OffsetFlag: TThostFtdcOffsetFlagType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "���������������"]
+    #[doc = "最大允许报单数量"]
     pub MaxVolume: TThostFtdcVolumeType,
-    #[doc = "�����۸�"]
+    #[doc = "报单价格"]
     pub Price: TThostFtdcPriceType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryMaxOrderVolumeWithPriceField {
@@ -11046,51 +11046,51 @@ impl Default for CThostFtdcQryMaxOrderVolumeWithPriceField {
         }
     }
 }
-#[doc = "��ѯ���\u{379}�˾���ײ���"]
+#[doc = "查询经纪公司交易参数"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryBrokerTradingParamsField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
 }
-#[doc = "���\u{379}�˾���ײ���"]
+#[doc = "经纪公司交易参数"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcBrokerTradingParamsField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��\u{5a4}��۸�����"]
+    #[doc = "保证金价格类型"]
     pub MarginPriceType: TThostFtdcMarginPriceTypeType,
-    #[doc = "ӯ���㷨"]
+    #[doc = "盈亏算法"]
     pub Algorithm: TThostFtdcAlgorithmType,
-    #[doc = "�����Ƿ����ƽ��ӯ��"]
+    #[doc = "可用是否包含平仓盈利"]
     pub AvailIncludeCloseProfit: TThostFtdcIncludeCloseProfitType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "��ȨȨ����۸�����"]
+    #[doc = "期权权利金价格类型"]
     pub OptionRoyaltyPriceType: TThostFtdcOptionRoyaltyPriceTypeType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
 }
-#[doc = "��ѯ���\u{379}�˾�����㷨"]
+#[doc = "查询经纪公司交易算法"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryBrokerTradingAlgosField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryBrokerTradingAlgosField {
@@ -11102,23 +11102,23 @@ impl Default for CThostFtdcQryBrokerTradingAlgosField {
         }
     }
 }
-#[doc = "���\u{379}�˾�����㷨"]
+#[doc = "经纪公司交易算法"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerTradingAlgosField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "�\u{5b2}\u{5b4}����㷨���"]
+    #[doc = "持仓处理算法编号"]
     pub HandlePositionAlgoID: TThostFtdcHandlePositionAlgoIDType,
-    #[doc = "Ѱ�ұ�\u{5a4}�����㷨���"]
+    #[doc = "寻找保证金率算法编号"]
     pub FindMarginRateAlgoID: TThostFtdcFindMarginRateAlgoIDType,
-    #[doc = "�ʽ����㷨���"]
+    #[doc = "资金处理算法编号"]
     pub HandleTradingAccountAlgoID: TThostFtdcHandleTradingAccountAlgoIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcBrokerTradingAlgosField {
@@ -11130,115 +11130,115 @@ impl Default for CThostFtdcBrokerTradingAlgosField {
         }
     }
 }
-#[doc = "��ѯ���\u{379}�˾�ʽ�"]
+#[doc = "查询经纪公司资金"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQueryBrokerDepositField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
 }
-#[doc = "���\u{379}�˾�ʽ�"]
+#[doc = "经纪公司资金"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcBrokerDepositField {
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "�ϴν���\u{5fc}����"]
+    #[doc = "上次结算准备金"]
     pub PreBalance: TThostFtdcMoneyType,
-    #[doc = "��ǰ��\u{5a4}���\u{736}�"]
+    #[doc = "当前保证金总额"]
     pub CurrMargin: TThostFtdcMoneyType,
-    #[doc = "ƽ��ӯ��"]
+    #[doc = "平仓盈亏"]
     pub CloseProfit: TThostFtdcMoneyType,
-    #[doc = "�ڻ�����\u{5fc}����"]
+    #[doc = "期货结算准备金"]
     pub Balance: TThostFtdcMoneyType,
-    #[doc = "�����"]
+    #[doc = "入金金额"]
     pub Deposit: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "出金金额"]
     pub Withdraw: TThostFtdcMoneyType,
-    #[doc = "�����ʽ�"]
+    #[doc = "可提资金"]
     pub Available: TThostFtdcMoneyType,
-    #[doc = "����\u{5fc}����"]
+    #[doc = "基本准备金"]
     pub Reserve: TThostFtdcMoneyType,
-    #[doc = "����ı�\u{5a4}��"]
+    #[doc = "冻结的保证金"]
     pub FrozenMargin: TThostFtdcMoneyType,
 }
-#[doc = "��ѯ��\u{5a4}����ϵͳ���\u{379}�˾��Կ"]
+#[doc = "查询保证金监管系统经纪公司密钥"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryCFMMCBrokerKeyField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
 }
-#[doc = "��\u{5a4}����ϵͳ���\u{379}�˾��Կ"]
+#[doc = "保证金监管系统经纪公司密钥"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcCFMMCBrokerKeyField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{379}�˾ͳһ����"]
+    #[doc = "经纪公司统一编码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "��Կ��������"]
+    #[doc = "密钥生成日期"]
     pub CreateDate: TThostFtdcDateType,
-    #[doc = "��Կ����ʱ��"]
+    #[doc = "密钥生成时间"]
     pub CreateTime: TThostFtdcTimeType,
-    #[doc = "��Կ���"]
+    #[doc = "密钥编号"]
     pub KeyID: TThostFtdcSequenceNoType,
-    #[doc = "��\u{32c}��Կ"]
+    #[doc = "动态密钥"]
     pub CurrentKey: TThostFtdcCFMMCKeyType,
-    #[doc = "��\u{32c}��Կ����"]
+    #[doc = "动态密钥类型"]
     pub KeyKind: TThostFtdcCFMMCKeyKindType,
 }
-#[doc = "��\u{5a4}����ϵͳ���\u{379}�˾�ʽ��˻���Կ"]
+#[doc = "保证金监管系统经纪公司资金账户密钥"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcCFMMCTradingAccountKeyField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{379}�˾ͳһ����"]
+    #[doc = "经纪公司统一编码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "��Կ���"]
+    #[doc = "密钥编号"]
     pub KeyID: TThostFtdcSequenceNoType,
-    #[doc = "��\u{32c}��Կ"]
+    #[doc = "动态密钥"]
     pub CurrentKey: TThostFtdcCFMMCKeyType,
 }
-#[doc = "�����ѯ��\u{5a4}����ϵͳ���\u{379}�˾�ʽ��˻���Կ"]
+#[doc = "请求查询保证金监管系统经纪公司资金账户密钥"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryCFMMCTradingAccountKeyField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
 }
-#[doc = "�û���\u{32c}���Ʋ���"]
+#[doc = "用户动态令牌参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcBrokerUserOTPParamField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��\u{32c}�����ṩ��"]
+    #[doc = "动态令牌提供商"]
     pub OTPVendorsID: TThostFtdcOTPVendorsIDType,
-    #[doc = "��\u{32c}�������к�"]
+    #[doc = "动态令牌序列号"]
     pub SerialNumber: TThostFtdcSerialNumberType,
-    #[doc = "������Կ"]
+    #[doc = "令牌密钥"]
     pub AuthKey: TThostFtdcAuthKeyType,
-    #[doc = "Ư��\u{5b5}"]
+    #[doc = "漂移值"]
     pub LastDrift: TThostFtdcLastDriftType,
-    #[doc = "�ɹ�\u{5b5}"]
+    #[doc = "成功值"]
     pub LastSuccess: TThostFtdcLastSuccessType,
-    #[doc = "��\u{32c}��������"]
+    #[doc = "动态令牌类型"]
     pub OTPType: TThostFtdcOTPTypeType,
 }
 impl Default for CThostFtdcBrokerUserOTPParamField {
@@ -11250,19 +11250,19 @@ impl Default for CThostFtdcBrokerUserOTPParamField {
         }
     }
 }
-#[doc = "�\u{5b9}�\u{36c}���û���\u{32c}����"]
+#[doc = "手工同步用户动态令牌"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcManualSyncBrokerUserOTPField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��\u{32c}��������"]
+    #[doc = "动态令牌类型"]
     pub OTPType: TThostFtdcOTPTypeType,
-    #[doc = "��һ����\u{32c}����"]
+    #[doc = "第一个动态密码"]
     pub FirstOTP: TThostFtdcPasswordType,
-    #[doc = "�ڶ�����\u{32c}����"]
+    #[doc = "第二个动态密码"]
     pub SecondOTP: TThostFtdcPasswordType,
 }
 impl Default for CThostFtdcManualSyncBrokerUserOTPField {
@@ -11274,15 +11274,15 @@ impl Default for CThostFtdcManualSyncBrokerUserOTPField {
         }
     }
 }
-#[doc = "Ͷ������������ģ��"]
+#[doc = "投资者手续费率模板"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcCommRateModelField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��������ģ�����"]
+    #[doc = "手续费率模板代码"]
     pub CommModelID: TThostFtdcInvestorIDType,
-    #[doc = "ģ������"]
+    #[doc = "模板名称"]
     pub CommModelName: TThostFtdcCommModelNameType,
 }
 impl Default for CThostFtdcCommRateModelField {
@@ -11294,24 +11294,24 @@ impl Default for CThostFtdcCommRateModelField {
         }
     }
 }
-#[doc = "�����ѯͶ������������ģ��"]
+#[doc = "请求查询投资者手续费率模板"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryCommRateModelField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��������ģ�����"]
+    #[doc = "手续费率模板代码"]
     pub CommModelID: TThostFtdcInvestorIDType,
 }
-#[doc = "Ͷ���\u{7f1}�\u{5a4}����ģ��"]
+#[doc = "投资者保证金率模板"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcMarginModelField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��\u{5a4}����ģ�����"]
+    #[doc = "保证金率模板代码"]
     pub MarginModelID: TThostFtdcInvestorIDType,
-    #[doc = "ģ������"]
+    #[doc = "模板名称"]
     pub MarginModelName: TThostFtdcCommModelNameType,
 }
 impl Default for CThostFtdcMarginModelField {
@@ -11323,38 +11323,38 @@ impl Default for CThostFtdcMarginModelField {
         }
     }
 }
-#[doc = "�����ѯͶ���\u{7f1}�\u{5a4}����ģ��"]
+#[doc = "请求查询投资者保证金率模板"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryMarginModelField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��\u{5a4}����ģ�����"]
+    #[doc = "保证金率模板代码"]
     pub MarginModelID: TThostFtdcInvestorIDType,
 }
-#[doc = "�\u{5b5}��۵���Ϣ"]
+#[doc = "仓单折抵信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcEWarrantOffsetField {
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcEWarrantOffsetField {
@@ -11366,21 +11366,21 @@ impl Default for CThostFtdcEWarrantOffsetField {
         }
     }
 }
-#[doc = "��ѯ�\u{5b5}��۵���Ϣ"]
+#[doc = "查询仓单折抵信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryEWarrantOffsetField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryEWarrantOffsetField {
@@ -11392,23 +11392,23 @@ impl Default for CThostFtdcQryEWarrantOffsetField {
         }
     }
 }
-#[doc = "��ѯͶ����Ʒ��/��Ʒ�\u{5b1}�\u{5a4}��"]
+#[doc = "查询投资者品种/跨品种保证金"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorProductGroupMarginField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "Ʒ��/��Ʒ�\u{5b1}�ʾ"]
+    #[doc = "品种/跨品种标示"]
     pub ProductGroupID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryInvestorProductGroupMarginField {
@@ -11420,69 +11420,69 @@ impl Default for CThostFtdcQryInvestorProductGroupMarginField {
         }
     }
 }
-#[doc = "Ͷ����Ʒ��/��Ʒ�\u{5b1}�\u{5a4}��"]
+#[doc = "投资者品种/跨品种保证金"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorProductGroupMarginField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "����ı�\u{5a4}��"]
+    #[doc = "冻结的保证金"]
     pub FrozenMargin: TThostFtdcMoneyType,
-    #[doc = "��ͷ����ı�\u{5a4}��"]
+    #[doc = "多头冻结的保证金"]
     pub LongFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "��ͷ����ı�\u{5a4}��"]
+    #[doc = "空头冻结的保证金"]
     pub ShortFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "ռ�õı�\u{5a4}��"]
+    #[doc = "占用的保证金"]
     pub UseMargin: TThostFtdcMoneyType,
-    #[doc = "��ͷ��\u{5a4}��"]
+    #[doc = "多头保证金"]
     pub LongUseMargin: TThostFtdcMoneyType,
-    #[doc = "��ͷ��\u{5a4}��"]
+    #[doc = "空头保证金"]
     pub ShortUseMargin: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchMargin: TThostFtdcMoneyType,
-    #[doc = "��������ͷ��\u{5a4}��"]
+    #[doc = "交易所多头保证金"]
     pub LongExchMargin: TThostFtdcMoneyType,
-    #[doc = "��������ͷ��\u{5a4}��"]
+    #[doc = "交易所空头保证金"]
     pub ShortExchMargin: TThostFtdcMoneyType,
-    #[doc = "ƽ��ӯ��"]
+    #[doc = "平仓盈亏"]
     pub CloseProfit: TThostFtdcMoneyType,
-    #[doc = "�����������"]
+    #[doc = "冻结的手续费"]
     pub FrozenCommission: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "手续费"]
     pub Commission: TThostFtdcMoneyType,
-    #[doc = "������ʽ�"]
+    #[doc = "冻结的资金"]
     pub FrozenCash: TThostFtdcMoneyType,
-    #[doc = "�ʽ���"]
+    #[doc = "资金差额"]
     pub CashIn: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}�ӯ��"]
+    #[doc = "持仓盈亏"]
     pub PositionProfit: TThostFtdcMoneyType,
-    #[doc = "�۵��\u{73d}��"]
+    #[doc = "折抵总金额"]
     pub OffsetAmount: TThostFtdcMoneyType,
-    #[doc = "��ͷ�۵��\u{73d}��"]
+    #[doc = "多头折抵总金额"]
     pub LongOffsetAmount: TThostFtdcMoneyType,
-    #[doc = "��ͷ�۵��\u{73d}��"]
+    #[doc = "空头折抵总金额"]
     pub ShortOffsetAmount: TThostFtdcMoneyType,
-    #[doc = "�������۵��\u{73d}��"]
+    #[doc = "交易所折抵总金额"]
     pub ExchOffsetAmount: TThostFtdcMoneyType,
-    #[doc = "��������ͷ�۵��\u{73d}��"]
+    #[doc = "交易所多头折抵总金额"]
     pub LongExchOffsetAmount: TThostFtdcMoneyType,
-    #[doc = "��������ͷ�۵��\u{73d}��"]
+    #[doc = "交易所空头折抵总金额"]
     pub ShortExchOffsetAmount: TThostFtdcMoneyType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "Ʒ��/��Ʒ�\u{5b1}�ʾ"]
+    #[doc = "品种/跨品种标示"]
     pub ProductGroupID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcInvestorProductGroupMarginField {
@@ -11494,41 +11494,41 @@ impl Default for CThostFtdcInvestorProductGroupMarginField {
         }
     }
 }
-#[doc = "��ѯ��������û�����"]
+#[doc = "查询监控中心用户令牌"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQueryCFMMCTradingAccountTokenField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
 }
-#[doc = "��������û�����"]
+#[doc = "监控中心用户令牌"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcCFMMCTradingAccountTokenField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{379}�˾ͳһ����"]
+    #[doc = "经纪公司统一编码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "��Կ���"]
+    #[doc = "密钥编号"]
     pub KeyID: TThostFtdcSequenceNoType,
-    #[doc = "��\u{32c}����"]
+    #[doc = "动态令牌"]
     pub Token: TThostFtdcCFMMCTokenType,
 }
-#[doc = "��ѯ��Ʒ��"]
+#[doc = "查询产品组"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryProductGroupField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryProductGroupField {
@@ -11540,19 +11540,19 @@ impl Default for CThostFtdcQryProductGroupField {
         }
     }
 }
-#[doc = "Ͷ����Ʒ��/��Ʒ�\u{5b1}�\u{5a4}���Ʒ��"]
+#[doc = "投资者品种/跨品种保证金产品组"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcProductGroupField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve2: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
-    #[doc = "��Ʒ�����"]
+    #[doc = "产品组代码"]
     pub ProductGroupID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcProductGroupField {
@@ -11564,33 +11564,33 @@ impl Default for CThostFtdcProductGroupField {
         }
     }
 }
-#[doc = "����������"]
+#[doc = "交易所公告"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcBulletinField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "公告编号"]
     pub BulletinID: TThostFtdcBulletinIDType,
-    #[doc = "���к�"]
+    #[doc = "序列号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "��������"]
+    #[doc = "公告类型"]
     pub NewsType: TThostFtdcNewsTypeType,
-    #[doc = "�����\u{336}�"]
+    #[doc = "紧急程度"]
     pub NewsUrgency: TThostFtdcNewsUrgencyType,
-    #[doc = "����ʱ��"]
+    #[doc = "发送时间"]
     pub SendTime: TThostFtdcTimeType,
-    #[doc = "��ϢժҪ"]
+    #[doc = "消息摘要"]
     pub Abstract: TThostFtdcAbstractType,
-    #[doc = "��Ϣ��Դ"]
+    #[doc = "消息来源"]
     pub ComeFrom: TThostFtdcComeFromType,
-    #[doc = "��Ϣ����"]
+    #[doc = "消息正文"]
     pub Content: TThostFtdcContentType,
-    #[doc = "WEB��\u{5b7}"]
+    #[doc = "WEB地址"]
     pub URLLink: TThostFtdcURLLinkType,
-    #[doc = "�г�����"]
+    #[doc = "市场代码"]
     pub MarketID: TThostFtdcMarketIDType,
 }
 impl Default for CThostFtdcBulletinField {
@@ -11602,38 +11602,38 @@ impl Default for CThostFtdcBulletinField {
         }
     }
 }
-#[doc = "��ѯ����������"]
+#[doc = "查询交易所公告"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryBulletinField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "������"]
+    #[doc = "公告编号"]
     pub BulletinID: TThostFtdcBulletinIDType,
-    #[doc = "���к�"]
+    #[doc = "序列号"]
     pub SequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "��������"]
+    #[doc = "公告类型"]
     pub NewsType: TThostFtdcNewsTypeType,
-    #[doc = "�����\u{336}�"]
+    #[doc = "紧急程度"]
     pub NewsUrgency: TThostFtdcNewsUrgencyType,
 }
 #[doc = "MulticastInstrument"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcMulticastInstrumentField {
-    #[doc = "�����"]
+    #[doc = "主题号"]
     pub TopicID: TThostFtdcInstallIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Լ���"]
+    #[doc = "合约编号"]
     pub InstrumentNo: TThostFtdcInstallIDType,
-    #[doc = "��\u{5fc}��"]
+    #[doc = "基准价"]
     pub CodePrice: TThostFtdcPriceType,
-    #[doc = "��Լ��������"]
+    #[doc = "合约数量乘数"]
     pub VolumeMultiple: TThostFtdcVolumeMultipleType,
-    #[doc = "��С�䶯��λ"]
+    #[doc = "最小变动价位"]
     pub PriceTick: TThostFtdcPriceType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcMulticastInstrumentField {
@@ -11649,11 +11649,11 @@ impl Default for CThostFtdcMulticastInstrumentField {
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryMulticastInstrumentField {
-    #[doc = "�����"]
+    #[doc = "主题号"]
     pub TopicID: TThostFtdcInstallIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldInstrumentIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryMulticastInstrumentField {
@@ -11665,15 +11665,15 @@ impl Default for CThostFtdcQryMulticastInstrumentField {
         }
     }
 }
-#[doc = "App�ͻ���Ȩ�\u{7b7}���"]
+#[doc = "App客户端权限分配"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcAppIDAuthAssignField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "App����"]
+    #[doc = "App代码"]
     pub AppID: TThostFtdcAppIDType,
-    #[doc = "�������Ĵ���"]
+    #[doc = "交易中心代码"]
     pub DRIdentityID: TThostFtdcDRIdentityIDType,
 }
 impl Default for CThostFtdcAppIDAuthAssignField {
@@ -11685,99 +11685,99 @@ impl Default for CThostFtdcAppIDAuthAssignField {
         }
     }
 }
-#[doc = "ת�ʿ�������"]
+#[doc = "转帐开户请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqOpenAccountField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�Ա�"]
+    #[doc = "性别"]
     pub Gender: TThostFtdcGenderType,
-    #[doc = "���Ҵ���"]
+    #[doc = "国家代码"]
     pub CountryCode: TThostFtdcCountryCodeType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "��\u{5b7}"]
+    #[doc = "地址"]
     pub Address: TThostFtdcAddressType,
-    #[doc = "�ʱ�"]
+    #[doc = "邮编"]
     pub ZipCode: TThostFtdcZipCodeType,
-    #[doc = "�绰����"]
+    #[doc = "电话号码"]
     pub Telephone: TThostFtdcTelephoneType,
-    #[doc = "�\u{5bb}�"]
+    #[doc = "手机"]
     pub MobilePhone: TThostFtdcMobilePhoneType,
-    #[doc = "����"]
+    #[doc = "传真"]
     pub Fax: TThostFtdcFaxType,
-    #[doc = "�����ʼ�"]
+    #[doc = "电子邮件"]
     pub EMail: TThostFtdcEMailType,
-    #[doc = "�ʽ��˻�״\u{32c}"]
+    #[doc = "资金账户状态"]
     pub MoneyAccountStatus: TThostFtdcMoneyAccountStatusType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "�㳮��־"]
+    #[doc = "汇钞标志"]
     pub CashExchangeCode: TThostFtdcCashExchangeCodeType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���λ�ʺ�����"]
+    #[doc = "期货单位帐号类型"]
     pub BankSecuAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "�ڻ���λ�ʺ�"]
+    #[doc = "期货单位帐号"]
     pub BankSecuAcc: TThostFtdcBankAccountType,
-    #[doc = "���������־"]
+    #[doc = "银行密码标志"]
     pub BankPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "�ڻ��ʽ�����˶Ա�־"]
+    #[doc = "期货资金密码核对标志"]
     pub SecuPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcReqOpenAccountField {
@@ -11789,99 +11789,99 @@ impl Default for CThostFtdcReqOpenAccountField {
         }
     }
 }
-#[doc = "ת����������"]
+#[doc = "转帐销户请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqCancelAccountField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�Ա�"]
+    #[doc = "性别"]
     pub Gender: TThostFtdcGenderType,
-    #[doc = "���Ҵ���"]
+    #[doc = "国家代码"]
     pub CountryCode: TThostFtdcCountryCodeType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "��\u{5b7}"]
+    #[doc = "地址"]
     pub Address: TThostFtdcAddressType,
-    #[doc = "�ʱ�"]
+    #[doc = "邮编"]
     pub ZipCode: TThostFtdcZipCodeType,
-    #[doc = "�绰����"]
+    #[doc = "电话号码"]
     pub Telephone: TThostFtdcTelephoneType,
-    #[doc = "�\u{5bb}�"]
+    #[doc = "手机"]
     pub MobilePhone: TThostFtdcMobilePhoneType,
-    #[doc = "����"]
+    #[doc = "传真"]
     pub Fax: TThostFtdcFaxType,
-    #[doc = "�����ʼ�"]
+    #[doc = "电子邮件"]
     pub EMail: TThostFtdcEMailType,
-    #[doc = "�ʽ��˻�״\u{32c}"]
+    #[doc = "资金账户状态"]
     pub MoneyAccountStatus: TThostFtdcMoneyAccountStatusType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "�㳮��־"]
+    #[doc = "汇钞标志"]
     pub CashExchangeCode: TThostFtdcCashExchangeCodeType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���λ�ʺ�����"]
+    #[doc = "期货单位帐号类型"]
     pub BankSecuAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "�ڻ���λ�ʺ�"]
+    #[doc = "期货单位帐号"]
     pub BankSecuAcc: TThostFtdcBankAccountType,
-    #[doc = "���������־"]
+    #[doc = "银行密码标志"]
     pub BankPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "�ڻ��ʽ�����˶Ա�־"]
+    #[doc = "期货资金密码核对标志"]
     pub SecuPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcReqCancelAccountField {
@@ -11893,91 +11893,91 @@ impl Default for CThostFtdcReqCancelAccountField {
         }
     }
 }
-#[doc = "��������˻�����"]
+#[doc = "变更银行账户请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqChangeAccountField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�Ա�"]
+    #[doc = "性别"]
     pub Gender: TThostFtdcGenderType,
-    #[doc = "���Ҵ���"]
+    #[doc = "国家代码"]
     pub CountryCode: TThostFtdcCountryCodeType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "��\u{5b7}"]
+    #[doc = "地址"]
     pub Address: TThostFtdcAddressType,
-    #[doc = "�ʱ�"]
+    #[doc = "邮编"]
     pub ZipCode: TThostFtdcZipCodeType,
-    #[doc = "�绰����"]
+    #[doc = "电话号码"]
     pub Telephone: TThostFtdcTelephoneType,
-    #[doc = "�\u{5bb}�"]
+    #[doc = "手机"]
     pub MobilePhone: TThostFtdcMobilePhoneType,
-    #[doc = "����"]
+    #[doc = "传真"]
     pub Fax: TThostFtdcFaxType,
-    #[doc = "�����ʼ�"]
+    #[doc = "电子邮件"]
     pub EMail: TThostFtdcEMailType,
-    #[doc = "�ʽ��˻�״\u{32c}"]
+    #[doc = "资金账户状态"]
     pub MoneyAccountStatus: TThostFtdcMoneyAccountStatusType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "�������ʺ�"]
+    #[doc = "新银行帐号"]
     pub NewBankAccount: TThostFtdcBankAccountType,
-    #[doc = "����������"]
+    #[doc = "新银行密码"]
     pub NewBankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "���������־"]
+    #[doc = "银行密码标志"]
     pub BankPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "�ڻ��ʽ�����˶Ա�־"]
+    #[doc = "期货资金密码核对标志"]
     pub SecuPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcReqChangeAccountField {
@@ -11989,97 +11989,97 @@ impl Default for CThostFtdcReqChangeAccountField {
         }
     }
 }
-#[doc = "ת������"]
+#[doc = "转账请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqTransferField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�ڻ���˾��ˮ��"]
+    #[doc = "期货公司流水号"]
     pub FutureSerial: TThostFtdcFutureSerialType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "ת�ʽ��"]
+    #[doc = "转帐金额"]
     pub TradeAmount: TThostFtdcTradeAmountType,
-    #[doc = "�ڻ���ȡ���"]
+    #[doc = "期货可取金额"]
     pub FutureFetchAmount: TThostFtdcTradeAmountType,
-    #[doc = "����\u{5a7}����־"]
+    #[doc = "费用支付标志"]
     pub FeePayFlag: TThostFtdcFeePayFlagType,
-    #[doc = "Ӧ�տͻ�����"]
+    #[doc = "应收客户费用"]
     pub CustFee: TThostFtdcCustFeeType,
-    #[doc = "Ӧ���ڻ���˾����"]
+    #[doc = "应收期货公司费用"]
     pub BrokerFee: TThostFtdcFutureFeeType,
-    #[doc = "���ͷ������շ�����Ϣ"]
+    #[doc = "发送方给接收方的消息"]
     pub Message: TThostFtdcAddInfoType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���λ�ʺ�����"]
+    #[doc = "期货单位帐号类型"]
     pub BankSecuAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "�ڻ���λ�ʺ�"]
+    #[doc = "期货单位帐号"]
     pub BankSecuAcc: TThostFtdcBankAccountType,
-    #[doc = "���������־"]
+    #[doc = "银行密码标志"]
     pub BankPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "�ڻ��ʽ�����˶Ա�־"]
+    #[doc = "期货资金密码核对标志"]
     pub SecuPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "ת�˽���״\u{32c}"]
+    #[doc = "转账交易状态"]
     pub TransferStatus: TThostFtdcTransferStatusType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcReqTransferField {
@@ -12091,101 +12091,101 @@ impl Default for CThostFtdcReqTransferField {
         }
     }
 }
-#[doc = "���з��������ʽ�ת�ڻ���Ӧ"]
+#[doc = "银行发起银行资金转期货响应"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRspTransferField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�ڻ���˾��ˮ��"]
+    #[doc = "期货公司流水号"]
     pub FutureSerial: TThostFtdcFutureSerialType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "ת�ʽ��"]
+    #[doc = "转帐金额"]
     pub TradeAmount: TThostFtdcTradeAmountType,
-    #[doc = "�ڻ���ȡ���"]
+    #[doc = "期货可取金额"]
     pub FutureFetchAmount: TThostFtdcTradeAmountType,
-    #[doc = "����\u{5a7}����־"]
+    #[doc = "费用支付标志"]
     pub FeePayFlag: TThostFtdcFeePayFlagType,
-    #[doc = "Ӧ�տͻ�����"]
+    #[doc = "应收客户费用"]
     pub CustFee: TThostFtdcCustFeeType,
-    #[doc = "Ӧ���ڻ���˾����"]
+    #[doc = "应收期货公司费用"]
     pub BrokerFee: TThostFtdcFutureFeeType,
-    #[doc = "���ͷ������շ�����Ϣ"]
+    #[doc = "发送方给接收方的消息"]
     pub Message: TThostFtdcAddInfoType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���λ�ʺ�����"]
+    #[doc = "期货单位帐号类型"]
     pub BankSecuAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "�ڻ���λ�ʺ�"]
+    #[doc = "期货单位帐号"]
     pub BankSecuAcc: TThostFtdcBankAccountType,
-    #[doc = "���������־"]
+    #[doc = "银行密码标志"]
     pub BankPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "�ڻ��ʽ�����˶Ա�־"]
+    #[doc = "期货资金密码核对标志"]
     pub SecuPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "ת�˽���״\u{32c}"]
+    #[doc = "转账交易状态"]
     pub TransferStatus: TThostFtdcTransferStatusType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcRspTransferField {
@@ -12197,111 +12197,111 @@ impl Default for CThostFtdcRspTransferField {
         }
     }
 }
-#[doc = "��������"]
+#[doc = "冲正请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqRepealField {
-    #[doc = "����ʱ����"]
+    #[doc = "冲正时间间隔"]
     pub RepealTimeInterval: TThostFtdcRepealTimeIntervalType,
-    #[doc = "�Ѿ���������"]
+    #[doc = "已经冲正次数"]
     pub RepealedTimes: TThostFtdcRepealedTimesType,
-    #[doc = "���г�����־"]
+    #[doc = "银行冲正标志"]
     pub BankRepealFlag: TThostFtdcBankRepealFlagType,
-    #[doc = "���\u{333}�����־"]
+    #[doc = "期商冲正标志"]
     pub BrokerRepealFlag: TThostFtdcBrokerRepealFlagType,
-    #[doc = "������ƽ\u{328}��ˮ��"]
+    #[doc = "被冲正平台流水号"]
     pub PlateRepealSerial: TThostFtdcPlateSerialType,
-    #[doc = "������������ˮ��"]
+    #[doc = "被冲正银行流水号"]
     pub BankRepealSerial: TThostFtdcBankSerialType,
-    #[doc = "�������ڻ���ˮ��"]
+    #[doc = "被冲正期货流水号"]
     pub FutureRepealSerial: TThostFtdcFutureSerialType,
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�ڻ���˾��ˮ��"]
+    #[doc = "期货公司流水号"]
     pub FutureSerial: TThostFtdcFutureSerialType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "ת�ʽ��"]
+    #[doc = "转帐金额"]
     pub TradeAmount: TThostFtdcTradeAmountType,
-    #[doc = "�ڻ���ȡ���"]
+    #[doc = "期货可取金额"]
     pub FutureFetchAmount: TThostFtdcTradeAmountType,
-    #[doc = "����\u{5a7}����־"]
+    #[doc = "费用支付标志"]
     pub FeePayFlag: TThostFtdcFeePayFlagType,
-    #[doc = "Ӧ�տͻ�����"]
+    #[doc = "应收客户费用"]
     pub CustFee: TThostFtdcCustFeeType,
-    #[doc = "Ӧ���ڻ���˾����"]
+    #[doc = "应收期货公司费用"]
     pub BrokerFee: TThostFtdcFutureFeeType,
-    #[doc = "���ͷ������շ�����Ϣ"]
+    #[doc = "发送方给接收方的消息"]
     pub Message: TThostFtdcAddInfoType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���λ�ʺ�����"]
+    #[doc = "期货单位帐号类型"]
     pub BankSecuAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "�ڻ���λ�ʺ�"]
+    #[doc = "期货单位帐号"]
     pub BankSecuAcc: TThostFtdcBankAccountType,
-    #[doc = "���������־"]
+    #[doc = "银行密码标志"]
     pub BankPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "�ڻ��ʽ�����˶Ա�־"]
+    #[doc = "期货资金密码核对标志"]
     pub SecuPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "ת�˽���״\u{32c}"]
+    #[doc = "转账交易状态"]
     pub TransferStatus: TThostFtdcTransferStatusType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcReqRepealField {
@@ -12313,115 +12313,115 @@ impl Default for CThostFtdcReqRepealField {
         }
     }
 }
-#[doc = "������Ӧ"]
+#[doc = "冲正响应"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRspRepealField {
-    #[doc = "����ʱ����"]
+    #[doc = "冲正时间间隔"]
     pub RepealTimeInterval: TThostFtdcRepealTimeIntervalType,
-    #[doc = "�Ѿ���������"]
+    #[doc = "已经冲正次数"]
     pub RepealedTimes: TThostFtdcRepealedTimesType,
-    #[doc = "���г�����־"]
+    #[doc = "银行冲正标志"]
     pub BankRepealFlag: TThostFtdcBankRepealFlagType,
-    #[doc = "���\u{333}�����־"]
+    #[doc = "期商冲正标志"]
     pub BrokerRepealFlag: TThostFtdcBrokerRepealFlagType,
-    #[doc = "������ƽ\u{328}��ˮ��"]
+    #[doc = "被冲正平台流水号"]
     pub PlateRepealSerial: TThostFtdcPlateSerialType,
-    #[doc = "������������ˮ��"]
+    #[doc = "被冲正银行流水号"]
     pub BankRepealSerial: TThostFtdcBankSerialType,
-    #[doc = "�������ڻ���ˮ��"]
+    #[doc = "被冲正期货流水号"]
     pub FutureRepealSerial: TThostFtdcFutureSerialType,
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�ڻ���˾��ˮ��"]
+    #[doc = "期货公司流水号"]
     pub FutureSerial: TThostFtdcFutureSerialType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "ת�ʽ��"]
+    #[doc = "转帐金额"]
     pub TradeAmount: TThostFtdcTradeAmountType,
-    #[doc = "�ڻ���ȡ���"]
+    #[doc = "期货可取金额"]
     pub FutureFetchAmount: TThostFtdcTradeAmountType,
-    #[doc = "����\u{5a7}����־"]
+    #[doc = "费用支付标志"]
     pub FeePayFlag: TThostFtdcFeePayFlagType,
-    #[doc = "Ӧ�տͻ�����"]
+    #[doc = "应收客户费用"]
     pub CustFee: TThostFtdcCustFeeType,
-    #[doc = "Ӧ���ڻ���˾����"]
+    #[doc = "应收期货公司费用"]
     pub BrokerFee: TThostFtdcFutureFeeType,
-    #[doc = "���ͷ������շ�����Ϣ"]
+    #[doc = "发送方给接收方的消息"]
     pub Message: TThostFtdcAddInfoType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���λ�ʺ�����"]
+    #[doc = "期货单位帐号类型"]
     pub BankSecuAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "�ڻ���λ�ʺ�"]
+    #[doc = "期货单位帐号"]
     pub BankSecuAcc: TThostFtdcBankAccountType,
-    #[doc = "���������־"]
+    #[doc = "银行密码标志"]
     pub BankPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "�ڻ��ʽ�����˶Ա�־"]
+    #[doc = "期货资金密码核对标志"]
     pub SecuPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "ת�˽���״\u{32c}"]
+    #[doc = "转账交易状态"]
     pub TransferStatus: TThostFtdcTransferStatusType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcRspRepealField {
@@ -12433,83 +12433,83 @@ impl Default for CThostFtdcRspRepealField {
         }
     }
 }
-#[doc = "��ѯ�˻���Ϣ����"]
+#[doc = "查询账户信息请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqQueryAccountField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "�ڻ���˾��ˮ��"]
+    #[doc = "期货公司流水号"]
     pub FutureSerial: TThostFtdcFutureSerialType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���λ�ʺ�����"]
+    #[doc = "期货单位帐号类型"]
     pub BankSecuAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "�ڻ���λ�ʺ�"]
+    #[doc = "期货单位帐号"]
     pub BankSecuAcc: TThostFtdcBankAccountType,
-    #[doc = "���������־"]
+    #[doc = "银行密码标志"]
     pub BankPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "�ڻ��ʽ�����˶Ա�־"]
+    #[doc = "期货资金密码核对标志"]
     pub SecuPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcReqQueryAccountField {
@@ -12521,87 +12521,87 @@ impl Default for CThostFtdcReqQueryAccountField {
         }
     }
 }
-#[doc = "��ѯ�˻���Ϣ��Ӧ"]
+#[doc = "查询账户信息响应"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRspQueryAccountField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "�ڻ���˾��ˮ��"]
+    #[doc = "期货公司流水号"]
     pub FutureSerial: TThostFtdcFutureSerialType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���λ�ʺ�����"]
+    #[doc = "期货单位帐号类型"]
     pub BankSecuAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "�ڻ���λ�ʺ�"]
+    #[doc = "期货单位帐号"]
     pub BankSecuAcc: TThostFtdcBankAccountType,
-    #[doc = "���������־"]
+    #[doc = "银行密码标志"]
     pub BankPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "�ڻ��ʽ�����˶Ա�־"]
+    #[doc = "期货资金密码核对标志"]
     pub SecuPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "���п��ý��"]
+    #[doc = "银行可用金额"]
     pub BankUseAmount: TThostFtdcTradeAmountType,
-    #[doc = "���п�ȡ���"]
+    #[doc = "银行可取金额"]
     pub BankFetchAmount: TThostFtdcTradeAmountType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcRspQueryAccountField {
@@ -12613,51 +12613,51 @@ impl Default for CThostFtdcRspQueryAccountField {
         }
     }
 }
-#[doc = "����ǩ��ǩ��"]
+#[doc = "期商签到签退"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcFutureSignIOField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
 }
 impl Default for CThostFtdcFutureSignIOField {
@@ -12669,59 +12669,59 @@ impl Default for CThostFtdcFutureSignIOField {
         }
     }
 }
-#[doc = "����ǩ����Ӧ"]
+#[doc = "期商签到响应"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRspFutureSignInField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "PIN��Կ"]
+    #[doc = "PIN密钥"]
     pub PinKey: TThostFtdcPasswordKeyType,
-    #[doc = "MAC��Կ"]
+    #[doc = "MAC密钥"]
     pub MacKey: TThostFtdcPasswordKeyType,
 }
 impl Default for CThostFtdcRspFutureSignInField {
@@ -12733,51 +12733,51 @@ impl Default for CThostFtdcRspFutureSignInField {
         }
     }
 }
-#[doc = "����ǩ������"]
+#[doc = "期商签退请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqFutureSignOutField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
 }
 impl Default for CThostFtdcReqFutureSignOutField {
@@ -12789,55 +12789,55 @@ impl Default for CThostFtdcReqFutureSignOutField {
         }
     }
 }
-#[doc = "����ǩ����Ӧ"]
+#[doc = "期商签退响应"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRspFutureSignOutField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
 }
 impl Default for CThostFtdcRspFutureSignOutField {
@@ -12849,63 +12849,63 @@ impl Default for CThostFtdcRspFutureSignOutField {
         }
     }
 }
-#[doc = "��ѯ\u{5b8}����ˮ�ŵĽ��\u{5fd}������"]
+#[doc = "查询指定流水号的交易结果请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqQueryTradeResultBySerialField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "��ˮ��"]
+    #[doc = "流水号"]
     pub Reference: TThostFtdcSerialType,
-    #[doc = "����ˮ�ŷ����ߵĻ�������"]
+    #[doc = "本流水号发布者的机构类型"]
     pub RefrenceIssureType: TThostFtdcInstitutionTypeType,
-    #[doc = "����ˮ�ŷ����\u{7fb}�������"]
+    #[doc = "本流水号发布者机构编码"]
     pub RefrenceIssure: TThostFtdcOrganCodeType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "ת�ʽ��"]
+    #[doc = "转帐金额"]
     pub TradeAmount: TThostFtdcTradeAmountType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcReqQueryTradeResultBySerialField {
@@ -12917,61 +12917,61 @@ impl Default for CThostFtdcReqQueryTradeResultBySerialField {
         }
     }
 }
-#[doc = "��ѯ\u{5b8}����ˮ�ŵĽ��\u{5fd}����Ӧ"]
+#[doc = "查询指定流水号的交易结果响应"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRspQueryTradeResultBySerialField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "��ˮ��"]
+    #[doc = "流水号"]
     pub Reference: TThostFtdcSerialType,
-    #[doc = "����ˮ�ŷ����ߵĻ�������"]
+    #[doc = "本流水号发布者的机构类型"]
     pub RefrenceIssureType: TThostFtdcInstitutionTypeType,
-    #[doc = "����ˮ�ŷ����\u{7fb}�������"]
+    #[doc = "本流水号发布者机构编码"]
     pub RefrenceIssure: TThostFtdcOrganCodeType,
-    #[doc = "ԭʼ���ش���"]
+    #[doc = "原始返回代码"]
     pub OriginReturnCode: TThostFtdcReturnCodeType,
-    #[doc = "ԭʼ����������"]
+    #[doc = "原始返回码描述"]
     pub OriginDescrInfoForReturnCode: TThostFtdcDescrInfoForReturnCodeType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "ת�ʽ��"]
+    #[doc = "转帐金额"]
     pub TradeAmount: TThostFtdcTradeAmountType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
 }
 impl Default for CThostFtdcRspQueryTradeResultBySerialField {
@@ -12983,37 +12983,37 @@ impl Default for CThostFtdcRspQueryTradeResultBySerialField {
         }
     }
 }
-#[doc = "�����ļ���������"]
+#[doc = "日终文件就绪请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqDayEndFileReadyField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ļ�ҵ����"]
+    #[doc = "文件业务功能"]
     pub FileBusinessCode: TThostFtdcFileBusinessCodeType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
 }
 impl Default for CThostFtdcReqDayEndFileReadyField {
@@ -13025,13 +13025,13 @@ impl Default for CThostFtdcReqDayEndFileReadyField {
         }
     }
 }
-#[doc = "���ؽ��"]
+#[doc = "返回结果"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReturnResultField {
-    #[doc = "���ش���"]
+    #[doc = "返回代码"]
     pub ReturnCode: TThostFtdcReturnCodeType,
-    #[doc = "����������"]
+    #[doc = "返回码描述"]
     pub DescrInfoForReturnCode: TThostFtdcDescrInfoForReturnCodeType,
 }
 impl Default for CThostFtdcReturnResultField {
@@ -13043,47 +13043,47 @@ impl Default for CThostFtdcReturnResultField {
         }
     }
 }
-#[doc = "��\u{5a4}�ڻ��ʽ�����"]
+#[doc = "验证期货资金密码"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcVerifyFuturePasswordField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
 impl Default for CThostFtdcVerifyFuturePasswordField {
@@ -13095,19 +13095,19 @@ impl Default for CThostFtdcVerifyFuturePasswordField {
         }
     }
 }
-#[doc = "��\u{5a4}�ͻ���Ϣ"]
+#[doc = "验证客户信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcVerifyCustInfoField {
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcVerifyCustInfoField {
@@ -13119,25 +13119,25 @@ impl Default for CThostFtdcVerifyCustInfoField {
         }
     }
 }
-#[doc = "��\u{5a4}�ڻ��ʽ�����Ϳͻ���Ϣ"]
+#[doc = "验证期货资金密码和客户信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcVerifyFuturePasswordAndCustInfoField {
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcVerifyFuturePasswordAndCustInfoField {
@@ -13149,23 +13149,23 @@ impl Default for CThostFtdcVerifyFuturePasswordAndCustInfoField {
         }
     }
 }
-#[doc = "��\u{5a4}�ڻ��ʽ�����Ϳͻ���Ϣ"]
+#[doc = "验证期货资金密码和客户信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcDepositResultInformField {
-    #[doc = "�������ˮ�ţ�����ˮ��Ϊ���ڱ��\u{337}��ص���ˮ��"]
+    #[doc = "出入金流水号，该流水号为银期报盘返回的流水号"]
     pub DepositSeqNo: TThostFtdcDepositSeqNoType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "�����"]
+    #[doc = "入金金额"]
     pub Deposit: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "���ش���"]
+    #[doc = "返回代码"]
     pub ReturnCode: TThostFtdcReturnCodeType,
-    #[doc = "����������"]
+    #[doc = "返回码描述"]
     pub DescrInfoForReturnCode: TThostFtdcDescrInfoForReturnCodeType,
 }
 impl Default for CThostFtdcDepositResultInformField {
@@ -13177,49 +13177,49 @@ impl Default for CThostFtdcDepositResultInformField {
         }
     }
 }
-#[doc = "���\u{5fa}��������ڱ��\u{337}�����Կ\u{36c}������"]
+#[doc = "交易核心向银期报盘发出密钥同步请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqSyncKeyField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "���\u{5fa}��ĸ����ڱ��\u{335}���Ϣ"]
+    #[doc = "交易核心给银期报盘的消息"]
     pub Message: TThostFtdcAddInfoType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
 }
 impl Default for CThostFtdcReqSyncKeyField {
@@ -13231,53 +13231,53 @@ impl Default for CThostFtdcReqSyncKeyField {
         }
     }
 }
-#[doc = "���\u{5fa}��������ڱ��\u{337}�����Կ\u{36c}����Ӧ"]
+#[doc = "交易核心向银期报盘发出密钥同步响应"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRspSyncKeyField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "���\u{5fa}��ĸ����ڱ��\u{335}���Ϣ"]
+    #[doc = "交易核心给银期报盘的消息"]
     pub Message: TThostFtdcAddInfoType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
 }
 impl Default for CThostFtdcRspSyncKeyField {
@@ -13289,91 +13289,91 @@ impl Default for CThostFtdcRspSyncKeyField {
         }
     }
 }
-#[doc = "��ѯ�˻���Ϣ\u{368}\u{5aa}"]
+#[doc = "查询账户信息通知"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcNotifyQueryAccountField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "�ڻ���˾��ˮ��"]
+    #[doc = "期货公司流水号"]
     pub FutureSerial: TThostFtdcFutureSerialType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���λ�ʺ�����"]
+    #[doc = "期货单位帐号类型"]
     pub BankSecuAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "�ڻ���λ�ʺ�"]
+    #[doc = "期货单位帐号"]
     pub BankSecuAcc: TThostFtdcBankAccountType,
-    #[doc = "���������־"]
+    #[doc = "银行密码标志"]
     pub BankPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "�ڻ��ʽ�����˶Ա�־"]
+    #[doc = "期货资金密码核对标志"]
     pub SecuPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "���п��ý��"]
+    #[doc = "银行可用金额"]
     pub BankUseAmount: TThostFtdcTradeAmountType,
-    #[doc = "���п�ȡ���"]
+    #[doc = "银行可取金额"]
     pub BankFetchAmount: TThostFtdcTradeAmountType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcNotifyQueryAccountField {
@@ -13385,65 +13385,65 @@ impl Default for CThostFtdcNotifyQueryAccountField {
         }
     }
 }
-#[doc = "����ת�˽�����ˮ��"]
+#[doc = "银期转账交易流水表"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcTransferSerialField {
-    #[doc = "ƽ\u{328}��ˮ��"]
+    #[doc = "平台流水号"]
     pub PlateSerial: TThostFtdcPlateSerialType,
-    #[doc = "���\u{5f7}�������"]
+    #[doc = "交易发起方日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "���״���"]
+    #[doc = "交易代码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "�Ự���"]
+    #[doc = "会话编号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "���б���"]
+    #[doc = "银行编码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构编码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "�ڻ���˾����"]
+    #[doc = "期货公司编码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "�ڻ���˾�ʺ�����"]
+    #[doc = "期货公司帐号类型"]
     pub FutureAccType: TThostFtdcFutureAccTypeType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "�ڻ���˾��ˮ��"]
+    #[doc = "期货公司流水号"]
     pub FutureSerial: TThostFtdcFutureSerialType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "���\u{5fd}��"]
+    #[doc = "交易金额"]
     pub TradeAmount: TThostFtdcTradeAmountType,
-    #[doc = "Ӧ�տͻ�����"]
+    #[doc = "应收客户费用"]
     pub CustFee: TThostFtdcCustFeeType,
-    #[doc = "Ӧ���ڻ���˾����"]
+    #[doc = "应收期货公司费用"]
     pub BrokerFee: TThostFtdcFutureFeeType,
-    #[doc = "��Ч��־"]
+    #[doc = "有效标志"]
     pub AvailabilityFlag: TThostFtdcAvailabilityFlagType,
-    #[doc = "����Ա"]
+    #[doc = "操作员"]
     pub OperatorCode: TThostFtdcOperatorCodeType,
-    #[doc = "�������ʺ�"]
+    #[doc = "新银行帐号"]
     pub BankNewAccount: TThostFtdcBankAccountType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
 }
 impl Default for CThostFtdcTransferSerialField {
@@ -13455,72 +13455,72 @@ impl Default for CThostFtdcTransferSerialField {
         }
     }
 }
-#[doc = "�����ѯת����ˮ"]
+#[doc = "请求查询转帐流水"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryTransferSerialField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���б���"]
+    #[doc = "银行编码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
-#[doc = "����ǩ��\u{368}\u{5aa}"]
+#[doc = "期商签到通知"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcNotifyFutureSignInField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "PIN��Կ"]
+    #[doc = "PIN密钥"]
     pub PinKey: TThostFtdcPasswordKeyType,
-    #[doc = "MAC��Կ"]
+    #[doc = "MAC密钥"]
     pub MacKey: TThostFtdcPasswordKeyType,
 }
 impl Default for CThostFtdcNotifyFutureSignInField {
@@ -13532,55 +13532,55 @@ impl Default for CThostFtdcNotifyFutureSignInField {
         }
     }
 }
-#[doc = "����ǩ��\u{368}\u{5aa}"]
+#[doc = "期商签退通知"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcNotifyFutureSignOutField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
 }
 impl Default for CThostFtdcNotifyFutureSignOutField {
@@ -13592,53 +13592,53 @@ impl Default for CThostFtdcNotifyFutureSignOutField {
         }
     }
 }
-#[doc = "���\u{5fa}��������ڱ��\u{337}�����Կ\u{36c}�����������\u{368}\u{5aa}"]
+#[doc = "交易核心向银期报盘发出密钥同步处理结果的通知"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcNotifySyncKeyField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "���\u{5fa}��ĸ����ڱ��\u{335}���Ϣ"]
+    #[doc = "交易核心给银期报盘的消息"]
     pub Message: TThostFtdcAddInfoType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "������"]
+    #[doc = "请求编号"]
     pub RequestID: TThostFtdcRequestIDType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
 }
 impl Default for CThostFtdcNotifySyncKeyField {
@@ -13650,60 +13650,60 @@ impl Default for CThostFtdcNotifySyncKeyField {
         }
     }
 }
-#[doc = "�����ѯ����ǩԼ��ϵ"]
+#[doc = "请求查询银期签约关系"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryAccountregisterField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "���б���"]
+    #[doc = "银行编码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构编码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
-#[doc = "�ͻ���������Ϣ��"]
+#[doc = "客户开销户信息表"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcAccountregisterField {
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDay: TThostFtdcTradeDateType,
-    #[doc = "���б���"]
+    #[doc = "银行编码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构编码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "�ڻ���˾����"]
+    #[doc = "期货公司编码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�ڻ���˾��\u{5a7}��������"]
+    #[doc = "期货公司分支机构编码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "���������"]
+    #[doc = "开销户类别"]
     pub OpenOrDestroy: TThostFtdcOpenOrDestroyType,
-    #[doc = "ǩԼ����"]
+    #[doc = "签约日期"]
     pub RegDate: TThostFtdcTradeDateType,
-    #[doc = "��Լ����"]
+    #[doc = "解约日期"]
     pub OutDate: TThostFtdcTradeDateType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcAccountregisterField {
@@ -13715,103 +13715,103 @@ impl Default for CThostFtdcAccountregisterField {
         }
     }
 }
-#[doc = "���ڿ�����Ϣ"]
+#[doc = "银期开户信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcOpenAccountField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�Ա�"]
+    #[doc = "性别"]
     pub Gender: TThostFtdcGenderType,
-    #[doc = "���Ҵ���"]
+    #[doc = "国家代码"]
     pub CountryCode: TThostFtdcCountryCodeType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "��\u{5b7}"]
+    #[doc = "地址"]
     pub Address: TThostFtdcAddressType,
-    #[doc = "�ʱ�"]
+    #[doc = "邮编"]
     pub ZipCode: TThostFtdcZipCodeType,
-    #[doc = "�绰����"]
+    #[doc = "电话号码"]
     pub Telephone: TThostFtdcTelephoneType,
-    #[doc = "�\u{5bb}�"]
+    #[doc = "手机"]
     pub MobilePhone: TThostFtdcMobilePhoneType,
-    #[doc = "����"]
+    #[doc = "传真"]
     pub Fax: TThostFtdcFaxType,
-    #[doc = "�����ʼ�"]
+    #[doc = "电子邮件"]
     pub EMail: TThostFtdcEMailType,
-    #[doc = "�ʽ��˻�״\u{32c}"]
+    #[doc = "资金账户状态"]
     pub MoneyAccountStatus: TThostFtdcMoneyAccountStatusType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "�㳮��־"]
+    #[doc = "汇钞标志"]
     pub CashExchangeCode: TThostFtdcCashExchangeCodeType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���λ�ʺ�����"]
+    #[doc = "期货单位帐号类型"]
     pub BankSecuAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "�ڻ���λ�ʺ�"]
+    #[doc = "期货单位帐号"]
     pub BankSecuAcc: TThostFtdcBankAccountType,
-    #[doc = "���������־"]
+    #[doc = "银行密码标志"]
     pub BankPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "�ڻ��ʽ�����˶Ա�־"]
+    #[doc = "期货资金密码核对标志"]
     pub SecuPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcOpenAccountField {
@@ -13823,103 +13823,103 @@ impl Default for CThostFtdcOpenAccountField {
         }
     }
 }
-#[doc = "����������Ϣ"]
+#[doc = "银期销户信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcCancelAccountField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�Ա�"]
+    #[doc = "性别"]
     pub Gender: TThostFtdcGenderType,
-    #[doc = "���Ҵ���"]
+    #[doc = "国家代码"]
     pub CountryCode: TThostFtdcCountryCodeType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "��\u{5b7}"]
+    #[doc = "地址"]
     pub Address: TThostFtdcAddressType,
-    #[doc = "�ʱ�"]
+    #[doc = "邮编"]
     pub ZipCode: TThostFtdcZipCodeType,
-    #[doc = "�绰����"]
+    #[doc = "电话号码"]
     pub Telephone: TThostFtdcTelephoneType,
-    #[doc = "�\u{5bb}�"]
+    #[doc = "手机"]
     pub MobilePhone: TThostFtdcMobilePhoneType,
-    #[doc = "����"]
+    #[doc = "传真"]
     pub Fax: TThostFtdcFaxType,
-    #[doc = "�����ʼ�"]
+    #[doc = "电子邮件"]
     pub EMail: TThostFtdcEMailType,
-    #[doc = "�ʽ��˻�״\u{32c}"]
+    #[doc = "资金账户状态"]
     pub MoneyAccountStatus: TThostFtdcMoneyAccountStatusType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "�㳮��־"]
+    #[doc = "汇钞标志"]
     pub CashExchangeCode: TThostFtdcCashExchangeCodeType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "������־"]
+    #[doc = "渠道标志"]
     pub DeviceID: TThostFtdcDeviceIDType,
-    #[doc = "�ڻ���λ�ʺ�����"]
+    #[doc = "期货单位帐号类型"]
     pub BankSecuAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "�ڻ���λ�ʺ�"]
+    #[doc = "期货单位帐号"]
     pub BankSecuAcc: TThostFtdcBankAccountType,
-    #[doc = "���������־"]
+    #[doc = "银行密码标志"]
     pub BankPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "�ڻ��ʽ�����˶Ա�־"]
+    #[doc = "期货资金密码核对标志"]
     pub SecuPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "���\u{5f9}�Ա"]
+    #[doc = "交易柜员"]
     pub OperNo: TThostFtdcOperNoType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "�û���ʶ"]
+    #[doc = "用户标识"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcCancelAccountField {
@@ -13931,95 +13931,95 @@ impl Default for CThostFtdcCancelAccountField {
         }
     }
 }
-#[doc = "���ڱ�������˺���Ϣ"]
+#[doc = "银期变更银行账号信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcChangeAccountField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�Ա�"]
+    #[doc = "性别"]
     pub Gender: TThostFtdcGenderType,
-    #[doc = "���Ҵ���"]
+    #[doc = "国家代码"]
     pub CountryCode: TThostFtdcCountryCodeType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "��\u{5b7}"]
+    #[doc = "地址"]
     pub Address: TThostFtdcAddressType,
-    #[doc = "�ʱ�"]
+    #[doc = "邮编"]
     pub ZipCode: TThostFtdcZipCodeType,
-    #[doc = "�绰����"]
+    #[doc = "电话号码"]
     pub Telephone: TThostFtdcTelephoneType,
-    #[doc = "�\u{5bb}�"]
+    #[doc = "手机"]
     pub MobilePhone: TThostFtdcMobilePhoneType,
-    #[doc = "����"]
+    #[doc = "传真"]
     pub Fax: TThostFtdcFaxType,
-    #[doc = "�����ʼ�"]
+    #[doc = "电子邮件"]
     pub EMail: TThostFtdcEMailType,
-    #[doc = "�ʽ��˻�״\u{32c}"]
+    #[doc = "资金账户状态"]
     pub MoneyAccountStatus: TThostFtdcMoneyAccountStatusType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "�������ʺ�"]
+    #[doc = "新银行帐号"]
     pub NewBankAccount: TThostFtdcBankAccountType,
-    #[doc = "����������"]
+    #[doc = "新银行密码"]
     pub NewBankPassWord: TThostFtdcPasswordType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "���������־"]
+    #[doc = "银行密码标志"]
     pub BankPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "�ڻ��ʽ�����˶Ա�־"]
+    #[doc = "期货资金密码核对标志"]
     pub SecuPwdFlag: TThostFtdcPwdFlagType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
-    #[doc = "���ͻ�����"]
+    #[doc = "长客户姓名"]
     pub LongCustomerName: TThostFtdcLongIndividualNameType,
 }
 impl Default for CThostFtdcChangeAccountField {
@@ -14031,98 +14031,98 @@ impl Default for CThostFtdcChangeAccountField {
         }
     }
 }
-#[doc = "������������Ա����Ȩ��"]
+#[doc = "二级代理操作员银期权限"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSecAgentACIDMapField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�ʽ��˻�"]
+    #[doc = "资金账户"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "����"]
+    #[doc = "币种"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "�����н�����ʽ��ʺ�"]
+    #[doc = "境外中介机构资金帐号"]
     pub BrokerSecAgentID: TThostFtdcAccountIDType,
 }
-#[doc = "������������Ա����Ȩ�\u{7b2}�ѯ"]
+#[doc = "二级代理操作员银期权限查询"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQrySecAgentACIDMapField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�ʽ��˻�"]
+    #[doc = "资金账户"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "����"]
+    #[doc = "币种"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
-#[doc = "�\u{5b1}����Ľ���Ȩ��"]
+#[doc = "灾备中心交易权限"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcUserRightsAssignField {
-    #[doc = "Ӧ�õ�Ԫ����"]
+    #[doc = "应用单元代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�������Ĵ���"]
+    #[doc = "交易中心代码"]
     pub DRIdentityID: TThostFtdcDRIdentityIDType,
 }
-#[doc = "���ù�˾�Ƿ����ڱ���ʾ�Ľ���Ȩ��"]
+#[doc = "经济公司是否有在本标示的交易权限"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcBrokerUserRightAssignField {
-    #[doc = "Ӧ�õ�Ԫ����"]
+    #[doc = "应用单元代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�������Ĵ���"]
+    #[doc = "交易中心代码"]
     pub DRIdentityID: TThostFtdcDRIdentityIDType,
-    #[doc = "�\u{737}���"]
+    #[doc = "能否交易"]
     pub Tradeable: TThostFtdcBoolType,
 }
-#[doc = "�\u{5b1}�����ת������"]
+#[doc = "灾备交易转换报文"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcDRTransferField {
-    #[doc = "ԭ�������Ĵ���"]
+    #[doc = "原交易中心代码"]
     pub OrigDRIdentityID: TThostFtdcDRIdentityIDType,
-    #[doc = "Ŀ�꽻�����Ĵ���"]
+    #[doc = "目标交易中心代码"]
     pub DestDRIdentityID: TThostFtdcDRIdentityIDType,
-    #[doc = "ԭӦ�õ�Ԫ����"]
+    #[doc = "原应用单元代码"]
     pub OrigBrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ŀ�����õ�Ԫ����"]
+    #[doc = "目标易用单元代码"]
     pub DestBrokerID: TThostFtdcBrokerIDType,
 }
-#[doc = "Fens�û���Ϣ"]
+#[doc = "Fens用户信息"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcFensUserInfoField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��¼ģʽ"]
+    #[doc = "登录模式"]
     pub LoginMode: TThostFtdcLoginModeType,
 }
-#[doc = "��ǰ����������������"]
+#[doc = "当前银期所属交易中心"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcCurrTransferIdentityField {
-    #[doc = "�������Ĵ���"]
+    #[doc = "交易中心代码"]
     pub IdentityID: TThostFtdcDRIdentityIDType,
 }
-#[doc = "��\u{5b9}��¼�û�"]
+#[doc = "禁止登录用户"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcLoginForbiddenUserField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcLoginForbiddenUserField {
@@ -14134,35 +14134,35 @@ impl Default for CThostFtdcLoginForbiddenUserField {
         }
     }
 }
-#[doc = "��ѯ��\u{5b9}��¼�û�"]
+#[doc = "查询禁止登录用户"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryLoginForbiddenUserField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
-#[doc = "�ʽ��˻�����\u{5fc}����"]
+#[doc = "资金账户基本准备金"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcTradingAccountReserveField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "����\u{5fc}����"]
+    #[doc = "基本准备金"]
     pub Reserve: TThostFtdcMoneyType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
-#[doc = "��ѯ��\u{5b9}��¼IP"]
+#[doc = "查询禁止登录IP"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryLoginForbiddenIPField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcQryLoginForbiddenIPField {
@@ -14174,13 +14174,13 @@ impl Default for CThostFtdcQryLoginForbiddenIPField {
         }
     }
 }
-#[doc = "��ѯIP�б�"]
+#[doc = "查询IP列表"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryIPListField {
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcQryIPListField {
@@ -14192,100 +14192,100 @@ impl Default for CThostFtdcQryIPListField {
         }
     }
 }
-#[doc = "��ѯ�û��µ�Ȩ�\u{7b7}����"]
+#[doc = "查询用户下单权限分配表"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryUserRightsAssignField {
-    #[doc = "Ӧ�õ�Ԫ����"]
+    #[doc = "应用单元代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
-#[doc = "����ԤԼ����ȷ������"]
+#[doc = "银期预约开户确认请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReserveOpenAccountConfirmField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcLongIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�Ա�"]
+    #[doc = "性别"]
     pub Gender: TThostFtdcGenderType,
-    #[doc = "���Ҵ���"]
+    #[doc = "国家代码"]
     pub CountryCode: TThostFtdcCountryCodeType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "��\u{5b7}"]
+    #[doc = "地址"]
     pub Address: TThostFtdcAddressType,
-    #[doc = "�ʱ�"]
+    #[doc = "邮编"]
     pub ZipCode: TThostFtdcZipCodeType,
-    #[doc = "�绰����"]
+    #[doc = "电话号码"]
     pub Telephone: TThostFtdcTelephoneType,
-    #[doc = "�\u{5bb}�"]
+    #[doc = "手机"]
     pub MobilePhone: TThostFtdcMobilePhoneType,
-    #[doc = "����"]
+    #[doc = "传真"]
     pub Fax: TThostFtdcFaxType,
-    #[doc = "�����ʼ�"]
+    #[doc = "电子邮件"]
     pub EMail: TThostFtdcEMailType,
-    #[doc = "�ʽ��˻�״\u{32c}"]
+    #[doc = "资金账户状态"]
     pub MoneyAccountStatus: TThostFtdcMoneyAccountStatusType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ڻ�����"]
+    #[doc = "期货密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "ԤԼ����������ˮ��"]
+    #[doc = "预约开户银行流水号"]
     pub BankReserveOpenSeq: TThostFtdcBankSerialType,
-    #[doc = "ԤԼ��������"]
+    #[doc = "预约开户日期"]
     pub BookDate: TThostFtdcTradeDateType,
-    #[doc = "ԤԼ������\u{5a4}����"]
+    #[doc = "预约开户验证密码"]
     pub BookPsw: TThostFtdcPasswordType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
 }
 impl Default for CThostFtdcReserveOpenAccountConfirmField {
@@ -14297,83 +14297,83 @@ impl Default for CThostFtdcReserveOpenAccountConfirmField {
         }
     }
 }
-#[doc = "����ԤԼ����"]
+#[doc = "银期预约开户"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReserveOpenAccountField {
-    #[doc = "ҵ������"]
+    #[doc = "业务功能码"]
     pub TradeCode: TThostFtdcTradeCodeType,
-    #[doc = "���д���"]
+    #[doc = "银行代码"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "���з�\u{5a7}��������"]
+    #[doc = "银行分支机构代码"]
     pub BankBranchID: TThostFtdcBankBrchIDType,
-    #[doc = "���\u{334}���"]
+    #[doc = "期商代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "���\u{337}�\u{5a7}��������"]
+    #[doc = "期商分支机构代码"]
     pub BrokerBranchID: TThostFtdcFutureBranchIDType,
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradeDate: TThostFtdcTradeDateType,
-    #[doc = "����ʱ��"]
+    #[doc = "交易时间"]
     pub TradeTime: TThostFtdcTradeTimeType,
-    #[doc = "������ˮ��"]
+    #[doc = "银行流水号"]
     pub BankSerial: TThostFtdcBankSerialType,
-    #[doc = "����ϵͳ����"]
+    #[doc = "交易系统日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "����ƽ\u{328}��Ϣ��ˮ��"]
+    #[doc = "银期平台消息流水号"]
     pub PlateSerial: TThostFtdcSerialType,
-    #[doc = "����Ƭ��־"]
+    #[doc = "最后分片标志"]
     pub LastFragment: TThostFtdcLastFragmentType,
-    #[doc = "�Ự��"]
+    #[doc = "会话号"]
     pub SessionID: TThostFtdcSessionIDType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户姓名"]
     pub CustomerName: TThostFtdcLongIndividualNameType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件类型"]
     pub IdCardType: TThostFtdcIdCardTypeType,
-    #[doc = "\u{5a4}������"]
+    #[doc = "证件号码"]
     pub IdentifiedCardNo: TThostFtdcIdentifiedCardNoType,
-    #[doc = "�Ա�"]
+    #[doc = "性别"]
     pub Gender: TThostFtdcGenderType,
-    #[doc = "���Ҵ���"]
+    #[doc = "国家代码"]
     pub CountryCode: TThostFtdcCountryCodeType,
-    #[doc = "�ͻ�����"]
+    #[doc = "客户类型"]
     pub CustType: TThostFtdcCustTypeType,
-    #[doc = "��\u{5b7}"]
+    #[doc = "地址"]
     pub Address: TThostFtdcAddressType,
-    #[doc = "�ʱ�"]
+    #[doc = "邮编"]
     pub ZipCode: TThostFtdcZipCodeType,
-    #[doc = "�绰����"]
+    #[doc = "电话号码"]
     pub Telephone: TThostFtdcTelephoneType,
-    #[doc = "�\u{5bb}�"]
+    #[doc = "手机"]
     pub MobilePhone: TThostFtdcMobilePhoneType,
-    #[doc = "����"]
+    #[doc = "传真"]
     pub Fax: TThostFtdcFaxType,
-    #[doc = "�����ʼ�"]
+    #[doc = "电子邮件"]
     pub EMail: TThostFtdcEMailType,
-    #[doc = "�ʽ��˻�״\u{32c}"]
+    #[doc = "资金账户状态"]
     pub MoneyAccountStatus: TThostFtdcMoneyAccountStatusType,
-    #[doc = "�����ʺ�"]
+    #[doc = "银行帐号"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "��������"]
+    #[doc = "银行密码"]
     pub BankPassWord: TThostFtdcPasswordType,
-    #[doc = "��װ���"]
+    #[doc = "安装编号"]
     pub InstallID: TThostFtdcInstallIDType,
-    #[doc = "��\u{5a4}�ͻ�\u{5a4}�������־"]
+    #[doc = "验证客户证件号码标志"]
     pub VerifyCertNoFlag: TThostFtdcYesNoIndicatorType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "ժҪ"]
+    #[doc = "摘要"]
     pub Digest: TThostFtdcDigestType,
-    #[doc = "�����ʺ�����"]
+    #[doc = "银行帐号类型"]
     pub BankAccType: TThostFtdcBankAccTypeType,
-    #[doc = "�ڻ���˾���б���"]
+    #[doc = "期货公司银行编码"]
     pub BrokerIDByBank: TThostFtdcBankCodingForFutureType,
-    #[doc = "����ID"]
+    #[doc = "交易ID"]
     pub TID: TThostFtdcTIDType,
-    #[doc = "ԤԼ����״\u{32c}"]
+    #[doc = "预约开户状态"]
     pub ReserveOpenAccStas: TThostFtdcReserveOpenAccStasType,
-    #[doc = "�������"]
+    #[doc = "错误代码"]
     pub ErrorID: TThostFtdcErrorIDType,
-    #[doc = "������Ϣ"]
+    #[doc = "错误信息"]
     pub ErrorMsg: TThostFtdcErrorMsgType,
 }
 impl Default for CThostFtdcReserveOpenAccountField {
@@ -14385,37 +14385,37 @@ impl Default for CThostFtdcReserveOpenAccountField {
         }
     }
 }
-#[doc = "�����˻�����"]
+#[doc = "银行账户属性"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcAccountPropertyField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "����ͳһ��ʶ����"]
+    #[doc = "银行统一标识类型"]
     pub BankID: TThostFtdcBankIDType,
-    #[doc = "�����˻�"]
+    #[doc = "银行账户"]
     pub BankAccount: TThostFtdcBankAccountType,
-    #[doc = "�����˻��Ŀ���������"]
+    #[doc = "银行账户的开户人名称"]
     pub OpenName: TThostFtdcInvestorFullNameType,
-    #[doc = "�����˻��Ŀ�����"]
+    #[doc = "银行账户的开户行"]
     pub OpenBank: TThostFtdcOpenBankType,
-    #[doc = "�Ƿ��Ծ"]
+    #[doc = "是否活跃"]
     pub IsActive: TThostFtdcBoolType,
-    #[doc = "�˻���Դ"]
+    #[doc = "账户来源"]
     pub AccountSourceType: TThostFtdcAccountSourceTypeType,
-    #[doc = "��������"]
+    #[doc = "开户日期"]
     pub OpenDate: TThostFtdcDateType,
-    #[doc = "ע������"]
+    #[doc = "注销日期"]
     pub CancelDate: TThostFtdcDateType,
-    #[doc = "¼��Ա����"]
+    #[doc = "录入员代码"]
     pub OperatorID: TThostFtdcOperatorIDType,
-    #[doc = "¼������"]
+    #[doc = "录入日期"]
     pub OperateDate: TThostFtdcDateType,
-    #[doc = "¼��ʱ��"]
+    #[doc = "录入时间"]
     pub OperateTime: TThostFtdcTimeType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
 }
 impl Default for CThostFtdcAccountPropertyField {
@@ -14427,78 +14427,78 @@ impl Default for CThostFtdcAccountPropertyField {
         }
     }
 }
-#[doc = "��ѯ��ǰ��������"]
+#[doc = "查询当前交易中心"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryCurrDRIdentityField {
-    #[doc = "�������Ĵ���"]
+    #[doc = "交易中心代码"]
     pub DRIdentityID: TThostFtdcDRIdentityIDType,
 }
-#[doc = "��ǰ��������"]
+#[doc = "当前交易中心"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcCurrDRIdentityField {
-    #[doc = "�������Ĵ���"]
+    #[doc = "交易中心代码"]
     pub DRIdentityID: TThostFtdcDRIdentityIDType,
 }
-#[doc = "��ѯ�����������ʽ�У��ģʽ"]
+#[doc = "查询二级代理商资金校验模式"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQrySecAgentCheckModeField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
 }
-#[doc = "��ѯ������������Ϣ"]
+#[doc = "查询二级代理商信息"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQrySecAgentTradeInfoField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�����н�����ʽ��ʺ�"]
+    #[doc = "境外中介机构资金帐号"]
     pub BrokerSecAgentID: TThostFtdcAccountIDType,
 }
-#[doc = "�û�������ȡ��ȫ��ȫ��½��������"]
+#[doc = "用户发出获取安全安全登陆方法请求"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcReqUserAuthMethodField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
-#[doc = "�û�������ȡ��ȫ��ȫ��½�����ظ�"]
+#[doc = "用户发出获取安全安全登陆方法回复"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcRspUserAuthMethodField {
-    #[doc = "��ǰ�����õ���\u{5a4}ģʽ"]
+    #[doc = "当前可以用的认证模式"]
     pub UsableAuthMethod: TThostFtdcCurrentAuthMethodType,
 }
-#[doc = "�û�������ȡ��ȫ��ȫ��½��������"]
+#[doc = "用户发出获取安全安全登陆方法请求"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcReqGenUserCaptchaField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
-#[doc = "���ɵ�ͼƬ��\u{5a4}����Ϣ"]
+#[doc = "生成的图片验证码信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRspGenUserCaptchaField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "ͼƬ��Ϣ����"]
+    #[doc = "图片信息长度"]
     pub CaptchaInfoLen: TThostFtdcCaptchaInfoLenType,
-    #[doc = "ͼƬ��Ϣ"]
+    #[doc = "图片信息"]
     pub CaptchaInfo: TThostFtdcCaptchaInfoType,
 }
 impl Default for CThostFtdcRspGenUserCaptchaField {
@@ -14510,53 +14510,53 @@ impl Default for CThostFtdcRspGenUserCaptchaField {
         }
     }
 }
-#[doc = "�û�������ȡ��ȫ��ȫ��½��������"]
+#[doc = "用户发出获取安全安全登陆方法请求"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcReqGenUserTextField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
-#[doc = "������\u{5a4}�����ɵĻظ�"]
+#[doc = "短信验证码生成的回复"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcRspGenUserTextField {
-    #[doc = "������\u{5a4}�����"]
+    #[doc = "短信验证码序号"]
     pub UserTextSeq: TThostFtdcUserTextSeqType,
 }
-#[doc = "�û�������ͼ����\u{5a4}��ĵ�¼��������"]
+#[doc = "用户发出带图形验证码的登录请求请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqUserLoginWithCaptchaField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "�ӿڶ˲�Ʒ��Ϣ"]
+    #[doc = "接口端产品信息"]
     pub InterfaceProductInfo: TThostFtdcProductInfoType,
-    #[doc = "Э����Ϣ"]
+    #[doc = "协议信息"]
     pub ProtocolInfo: TThostFtdcProtocolInfoType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "��¼��ע"]
+    #[doc = "登录备注"]
     pub LoginRemark: TThostFtdcLoginRemarkType,
-    #[doc = "ͼ����\u{5a4}�����������"]
+    #[doc = "图形验证码的文字内容"]
     pub Captcha: TThostFtdcPasswordType,
-    #[doc = "�ն�IP�˿�"]
+    #[doc = "终端IP端口"]
     pub ClientIPPort: TThostFtdcIPPortType,
-    #[doc = "�ն�IP��\u{5b7}"]
+    #[doc = "终端IP地址"]
     pub ClientIPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcReqUserLoginWithCaptchaField {
@@ -14568,35 +14568,35 @@ impl Default for CThostFtdcReqUserLoginWithCaptchaField {
         }
     }
 }
-#[doc = "�û�������������\u{5a4}��ĵ�¼��������"]
+#[doc = "用户发出带短信验证码的登录请求请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqUserLoginWithTextField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "�ӿڶ˲�Ʒ��Ϣ"]
+    #[doc = "接口端产品信息"]
     pub InterfaceProductInfo: TThostFtdcProductInfoType,
-    #[doc = "Э����Ϣ"]
+    #[doc = "协议信息"]
     pub ProtocolInfo: TThostFtdcProtocolInfoType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "��¼��ע"]
+    #[doc = "登录备注"]
     pub LoginRemark: TThostFtdcLoginRemarkType,
-    #[doc = "������\u{5a4}����������"]
+    #[doc = "短信验证码文字内容"]
     pub Text: TThostFtdcPasswordType,
-    #[doc = "�ն�IP�˿�"]
+    #[doc = "终端IP端口"]
     pub ClientIPPort: TThostFtdcIPPortType,
-    #[doc = "�ն�IP��\u{5b7}"]
+    #[doc = "终端IP地址"]
     pub ClientIPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcReqUserLoginWithTextField {
@@ -14608,35 +14608,35 @@ impl Default for CThostFtdcReqUserLoginWithTextField {
         }
     }
 }
-#[doc = "�û���������\u{32c}��\u{5a4}��ĵ�¼��������"]
+#[doc = "用户发出带动态验证码的登录请求请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqUserLoginWithOTPField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "�ӿڶ˲�Ʒ��Ϣ"]
+    #[doc = "接口端产品信息"]
     pub InterfaceProductInfo: TThostFtdcProductInfoType,
-    #[doc = "Э����Ϣ"]
+    #[doc = "协议信息"]
     pub ProtocolInfo: TThostFtdcProtocolInfoType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "��¼��ע"]
+    #[doc = "登录备注"]
     pub LoginRemark: TThostFtdcLoginRemarkType,
-    #[doc = "OTP����"]
+    #[doc = "OTP密码"]
     pub OTPPassword: TThostFtdcPasswordType,
-    #[doc = "�ն�IP�˿�"]
+    #[doc = "终端IP端口"]
     pub ClientIPPort: TThostFtdcIPPortType,
-    #[doc = "�ն�IP��\u{5b7}"]
+    #[doc = "终端IP地址"]
     pub ClientIPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcReqUserLoginWithOTPField {
@@ -14648,22 +14648,22 @@ impl Default for CThostFtdcReqUserLoginWithOTPField {
         }
     }
 }
-#[doc = "api��������"]
+#[doc = "api握手请求"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcReqApiHandshakeField {
-    #[doc = "api��front\u{368}����Կ�汾��"]
+    #[doc = "api与front通信密钥版本号"]
     pub CryptoKeyVersion: TThostFtdcCryptoKeyVersionType,
 }
-#[doc = "front����api�����\u{5bb}ظ�"]
+#[doc = "front发给api的握手回复"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRspApiHandshakeField {
-    #[doc = "���\u{5bb}ظ����ݳ���"]
+    #[doc = "握手回复数据长度"]
     pub FrontHandshakeDataLen: TThostFtdcHandshakeDataLenType,
-    #[doc = "���\u{5bb}ظ�����"]
+    #[doc = "握手回复数据"]
     pub FrontHandshakeData: TThostFtdcHandshakeDataType,
-    #[doc = "API��\u{5a4}�Ƿ���"]
+    #[doc = "API认证是否开启"]
     pub IsApiAuthEnabled: TThostFtdcBoolType,
 }
 impl Default for CThostFtdcRspApiHandshakeField {
@@ -14675,13 +14675,13 @@ impl Default for CThostFtdcRspApiHandshakeField {
         }
     }
 }
-#[doc = "api��front����\u{5a4}key������"]
+#[doc = "api给front的验证key的请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqVerifyApiKeyField {
-    #[doc = "���\u{5bb}ظ����ݳ���"]
+    #[doc = "握手回复数据长度"]
     pub ApiHandshakeDataLen: TThostFtdcHandshakeDataLenType,
-    #[doc = "���\u{5bb}ظ�����"]
+    #[doc = "握手回复数据"]
     pub ApiHandshakeData: TThostFtdcHandshakeDataType,
 }
 impl Default for CThostFtdcReqVerifyApiKeyField {
@@ -14693,33 +14693,33 @@ impl Default for CThostFtdcReqVerifyApiKeyField {
         }
     }
 }
-#[doc = "����Ա��\u{5af}�\u{739}���ϵ"]
+#[doc = "操作员组织架构关系"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcDepartmentUserField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcDepartmentRangeType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
 }
-#[doc = "��ѯƵ�ʣ�ÿ���ѯ����"]
+#[doc = "查询频率，每秒查询比数"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQueryFreqField {
-    #[doc = "��ѯƵ��"]
+    #[doc = "查询频率"]
     pub QueryFreq: TThostFtdcQueryFreqType,
-    #[doc = "FTDƵ��"]
+    #[doc = "FTD频率"]
     pub FTDPkgFreq: TThostFtdcQueryFreqType,
 }
-#[doc = "��\u{5b9}��\u{5a4}IP"]
+#[doc = "禁止认证IP"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcAuthForbiddenIPField {
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcAuthForbiddenIPField {
@@ -14731,11 +14731,11 @@ impl Default for CThostFtdcAuthForbiddenIPField {
         }
     }
 }
-#[doc = "��ѯ��\u{5b9}��\u{5a4}IP"]
+#[doc = "查询禁止认证IP"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryAuthForbiddenIPField {
-    #[doc = "IP��\u{5b7}"]
+    #[doc = "IP地址"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcQryAuthForbiddenIPField {
@@ -14747,46 +14747,46 @@ impl Default for CThostFtdcQryAuthForbiddenIPField {
         }
     }
 }
-#[doc = "������ᶳ��"]
+#[doc = "换汇可提冻结"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSyncDelaySwapFrozenField {
-    #[doc = "������ˮ��"]
+    #[doc = "换汇流水号"]
     pub DelaySwapSeqNo: TThostFtdcDepositSeqNoType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Դ����"]
+    #[doc = "源币种"]
     pub FromCurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "Դʣ�\u{efb}����(���ᶳ��)"]
+    #[doc = "源剩余换汇额度(可提冻结)"]
     pub FromRemainSwap: TThostFtdcMoneyType,
-    #[doc = "�Ƿ��\u{5b9}�����"]
+    #[doc = "是否手工换汇"]
     pub IsManualSwap: TThostFtdcBoolType,
 }
-#[doc = "�û�ϵͳ��Ϣ"]
+#[doc = "用户系统信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcUserSystemInfoField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "�û���ϵͳ�ڲ���Ϣ����"]
+    #[doc = "用户端系统内部信息长度"]
     pub ClientSystemInfoLen: TThostFtdcSystemInfoLenType,
-    #[doc = "�û���ϵͳ�ڲ���Ϣ"]
+    #[doc = "用户端系统内部信息"]
     pub ClientSystemInfo: TThostFtdcClientSystemInfoType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "�ն�IP�˿�"]
+    #[doc = "终端IP端口"]
     pub ClientIPPort: TThostFtdcIPPortType,
-    #[doc = "��¼�ɹ�ʱ��"]
+    #[doc = "登录成功时间"]
     pub ClientLoginTime: TThostFtdcTimeType,
-    #[doc = "App����"]
+    #[doc = "App代码"]
     pub ClientAppID: TThostFtdcAppIDType,
-    #[doc = "�û�����IP"]
+    #[doc = "用户公网IP"]
     pub ClientPublicIP: TThostFtdcIPAddressType,
-    #[doc = "�ͻ���¼��ע2"]
+    #[doc = "客户登录备注2"]
     pub ClientLoginRemark: TThostFtdcClientLoginRemarkType,
 }
 impl Default for CThostFtdcUserSystemInfoField {
@@ -14798,17 +14798,17 @@ impl Default for CThostFtdcUserSystemInfoField {
         }
     }
 }
-#[doc = "�ն��û�����Ϣ"]
+#[doc = "终端用户绑定信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcAuthUserIDField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "App����"]
+    #[doc = "App代码"]
     pub AppID: TThostFtdcAppIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "У������"]
+    #[doc = "校验类型"]
     pub AuthType: TThostFtdcAuthTypeType,
 }
 impl Default for CThostFtdcAuthUserIDField {
@@ -14820,15 +14820,15 @@ impl Default for CThostFtdcAuthUserIDField {
         }
     }
 }
-#[doc = "�û�IP����Ϣ"]
+#[doc = "用户IP绑定信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcAuthIPField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "App����"]
+    #[doc = "App代码"]
     pub AppID: TThostFtdcAppIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub IPAddress: TThostFtdcIPAddressType,
 }
 impl Default for CThostFtdcAuthIPField {
@@ -14840,21 +14840,21 @@ impl Default for CThostFtdcAuthIPField {
         }
     }
 }
-#[doc = "��ѯ�����Լ"]
+#[doc = "查询分类合约"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryClassifiedInstrumentField {
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ����״\u{32c}"]
+    #[doc = "合约交易状态"]
     pub TradingType: TThostFtdcTradingTypeType,
-    #[doc = "��Լ��������"]
+    #[doc = "合约分类类型"]
     pub ClassType: TThostFtdcClassTypeType,
 }
 impl Default for CThostFtdcQryClassifiedInstrumentField {
@@ -14866,13 +14866,13 @@ impl Default for CThostFtdcQryClassifiedInstrumentField {
         }
     }
 }
-#[doc = "��ѯ����Żݱ���"]
+#[doc = "查询组合优惠比例"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryCombPromotionParamField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryCombPromotionParamField {
@@ -14884,17 +14884,17 @@ impl Default for CThostFtdcQryCombPromotionParamField {
         }
     }
 }
-#[doc = "����Żݱ���"]
+#[doc = "组合优惠比例"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcCombPromotionParamField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub CombHedgeFlag: TThostFtdcCombHedgeFlagType,
-    #[doc = "��Ȩ��ϱ�\u{5a4}�����"]
+    #[doc = "期权组合保证金比例"]
     pub Xparameter: TThostFtdcDiscountRatioType,
 }
 impl Default for CThostFtdcCombPromotionParamField {
@@ -14906,43 +14906,43 @@ impl Default for CThostFtdcCombPromotionParamField {
         }
     }
 }
-#[doc = "�����û���¼����"]
+#[doc = "国密用户登录请求"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcReqUserLoginSMField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "����"]
+    #[doc = "密码"]
     pub Password: TThostFtdcPasswordType,
-    #[doc = "�û��˲�Ʒ��Ϣ"]
+    #[doc = "用户端产品信息"]
     pub UserProductInfo: TThostFtdcProductInfoType,
-    #[doc = "�ӿڶ˲�Ʒ��Ϣ"]
+    #[doc = "接口端产品信息"]
     pub InterfaceProductInfo: TThostFtdcProductInfoType,
-    #[doc = "Э����Ϣ"]
+    #[doc = "协议信息"]
     pub ProtocolInfo: TThostFtdcProtocolInfoType,
-    #[doc = "Mac��\u{5b7}"]
+    #[doc = "Mac地址"]
     pub MacAddress: TThostFtdcMacAddressType,
-    #[doc = "��\u{32c}����"]
+    #[doc = "动态密码"]
     pub OneTimePassword: TThostFtdcPasswordType,
-    #[doc = "��������Ч�\u{5b6}�"]
+    #[doc = "保留的无效字段"]
     pub reserve1: TThostFtdcOldIPAddressType,
-    #[doc = "��¼��ע"]
+    #[doc = "登录备注"]
     pub LoginRemark: TThostFtdcLoginRemarkType,
-    #[doc = "�ն�IP�˿�"]
+    #[doc = "终端IP端口"]
     pub ClientIPPort: TThostFtdcIPPortType,
-    #[doc = "�ն�IP��\u{5b7}"]
+    #[doc = "终端IP地址"]
     pub ClientIPAddress: TThostFtdcIPAddressType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司名称"]
     pub BrokerName: TThostFtdcBrokerNameType,
-    #[doc = "��\u{5a4}��"]
+    #[doc = "认证码"]
     pub AuthCode: TThostFtdcAuthCodeType,
-    #[doc = "App����"]
+    #[doc = "App代码"]
     pub AppID: TThostFtdcAppIDType,
-    #[doc = "PIN��"]
+    #[doc = "PIN码"]
     pub PIN: TThostFtdcPasswordType,
 }
 impl Default for CThostFtdcReqUserLoginSMField {
@@ -14954,15 +14954,15 @@ impl Default for CThostFtdcReqUserLoginSMField {
         }
     }
 }
-#[doc = "Ͷ���߷��ս���\u{5b2}\u{5b2}�ѯ"]
+#[doc = "投资者风险结算持仓查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryRiskSettleInvstPositionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryRiskSettleInvstPositionField {
@@ -14974,11 +14974,11 @@ impl Default for CThostFtdcQryRiskSettleInvstPositionField {
         }
     }
 }
-#[doc = "���ս����Ʒ��ѯ"]
+#[doc = "风险结算产品查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryRiskSettleProductStatusField {
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryRiskSettleProductStatusField {
@@ -14990,107 +14990,107 @@ impl Default for CThostFtdcQryRiskSettleProductStatusField {
         }
     }
 }
-#[doc = "Ͷ���߷��ս���\u{5b2}�"]
+#[doc = "投资者风险结算持仓"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRiskSettleInvstPositionField {
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "�\u{5b2}\u{5b6}�շ���"]
+    #[doc = "持仓多空方向"]
     pub PosiDirection: TThostFtdcPosiDirectionType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "�\u{5b2}�����"]
+    #[doc = "持仓日期"]
     pub PositionDate: TThostFtdcPositionDateType,
-    #[doc = "���ճ\u{5b2}�"]
+    #[doc = "上日持仓"]
     pub YdPosition: TThostFtdcVolumeType,
-    #[doc = "���ճ\u{5b2}�"]
+    #[doc = "今日持仓"]
     pub Position: TThostFtdcVolumeType,
-    #[doc = "��ͷ����"]
+    #[doc = "多头冻结"]
     pub LongFrozen: TThostFtdcVolumeType,
-    #[doc = "��ͷ����"]
+    #[doc = "空头冻结"]
     pub ShortFrozen: TThostFtdcVolumeType,
-    #[doc = "���\u{5b6}�����"]
+    #[doc = "开仓冻结金额"]
     pub LongFrozenAmount: TThostFtdcMoneyType,
-    #[doc = "���\u{5b6}�����"]
+    #[doc = "开仓冻结金额"]
     pub ShortFrozenAmount: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "开仓量"]
     pub OpenVolume: TThostFtdcVolumeType,
-    #[doc = "ƽ����"]
+    #[doc = "平仓量"]
     pub CloseVolume: TThostFtdcVolumeType,
-    #[doc = "���\u{5bd}��"]
+    #[doc = "开仓金额"]
     pub OpenAmount: TThostFtdcMoneyType,
-    #[doc = "ƽ�\u{5bd}��"]
+    #[doc = "平仓金额"]
     pub CloseAmount: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}\u{5b3}ɱ�"]
+    #[doc = "持仓成本"]
     pub PositionCost: TThostFtdcMoneyType,
-    #[doc = "�ϴ�ռ�õı�\u{5a4}��"]
+    #[doc = "上次占用的保证金"]
     pub PreMargin: TThostFtdcMoneyType,
-    #[doc = "ռ�õı�\u{5a4}��"]
+    #[doc = "占用的保证金"]
     pub UseMargin: TThostFtdcMoneyType,
-    #[doc = "����ı�\u{5a4}��"]
+    #[doc = "冻结的保证金"]
     pub FrozenMargin: TThostFtdcMoneyType,
-    #[doc = "������ʽ�"]
+    #[doc = "冻结的资金"]
     pub FrozenCash: TThostFtdcMoneyType,
-    #[doc = "�����������"]
+    #[doc = "冻结的手续费"]
     pub FrozenCommission: TThostFtdcMoneyType,
-    #[doc = "�ʽ���"]
+    #[doc = "资金差额"]
     pub CashIn: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "手续费"]
     pub Commission: TThostFtdcMoneyType,
-    #[doc = "ƽ��ӯ��"]
+    #[doc = "平仓盈亏"]
     pub CloseProfit: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}�ӯ��"]
+    #[doc = "持仓盈亏"]
     pub PositionProfit: TThostFtdcMoneyType,
-    #[doc = "�ϴν����"]
+    #[doc = "上次结算价"]
     pub PreSettlementPrice: TThostFtdcPriceType,
-    #[doc = "���ν����"]
+    #[doc = "本次结算价"]
     pub SettlementPrice: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���\u{5b3}ɱ�"]
+    #[doc = "开仓成本"]
     pub OpenCost: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchangeMargin: TThostFtdcMoneyType,
-    #[doc = "��ϳɽ��γɵĳ\u{5b2}�"]
+    #[doc = "组合成交形成的持仓"]
     pub CombPosition: TThostFtdcVolumeType,
-    #[doc = "��϶�ͷ����"]
+    #[doc = "组合多头冻结"]
     pub CombLongFrozen: TThostFtdcVolumeType,
-    #[doc = "��Ͽ�ͷ����"]
+    #[doc = "组合空头冻结"]
     pub CombShortFrozen: TThostFtdcVolumeType,
-    #[doc = "���ն���ƽ��ӯ��"]
+    #[doc = "逐日盯市平仓盈亏"]
     pub CloseProfitByDate: TThostFtdcMoneyType,
-    #[doc = "��ʶԳ�ƽ��ӯ��"]
+    #[doc = "逐笔对冲平仓盈亏"]
     pub CloseProfitByTrade: TThostFtdcMoneyType,
-    #[doc = "���ճ\u{5b2}�"]
+    #[doc = "今日持仓"]
     pub TodayPosition: TThostFtdcVolumeType,
-    #[doc = "��\u{5a4}����"]
+    #[doc = "保证金率"]
     pub MarginRateByMoney: TThostFtdcRatioType,
-    #[doc = "��\u{5a4}����(������)"]
+    #[doc = "保证金率(按手数)"]
     pub MarginRateByVolume: TThostFtdcRatioType,
-    #[doc = "\u{5b4}�ж���"]
+    #[doc = "执行冻结"]
     pub StrikeFrozen: TThostFtdcVolumeType,
-    #[doc = "\u{5b4}�ж�����"]
+    #[doc = "执行冻结金额"]
     pub StrikeFrozenAmount: TThostFtdcMoneyType,
-    #[doc = "����\u{5b4}�ж���"]
+    #[doc = "放弃执行冻结"]
     pub AbandonFrozen: TThostFtdcVolumeType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "\u{5b4}�ж�������"]
+    #[doc = "执行冻结的昨仓"]
     pub YdStrikeFrozen: TThostFtdcVolumeType,
-    #[doc = "Ͷ�ʵ�Ԫ����"]
+    #[doc = "投资单元代码"]
     pub InvestUnitID: TThostFtdcInvestUnitIDType,
-    #[doc = "�\u{5b2}\u{5b3}ɱ���\u{5b5}"]
+    #[doc = "持仓成本差值"]
     pub PositionCostOffset: TThostFtdcMoneyType,
-    #[doc = "tas�\u{5b2}�����"]
+    #[doc = "tas持仓手数"]
     pub TasPosition: TThostFtdcVolumeType,
-    #[doc = "tas�\u{5b2}\u{5b3}ɱ�"]
+    #[doc = "tas持仓成本"]
     pub TasPositionCost: TThostFtdcMoneyType,
 }
 impl Default for CThostFtdcRiskSettleInvstPositionField {
@@ -15102,15 +15102,15 @@ impl Default for CThostFtdcRiskSettleInvstPositionField {
         }
     }
 }
-#[doc = "����Ʒ��"]
+#[doc = "风险品种"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRiskSettleProductStatusField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ���"]
+    #[doc = "产品编号"]
     pub ProductID: TThostFtdcInstrumentIDType,
-    #[doc = "��Ʒ����״\u{32c}"]
+    #[doc = "产品结算状态"]
     pub ProductStatus: TThostFtdcProductStatusType,
 }
 impl Default for CThostFtdcRiskSettleProductStatusField {
@@ -15122,17 +15122,17 @@ impl Default for CThostFtdcRiskSettleProductStatusField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ��Ϣ"]
+#[doc = "风险结算追平信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInfoField {
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "\u{5f7}ƽ״\u{32c}"]
+    #[doc = "追平状态"]
     pub SyncDeltaStatus: TThostFtdcSyncDeltaStatusType,
-    #[doc = "\u{5f7}ƽ����"]
+    #[doc = "追平描述"]
     pub SyncDescription: TThostFtdcSyncDescriptionType,
-    #[doc = "�Ƿ�\u{5bb}���ʽ�\u{5f7}ƽ"]
+    #[doc = "是否只有资金追平"]
     pub IsOnlyTrdDelta: TThostFtdcBoolType,
 }
 impl Default for CThostFtdcSyncDeltaInfoField {
@@ -15144,17 +15144,17 @@ impl Default for CThostFtdcSyncDeltaInfoField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ��Ʒ��Ϣ"]
+#[doc = "风险结算追平产品信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaProductStatusField {
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
-    #[doc = "�Ƿ���������"]
+    #[doc = "是否允许交易"]
     pub ProductStatus: TThostFtdcProductStatusType,
 }
 impl Default for CThostFtdcSyncDeltaProductStatusField {
@@ -15166,69 +15166,69 @@ impl Default for CThostFtdcSyncDeltaProductStatusField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ�\u{5b2}���ϸ"]
+#[doc = "风险结算追平持仓明细"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInvstPosDtlField {
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����"]
+    #[doc = "买卖"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "��������"]
+    #[doc = "开仓日期"]
     pub OpenDate: TThostFtdcDateType,
-    #[doc = "�ɽ����"]
+    #[doc = "成交编号"]
     pub TradeID: TThostFtdcTradeIDType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "���\u{5bc}�"]
+    #[doc = "开仓价"]
     pub OpenPrice: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "�ɽ�����"]
+    #[doc = "成交类型"]
     pub TradeType: TThostFtdcTradeTypeType,
-    #[doc = "��Ϻ�Լ����"]
+    #[doc = "组合合约代码"]
     pub CombInstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���ն���ƽ��ӯ��"]
+    #[doc = "逐日盯市平仓盈亏"]
     pub CloseProfitByDate: TThostFtdcMoneyType,
-    #[doc = "��ʶԳ�ƽ��ӯ��"]
+    #[doc = "逐笔对冲平仓盈亏"]
     pub CloseProfitByTrade: TThostFtdcMoneyType,
-    #[doc = "���ն��г\u{5b2}�ӯ��"]
+    #[doc = "逐日盯市持仓盈亏"]
     pub PositionProfitByDate: TThostFtdcMoneyType,
-    #[doc = "��ʶԳ�\u{5b2}�ӯ��"]
+    #[doc = "逐笔对冲持仓盈亏"]
     pub PositionProfitByTrade: TThostFtdcMoneyType,
-    #[doc = "Ͷ���\u{7f1}�\u{5a4}��"]
+    #[doc = "投资者保证金"]
     pub Margin: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchMargin: TThostFtdcMoneyType,
-    #[doc = "��\u{5a4}����"]
+    #[doc = "保证金率"]
     pub MarginRateByMoney: TThostFtdcRatioType,
-    #[doc = "��\u{5a4}����(������)"]
+    #[doc = "保证金率(按手数)"]
     pub MarginRateByVolume: TThostFtdcRatioType,
-    #[doc = "������"]
+    #[doc = "昨结算价"]
     pub LastSettlementPrice: TThostFtdcPriceType,
-    #[doc = "�����"]
+    #[doc = "结算价"]
     pub SettlementPrice: TThostFtdcPriceType,
-    #[doc = "ƽ����"]
+    #[doc = "平仓量"]
     pub CloseVolume: TThostFtdcVolumeType,
-    #[doc = "ƽ�\u{5bd}��"]
+    #[doc = "平仓金额"]
     pub CloseAmount: TThostFtdcMoneyType,
-    #[doc = "�ȿ���ƽʣ������"]
+    #[doc = "先开先平剩余数量"]
     pub TimeFirstVolume: TThostFtdcVolumeType,
-    #[doc = "����\u{5b2}\u{5b1}�־"]
+    #[doc = "特殊持仓标志"]
     pub SpecPosiType: TThostFtdcSpecPosiTypeType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaInvstPosDtlField {
@@ -15240,51 +15240,51 @@ impl Default for CThostFtdcSyncDeltaInvstPosDtlField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ��ϳ\u{5b2}���ϸ"]
+#[doc = "风险结算追平组合持仓明细"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInvstPosCombDtlField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "��������"]
+    #[doc = "开仓日期"]
     pub OpenDate: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��ϱ��"]
+    #[doc = "组合编号"]
     pub ComTradeID: TThostFtdcTradeIDType,
-    #[doc = "��ϱ��"]
+    #[doc = "撮合编号"]
     pub TradeID: TThostFtdcTradeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����"]
+    #[doc = "买卖"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "�\u{5b2}���"]
+    #[doc = "持仓量"]
     pub TotalAmt: TThostFtdcVolumeType,
-    #[doc = "Ͷ���\u{7f1}�\u{5a4}��"]
+    #[doc = "投资者保证金"]
     pub Margin: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchMargin: TThostFtdcMoneyType,
-    #[doc = "��\u{5a4}����"]
+    #[doc = "保证金率"]
     pub MarginRateByMoney: TThostFtdcRatioType,
-    #[doc = "��\u{5a4}����(������)"]
+    #[doc = "保证金率(按手数)"]
     pub MarginRateByVolume: TThostFtdcRatioType,
-    #[doc = "���ȱ��"]
+    #[doc = "单腿编号"]
     pub LegID: TThostFtdcLegIDType,
-    #[doc = "���ȳ���"]
+    #[doc = "单腿乘数"]
     pub LegMultiple: TThostFtdcLegMultipleType,
-    #[doc = "�ɽ����"]
+    #[doc = "成交组号"]
     pub TradeGroupID: TThostFtdcTradeGroupIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaInvstPosCombDtlField {
@@ -15296,169 +15296,169 @@ impl Default for CThostFtdcSyncDeltaInvstPosCombDtlField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ�ʽ�"]
+#[doc = "风险结算追平资金"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSyncDeltaTradingAccountField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "�ϴ���Ѻ���"]
+    #[doc = "上次质押金额"]
     pub PreMortgage: TThostFtdcMoneyType,
-    #[doc = "�ϴ����ö��"]
+    #[doc = "上次信用额度"]
     pub PreCredit: TThostFtdcMoneyType,
-    #[doc = "�ϴδ���"]
+    #[doc = "上次存款额"]
     pub PreDeposit: TThostFtdcMoneyType,
-    #[doc = "�ϴν���\u{5fc}����"]
+    #[doc = "上次结算准备金"]
     pub PreBalance: TThostFtdcMoneyType,
-    #[doc = "�ϴ�ռ�õı�\u{5a4}��"]
+    #[doc = "上次占用的保证金"]
     pub PreMargin: TThostFtdcMoneyType,
-    #[doc = "��Ϣ����"]
+    #[doc = "利息基数"]
     pub InterestBase: TThostFtdcMoneyType,
-    #[doc = "��Ϣ����"]
+    #[doc = "利息收入"]
     pub Interest: TThostFtdcMoneyType,
-    #[doc = "�����"]
+    #[doc = "入金金额"]
     pub Deposit: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "出金金额"]
     pub Withdraw: TThostFtdcMoneyType,
-    #[doc = "����ı�\u{5a4}��"]
+    #[doc = "冻结的保证金"]
     pub FrozenMargin: TThostFtdcMoneyType,
-    #[doc = "������ʽ�"]
+    #[doc = "冻结的资金"]
     pub FrozenCash: TThostFtdcMoneyType,
-    #[doc = "�����������"]
+    #[doc = "冻结的手续费"]
     pub FrozenCommission: TThostFtdcMoneyType,
-    #[doc = "��ǰ��\u{5a4}���\u{736}�"]
+    #[doc = "当前保证金总额"]
     pub CurrMargin: TThostFtdcMoneyType,
-    #[doc = "�ʽ���"]
+    #[doc = "资金差额"]
     pub CashIn: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "手续费"]
     pub Commission: TThostFtdcMoneyType,
-    #[doc = "ƽ��ӯ��"]
+    #[doc = "平仓盈亏"]
     pub CloseProfit: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}�ӯ��"]
+    #[doc = "持仓盈亏"]
     pub PositionProfit: TThostFtdcMoneyType,
-    #[doc = "�ڻ�����\u{5fc}����"]
+    #[doc = "期货结算准备金"]
     pub Balance: TThostFtdcMoneyType,
-    #[doc = "�����ʽ�"]
+    #[doc = "可用资金"]
     pub Available: TThostFtdcMoneyType,
-    #[doc = "��ȡ�ʽ�"]
+    #[doc = "可取资金"]
     pub WithdrawQuota: TThostFtdcMoneyType,
-    #[doc = "����\u{5fc}����"]
+    #[doc = "基本准备金"]
     pub Reserve: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "������"]
+    #[doc = "结算编号"]
     pub SettlementID: TThostFtdcSettlementIDType,
-    #[doc = "���ö��"]
+    #[doc = "信用额度"]
     pub Credit: TThostFtdcMoneyType,
-    #[doc = "��Ѻ���"]
+    #[doc = "质押金额"]
     pub Mortgage: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchangeMargin: TThostFtdcMoneyType,
-    #[doc = "Ͷ���\u{7fd}��\u{ec63}\u{5a4}��"]
+    #[doc = "投资者交割保证金"]
     pub DeliveryMargin: TThostFtdcMoneyType,
-    #[doc = "���������\u{ec63}\u{5a4}��"]
+    #[doc = "交易所交割保证金"]
     pub ExchangeDeliveryMargin: TThostFtdcMoneyType,
-    #[doc = "�����ڻ�����\u{5fc}����"]
+    #[doc = "保底期货结算准备金"]
     pub ReserveBalance: TThostFtdcMoneyType,
-    #[doc = "���\u{5b4}���"]
+    #[doc = "币种代码"]
     pub CurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "�ϴλ���������"]
+    #[doc = "上次货币质入金额"]
     pub PreFundMortgageIn: TThostFtdcMoneyType,
-    #[doc = "�ϴλ����ʳ����"]
+    #[doc = "上次货币质出金额"]
     pub PreFundMortgageOut: TThostFtdcMoneyType,
-    #[doc = "����������"]
+    #[doc = "货币质入金额"]
     pub FundMortgageIn: TThostFtdcMoneyType,
-    #[doc = "�����ʳ����"]
+    #[doc = "货币质出金额"]
     pub FundMortgageOut: TThostFtdcMoneyType,
-    #[doc = "������Ѻ���"]
+    #[doc = "货币质押余额"]
     pub FundMortgageAvailable: TThostFtdcMoneyType,
-    #[doc = "����Ѻ���ҽ��"]
+    #[doc = "可质押货币金额"]
     pub MortgageableFund: TThostFtdcMoneyType,
-    #[doc = "�����Ʒռ�ñ�\u{5a4}��"]
+    #[doc = "特殊产品占用保证金"]
     pub SpecProductMargin: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ���ᱣ\u{5a4}��"]
+    #[doc = "特殊产品冻结保证金"]
     pub SpecProductFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ������"]
+    #[doc = "特殊产品手续费"]
     pub SpecProductCommission: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ����������"]
+    #[doc = "特殊产品冻结手续费"]
     pub SpecProductFrozenCommission: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ�\u{5b2}�ӯ��"]
+    #[doc = "特殊产品持仓盈亏"]
     pub SpecProductPositionProfit: TThostFtdcMoneyType,
-    #[doc = "�����Ʒƽ��ӯ��"]
+    #[doc = "特殊产品平仓盈亏"]
     pub SpecProductCloseProfit: TThostFtdcMoneyType,
-    #[doc = "���ݳ\u{5b2}�ӯ���㷨����������Ʒ�\u{5b2}�ӯ��"]
+    #[doc = "根据持仓盈亏算法计算的特殊产品持仓盈亏"]
     pub SpecProductPositionProfitByAlg: TThostFtdcMoneyType,
-    #[doc = "�����Ʒ��������\u{5a4}��"]
+    #[doc = "特殊产品交易所保证金"]
     pub SpecProductExchangeMargin: TThostFtdcMoneyType,
-    #[doc = "��ʱ���㶳����"]
+    #[doc = "延时换汇冻结金额"]
     pub FrozenSwap: TThostFtdcMoneyType,
-    #[doc = "ʣ�\u{efb}����"]
+    #[doc = "剩余换汇额度"]
     pub RemainSwap: TThostFtdcMoneyType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
-#[doc = "Ͷ���߷��ս����\u{731}�\u{5a4}��"]
+#[doc = "投资者风险结算总保证金"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInitInvstMarginField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "\u{5f7}ƽǰ�\u{737}��ձ�\u{5a4}��"]
+    #[doc = "追平前总风险保证金"]
     pub LastRiskTotalInvstMargin: TThostFtdcMoneyType,
-    #[doc = "\u{5f7}ƽǰ�������\u{737}��ձ�\u{5a4}��"]
+    #[doc = "追平前交易所总风险保证金"]
     pub LastRiskTotalExchMargin: TThostFtdcMoneyType,
-    #[doc = "����\u{5f7}ƽƷ���\u{731}�\u{5a4}��"]
+    #[doc = "本次追平品种总保证金"]
     pub ThisSyncInvstMargin: TThostFtdcMoneyType,
-    #[doc = "����\u{5f7}ƽƷ�\u{5bd}������\u{731}�\u{5a4}��"]
+    #[doc = "本次追平品种交易所总保证金"]
     pub ThisSyncExchMargin: TThostFtdcMoneyType,
-    #[doc = "����δ\u{5f7}ƽƷ���\u{731}�\u{5a4}��"]
+    #[doc = "本次未追平品种总保证金"]
     pub RemainRiskInvstMargin: TThostFtdcMoneyType,
-    #[doc = "����δ\u{5f7}ƽƷ�\u{5bd}������\u{731}�\u{5a4}��"]
+    #[doc = "本次未追平品种交易所总保证金"]
     pub RemainRiskExchMargin: TThostFtdcMoneyType,
-    #[doc = "\u{5f7}ƽǰ�������Ʒ���ձ�\u{5a4}��"]
+    #[doc = "追平前总特殊产品风险保证金"]
     pub LastRiskSpecTotalInvstMargin: TThostFtdcMoneyType,
-    #[doc = "\u{5f7}ƽǰ�������Ʒ���������ձ�\u{5a4}��"]
+    #[doc = "追平前总特殊产品交易所风险保证金"]
     pub LastRiskSpecTotalExchMargin: TThostFtdcMoneyType,
-    #[doc = "����\u{5f7}ƽƷ�������Ʒ�\u{731}�\u{5a4}��"]
+    #[doc = "本次追平品种特殊产品总保证金"]
     pub ThisSyncSpecInvstMargin: TThostFtdcMoneyType,
-    #[doc = "����\u{5f7}ƽƷ�������Ʒ�������\u{731}�\u{5a4}��"]
+    #[doc = "本次追平品种特殊产品交易所总保证金"]
     pub ThisSyncSpecExchMargin: TThostFtdcMoneyType,
-    #[doc = "����δ\u{5f7}ƽƷ�������Ʒ�\u{731}�\u{5a4}��"]
+    #[doc = "本次未追平品种特殊产品总保证金"]
     pub RemainRiskSpecInvstMargin: TThostFtdcMoneyType,
-    #[doc = "����δ\u{5f7}ƽƷ�������Ʒ�������\u{731}�\u{5a4}��"]
+    #[doc = "本次未追平品种特殊产品交易所总保证金"]
     pub RemainRiskSpecExchMargin: TThostFtdcMoneyType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
-#[doc = "���ս���\u{5f7}ƽ������ȼ�"]
+#[doc = "风险结算追平组合优先级"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaDceCombInstrumentField {
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub CombInstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "�ɽ����"]
+    #[doc = "成交组号"]
     pub TradeGroupID: TThostFtdcTradeGroupIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub CombHedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "�������"]
+    #[doc = "组合类型"]
     pub CombinationType: TThostFtdcDceCombinationTypeType,
-    #[doc = "����"]
+    #[doc = "买卖"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
-    #[doc = "��Ȩ��ϱ�\u{5a4}�����"]
+    #[doc = "期权组合保证金比例"]
     pub Xparameter: TThostFtdcDiscountRatioType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaDceCombInstrumentField {
@@ -15470,33 +15470,33 @@ impl Default for CThostFtdcSyncDeltaDceCombInstrumentField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽͶ�����ڻ���\u{5a4}����"]
+#[doc = "风险结算追平投资者期货保证金率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInvstMarginRateField {
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "多头保证金率"]
     pub LongMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "多头保证金费"]
     pub LongMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "空头保证金率"]
     pub ShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "空头保证金费"]
     pub ShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "�Ƿ���Խ�������ȡ"]
+    #[doc = "是否相对交易所收取"]
     pub IsRelative: TThostFtdcBoolType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaInvstMarginRateField {
@@ -15508,27 +15508,27 @@ impl Default for CThostFtdcSyncDeltaInvstMarginRateField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ�������ڻ���\u{5a4}����"]
+#[doc = "风险结算追平交易所期货保证金率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaExchMarginRateField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "多头保证金率"]
     pub LongMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "多头保证金费"]
     pub LongMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "空头保证金率"]
     pub ShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "空头保证金费"]
     pub ShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaExchMarginRateField {
@@ -15540,33 +15540,33 @@ impl Default for CThostFtdcSyncDeltaExchMarginRateField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ�н��\u{5bb}���Ȩ��������\u{5a4}����"]
+#[doc = "风险结算追平中金现货期权交易所保证金率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaOptExchMarginField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ͷ����ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "投机空头保证金调整系数"]
     pub SShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "Ͷ����ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "投机空头保证金调整系数"]
     pub SShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��\u{5b5}��ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "保值空头保证金调整系数"]
     pub HShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��\u{5b5}��ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "保值空头保证金调整系数"]
     pub HShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "������ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "套利空头保证金调整系数"]
     pub AShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "������ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "套利空头保证金调整系数"]
     pub AShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "�����\u{33f}�ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "做市商空头保证金调整系数"]
     pub MShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "�����\u{33f}�ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "做市商空头保证金调整系数"]
     pub MShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaOptExchMarginField {
@@ -15578,39 +15578,39 @@ impl Default for CThostFtdcSyncDeltaOptExchMarginField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ�н��\u{5bb}���ȨͶ���\u{7f1}�\u{5a4}����"]
+#[doc = "风险结算追平中金现货期权投资者保证金率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaOptInvstMarginField {
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ����ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "投机空头保证金调整系数"]
     pub SShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "Ͷ����ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "投机空头保证金调整系数"]
     pub SShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��\u{5b5}��ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "保值空头保证金调整系数"]
     pub HShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��\u{5b5}��ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "保值空头保证金调整系数"]
     pub HShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "������ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "套利空头保证金调整系数"]
     pub AShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "������ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "套利空头保证金调整系数"]
     pub AShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "�Ƿ���潻������ȡ"]
+    #[doc = "是否跟随交易所收取"]
     pub IsRelative: TThostFtdcBoolType,
-    #[doc = "�����\u{33f}�ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "做市商空头保证金调整系数"]
     pub MShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "�����\u{33f}�ͷ��\u{5a4}�����ϵ��"]
+    #[doc = "做市商空头保证金调整系数"]
     pub MShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaOptInvstMarginField {
@@ -15622,31 +15622,31 @@ impl Default for CThostFtdcSyncDeltaOptInvstMarginField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ��Ȩ��ĵ�����\u{5a4}����"]
+#[doc = "风险结算追平期权标的调整保证金率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInvstMarginRateULField {
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "多头保证金率"]
     pub LongMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "多头保证金费"]
     pub LongMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "��ͷ��\u{5a4}����"]
+    #[doc = "空头保证金率"]
     pub ShortMarginRatioByMoney: TThostFtdcRatioType,
-    #[doc = "��ͷ��\u{5a4}���"]
+    #[doc = "空头保证金费"]
     pub ShortMarginRatioByVolume: TThostFtdcMoneyType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaInvstMarginRateULField {
@@ -15658,37 +15658,37 @@ impl Default for CThostFtdcSyncDeltaInvstMarginRateULField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ��Ȩ��������"]
+#[doc = "风险结算追平期权手续费率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaOptInvstCommRateField {
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������������"]
+    #[doc = "开仓手续费率"]
     pub OpenRatioByMoney: TThostFtdcRatioType,
-    #[doc = "����������"]
+    #[doc = "开仓手续费"]
     pub OpenRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平仓手续费率"]
     pub CloseRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平仓手续费"]
     pub CloseRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平今手续费率"]
     pub CloseTodayRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平今手续费"]
     pub CloseTodayRatioByVolume: TThostFtdcRatioType,
-    #[doc = "\u{5b4}����������"]
+    #[doc = "执行手续费率"]
     pub StrikeRatioByMoney: TThostFtdcRatioType,
-    #[doc = "\u{5b4}��������"]
+    #[doc = "执行手续费"]
     pub StrikeRatioByVolume: TThostFtdcRatioType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaOptInvstCommRateField {
@@ -15700,33 +15700,33 @@ impl Default for CThostFtdcSyncDeltaOptInvstCommRateField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ�ڻ���������"]
+#[doc = "风险结算追平期货手续费率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInvstCommRateField {
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "������������"]
+    #[doc = "开仓手续费率"]
     pub OpenRatioByMoney: TThostFtdcRatioType,
-    #[doc = "����������"]
+    #[doc = "开仓手续费"]
     pub OpenRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平仓手续费率"]
     pub CloseRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平仓手续费"]
     pub CloseRatioByVolume: TThostFtdcRatioType,
-    #[doc = "ƽ����������"]
+    #[doc = "平今手续费率"]
     pub CloseTodayRatioByMoney: TThostFtdcRatioType,
-    #[doc = "ƽ��������"]
+    #[doc = "平今手续费"]
     pub CloseTodayRatioByVolume: TThostFtdcRatioType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaInvstCommRateField {
@@ -15738,19 +15738,19 @@ impl Default for CThostFtdcSyncDeltaInvstCommRateField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ�������"]
+#[doc = "风险结算追平交叉汇率"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaProductExchRateField {
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcInstrumentIDType,
-    #[doc = "���۱�������"]
+    #[doc = "报价币种类型"]
     pub QuoteCurrencyID: TThostFtdcCurrencyIDType,
-    #[doc = "����"]
+    #[doc = "汇率"]
     pub ExchangeRate: TThostFtdcExchangeRateType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaProductExchRateField {
@@ -15762,105 +15762,105 @@ impl Default for CThostFtdcSyncDeltaProductExchRateField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ����"]
+#[doc = "风险结算追平行情"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaDepthMarketDataField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ�ڽ������Ĵ���"]
+    #[doc = "合约在交易所的代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "���¼�"]
+    #[doc = "最新价"]
     pub LastPrice: TThostFtdcPriceType,
-    #[doc = "�ϴν����"]
+    #[doc = "上次结算价"]
     pub PreSettlementPrice: TThostFtdcPriceType,
-    #[doc = "������"]
+    #[doc = "昨收盘"]
     pub PreClosePrice: TThostFtdcPriceType,
-    #[doc = "��\u{5b2}���"]
+    #[doc = "昨持仓量"]
     pub PreOpenInterest: TThostFtdcLargeVolumeType,
-    #[doc = "����"]
+    #[doc = "今开盘"]
     pub OpenPrice: TThostFtdcPriceType,
-    #[doc = "��\u{7fc}�"]
+    #[doc = "最高价"]
     pub HighestPrice: TThostFtdcPriceType,
-    #[doc = "��ͼ�"]
+    #[doc = "最低价"]
     pub LowestPrice: TThostFtdcPriceType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "�ɽ����"]
+    #[doc = "成交金额"]
     pub Turnover: TThostFtdcMoneyType,
-    #[doc = "�\u{5b2}���"]
+    #[doc = "持仓量"]
     pub OpenInterest: TThostFtdcLargeVolumeType,
-    #[doc = "������"]
+    #[doc = "今收盘"]
     pub ClosePrice: TThostFtdcPriceType,
-    #[doc = "���ν����"]
+    #[doc = "本次结算价"]
     pub SettlementPrice: TThostFtdcPriceType,
-    #[doc = "��\u{363}���"]
+    #[doc = "涨停板价"]
     pub UpperLimitPrice: TThostFtdcPriceType,
-    #[doc = "��\u{363}���"]
+    #[doc = "跌停板价"]
     pub LowerLimitPrice: TThostFtdcPriceType,
-    #[doc = "����ʵ��"]
+    #[doc = "昨虚实度"]
     pub PreDelta: TThostFtdcRatioType,
-    #[doc = "����ʵ��"]
+    #[doc = "今虚实度"]
     pub CurrDelta: TThostFtdcRatioType,
-    #[doc = "����\u{7b8}�ʱ��"]
+    #[doc = "最后修改时间"]
     pub UpdateTime: TThostFtdcTimeType,
-    #[doc = "����\u{7b8}ĺ���"]
+    #[doc = "最后修改毫秒"]
     pub UpdateMillisec: TThostFtdcMillisecType,
-    #[doc = "�����һ"]
+    #[doc = "申买价一"]
     pub BidPrice1: TThostFtdcPriceType,
-    #[doc = "������һ"]
+    #[doc = "申买量一"]
     pub BidVolume1: TThostFtdcVolumeType,
-    #[doc = "������һ"]
+    #[doc = "申卖价一"]
     pub AskPrice1: TThostFtdcPriceType,
-    #[doc = "������һ"]
+    #[doc = "申卖量一"]
     pub AskVolume1: TThostFtdcVolumeType,
-    #[doc = "����۶�"]
+    #[doc = "申买价二"]
     pub BidPrice2: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申买量二"]
     pub BidVolume2: TThostFtdcVolumeType,
-    #[doc = "�����۶�"]
+    #[doc = "申卖价二"]
     pub AskPrice2: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申卖量二"]
     pub AskVolume2: TThostFtdcVolumeType,
-    #[doc = "�������"]
+    #[doc = "申买价三"]
     pub BidPrice3: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申买量三"]
     pub BidVolume3: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "申卖价三"]
     pub AskPrice3: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申卖量三"]
     pub AskVolume3: TThostFtdcVolumeType,
-    #[doc = "�������"]
+    #[doc = "申买价四"]
     pub BidPrice4: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申买量四"]
     pub BidVolume4: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "申卖价四"]
     pub AskPrice4: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申卖量四"]
     pub AskVolume4: TThostFtdcVolumeType,
-    #[doc = "�������"]
+    #[doc = "申买价五"]
     pub BidPrice5: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申买量五"]
     pub BidVolume5: TThostFtdcVolumeType,
-    #[doc = "��������"]
+    #[doc = "申卖价五"]
     pub AskPrice5: TThostFtdcPriceType,
-    #[doc = "��������"]
+    #[doc = "申卖量五"]
     pub AskVolume5: TThostFtdcVolumeType,
-    #[doc = "���վ���"]
+    #[doc = "当日均价"]
     pub AveragePrice: TThostFtdcPriceType,
-    #[doc = "ҵ������"]
+    #[doc = "业务日期"]
     pub ActionDay: TThostFtdcDateType,
-    #[doc = "�ϴ���"]
+    #[doc = "上带价"]
     pub BandingUpperPrice: TThostFtdcPriceType,
-    #[doc = "�´���"]
+    #[doc = "下带价"]
     pub BandingLowerPrice: TThostFtdcPriceType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaDepthMarketDataField {
@@ -15872,19 +15872,19 @@ impl Default for CThostFtdcSyncDeltaDepthMarketDataField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ�\u{5bb}�\u{5b8}��"]
+#[doc = "风险结算追平现货指数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaIndexPriceField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "\u{5b8}���\u{5bb}����\u{33c}�"]
+    #[doc = "指数现货收盘价"]
     pub ClosePrice: TThostFtdcPriceType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaIndexPriceField {
@@ -15896,29 +15896,29 @@ impl Default for CThostFtdcSyncDeltaIndexPriceField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽ�\u{5b5}��۵�"]
+#[doc = "风险结算追平仓单折抵"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaEWarrantOffsetField {
-    #[doc = "��������"]
+    #[doc = "交易日期"]
     pub TradingDay: TThostFtdcTradeDateType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "����"]
+    #[doc = "数量"]
     pub Volume: TThostFtdcVolumeType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaEWarrantOffsetField {
@@ -15930,31 +15930,31 @@ impl Default for CThostFtdcSyncDeltaEWarrantOffsetField {
         }
     }
 }
-#[doc = "SPBM�ڻ���Լ��\u{5a4}�����"]
+#[doc = "SPBM期货合约保证金参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSPBMFutureParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "�ڻ���Լ����"]
+    #[doc = "期货合约因子"]
     pub Cvf: TThostFtdcVolumeMultipleType,
-    #[doc = "�\u{5f6}α�ʶ"]
+    #[doc = "阶段标识"]
     pub TimeRange: TThostFtdcTimeRangeType,
-    #[doc = "Ʒ�\u{5b1}�\u{5a4}���\u{5fc}"]
+    #[doc = "品种保证金标准"]
     pub MarginRate: TThostFtdcRatioType,
-    #[doc = "�ڻ���Լ�ڲ������\u{5b7}����ۿ۱���"]
+    #[doc = "期货合约内部对锁仓费率折扣比例"]
     pub LockRateX: TThostFtdcRatioType,
-    #[doc = "��\u{7f1}�\u{5a4}���\u{5fc}"]
+    #[doc = "提高保证金标准"]
     pub AddOnRate: TThostFtdcRatioType,
-    #[doc = "������"]
+    #[doc = "昨结算价"]
     pub PreSettlementPrice: TThostFtdcPriceType,
-    #[doc = "�ڻ���Լ�ڲ������\u{5b8}��ӷ����ۿ۱���"]
+    #[doc = "期货合约内部对锁仓附加费率折扣比例"]
     pub AddOnLockRateX2: TThostFtdcRatioType,
 }
 impl Default for CThostFtdcSPBMFutureParameterField {
@@ -15966,27 +15966,27 @@ impl Default for CThostFtdcSPBMFutureParameterField {
         }
     }
 }
-#[doc = "SPBM��Ȩ��Լ��\u{5a4}�����"]
+#[doc = "SPBM期权合约保证金参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSPBMOptionParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "��Ȩ��Լ����"]
+    #[doc = "期权合约因子"]
     pub Cvf: TThostFtdcVolumeMultipleType,
-    #[doc = "��Ȩ��\u{5bc}۸�"]
+    #[doc = "期权冲抵价格"]
     pub DownPrice: TThostFtdcPriceType,
-    #[doc = "Delta\u{5b5}"]
+    #[doc = "Delta值"]
     pub Delta: TThostFtdcDeltaType,
-    #[doc = "������Ȩ����ת�����\u{5b5}"]
+    #[doc = "卖方期权风险转换最低值"]
     pub SlimiDelta: TThostFtdcDeltaType,
-    #[doc = "������"]
+    #[doc = "昨结算价"]
     pub PreSettlementPrice: TThostFtdcPriceType,
 }
 impl Default for CThostFtdcSPBMOptionParameterField {
@@ -15998,19 +15998,19 @@ impl Default for CThostFtdcSPBMOptionParameterField {
         }
     }
 }
-#[doc = "SPBMƷ���ڶ������ۿ۲���"]
+#[doc = "SPBM品种内对锁仓折扣参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSPBMIntraParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "Ʒ���ں�Լ������\u{5b7}����ۿ۱���"]
+    #[doc = "品种内合约间对锁仓费率折扣比例"]
     pub IntraRateY: TThostFtdcRatioType,
-    #[doc = "Ʒ���ں�Լ������\u{5b8}��ӷ����ۿ۱���"]
+    #[doc = "品种内合约间对锁仓附加费率折扣比例"]
     pub AddOnIntraRateY2: TThostFtdcRatioType,
 }
 impl Default for CThostFtdcSPBMIntraParameterField {
@@ -16022,21 +16022,21 @@ impl Default for CThostFtdcSPBMIntraParameterField {
         }
     }
 }
-#[doc = "SPBM��Ʒ�\u{5b5}\u{5bf}۲���"]
+#[doc = "SPBM跨品种抵扣参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSPBMInterParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���ȼ�"]
+    #[doc = "优先级"]
     pub SpreadId: TThostFtdcSpreadIdType,
-    #[doc = "Ʒ�\u{5bc}�����\u{5b7}����ۿ۱���"]
+    #[doc = "品种间对锁仓费率折扣比例"]
     pub InterRateZ: TThostFtdcRatioType,
-    #[doc = "��һ�ȹ���Ʒ��"]
+    #[doc = "第一腿构成品种"]
     pub Leg1ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "�ڶ��ȹ���Ʒ��"]
+    #[doc = "第二腿构成品种"]
     pub Leg2ProdFamilyCode: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcSPBMInterParameterField {
@@ -16048,22 +16048,22 @@ impl Default for CThostFtdcSPBMInterParameterField {
         }
     }
 }
-#[doc = "\u{36c}��SPBM��������"]
+#[doc = "同步SPBM参数结束"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSyncSPBMParameterEndField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
 }
-#[doc = "SPBM�ڻ���Լ��\u{5a4}�������ѯ"]
+#[doc = "SPBM期货合约保证金参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQrySPBMFutureParameterField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQrySPBMFutureParameterField {
@@ -16075,15 +16075,15 @@ impl Default for CThostFtdcQrySPBMFutureParameterField {
         }
     }
 }
-#[doc = "SPBM��Ȩ��Լ��\u{5a4}�������ѯ"]
+#[doc = "SPBM期权合约保证金参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQrySPBMOptionParameterField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQrySPBMOptionParameterField {
@@ -16095,13 +16095,13 @@ impl Default for CThostFtdcQrySPBMOptionParameterField {
         }
     }
 }
-#[doc = "SPBMƷ���ڶ������ۿ۲�����ѯ"]
+#[doc = "SPBM品种内对锁仓折扣参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQrySPBMIntraParameterField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQrySPBMIntraParameterField {
@@ -16113,15 +16113,15 @@ impl Default for CThostFtdcQrySPBMIntraParameterField {
         }
     }
 }
-#[doc = "SPBM��Ʒ�\u{5b5}\u{5bf}۲�����ѯ"]
+#[doc = "SPBM跨品种抵扣参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQrySPBMInterParameterField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��һ�ȹ���Ʒ��"]
+    #[doc = "第一腿构成品种"]
     pub Leg1ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "�ڶ��ȹ���Ʒ��"]
+    #[doc = "第二腿构成品种"]
     pub Leg2ProdFamilyCode: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQrySPBMInterParameterField {
@@ -16133,17 +16133,17 @@ impl Default for CThostFtdcQrySPBMInterParameterField {
         }
     }
 }
-#[doc = "��ϱ�\u{5a4}���ײ�"]
+#[doc = "组合保证金套餐"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSPBMPortfDefinitionField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��ϱ�\u{5a4}���ײʹ���"]
+    #[doc = "组合保证金套餐代码"]
     pub PortfolioDefID: TThostFtdcPortfolioDefIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "�Ƿ�����SPBM"]
+    #[doc = "是否启用SPBM"]
     pub IsSPBM: TThostFtdcBoolType,
 }
 impl Default for CThostFtdcSPBMPortfDefinitionField {
@@ -16155,34 +16155,34 @@ impl Default for CThostFtdcSPBMPortfDefinitionField {
         }
     }
 }
-#[doc = "Ͷ�����ײ�ѡ��"]
+#[doc = "投资者套餐选择"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSPBMInvestorPortfDefField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��ϱ�\u{5a4}���ײʹ���"]
+    #[doc = "组合保证金套餐代码"]
     pub PortfolioDefID: TThostFtdcPortfolioDefIDType,
 }
-#[doc = "Ͷ����������ϱ�\u{5a4}��ϵ��"]
+#[doc = "投资者新型组合保证金系数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorPortfMarginRatioField {
-    #[doc = "Ͷ���߷�Χ"]
+    #[doc = "投资者范围"]
     pub InvestorRange: TThostFtdcInvestorRangeType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ա��Ͷ������ȡ�ı�\u{5a4}��ͽ�������Ͷ������ȡ�ı�\u{5a4}��ı���"]
+    #[doc = "会员对投资者收取的保证金和交易所对投资者收取的保证金的比例"]
     pub MarginRatio: TThostFtdcRatioType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "产品群代码"]
     pub ProductGroupID: TThostFtdcProductIDType,
 }
 impl Default for CThostFtdcInvestorPortfMarginRatioField {
@@ -16194,15 +16194,15 @@ impl Default for CThostFtdcInvestorPortfMarginRatioField {
         }
     }
 }
-#[doc = "��ϱ�\u{5a4}���ײͲ�ѯ"]
+#[doc = "组合保证金套餐查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQrySPBMPortfDefinitionField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��ϱ�\u{5a4}���ײʹ���"]
+    #[doc = "组合保证金套餐代码"]
     pub PortfolioDefID: TThostFtdcPortfolioDefIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQrySPBMPortfDefinitionField {
@@ -16214,28 +16214,28 @@ impl Default for CThostFtdcQrySPBMPortfDefinitionField {
         }
     }
 }
-#[doc = "Ͷ�����ײ�ѡ���ѯ"]
+#[doc = "投资者套餐选择查询"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQrySPBMInvestorPortfDefField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
 }
-#[doc = "Ͷ����������ϱ�\u{5a4}��ϵ����ѯ"]
+#[doc = "投资者新型组合保证金系数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorPortfMarginRatioField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "产品群代码"]
     pub ProductGroupID: TThostFtdcProductIDType,
 }
 impl Default for CThostFtdcQryInvestorPortfMarginRatioField {
@@ -16247,51 +16247,51 @@ impl Default for CThostFtdcQryInvestorPortfMarginRatioField {
         }
     }
 }
-#[doc = "Ͷ���\u{7f2}�ƷSPBM��ϸ"]
+#[doc = "投资者产品SPBM明细"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorProdSPBMDetailField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ�ڶ�����\u{5a4}��"]
+    #[doc = "合约内对锁保证金"]
     pub IntraInstrMargin: TThostFtdcMoneyType,
-    #[doc = "��鼯��\u{5a4}��"]
+    #[doc = "买归集保证金"]
     pub BCollectingMargin: TThostFtdcMoneyType,
-    #[doc = "���鼯��\u{5a4}��"]
+    #[doc = "卖归集保证金"]
     pub SCollectingMargin: TThostFtdcMoneyType,
-    #[doc = "Ʒ���ں�Լ�������\u{5a4}��"]
+    #[doc = "品种内合约间对锁保证金"]
     pub IntraProdMargin: TThostFtdcMoneyType,
-    #[doc = "����\u{5a4}��"]
+    #[doc = "净保证金"]
     pub NetMargin: TThostFtdcMoneyType,
-    #[doc = "��Ʒ�������\u{5a4}��"]
+    #[doc = "产品间对锁保证金"]
     pub InterProdMargin: TThostFtdcMoneyType,
-    #[doc = "�㱣\u{5a4}��"]
+    #[doc = "裸保证金"]
     pub SingleMargin: TThostFtdcMoneyType,
-    #[doc = "���ӱ�\u{5a4}��"]
+    #[doc = "附加保证金"]
     pub AddOnMargin: TThostFtdcMoneyType,
-    #[doc = "�����±�\u{5a4}��"]
+    #[doc = "交割月保证金"]
     pub DeliveryMargin: TThostFtdcMoneyType,
-    #[doc = "������Ȩ��ͷ���"]
+    #[doc = "看涨期权最低风险"]
     pub CallOptionMinRisk: TThostFtdcMoneyType,
-    #[doc = "������Ȩ��ͷ���"]
+    #[doc = "看跌期权最低风险"]
     pub PutOptionMinRisk: TThostFtdcMoneyType,
-    #[doc = "������Ȩ��ͷ���"]
+    #[doc = "卖方期权最低风险"]
     pub OptionMinRisk: TThostFtdcMoneyType,
-    #[doc = "����Ȩ��\u{5bc}�\u{5b5}"]
+    #[doc = "买方期权冲抵价值"]
     pub OptionValueOffset: TThostFtdcMoneyType,
-    #[doc = "������ȨȨ����"]
+    #[doc = "卖方期权权利金"]
     pub OptionRoyalty: TThostFtdcMoneyType,
-    #[doc = "��\u{5b5}���"]
+    #[doc = "价值冲抵"]
     pub RealOptionValueOffset: TThostFtdcMoneyType,
-    #[doc = "��\u{5a4}��"]
+    #[doc = "保证金"]
     pub Margin: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchMargin: TThostFtdcMoneyType,
 }
 impl Default for CThostFtdcInvestorProdSPBMDetailField {
@@ -16303,17 +16303,17 @@ impl Default for CThostFtdcInvestorProdSPBMDetailField {
         }
     }
 }
-#[doc = "Ͷ���\u{7f2}�ƷSPBM��ϸ��ѯ"]
+#[doc = "投资者产品SPBM明细查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorProdSPBMDetailField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryInvestorProdSPBMDetailField {
@@ -16325,58 +16325,58 @@ impl Default for CThostFtdcQryInvestorProdSPBMDetailField {
         }
     }
 }
-#[doc = "�鱣���ײ�������"]
+#[doc = "组保交易参数设置"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcPortfTradeParamSettingField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "�����鱣�㷨"]
+    #[doc = "新型组保算法"]
     pub Portfolio: TThostFtdcPortfolioType,
-    #[doc = "�����Ƿ�����"]
+    #[doc = "撤单是否验资"]
     pub IsActionVerify: TThostFtdcBoolType,
-    #[doc = "ƽ���Ƿ�����"]
+    #[doc = "平仓是否验资"]
     pub IsCloseVerify: TThostFtdcBoolType,
 }
-#[doc = "Ͷ���\u{7fd}���Ȩ������"]
+#[doc = "投资者交易权限设置"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcInvestorTradingRightField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "����Ȩ��"]
+    #[doc = "交易权限"]
     pub InvstTradingRight: TThostFtdcInvstTradingRightType,
 }
-#[doc = "��Ѻ��Ȳ���"]
+#[doc = "质押配比参数"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcMortgageParamField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "��Ѻ���ϵ��"]
+    #[doc = "质押配比系数"]
     pub MortgageBalance: TThostFtdcRatioType,
-    #[doc = "�����Ƿ���\u{5a4}��Ѻ���"]
+    #[doc = "开仓是否验证质押配比"]
     pub CheckMortgageRatio: TThostFtdcBoolType,
 }
-#[doc = "������Ʋ���"]
+#[doc = "可提控制参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcWithDrawParamField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ�����ʺ�"]
+    #[doc = "投资者帐号"]
     pub AccountID: TThostFtdcAccountIDType,
-    #[doc = "��������"]
+    #[doc = "参数代码"]
     pub WithDrawParamID: TThostFtdcWithDrawParamIDType,
-    #[doc = "��������\u{5b5}"]
+    #[doc = "参数代码值"]
     pub WithDrawParamValue: TThostFtdcWithDrawParamValueType,
 }
 impl Default for CThostFtdcWithDrawParamField {
@@ -16388,41 +16388,41 @@ impl Default for CThostFtdcWithDrawParamField {
         }
     }
 }
-#[doc = "Thost�ն��û�����Ȩ��"]
+#[doc = "Thost终端用户功能权限"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcThostUserFunctionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
-    #[doc = "Thost�ն˹��\u{734}���"]
+    #[doc = "Thost终端功能代码"]
     pub ThostFunctionCode: TThostFtdcThostFunctionCodeType,
 }
-#[doc = "Thost�ն��û�����Ȩ�\u{7b2}�ѯ"]
+#[doc = "Thost终端用户功能权限查询"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryThostUserFunctionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "�û�����"]
+    #[doc = "用户代码"]
     pub UserID: TThostFtdcUserIDType,
 }
-#[doc = "SPBM���ӿ�Ʒ�\u{5b5}\u{5bf}۲���"]
+#[doc = "SPBM附加跨品种抵扣参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSPBMAddOnInterParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���ȼ�"]
+    #[doc = "优先级"]
     pub SpreadId: TThostFtdcSpreadIdType,
-    #[doc = "Ʒ�\u{5bc}�����\u{5b8}��ӷ����ۿ۱���"]
+    #[doc = "品种间对锁仓附加费率折扣比例"]
     pub AddOnInterRateZ2: TThostFtdcRatioType,
-    #[doc = "��һ�ȹ���Ʒ��"]
+    #[doc = "第一腿构成品种"]
     pub Leg1ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "�ڶ��ȹ���Ʒ��"]
+    #[doc = "第二腿构成品种"]
     pub Leg2ProdFamilyCode: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcSPBMAddOnInterParameterField {
@@ -16434,15 +16434,15 @@ impl Default for CThostFtdcSPBMAddOnInterParameterField {
         }
     }
 }
-#[doc = "SPBM���ӿ�Ʒ�\u{5b5}\u{5bf}۲�����ѯ"]
+#[doc = "SPBM附加跨品种抵扣参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQrySPBMAddOnInterParameterField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��һ�ȹ���Ʒ��"]
+    #[doc = "第一腿构成品种"]
     pub Leg1ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "�ڶ��ȹ���Ʒ��"]
+    #[doc = "第二腿构成品种"]
     pub Leg2ProdFamilyCode: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQrySPBMAddOnInterParameterField {
@@ -16454,15 +16454,15 @@ impl Default for CThostFtdcQrySPBMAddOnInterParameterField {
         }
     }
 }
-#[doc = "Ͷ������Ʒ��SPMM��¼��ѯ"]
+#[doc = "投资者商品组SPMM记录查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorCommoditySPMMMarginField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��Ʒ�����"]
+    #[doc = "商品组代码"]
     pub CommodityID: TThostFtdcSPMMProductIDType,
 }
 impl Default for CThostFtdcQryInvestorCommoditySPMMMarginField {
@@ -16474,15 +16474,15 @@ impl Default for CThostFtdcQryInvestorCommoditySPMMMarginField {
         }
     }
 }
-#[doc = "Ͷ������ƷȺSPMM��¼��ѯ"]
+#[doc = "投资者商品群SPMM记录查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorCommodityGroupSPMMMarginField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub CommodityGroupID: TThostFtdcSPMMProductIDType,
 }
 impl Default for CThostFtdcQryInvestorCommodityGroupSPMMMarginField {
@@ -16494,11 +16494,11 @@ impl Default for CThostFtdcQryInvestorCommodityGroupSPMMMarginField {
         }
     }
 }
-#[doc = "SPMM��Լ������ѯ"]
+#[doc = "SPMM合约参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQrySPMMInstParamField {
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQrySPMMInstParamField {
@@ -16510,11 +16510,11 @@ impl Default for CThostFtdcQrySPMMInstParamField {
         }
     }
 }
-#[doc = "SPMM��Ʒ������ѯ"]
+#[doc = "SPMM产品参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQrySPMMProductParamField {
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcSPMMProductIDType,
 }
 impl Default for CThostFtdcQrySPMMProductParamField {
@@ -16526,55 +16526,55 @@ impl Default for CThostFtdcQrySPMMProductParamField {
         }
     }
 }
-#[doc = "Ͷ������Ʒ��SPMM��¼"]
+#[doc = "投资者商品组SPMM记录"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorCommoditySPMMMarginField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��Ʒ�����"]
+    #[doc = "商品组代码"]
     pub CommodityID: TThostFtdcSPMMProductIDType,
-    #[doc = "�Żݲ�λӦ�ձ�\u{5a4}��"]
+    #[doc = "优惠仓位应收保证金"]
     pub MarginBeforeDiscount: TThostFtdcMoneyType,
-    #[doc = "���Żݲ�λӦ�ձ�\u{5a4}��"]
+    #[doc = "不优惠仓位应收保证金"]
     pub MarginNoDiscount: TThostFtdcMoneyType,
-    #[doc = "��ͷʵ�\u{5b7}���"]
+    #[doc = "多头实仓风险"]
     pub LongPosRisk: TThostFtdcMoneyType,
-    #[doc = "��ͷ���\u{5b6}������"]
+    #[doc = "多头开仓冻结风险"]
     pub LongOpenFrozenRisk: TThostFtdcMoneyType,
-    #[doc = "��ͷ��ƽ�������"]
+    #[doc = "多头被平冻结风险"]
     pub LongCloseFrozenRisk: TThostFtdcMoneyType,
-    #[doc = "��ͷʵ�\u{5b7}���"]
+    #[doc = "空头实仓风险"]
     pub ShortPosRisk: TThostFtdcMoneyType,
-    #[doc = "��ͷ���\u{5b6}������"]
+    #[doc = "空头开仓冻结风险"]
     pub ShortOpenFrozenRisk: TThostFtdcMoneyType,
-    #[doc = "��ͷ��ƽ�������"]
+    #[doc = "空头被平冻结风险"]
     pub ShortCloseFrozenRisk: TThostFtdcMoneyType,
-    #[doc = "SPMMƷ���ڿ����Ż�ϵ��"]
+    #[doc = "SPMM品种内跨期优惠系数"]
     pub IntraCommodityRate: TThostFtdcSPMMDiscountRatioType,
-    #[doc = "SPMM��Ȩ�Ż�ϵ��"]
+    #[doc = "SPMM期权优惠系数"]
     pub OptionDiscountRate: TThostFtdcSPMMDiscountRatioType,
-    #[doc = "ʵ�\u{5b6}Գ��Żݽ��"]
+    #[doc = "实仓对冲优惠金额"]
     pub PosDiscount: TThostFtdcMoneyType,
-    #[doc = "���\u{5b1}����Գ��Żݽ��"]
+    #[doc = "开仓报单对冲优惠金额"]
     pub OpenFrozenDiscount: TThostFtdcMoneyType,
-    #[doc = "Ʒ�\u{5b7}��վ�ͷ"]
+    #[doc = "品种风险净头"]
     pub NetRisk: TThostFtdcMoneyType,
-    #[doc = "ƽ�\u{5b6}��ᱣ\u{5a4}��"]
+    #[doc = "平仓冻结保证金"]
     pub CloseFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "�����������"]
+    #[doc = "冻结的手续费"]
     pub FrozenCommission: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "手续费"]
     pub Commission: TThostFtdcMoneyType,
-    #[doc = "������ʽ�"]
+    #[doc = "冻结的资金"]
     pub FrozenCash: TThostFtdcMoneyType,
-    #[doc = "�ʽ���"]
+    #[doc = "资金差额"]
     pub CashIn: TThostFtdcMoneyType,
-    #[doc = "��Ȩ�����ʽ�"]
+    #[doc = "行权冻结资金"]
     pub StrikeFrozenMargin: TThostFtdcMoneyType,
 }
 impl Default for CThostFtdcInvestorCommoditySPMMMarginField {
@@ -16586,51 +16586,51 @@ impl Default for CThostFtdcInvestorCommoditySPMMMarginField {
         }
     }
 }
-#[doc = "Ͷ������ƷȺSPMM��¼"]
+#[doc = "投资者商品群SPMM记录"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorCommodityGroupSPMMMarginField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub CommodityGroupID: TThostFtdcSPMMProductIDType,
-    #[doc = "�Żݲ�λӦ�ձ�\u{5a4}��"]
+    #[doc = "优惠仓位应收保证金"]
     pub MarginBeforeDiscount: TThostFtdcMoneyType,
-    #[doc = "���Żݲ�λӦ�ձ�\u{5a4}��"]
+    #[doc = "不优惠仓位应收保证金"]
     pub MarginNoDiscount: TThostFtdcMoneyType,
-    #[doc = "��ͷ����"]
+    #[doc = "多头风险"]
     pub LongRisk: TThostFtdcMoneyType,
-    #[doc = "��ͷ����"]
+    #[doc = "空头风险"]
     pub ShortRisk: TThostFtdcMoneyType,
-    #[doc = "��ƷȺƽ�\u{5b6}��ᱣ\u{5a4}��"]
+    #[doc = "商品群平仓冻结保证金"]
     pub CloseFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "SPMM��Ʒ���Ż�ϵ��"]
+    #[doc = "SPMM跨品种优惠系数"]
     pub InterCommodityRate: TThostFtdcSPMMDiscountRatioType,
-    #[doc = "��ƷȺ��С��\u{5a4}�����"]
+    #[doc = "商品群最小保证金比例"]
     pub MiniMarginRatio: TThostFtdcSPMMDiscountRatioType,
-    #[doc = "Ͷ���\u{7f1}�\u{5a4}��ͽ�������\u{5a4}��ı���"]
+    #[doc = "投资者保证金和交易所保证金的比例"]
     pub AdjustRatio: TThostFtdcRatioType,
-    #[doc = "SPMMƷ�����Żݻ���"]
+    #[doc = "SPMM品种内优惠汇总"]
     pub IntraCommodityDiscount: TThostFtdcMoneyType,
-    #[doc = "SPMM��Ʒ���Ż�"]
+    #[doc = "SPMM跨品种优惠"]
     pub InterCommodityDiscount: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchMargin: TThostFtdcMoneyType,
-    #[doc = "Ͷ���\u{7f1}�\u{5a4}��"]
+    #[doc = "投资者保证金"]
     pub InvestorMargin: TThostFtdcMoneyType,
-    #[doc = "�����������"]
+    #[doc = "冻结的手续费"]
     pub FrozenCommission: TThostFtdcMoneyType,
-    #[doc = "������"]
+    #[doc = "手续费"]
     pub Commission: TThostFtdcMoneyType,
-    #[doc = "������ʽ�"]
+    #[doc = "冻结的资金"]
     pub FrozenCash: TThostFtdcMoneyType,
-    #[doc = "�ʽ���"]
+    #[doc = "资金差额"]
     pub CashIn: TThostFtdcMoneyType,
-    #[doc = "��Ȩ�����ʽ�"]
+    #[doc = "行权冻结资金"]
     pub StrikeFrozenMargin: TThostFtdcMoneyType,
 }
 impl Default for CThostFtdcInvestorCommodityGroupSPMMMarginField {
@@ -16642,19 +16642,19 @@ impl Default for CThostFtdcInvestorCommodityGroupSPMMMarginField {
         }
     }
 }
-#[doc = "SPMM��Լ����"]
+#[doc = "SPMM合约参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSPMMInstParamField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "SPMM��Լ��\u{5a4}���㷨"]
+    #[doc = "SPMM合约保证金算法"]
     pub InstMarginCalID: TThostFtdcInstMarginCalIDType,
-    #[doc = "��Ʒ�����"]
+    #[doc = "商品组代码"]
     pub CommodityID: TThostFtdcSPMMProductIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub CommodityGroupID: TThostFtdcSPMMProductIDType,
 }
 impl Default for CThostFtdcSPMMInstParamField {
@@ -16666,17 +16666,17 @@ impl Default for CThostFtdcSPMMInstParamField {
         }
     }
 }
-#[doc = "SPMM��Ʒ����"]
+#[doc = "SPMM产品参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSPMMProductParamField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcSPMMProductIDType,
-    #[doc = "��Ʒ�����"]
+    #[doc = "商品组代码"]
     pub CommodityID: TThostFtdcSPMMProductIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub CommodityGroupID: TThostFtdcSPMMProductIDType,
 }
 impl Default for CThostFtdcSPMMProductParamField {
@@ -16688,45 +16688,45 @@ impl Default for CThostFtdcSPMMProductParamField {
         }
     }
 }
-#[doc = "ϯλ�뽻�����Ķ�Ӧ��ϵά����ѯ"]
+#[doc = "席位与交易中心对应关系维护查询"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryTraderAssignField {
-    #[doc = "����Ա����"]
+    #[doc = "交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
 }
-#[doc = "ϯλ�뽻�����Ķ�Ӧ��ϵ"]
+#[doc = "席位与交易中心对应关系"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcTraderAssignField {
-    #[doc = "Ӧ�õ�Ԫ����"]
+    #[doc = "应用单元代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "����������Ա����"]
+    #[doc = "交易所交易员代码"]
     pub TraderID: TThostFtdcTraderIDType,
-    #[doc = "��Ա����"]
+    #[doc = "会员代码"]
     pub ParticipantID: TThostFtdcParticipantIDType,
-    #[doc = "�������Ĵ���"]
+    #[doc = "交易中心代码"]
     pub DRIdentityID: TThostFtdcDRIdentityIDType,
 }
-#[doc = "Ͷ�����걨�ѽ�����ȡ����"]
+#[doc = "投资者申报费阶梯收取设置"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorInfoCntSettingField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "商品代码"]
     pub ProductID: TThostFtdcProductIDType,
-    #[doc = "�Ƿ���ȡ�걨��"]
+    #[doc = "是否收取申报费"]
     pub IsCalInfoComm: TThostFtdcBoolType,
-    #[doc = "�Ƿ�������Ϣ��"]
+    #[doc = "是否限制信息量"]
     pub IsLimitInfoMax: TThostFtdcBoolType,
-    #[doc = "��Ϣ�����Ʊ���"]
+    #[doc = "信息量限制笔数"]
     pub InfoMaxLimit: TThostFtdcVolumeType,
 }
 impl Default for CThostFtdcInvestorInfoCntSettingField {
@@ -16738,19 +16738,19 @@ impl Default for CThostFtdcInvestorInfoCntSettingField {
         }
     }
 }
-#[doc = "RCAMS��Ʒ�����Ϣ"]
+#[doc = "RCAMS产品组合信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRCAMSCombProductInfoField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcProductIDType,
-    #[doc = "��Ʒ�����"]
+    #[doc = "商品组代码"]
     pub CombProductID: TThostFtdcProductIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub ProductGroupID: TThostFtdcProductIDType,
 }
 impl Default for CThostFtdcRCAMSCombProductInfoField {
@@ -16762,17 +16762,17 @@ impl Default for CThostFtdcRCAMSCombProductInfoField {
         }
     }
 }
-#[doc = "RCAMS\u{36c}��Լ���նԳ����"]
+#[doc = "RCAMS同合约风险对冲参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRCAMSInstrParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcProductIDType,
-    #[doc = "\u{36c}��Լ���նԳ����"]
+    #[doc = "同合约风险对冲比率"]
     pub HedgeRate: TThostFtdcHedgeRateType,
 }
 impl Default for CThostFtdcRCAMSInstrParameterField {
@@ -16784,17 +16784,17 @@ impl Default for CThostFtdcRCAMSInstrParameterField {
         }
     }
 }
-#[doc = "RCAMSƷ���ڷ��նԳ����"]
+#[doc = "RCAMS品种内风险对冲参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRCAMSIntraParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ��ϴ���"]
+    #[doc = "产品组合代码"]
     pub CombProductID: TThostFtdcProductIDType,
-    #[doc = "Ʒ���ڶԳ����"]
+    #[doc = "品种内对冲比率"]
     pub HedgeRate: TThostFtdcHedgeRateType,
 }
 impl Default for CThostFtdcRCAMSIntraParameterField {
@@ -16806,23 +16806,23 @@ impl Default for CThostFtdcRCAMSIntraParameterField {
         }
     }
 }
-#[doc = "RCAMS��Ʒ�\u{5b7}����۵\u{5b2}���"]
+#[doc = "RCAMS跨品种风险折抵参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRCAMSInterParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub ProductGroupID: TThostFtdcProductIDType,
-    #[doc = "���ȼ�"]
+    #[doc = "优先级"]
     pub Priority: TThostFtdcRCAMSPriorityType,
-    #[doc = "�۵���"]
+    #[doc = "折抵率"]
     pub CreditRate: TThostFtdcHedgeRateType,
-    #[doc = "��Ʒ��ϴ���1"]
+    #[doc = "产品组合代码1"]
     pub CombProduct1: TThostFtdcProductIDType,
-    #[doc = "��Ʒ��ϴ���2"]
+    #[doc = "产品组合代码2"]
     pub CombProduct2: TThostFtdcProductIDType,
 }
 impl Default for CThostFtdcRCAMSInterParameterField {
@@ -16834,19 +16834,19 @@ impl Default for CThostFtdcRCAMSInterParameterField {
         }
     }
 }
-#[doc = "RCAMS��ͷ��Ȩ���յ�������"]
+#[doc = "RCAMS空头期权风险调整参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRCAMSShortOptAdjustParamField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ��ϴ���"]
+    #[doc = "产品组合代码"]
     pub CombProductID: TThostFtdcProductIDType,
-    #[doc = "Ͷ�ױ�־"]
+    #[doc = "投套标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��ͷ��Ȩ���յ�����\u{5fc}"]
+    #[doc = "空头期权风险调整标准"]
     pub AdjustValue: TThostFtdcAdjustValueType,
 }
 impl Default for CThostFtdcRCAMSShortOptAdjustParamField {
@@ -16858,33 +16858,33 @@ impl Default for CThostFtdcRCAMSShortOptAdjustParamField {
         }
     }
 }
-#[doc = "RCAMS������ϳ\u{5b2}�"]
+#[doc = "RCAMS策略组合持仓"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRCAMSInvestorCombPositionField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ͷ�ױ�־"]
+    #[doc = "投套标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "�\u{5b2}\u{5b6}�շ���"]
+    #[doc = "持仓多空方向"]
     pub PosiDirection: TThostFtdcPosiDirectionType,
-    #[doc = "��Ϻ�Լ����"]
+    #[doc = "组合合约代码"]
     pub CombInstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "���ȱ��"]
+    #[doc = "单腿编号"]
     pub LegID: TThostFtdcLegIDType,
-    #[doc = "��������Ϻ�Լ����"]
+    #[doc = "交易所组合合约代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "�\u{5b2}���"]
+    #[doc = "持仓量"]
     pub TotalAmt: TThostFtdcVolumeType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchMargin: TThostFtdcMoneyType,
-    #[doc = "Ͷ���\u{7f1}�\u{5a4}��"]
+    #[doc = "投资者保证金"]
     pub Margin: TThostFtdcMoneyType,
 }
 impl Default for CThostFtdcRCAMSInvestorCombPositionField {
@@ -16896,63 +16896,63 @@ impl Default for CThostFtdcRCAMSInvestorCombPositionField {
         }
     }
 }
-#[doc = "Ͷ����Ʒ��RCAMS��\u{5a4}��"]
+#[doc = "投资者品种RCAMS保证金"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorProdRCAMSMarginField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��Ʒ��ϴ���"]
+    #[doc = "产品组合代码"]
     pub CombProductID: TThostFtdcProductIDType,
-    #[doc = "Ͷ�ױ�־"]
+    #[doc = "投套标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub ProductGroupID: TThostFtdcProductIDType,
-    #[doc = "Ʒ�����ǰ����"]
+    #[doc = "品种组合前风险"]
     pub RiskBeforeDiscount: TThostFtdcMoneyType,
-    #[doc = "\u{36c}��Լ�Գ����"]
+    #[doc = "同合约对冲风险"]
     pub IntraInstrRisk: TThostFtdcMoneyType,
-    #[doc = "Ʒ����\u{5b2}\u{5b7}���"]
+    #[doc = "品种买持仓风险"]
     pub BPosRisk: TThostFtdcMoneyType,
-    #[doc = "Ʒ�����\u{5b2}\u{5b7}���"]
+    #[doc = "品种卖持仓风险"]
     pub SPosRisk: TThostFtdcMoneyType,
-    #[doc = "Ʒ���ڶԳ����"]
+    #[doc = "品种内对冲风险"]
     pub IntraProdRisk: TThostFtdcMoneyType,
-    #[doc = "Ʒ�־��\u{5b2}\u{5b7}���"]
+    #[doc = "品种净持仓风险"]
     pub NetRisk: TThostFtdcMoneyType,
-    #[doc = "Ʒ�\u{5bc}�Գ����"]
+    #[doc = "品种间对冲风险"]
     pub InterProdRisk: TThostFtdcMoneyType,
-    #[doc = "��ͷ��Ȩ���յ���"]
+    #[doc = "空头期权风险调整"]
     pub ShortOptRiskAdj: TThostFtdcMoneyType,
-    #[doc = "��ͷ��ȨȨ����"]
+    #[doc = "空头期权权利金"]
     pub OptionRoyalty: TThostFtdcMoneyType,
-    #[doc = "������ƽ�\u{5b6}��ᱣ\u{5a4}��"]
+    #[doc = "大边组合平仓冻结保证金"]
     pub MMSACloseFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "�������ƽ��/��Ȩ���ᱣ\u{5a4}��"]
+    #[doc = "策略组合平仓/行权冻结保证金"]
     pub CloseCombFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "ƽ��/��Ȩ���ᱣ\u{5a4}��"]
+    #[doc = "平仓/行权冻结保证金"]
     pub CloseFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "�����Ͽ��\u{5b6}��ᱣ\u{5a4}��"]
+    #[doc = "大边组合开仓冻结保证金"]
     pub MMSAOpenFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "�������ڻ����\u{5b6}��ᱣ\u{5a4}��"]
+    #[doc = "交割月期货开仓冻结保证金"]
     pub DeliveryOpenFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "���\u{5b6}��ᱣ\u{5a4}��"]
+    #[doc = "开仓冻结保证金"]
     pub OpenFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "Ͷ���߶��ᱣ\u{5a4}��"]
+    #[doc = "投资者冻结保证金"]
     pub UseFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "�����Ͻ������\u{5b2}\u{5b1}�\u{5a4}��"]
+    #[doc = "大边组合交易所持仓保证金"]
     pub MMSAExchMargin: TThostFtdcMoneyType,
-    #[doc = "�������ڻ��������\u{5b2}\u{5b1}�\u{5a4}��"]
+    #[doc = "交割月期货交易所持仓保证金"]
     pub DeliveryExchMargin: TThostFtdcMoneyType,
-    #[doc = "������Ͻ�������\u{5a4}��"]
+    #[doc = "策略组合交易所保证金"]
     pub CombExchMargin: TThostFtdcMoneyType,
-    #[doc = "�������\u{5b2}\u{5b1}�\u{5a4}��"]
+    #[doc = "交易所持仓保证金"]
     pub ExchMargin: TThostFtdcMoneyType,
-    #[doc = "Ͷ���\u{7f3}\u{5b2}\u{5b1}�\u{5a4}��"]
+    #[doc = "投资者持仓保证金"]
     pub UseMargin: TThostFtdcMoneyType,
 }
 impl Default for CThostFtdcInvestorProdRCAMSMarginField {
@@ -16964,15 +16964,15 @@ impl Default for CThostFtdcInvestorProdRCAMSMarginField {
         }
     }
 }
-#[doc = "RCAMS��Ʒ�����Ϣ��ѯ"]
+#[doc = "RCAMS产品组合信息查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryRCAMSCombProductInfoField {
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcProductIDType,
-    #[doc = "��Ʒ�����"]
+    #[doc = "商品组代码"]
     pub CombProductID: TThostFtdcProductIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub ProductGroupID: TThostFtdcProductIDType,
 }
 impl Default for CThostFtdcQryRCAMSCombProductInfoField {
@@ -16984,11 +16984,11 @@ impl Default for CThostFtdcQryRCAMSCombProductInfoField {
         }
     }
 }
-#[doc = "RCAMS\u{36c}��Լ���նԳ������ѯ"]
+#[doc = "RCAMS同合约风险对冲参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryRCAMSInstrParameterField {
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcProductIDType,
 }
 impl Default for CThostFtdcQryRCAMSInstrParameterField {
@@ -17000,11 +17000,11 @@ impl Default for CThostFtdcQryRCAMSInstrParameterField {
         }
     }
 }
-#[doc = "RCAMSƷ���ڷ��նԳ������ѯ"]
+#[doc = "RCAMS品种内风险对冲参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryRCAMSIntraParameterField {
-    #[doc = "��Ʒ��ϴ���"]
+    #[doc = "产品组合代码"]
     pub CombProductID: TThostFtdcProductIDType,
 }
 impl Default for CThostFtdcQryRCAMSIntraParameterField {
@@ -17016,15 +17016,15 @@ impl Default for CThostFtdcQryRCAMSIntraParameterField {
         }
     }
 }
-#[doc = "RCAMS��Ʒ�\u{5b7}����۵\u{5b2}�����ѯ"]
+#[doc = "RCAMS跨品种风险折抵参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryRCAMSInterParameterField {
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub ProductGroupID: TThostFtdcProductIDType,
-    #[doc = "��Ʒ��ϴ���1"]
+    #[doc = "产品组合代码1"]
     pub CombProduct1: TThostFtdcProductIDType,
-    #[doc = "��Ʒ��ϴ���2"]
+    #[doc = "产品组合代码2"]
     pub CombProduct2: TThostFtdcProductIDType,
 }
 impl Default for CThostFtdcQryRCAMSInterParameterField {
@@ -17036,11 +17036,11 @@ impl Default for CThostFtdcQryRCAMSInterParameterField {
         }
     }
 }
-#[doc = "RCAMS��ͷ��Ȩ���յ���������ѯ"]
+#[doc = "RCAMS空头期权风险调整参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryRCAMSShortOptAdjustParamField {
-    #[doc = "��Ʒ��ϴ���"]
+    #[doc = "产品组合代码"]
     pub CombProductID: TThostFtdcProductIDType,
 }
 impl Default for CThostFtdcQryRCAMSShortOptAdjustParamField {
@@ -17052,17 +17052,17 @@ impl Default for CThostFtdcQryRCAMSShortOptAdjustParamField {
         }
     }
 }
-#[doc = "RCAMS������ϳ\u{5b2}\u{5b2}�ѯ"]
+#[doc = "RCAMS策略组合持仓查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryRCAMSInvestorCombPositionField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Ϻ�Լ����"]
+    #[doc = "组合合约代码"]
     pub CombInstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryRCAMSInvestorCombPositionField {
@@ -17074,17 +17074,17 @@ impl Default for CThostFtdcQryRCAMSInvestorCombPositionField {
         }
     }
 }
-#[doc = "Ͷ����Ʒ��RCAMS��\u{5a4}���ѯ"]
+#[doc = "投资者品种RCAMS保证金查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorProdRCAMSMarginField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��Ʒ��ϴ���"]
+    #[doc = "产品组合代码"]
     pub CombProductID: TThostFtdcProductIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub ProductGroupID: TThostFtdcProductIDType,
 }
 impl Default for CThostFtdcQryInvestorProdRCAMSMarginField {
@@ -17096,33 +17096,33 @@ impl Default for CThostFtdcQryInvestorProdRCAMSMarginField {
         }
     }
 }
-#[doc = "RULE��Լ��\u{5a4}�����"]
+#[doc = "RULE合约保证金参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRULEInstrParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约类型"]
     pub InstrumentClass: TThostFtdcInstrumentClassType,
-    #[doc = "��\u{5fc}��Լ"]
+    #[doc = "标准合约"]
     pub StdInstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ͷ��������ϵ��"]
+    #[doc = "投机买折算系数"]
     pub BSpecRatio: TThostFtdcRatioType,
-    #[doc = "Ͷ��������ϵ��"]
+    #[doc = "投机卖折算系数"]
     pub SSpecRatio: TThostFtdcRatioType,
-    #[doc = "�ױ�������ϵ��"]
+    #[doc = "套保买折算系数"]
     pub BHedgeRatio: TThostFtdcRatioType,
-    #[doc = "�ױ�������ϵ��"]
+    #[doc = "套保卖折算系数"]
     pub SHedgeRatio: TThostFtdcRatioType,
-    #[doc = "�\u{b8f7c}ӷ��ձ�\u{5a4}��"]
+    #[doc = "买附加风险保证金"]
     pub BAddOnMargin: TThostFtdcMoneyType,
-    #[doc = "�����ӷ��ձ�\u{5a4}��"]
+    #[doc = "卖附加风险保证金"]
     pub SAddOnMargin: TThostFtdcMoneyType,
-    #[doc = "��ƷȺ��"]
+    #[doc = "商品群号"]
     pub CommodityGroupID: TThostFtdcCommodityGroupIDType,
 }
 impl Default for CThostFtdcRULEInstrParameterField {
@@ -17134,23 +17134,23 @@ impl Default for CThostFtdcRULEInstrParameterField {
         }
     }
 }
-#[doc = "RULEƷ���ڶ������ۿ۲���"]
+#[doc = "RULE品种内对锁仓折扣参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRULEIntraParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "��\u{5fc}��Լ"]
+    #[doc = "标准合约"]
     pub StdInstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��\u{5fc}��Լ��\u{5a4}��"]
+    #[doc = "标准合约保证金"]
     pub StdInstrMargin: TThostFtdcMoneyType,
-    #[doc = "һ���·ݺ�Լ��ϱ�\u{5a4}��ϵ��"]
+    #[doc = "一般月份合约组合保证金系数"]
     pub UsualIntraRate: TThostFtdcRatioType,
-    #[doc = "�ٽ������Լ��ϱ�\u{5a4}��ϵ��"]
+    #[doc = "临近交割合约组合保证金系数"]
     pub DeliveryIntraRate: TThostFtdcRatioType,
 }
 impl Default for CThostFtdcRULEIntraParameterField {
@@ -17162,29 +17162,29 @@ impl Default for CThostFtdcRULEIntraParameterField {
         }
     }
 }
-#[doc = "RULE��Ʒ�\u{5b5}\u{5bf}۲���"]
+#[doc = "RULE跨品种抵扣参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcRULEInterParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���ȼ�"]
+    #[doc = "优先级"]
     pub SpreadId: TThostFtdcSpreadIdType,
-    #[doc = "Ʒ�\u{5bc}�����\u{5b7}����ۿ۱���"]
+    #[doc = "品种间对锁仓费率折扣比例"]
     pub InterRate: TThostFtdcRatioType,
-    #[doc = "��һ�ȹ���Ʒ��"]
+    #[doc = "第一腿构成品种"]
     pub Leg1ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "�ڶ��ȹ���Ʒ��"]
+    #[doc = "第二腿构成品种"]
     pub Leg2ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "��1����ϵ��"]
+    #[doc = "腿1比例系数"]
     pub Leg1PropFactor: TThostFtdcCommonIntType,
-    #[doc = "��2����ϵ��"]
+    #[doc = "腿2比例系数"]
     pub Leg2PropFactor: TThostFtdcCommonIntType,
-    #[doc = "��ƷȺ��"]
+    #[doc = "商品群号"]
     pub CommodityGroupID: TThostFtdcCommodityGroupIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群名称"]
     pub CommodityGroupName: TThostFtdcInstrumentNameType,
 }
 impl Default for CThostFtdcRULEInterParameterField {
@@ -17196,13 +17196,13 @@ impl Default for CThostFtdcRULEInterParameterField {
         }
     }
 }
-#[doc = "RULE��Լ��\u{5a4}�������ѯ"]
+#[doc = "RULE合约保证金参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryRULEInstrParameterField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryRULEInstrParameterField {
@@ -17214,13 +17214,13 @@ impl Default for CThostFtdcQryRULEInstrParameterField {
         }
     }
 }
-#[doc = "RULEƷ���ڶ������ۿ۲�����ѯ"]
+#[doc = "RULE品种内对锁仓折扣参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryRULEIntraParameterField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
 }
 impl Default for CThostFtdcQryRULEIntraParameterField {
@@ -17232,17 +17232,17 @@ impl Default for CThostFtdcQryRULEIntraParameterField {
         }
     }
 }
-#[doc = "RULE��Ʒ�\u{5b5}\u{5bf}۲�����ѯ"]
+#[doc = "RULE跨品种抵扣参数查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryRULEInterParameterField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��һ�ȹ���Ʒ��"]
+    #[doc = "第一腿构成品种"]
     pub Leg1ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "�ڶ��ȹ���Ʒ��"]
+    #[doc = "第二腿构成品种"]
     pub Leg2ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "��ƷȺ��"]
+    #[doc = "商品群号"]
     pub CommodityGroupID: TThostFtdcCommodityGroupIDType,
 }
 impl Default for CThostFtdcQryRULEInterParameterField {
@@ -17254,63 +17254,63 @@ impl Default for CThostFtdcQryRULEInterParameterField {
         }
     }
 }
-#[doc = "Ͷ���\u{7f2}�ƷRULE��\u{5a4}��"]
+#[doc = "投资者产品RULE保证金"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcInvestorProdRULEMarginField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约类型"]
     pub InstrumentClass: TThostFtdcInstrumentClassType,
-    #[doc = "��ƷȺ��"]
+    #[doc = "商品群号"]
     pub CommodityGroupID: TThostFtdcCommodityGroupIDType,
-    #[doc = "���\u{5fc}�\u{5b2}�"]
+    #[doc = "买标准持仓"]
     pub BStdPosition: TThostFtdcStdPositionType,
-    #[doc = "����\u{5fc}�\u{5b2}�"]
+    #[doc = "卖标准持仓"]
     pub SStdPosition: TThostFtdcStdPositionType,
-    #[doc = "���\u{5fc}���\u{5b6}���"]
+    #[doc = "买标准开仓冻结"]
     pub BStdOpenFrozen: TThostFtdcStdPositionType,
-    #[doc = "����\u{5fc}���\u{5b6}���"]
+    #[doc = "卖标准开仓冻结"]
     pub SStdOpenFrozen: TThostFtdcStdPositionType,
-    #[doc = "���\u{5fc}ƽ�\u{5b6}���"]
+    #[doc = "买标准平仓冻结"]
     pub BStdCloseFrozen: TThostFtdcStdPositionType,
-    #[doc = "����\u{5fc}ƽ�\u{5b6}���"]
+    #[doc = "卖标准平仓冻结"]
     pub SStdCloseFrozen: TThostFtdcStdPositionType,
-    #[doc = "Ʒ���ڶԳ��\u{5fc}�\u{5b2}�"]
+    #[doc = "品种内对冲标准持仓"]
     pub IntraProdStdPosition: TThostFtdcStdPositionType,
-    #[doc = "Ʒ���ڵ��ȱ�\u{5fc}�\u{5b2}�"]
+    #[doc = "品种内单腿标准持仓"]
     pub NetStdPosition: TThostFtdcStdPositionType,
-    #[doc = "Ʒ�\u{5bc}�Գ��\u{5fc}�\u{5b2}�"]
+    #[doc = "品种间对冲标准持仓"]
     pub InterProdStdPosition: TThostFtdcStdPositionType,
-    #[doc = "���ȱ�\u{5fc}�\u{5b2}�"]
+    #[doc = "单腿标准持仓"]
     pub SingleStdPosition: TThostFtdcStdPositionType,
-    #[doc = "Ʒ���ڶ�����\u{5a4}��"]
+    #[doc = "品种内对锁保证金"]
     pub IntraProdMargin: TThostFtdcMoneyType,
-    #[doc = "Ʒ�\u{5bc}������\u{5a4}��"]
+    #[doc = "品种间对锁保证金"]
     pub InterProdMargin: TThostFtdcMoneyType,
-    #[doc = "��Ʒ�\u{5b5}��ȱ�\u{5a4}��"]
+    #[doc = "跨品种单腿保证金"]
     pub SingleMargin: TThostFtdcMoneyType,
-    #[doc = "����Ϻ�Լ��\u{5a4}��"]
+    #[doc = "非组合合约保证金"]
     pub NonCombMargin: TThostFtdcMoneyType,
-    #[doc = "���ӱ�\u{5a4}��"]
+    #[doc = "附加保证金"]
     pub AddOnMargin: TThostFtdcMoneyType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchMargin: TThostFtdcMoneyType,
-    #[doc = "���Ӷ��ᱣ\u{5a4}��"]
+    #[doc = "附加冻结保证金"]
     pub AddOnFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "���\u{5b6}��ᱣ\u{5a4}��"]
+    #[doc = "开仓冻结保证金"]
     pub OpenFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "ƽ�\u{5b6}��ᱣ\u{5a4}��"]
+    #[doc = "平仓冻结保证金"]
     pub CloseFrozenMargin: TThostFtdcMoneyType,
-    #[doc = "Ʒ�\u{5b1}�\u{5a4}��"]
+    #[doc = "品种保证金"]
     pub Margin: TThostFtdcMoneyType,
-    #[doc = "���ᱣ\u{5a4}��"]
+    #[doc = "冻结保证金"]
     pub FrozenMargin: TThostFtdcMoneyType,
 }
 impl Default for CThostFtdcInvestorProdRULEMarginField {
@@ -17322,19 +17322,19 @@ impl Default for CThostFtdcInvestorProdRULEMarginField {
         }
     }
 }
-#[doc = "Ͷ���\u{7f2}�ƷRULE��\u{5a4}���ѯ"]
+#[doc = "投资者产品RULE保证金查询"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcQryInvestorProdRULEMarginField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "��ƷȺ��"]
+    #[doc = "商品群号"]
     pub CommodityGroupID: TThostFtdcCommodityGroupIDType,
 }
 impl Default for CThostFtdcQryInvestorProdRULEMarginField {
@@ -17346,21 +17346,21 @@ impl Default for CThostFtdcQryInvestorProdRULEMarginField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽSPBM��ϱ�\u{5a4}���ײ�"]
+#[doc = "风险结算追平SPBM组合保证金套餐"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaSPBMPortfDefinitionField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��ϱ�\u{5a4}���ײʹ���"]
+    #[doc = "组合保证金套餐代码"]
     pub PortfolioDefID: TThostFtdcPortfolioDefIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "�Ƿ�����SPBM"]
+    #[doc = "是否启用SPBM"]
     pub IsSPBM: TThostFtdcBoolType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaSPBMPortfDefinitionField {
@@ -17372,52 +17372,52 @@ impl Default for CThostFtdcSyncDeltaSPBMPortfDefinitionField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽͶ����SPBM�ײ�ѡ��"]
+#[doc = "风险结算追平投资者SPBM套餐选择"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcSyncDeltaSPBMInvstPortfDefField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��ϱ�\u{5a4}���ײʹ���"]
+    #[doc = "组合保证金套餐代码"]
     pub PortfolioDefID: TThostFtdcPortfolioDefIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
-#[doc = "���ս���\u{5f7}ƽSPBM�ڻ���Լ��\u{5a4}�����"]
+#[doc = "风险结算追平SPBM期货合约保证金参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaSPBMFutureParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "�ڻ���Լ����"]
+    #[doc = "期货合约因子"]
     pub Cvf: TThostFtdcVolumeMultipleType,
-    #[doc = "�\u{5f6}α�ʶ"]
+    #[doc = "阶段标识"]
     pub TimeRange: TThostFtdcTimeRangeType,
-    #[doc = "Ʒ�\u{5b1}�\u{5a4}���\u{5fc}"]
+    #[doc = "品种保证金标准"]
     pub MarginRate: TThostFtdcRatioType,
-    #[doc = "�ڻ���Լ�ڲ������\u{5b7}����ۿ۱���"]
+    #[doc = "期货合约内部对锁仓费率折扣比例"]
     pub LockRateX: TThostFtdcRatioType,
-    #[doc = "��\u{7f1}�\u{5a4}���\u{5fc}"]
+    #[doc = "提高保证金标准"]
     pub AddOnRate: TThostFtdcRatioType,
-    #[doc = "������"]
+    #[doc = "昨结算价"]
     pub PreSettlementPrice: TThostFtdcPriceType,
-    #[doc = "�ڻ���Լ�ڲ������\u{5b8}��ӷ����ۿ۱���"]
+    #[doc = "期货合约内部对锁仓附加费率折扣比例"]
     pub AddOnLockRateX2: TThostFtdcRatioType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaSPBMFutureParameterField {
@@ -17429,31 +17429,31 @@ impl Default for CThostFtdcSyncDeltaSPBMFutureParameterField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽSPBM��Ȩ��Լ��\u{5a4}�����"]
+#[doc = "风险结算追平SPBM期权合约保证金参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaSPBMOptionParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "��Ȩ��Լ����"]
+    #[doc = "期权合约因子"]
     pub Cvf: TThostFtdcVolumeMultipleType,
-    #[doc = "��Ȩ��\u{5bc}۸�"]
+    #[doc = "期权冲抵价格"]
     pub DownPrice: TThostFtdcPriceType,
-    #[doc = "Delta\u{5b5}"]
+    #[doc = "Delta值"]
     pub Delta: TThostFtdcDeltaType,
-    #[doc = "������Ȩ����ת�����\u{5b5}"]
+    #[doc = "卖方期权风险转换最低值"]
     pub SlimiDelta: TThostFtdcDeltaType,
-    #[doc = "������"]
+    #[doc = "昨结算价"]
     pub PreSettlementPrice: TThostFtdcPriceType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaSPBMOptionParameterField {
@@ -17465,23 +17465,23 @@ impl Default for CThostFtdcSyncDeltaSPBMOptionParameterField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽSPBMƷ���ڶ������ۿ۲���"]
+#[doc = "风险结算追平SPBM品种内对锁仓折扣参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaSPBMIntraParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "Ʒ���ں�Լ������\u{5b7}����ۿ۱���"]
+    #[doc = "品种内合约间对锁仓费率折扣比例"]
     pub IntraRateY: TThostFtdcRatioType,
-    #[doc = "Ʒ���ں�Լ������\u{5b8}��ӷ����ۿ۱���"]
+    #[doc = "品种内合约间对锁仓附加费率折扣比例"]
     pub AddOnIntraRateY2: TThostFtdcRatioType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaSPBMIntraParameterField {
@@ -17493,25 +17493,25 @@ impl Default for CThostFtdcSyncDeltaSPBMIntraParameterField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽSPBM��Ʒ�\u{5b5}\u{5bf}۲���"]
+#[doc = "风险结算追平SPBM跨品种抵扣参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaSPBMInterParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���ȼ�"]
+    #[doc = "优先级"]
     pub SpreadId: TThostFtdcSpreadIdType,
-    #[doc = "Ʒ�\u{5bc}�����\u{5b7}����ۿ۱���"]
+    #[doc = "品种间对锁仓费率折扣比例"]
     pub InterRateZ: TThostFtdcRatioType,
-    #[doc = "��һ�ȹ���Ʒ��"]
+    #[doc = "第一腿构成品种"]
     pub Leg1ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "�ڶ��ȹ���Ʒ��"]
+    #[doc = "第二腿构成品种"]
     pub Leg2ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaSPBMInterParameterField {
@@ -17523,25 +17523,25 @@ impl Default for CThostFtdcSyncDeltaSPBMInterParameterField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽSPBM���ӿ�Ʒ�\u{5b5}\u{5bf}۲���"]
+#[doc = "风险结算追平SPBM附加跨品种抵扣参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaSPBMAddOnInterParamField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���ȼ�"]
+    #[doc = "优先级"]
     pub SpreadId: TThostFtdcSpreadIdType,
-    #[doc = "Ʒ�\u{5bc}�����\u{5b8}��ӷ����ۿ۱���"]
+    #[doc = "品种间对锁仓附加费率折扣比例"]
     pub AddOnInterRateZ2: TThostFtdcRatioType,
-    #[doc = "��һ�ȹ���Ʒ��"]
+    #[doc = "第一腿构成品种"]
     pub Leg1ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "�ڶ��ȹ���Ʒ��"]
+    #[doc = "第二腿构成品种"]
     pub Leg2ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaSPBMAddOnInterParamField {
@@ -17553,23 +17553,23 @@ impl Default for CThostFtdcSyncDeltaSPBMAddOnInterParamField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽSPMM��Լ����"]
+#[doc = "风险结算追平SPMM合约参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaSPMMInstParamField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "SPMM��Լ��\u{5a4}���㷨"]
+    #[doc = "SPMM合约保证金算法"]
     pub InstMarginCalID: TThostFtdcInstMarginCalIDType,
-    #[doc = "��Ʒ�����"]
+    #[doc = "商品组代码"]
     pub CommodityID: TThostFtdcSPMMProductIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub CommodityGroupID: TThostFtdcSPMMProductIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaSPMMInstParamField {
@@ -17581,21 +17581,21 @@ impl Default for CThostFtdcSyncDeltaSPMMInstParamField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽSPMM��Ʒ��ز���"]
+#[doc = "风险结算追平SPMM产品相关参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaSPMMProductParamField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcSPMMProductIDType,
-    #[doc = "��Ʒ�����"]
+    #[doc = "商品组代码"]
     pub CommodityID: TThostFtdcSPMMProductIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub CommodityGroupID: TThostFtdcSPMMProductIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaSPMMProductParamField {
@@ -17607,21 +17607,21 @@ impl Default for CThostFtdcSyncDeltaSPMMProductParamField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽͶ����SPMMģ��ѡ��"]
+#[doc = "风险结算追平投资者SPMM模板选择"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaInvestorSPMMModelField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "SPMMģ��ID"]
+    #[doc = "SPMM模板ID"]
     pub SPMMModelID: TThostFtdcSPMMModelIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaInvestorSPMMModelField {
@@ -17633,27 +17633,27 @@ impl Default for CThostFtdcSyncDeltaInvestorSPMMModelField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽSPMMģ���������"]
+#[doc = "风险结算追平SPMM模板参数设置"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaSPMMModelParamField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "SPMMģ��ID"]
+    #[doc = "SPMM模板ID"]
     pub SPMMModelID: TThostFtdcSPMMModelIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub CommodityGroupID: TThostFtdcSPMMProductIDType,
-    #[doc = "SPMMƷ���ڿ����Ż�ϵ��"]
+    #[doc = "SPMM品种内跨期优惠系数"]
     pub IntraCommodityRate: TThostFtdcSPMMDiscountRatioType,
-    #[doc = "SPMMƷ�\u{5bc}��Ż�ϵ��"]
+    #[doc = "SPMM品种间优惠系数"]
     pub InterCommodityRate: TThostFtdcSPMMDiscountRatioType,
-    #[doc = "SPMM��Ȩ�Ż�ϵ��"]
+    #[doc = "SPMM期权优惠系数"]
     pub OptionDiscountRate: TThostFtdcSPMMDiscountRatioType,
-    #[doc = "��ƷȺ��С��\u{5a4}�����"]
+    #[doc = "商品群最小保证金比例"]
     pub MiniMarginRatio: TThostFtdcSPMMDiscountRatioType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaSPMMModelParamField {
@@ -17665,23 +17665,23 @@ impl Default for CThostFtdcSyncDeltaSPMMModelParamField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽRCAMS��Ʒ�����Ϣ"]
+#[doc = "风险结算追平RCAMS产品组合信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaRCAMSCombProdInfoField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcProductIDType,
-    #[doc = "��Ʒ�����"]
+    #[doc = "商品组代码"]
     pub CombProductID: TThostFtdcProductIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub ProductGroupID: TThostFtdcProductIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaRCAMSCombProdInfoField {
@@ -17693,21 +17693,21 @@ impl Default for CThostFtdcSyncDeltaRCAMSCombProdInfoField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽRCAMS\u{36c}��Լ���նԳ����"]
+#[doc = "风险结算追平RCAMS同合约风险对冲参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaRCAMSInstrParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ����"]
+    #[doc = "产品代码"]
     pub ProductID: TThostFtdcProductIDType,
-    #[doc = "\u{36c}��Լ���նԳ����"]
+    #[doc = "同合约风险对冲比率"]
     pub HedgeRate: TThostFtdcHedgeRateType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaRCAMSInstrParameterField {
@@ -17719,21 +17719,21 @@ impl Default for CThostFtdcSyncDeltaRCAMSInstrParameterField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽRCAMSƷ���ڷ��նԳ����"]
+#[doc = "风险结算追平RCAMS品种内风险对冲参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaRCAMSIntraParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ��ϴ���"]
+    #[doc = "产品组合代码"]
     pub CombProductID: TThostFtdcProductIDType,
-    #[doc = "Ʒ���ڶԳ����"]
+    #[doc = "品种内对冲比率"]
     pub HedgeRate: TThostFtdcHedgeRateType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaRCAMSIntraParameterField {
@@ -17745,27 +17745,27 @@ impl Default for CThostFtdcSyncDeltaRCAMSIntraParameterField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽRCAMS��Ʒ�\u{5b7}����۵\u{5b2}���"]
+#[doc = "风险结算追平RCAMS跨品种风险折抵参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaRCAMSInterParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群代码"]
     pub ProductGroupID: TThostFtdcProductIDType,
-    #[doc = "���ȼ�"]
+    #[doc = "优先级"]
     pub Priority: TThostFtdcRCAMSPriorityType,
-    #[doc = "�۵���"]
+    #[doc = "折抵率"]
     pub CreditRate: TThostFtdcHedgeRateType,
-    #[doc = "��Ʒ��ϴ���1"]
+    #[doc = "产品组合代码1"]
     pub CombProduct1: TThostFtdcProductIDType,
-    #[doc = "��Ʒ��ϴ���2"]
+    #[doc = "产品组合代码2"]
     pub CombProduct2: TThostFtdcProductIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaRCAMSInterParameterField {
@@ -17777,23 +17777,23 @@ impl Default for CThostFtdcSyncDeltaRCAMSInterParameterField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽRCAMS��ͷ��Ȩ���յ�������"]
+#[doc = "风险结算追平RCAMS空头期权风险调整参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaRCAMSSOptAdjParamField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Ʒ��ϴ���"]
+    #[doc = "产品组合代码"]
     pub CombProductID: TThostFtdcProductIDType,
-    #[doc = "Ͷ�ױ�־"]
+    #[doc = "投套标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��ͷ��Ȩ���յ�����\u{5fc}"]
+    #[doc = "空头期权风险调整标准"]
     pub AdjustValue: TThostFtdcAdjustValueType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaRCAMSSOptAdjParamField {
@@ -17805,37 +17805,37 @@ impl Default for CThostFtdcSyncDeltaRCAMSSOptAdjParamField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽRCAMS������Ϲ�����ϸ"]
+#[doc = "风险结算追平RCAMS策略组合规则明细"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaRCAMSCombRuleDtlField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���Բ�Ʒ"]
+    #[doc = "策略产品"]
     pub ProdGroup: TThostFtdcProductIDType,
-    #[doc = "����id"]
+    #[doc = "策略id"]
     pub RuleId: TThostFtdcRuleIdType,
-    #[doc = "���ȼ�"]
+    #[doc = "优先级"]
     pub Priority: TThostFtdcRCAMSPriorityType,
-    #[doc = "Ͷ�ױ�־"]
+    #[doc = "投套标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "��ϱ�\u{5a4}���\u{5fc}"]
+    #[doc = "组合保证金标准"]
     pub CombMargin: TThostFtdcMoneyType,
-    #[doc = "��������Ϻ�Լ����"]
+    #[doc = "交易所组合合约代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "���ȱ��"]
+    #[doc = "单腿编号"]
     pub LegID: TThostFtdcLegIDType,
-    #[doc = "���Ⱥ�Լ����"]
+    #[doc = "单腿合约代码"]
     pub LegInstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��������"]
+    #[doc = "买卖方向"]
     pub Direction: TThostFtdcDirectionType,
-    #[doc = "���ȳ���"]
+    #[doc = "单腿乘数"]
     pub LegMultiple: TThostFtdcLegMultipleType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaRCAMSCombRuleDtlField {
@@ -17847,37 +17847,37 @@ impl Default for CThostFtdcSyncDeltaRCAMSCombRuleDtlField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽRCAMS������ϳ\u{5b2}�"]
+#[doc = "风险结算追平RCAMS策略组合持仓"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaRCAMSInvstCombPosField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ͷ�ױ�־"]
+    #[doc = "投套标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "�\u{5b2}\u{5b6}�շ���"]
+    #[doc = "持仓多空方向"]
     pub PosiDirection: TThostFtdcPosiDirectionType,
-    #[doc = "��Ϻ�Լ����"]
+    #[doc = "组合合约代码"]
     pub CombInstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "���ȱ��"]
+    #[doc = "单腿编号"]
     pub LegID: TThostFtdcLegIDType,
-    #[doc = "��������Ϻ�Լ����"]
+    #[doc = "交易所组合合约代码"]
     pub ExchangeInstID: TThostFtdcExchangeInstIDType,
-    #[doc = "�\u{5b2}���"]
+    #[doc = "持仓量"]
     pub TotalAmt: TThostFtdcVolumeType,
-    #[doc = "��������\u{5a4}��"]
+    #[doc = "交易所保证金"]
     pub ExchMargin: TThostFtdcMoneyType,
-    #[doc = "Ͷ���\u{7f1}�\u{5a4}��"]
+    #[doc = "投资者保证金"]
     pub Margin: TThostFtdcMoneyType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaRCAMSInvstCombPosField {
@@ -17889,37 +17889,37 @@ impl Default for CThostFtdcSyncDeltaRCAMSInvstCombPosField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽRULE��Լ��\u{5a4}�����"]
+#[doc = "风险结算追平RULE合约保证金参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaRULEInstrParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约代码"]
     pub InstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��Լ����"]
+    #[doc = "合约类型"]
     pub InstrumentClass: TThostFtdcInstrumentClassType,
-    #[doc = "��\u{5fc}��Լ"]
+    #[doc = "标准合约"]
     pub StdInstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "Ͷ��������ϵ��"]
+    #[doc = "投机买折算系数"]
     pub BSpecRatio: TThostFtdcRatioType,
-    #[doc = "Ͷ��������ϵ��"]
+    #[doc = "投机卖折算系数"]
     pub SSpecRatio: TThostFtdcRatioType,
-    #[doc = "�ױ�������ϵ��"]
+    #[doc = "套保买折算系数"]
     pub BHedgeRatio: TThostFtdcRatioType,
-    #[doc = "�ױ�������ϵ��"]
+    #[doc = "套保卖折算系数"]
     pub SHedgeRatio: TThostFtdcRatioType,
-    #[doc = "�\u{b8f7c}ӷ��ձ�\u{5a4}��"]
+    #[doc = "买附加风险保证金"]
     pub BAddOnMargin: TThostFtdcMoneyType,
-    #[doc = "�����ӷ��ձ�\u{5a4}��"]
+    #[doc = "卖附加风险保证金"]
     pub SAddOnMargin: TThostFtdcMoneyType,
-    #[doc = "��ƷȺ��"]
+    #[doc = "商品群号"]
     pub CommodityGroupID: TThostFtdcCommodityGroupIDType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaRULEInstrParameterField {
@@ -17931,27 +17931,27 @@ impl Default for CThostFtdcSyncDeltaRULEInstrParameterField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽRULEƷ���ڶ������ۿ۲���"]
+#[doc = "风险结算追平RULE品种内对锁仓折扣参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaRULEIntraParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "Ʒ�\u{5b4}���"]
+    #[doc = "品种代码"]
     pub ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "��\u{5fc}��Լ"]
+    #[doc = "标准合约"]
     pub StdInstrumentID: TThostFtdcInstrumentIDType,
-    #[doc = "��\u{5fc}��Լ��\u{5a4}��"]
+    #[doc = "标准合约保证金"]
     pub StdInstrMargin: TThostFtdcMoneyType,
-    #[doc = "һ���·ݺ�Լ��ϱ�\u{5a4}��ϵ��"]
+    #[doc = "一般月份合约组合保证金系数"]
     pub UsualIntraRate: TThostFtdcRatioType,
-    #[doc = "�ٽ������Լ��ϱ�\u{5a4}��ϵ��"]
+    #[doc = "临近交割合约组合保证金系数"]
     pub DeliveryIntraRate: TThostFtdcRatioType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaRULEIntraParameterField {
@@ -17963,33 +17963,33 @@ impl Default for CThostFtdcSyncDeltaRULEIntraParameterField {
         }
     }
 }
-#[doc = "���ս���\u{5f7}ƽRULE��Ʒ�\u{5b5}\u{5bf}۲���"]
+#[doc = "风险结算追平RULE跨品种抵扣参数"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcSyncDeltaRULEInterParameterField {
-    #[doc = "������"]
+    #[doc = "交易日"]
     pub TradingDay: TThostFtdcDateType,
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���ȼ�"]
+    #[doc = "优先级"]
     pub SpreadId: TThostFtdcSpreadIdType,
-    #[doc = "Ʒ�\u{5bc}�����\u{5b7}����ۿ۱���"]
+    #[doc = "品种间对锁仓费率折扣比例"]
     pub InterRate: TThostFtdcRatioType,
-    #[doc = "��һ�ȹ���Ʒ��"]
+    #[doc = "第一腿构成品种"]
     pub Leg1ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "�ڶ��ȹ���Ʒ��"]
+    #[doc = "第二腿构成品种"]
     pub Leg2ProdFamilyCode: TThostFtdcInstrumentIDType,
-    #[doc = "��1����ϵ��"]
+    #[doc = "腿1比例系数"]
     pub Leg1PropFactor: TThostFtdcCommonIntType,
-    #[doc = "��2����ϵ��"]
+    #[doc = "腿2比例系数"]
     pub Leg2PropFactor: TThostFtdcCommonIntType,
-    #[doc = "��ƷȺ��"]
+    #[doc = "商品群号"]
     pub CommodityGroupID: TThostFtdcCommodityGroupIDType,
-    #[doc = "��ƷȺ����"]
+    #[doc = "商品群名称"]
     pub CommodityGroupName: TThostFtdcInstrumentNameType,
-    #[doc = "������־"]
+    #[doc = "操作标志"]
     pub ActionDirection: TThostFtdcActionDirectionType,
-    #[doc = "\u{5f7}ƽ���"]
+    #[doc = "追平序号"]
     pub SyncDeltaSequenceNo: TThostFtdcSequenceNoType,
 }
 impl Default for CThostFtdcSyncDeltaRULEInterParameterField {
@@ -18001,59 +18001,59 @@ impl Default for CThostFtdcSyncDeltaRULEInterParameterField {
         }
     }
 }
-#[doc = "�˳�����״\u{32c}����"]
+#[doc = "退出紧急状态参数"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcExitEmergencyField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
 }
-#[doc = "���鱣��\u{5a4}��ϵ��Ͷ����ģ���Ӧ��ϵ"]
+#[doc = "新组保保证金系数投资者模板对应关系"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcInvestorPortfMarginModelField {
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���ߴ���"]
+    #[doc = "投资者代码"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "��\u{5a4}��ϵ��ģ��"]
+    #[doc = "保证金系数模板"]
     pub MarginModelID: TThostFtdcInvestorIDType,
 }
-#[doc = "Ͷ�������鱣����"]
+#[doc = "投资者新组保设置"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcInvestorPortfSettingField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���\u{7f1}��"]
+    #[doc = "投资者编号"]
     pub InvestorID: TThostFtdcInvestorIDType,
-    #[doc = "Ͷ���ױ���־"]
+    #[doc = "投机套保标志"]
     pub HedgeFlag: TThostFtdcHedgeFlagType,
-    #[doc = "�Ƿ������鱣"]
+    #[doc = "是否开启新组保"]
     pub UsePortf: TThostFtdcBoolType,
 }
-#[doc = "Ͷ�������鱣���ò�ѯ"]
+#[doc = "投资者新组保设置查询"]
 #[repr(C)]
 #[derive(Default, Copy, Clone)]
 pub struct CThostFtdcQryInvestorPortfSettingField {
-    #[doc = "����������"]
+    #[doc = "交易所代码"]
     pub ExchangeID: TThostFtdcExchangeIDType,
-    #[doc = "���\u{379}�˾����"]
+    #[doc = "经纪公司代码"]
     pub BrokerID: TThostFtdcBrokerIDType,
-    #[doc = "Ͷ���\u{7f1}��"]
+    #[doc = "投资者编号"]
     pub InvestorID: TThostFtdcInvestorIDType,
 }
-#[doc = "ǰ����Ϣ"]
+#[doc = "前置信息"]
 #[repr(C)]
 #[derive(Copy, Clone)]
 pub struct CThostFtdcFrontInfoField {
-    #[doc = "ǰ�õ�\u{5b7}"]
+    #[doc = "前置地址"]
     pub FrontAddr: TThostFtdcAddressType,
-    #[doc = "��ѯƵ��"]
+    #[doc = "查询频率"]
     pub QryFreq: TThostFtdcQueryFreqType,
-    #[doc = "FTDƵ��"]
+    #[doc = "FTD频率"]
     pub FTDPkgFreq: TThostFtdcQueryFreqType,
 }
 impl Default for CThostFtdcFrontInfoField {
