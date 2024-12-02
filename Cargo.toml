@@ -3,6 +3,13 @@ name = "rtp"
 version = "1.0.0"
 authors = ["glacierx <rong.xian@gmail.com>"]
 edition = "2021"
+description = "Safe Rust bindings for CTP (Comprehensive Transaction Platform) and its variations for Chinese financial markets"
+homepage = "https://github.com/glacierx/RTP"
+repository = "https://github.com/glacierx/RTP"
+readme = "README.md"
+keywords = ["ctp", "trading", "finance", "ffi", "china"]
+categories = ["api-bindings", "finance", "external-ffi-bindings"]
+license = "MIT/Apache-2.0"
 
 [lib]
 name = "rtp"
@@ -10,7 +17,7 @@ path = "src/lib.rs"
 
 [features]
 channel = ["crossbeam-channel"]
-default = []  # Default SDK to build
+default = ["ctp"]  # Default SDK to build
 ctp = []          # CTP SDK
 atp = []          # ATP SDK
 xtp = []          # XTP SDK

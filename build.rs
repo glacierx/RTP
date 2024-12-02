@@ -7,8 +7,11 @@ use std::path::Path;
 use std::path::PathBuf;
 use xmltree::{Element, XMLNode};
 
-const CTP_SO_NAME: &str = "libthosttraderapi_ctp.so";
-const ATP_SO_NAME: &str = "libthosttraderapi_atp.so";
+#[cfg(feature="ctp")]
+const SO_NAME: &str = "libthosttraderapi_ctp.so";
+
+#[cfg(feature="atp")]
+const SO_NAME: &str = "libthosttraderapi_atp.so";
 
 pub fn gb18030_bytes_to_string(bytes: &[u8]) -> String {
     decode(bytes, DecoderTrap::Replace, GB18030)
@@ -213,10 +216,14 @@ fn main() {
         panic!("At least one SDK feature must be enabled");
     }    
     // setup_api("ctp", CTP_SO_NAME, "libthosttraderapi.so");
-    setup_api("atp", ATP_SO_NAME, "libthosttraderapi.so");
-    generate_trader_api("atp", ATP_SO_NAME, "libthosttraderapi.so");
-    setup_api("ctp", CTP_SO_NAME, "thosttraderapi_se.so");
-    generate_trader_api("ctp", CTP_SO_NAME, "thosttraderapi_se.so");
+    #[cfg(feature="atp")]
+    setup_api("atp", SO_NAME, "libthosttraderapi.so");
+    #[cfg(feature="atp")]
+    generate_trader_api("atp", SO_NAME, "libthosttraderapi.so");
+    #[cfg(feature="ctp")]
+    setup_api("ctp", SO_NAME, "thosttraderapi_se.so");
+    #[cfg(feature="ctp")]
+    generate_trader_api("ctp", SO_NAME, "thosttraderapi_se.so");
     // // Generate mod.rs
     // if let Err(e) = generate_recursive_mods() {
     //     eprintln!("Warning: Failed to generate mod.rs: {}", e);
