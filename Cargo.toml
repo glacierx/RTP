@@ -10,6 +10,14 @@ path = "src/lib.rs"
 
 [features]
 channel = ["crossbeam-channel"]
+default = ["ctp"]  # Default SDK to build
+ctp = []          # CTP SDK
+atp = []          # ATP SDK
+xtp = []          # XTP SDK
+
+# Ensure only one SDK is enabled
+[package.metadata.features]
+mutually_exclusive = ["ctp", "atp", "xtp"]
 
 [dependencies]
 crossbeam-channel = { version = "0.5", optional = true }
@@ -27,3 +35,10 @@ encoding = "0.2"
 # For XML parsing
 xmltree="0.11.0"
 simple-error = "0.3.1"
+
+
+[profile.release]
+#strip = true  # Automatically strip symbols from the binary.
+opt-level = 3
+lto = true
+codegen-units = 1

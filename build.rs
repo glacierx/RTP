@@ -118,7 +118,6 @@ fn generate_error(input_xml: &Path, output_rs: &Path) -> Result<(), String> {
 }
 
 fn generate_bindings(
-    api_type: &str,
     header_file: &str,
     out_file: &str,
 ) -> Result<(), Box<dyn std::error::Error>> {
@@ -166,7 +165,6 @@ fn setup_api(api_type: &str, so_name: &str, orig_name: &str) {
         let header = format!("{}/libs/{}/include/{}", current_dir, api_type, filename);
         // let prefix_name = filename.split(".").next().unwrap();
         generate_bindings(
-            api_type,
             &header,
             &format!(
                 "{}/src/{}/generated/{}_structs.rs",
@@ -201,6 +199,19 @@ fn generate_trader_api(api_type: &str, so_name: &str, orig_name: &str) {
 }
 
 fn main() {
+    let features = vec![
+        cfg!(feature = "ctp"),
+        cfg!(feature = "atp"),
+        cfg!(feature = "xtp"),
+    ];
+    
+    let enabled_count = features.iter().filter(|&&x| x).count();
+    if enabled_count > 1 {
+        panic!("Only one SDK feature can be enabled at a time");
+    }
+    if enabled_count == 0 {
+        panic!("At least one SDK feature must be enabled");
+    }    
     // setup_api("ctp", CTP_SO_NAME, "libthosttraderapi.so");
     setup_api("atp", ATP_SO_NAME, "libthosttraderapi.so");
     generate_trader_api("atp", ATP_SO_NAME, "libthosttraderapi.so");
