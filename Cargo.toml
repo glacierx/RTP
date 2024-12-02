@@ -10,7 +10,7 @@ path = "src/lib.rs"
 
 [features]
 channel = ["crossbeam-channel"]
-default = ["ctp"]  # Default SDK to build
+default = []  # Default SDK to build
 ctp = []          # CTP SDK
 atp = []          # ATP SDK
 xtp = []          # XTP SDK

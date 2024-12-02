@@ -1054,8 +1054,13 @@ extern "C" fn spi_on_rsp_order_action(spi: *mut CThostFtdcTraderSpi, pInputOrder
     }
 }
 
+#[cfg(feature="ctp")]
 #[allow(non_snake_case, unused_variables)]
 extern "C" fn spi_on_rsp_query_max_order_volume(spi: *mut CThostFtdcTraderSpi, pQueryMaxOrderVolume: *const CThostFtdcQryMaxOrderVolumeField, pRspInfo: *const CThostFtdcRspInfoField, nRequestID: c_int, bIsLast: c_bool) {}
+
+#[cfg(feature="atp")]
+#[allow(non_snake_case, unused_variables)]
+extern "C" fn spi_on_rsp_query_max_order_volume(spi: *mut CThostFtdcTraderSpi, pQueryMaxOrderVolume: *const CThostFtdcQueryMaxOrderVolumeField, pRspInfo: *const CThostFtdcRspInfoField, nRequestID: c_int, bIsLast: c_bool) {}
 
 #[allow(non_snake_case)]
 extern "C" fn spi_on_rsp_settlement_info_confirm(spi: *mut CThostFtdcTraderSpi, pSettlementInfoConfirm: *const CThostFtdcSettlementInfoConfirmField, pRspInfo: *const CThostFtdcRspInfoField, nRequestID: c_int, bIsLast: c_bool) {
@@ -1526,7 +1531,10 @@ struct SpiVTable {
     #[allow(non_snake_case)]
     on_rsp_order_action: extern "C" fn(spi: *mut CThostFtdcTraderSpi, pInputOrderAction: *const CThostFtdcInputOrderActionField, pRspInfo: *const CThostFtdcRspInfoField, nRequestID: c_int, bIsLast: c_bool),
     #[allow(non_snake_case)]
+    #[cfg(feature="ctp")]
     on_rsp_query_max_order_volume: extern "C" fn(spi: *mut CThostFtdcTraderSpi, pQueryMaxOrderVolume: *const CThostFtdcQryMaxOrderVolumeField, pRspInfo: *const CThostFtdcRspInfoField, nRequestID: c_int, bIsLast: c_bool),
+    #[cfg(feature="atp")]
+    on_rsp_query_max_order_volume: extern "C" fn(spi: *mut CThostFtdcTraderSpi, pQueryMaxOrderVolume: *const CThostFtdcQueryMaxOrderVolumeField, pRspInfo: *const     CThostFtdcRspInfoField, nRequestID: c_int, bIsLast: c_bool),
     #[allow(non_snake_case)]
     on_rsp_settlement_info_confirm: extern "C" fn(spi: *mut CThostFtdcTraderSpi, pSettlementInfoConfirm: *const CThostFtdcSettlementInfoConfirmField, pRspInfo: *const CThostFtdcRspInfoField, nRequestID: c_int, bIsLast: c_bool),
     #[allow(non_snake_case)]
