@@ -1,5 +1,5 @@
 [package]
-name = "rtp"
+name = "rtpx"
 version = "1.0.0"
 authors = ["glacierx <rong.xian@gmail.com>"]
 edition = "2021"
