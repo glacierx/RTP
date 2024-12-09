@@ -216,6 +216,7 @@ pub trait GenericTraderApi {
     fn new(flow_path: CString) -> Self;
     fn init(&mut self);
     fn join(&mut self) -> ApiResult;
+    fn version(&mut self) -> String;
     fn get_trading_day<'a>(&mut self) -> &'a CStr;
     fn register_front(&mut self, front_socket_address: CString);
     fn register_name_server(&mut self, name_server: CString);
@@ -262,6 +263,12 @@ impl GenericTraderApi for TraderApi {
         let flow_path = unsafe { CString::from_raw(flow_path_ptr) };
         drop(flow_path);
         TraderApi{ trader_api_ptr: api, registered_spi: None }
+    }
+
+    fn version(&mut self) -> String{
+        unsafe{
+            gb18030_cstr_to_str(CStr::from_ptr(CThostFtdcMdApiGetApiVersion()).to_bytes()).to_string()
+        }
     }
 
     fn init(&mut self) {
