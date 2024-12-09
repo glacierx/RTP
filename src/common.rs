@@ -5,7 +5,8 @@ use simple_error::SimpleError;
 use std::borrow::Cow;
 use std::fmt;
 use std::os::raw::c_int;
-use time::{ Timespec, Tm };
+use time::{ OffsetDateTime, PrimitiveDateTime, Month };
+
 use super::binding::*;
 
 /// 交易接口中的查询操作的限制为:
@@ -229,101 +230,55 @@ pub fn is_valid_order_sys_id(order_sys_id: &TThostFtdcOrderSysIDType) -> bool {
 }
 
 #[allow(clippy::trivially_copy_pass_by_ref)] // Will be removed
-#[deprecated(since = "0.9.0", note = "This will be removed in 0.10.0")]
+// #[deprecated(since = "0.9.0", note = "This will be removed in 0.10.0")]
 pub fn to_exchange_timestamp(trading_day: &TThostFtdcDateType,
-                              update_time: &TThostFtdcTimeType,
-                              update_millisec: &TThostFtdcMillisecType) -> Result<Timespec, SimpleError> {
-    let year = match ::std::str::from_utf8(&trading_day[0..4]) {
-        Ok(year_str) => {
-            match year_str.parse::<u16>() {
-                Ok(year) => year,
-                Err(err) => {
-                    return Err(SimpleError::new(format!("invalid year string, {}", err)));
-                },
-            }
-        },
-        Err(err) => {
-            return Err(SimpleError::new(format!("year not utf8, {}", err)));
-        },
-    };
-    let month = match ::std::str::from_utf8(&trading_day[4..6]) {
-        Ok(month_str) => {
-            match month_str.parse::<u8>() {
-                Ok(month) => month,
-                Err(err) => {
-                    return Err(SimpleError::new(format!("invalid month string, {}", err)));
-                },
-            }
-        },
-        Err(err) => {
-            return Err(SimpleError::new(format!("month not utf8, {}", err)));
-        },
-    };
-    let day = match ::std::str::from_utf8(&trading_day[6..8]) {
-        Ok(day_str) => {
-            match day_str.parse::<u8>() {
-                Ok(day) => day,
-                Err(err) => {
-                    return Err(SimpleError::new(format!("invalid day string, {}", err)));
-                },
-            }
-        },
-        Err(err) => {
-            return Err(SimpleError::new(format!("day not utf8, {}", err)));
-        },
-    };
-    let hour = match ::std::str::from_utf8(&update_time[0..2]) {
-        Ok(hour_str) => {
-            match hour_str.parse::<u8>() {
-                Ok(hour) => hour,
-                Err(err) => {
-                    return Err(SimpleError::new(format!("invalid hour string, {}", err)));
-                },
-            }
-        },
-        Err(err) => {
-            return Err(SimpleError::new(format!("hour not utf8, {}", err)));
-        },
-    };
-    let minute = match ::std::str::from_utf8(&update_time[3..5]) {
-        Ok(minute_str) => {
-            match minute_str.parse::<u8>() {
-                Ok(minute) => minute,
-                Err(err) => {
-                    return Err(SimpleError::new(format!("invalid minute string, {}", err)));
-                },
-            }
-        },
-        Err(err) => {
-            return Err(SimpleError::new(format!("minute not utf8, {}", err)));
-        },
-    };
-    let second = match ::std::str::from_utf8(&update_time[6..8]) {
-        Ok(second_str) => {
-            match second_str.parse::<u8>() {
-                Ok(second) => second,
-                Err(err) => {
-                    return Err(SimpleError::new(format!("invalid second string, {}", err)));
-                },
-            }
-        },
-        Err(err) => {
-            return Err(SimpleError::new(format!("second not utf8, {}", err)));
-        },
-    };
-    let nanosec = *update_millisec as i32 * 1000 * 1000;
-    let tm = Tm { tm_sec: second as i32,
-                  tm_min: minute as i32,
-                  tm_hour: hour as i32 - 8, // UTC+8
-                  tm_mday: day as i32,
-                  tm_mon: month as i32 - 1,
-                  tm_year: year as i32 - 1900,
-                  tm_wday: 0i32,
-                  tm_yday: 0i32,
-                  tm_isdst: 0i32,
-                  tm_utcoff: 0i32,
-                  tm_nsec: nanosec };
-    Ok(tm.to_timespec())
+                           update_time: &TThostFtdcTimeType,
+                           update_millisec: &TThostFtdcMillisecType) -> Result<OffsetDateTime, SimpleError> {
+    let year = std::str::from_utf8(&trading_day[0..4])
+        .map_err(|e| SimpleError::new(format!("year not utf8, {}", e)))?
+        .parse::<i32>()
+        .map_err(|e| SimpleError::new(format!("invalid year string, {}", e)))?;
+
+    let month = std::str::from_utf8(&trading_day[4..6])
+        .map_err(|e| SimpleError::new(format!("month not utf8, {}", e)))?
+        .parse::<u8>()
+        .map_err(|e| SimpleError::new(format!("invalid month string, {}", e)))?;
+    
+    let month = Month::try_from(month)
+        .map_err(|_| SimpleError::new("invalid month value"))?;
+
+    let day = std::str::from_utf8(&trading_day[6..8])
+        .map_err(|e| SimpleError::new(format!("day not utf8, {}", e)))?
+        .parse::<u8>()
+        .map_err(|e| SimpleError::new(format!("invalid day string, {}", e)))?;
+
+    let hour = std::str::from_utf8(&update_time[0..2])
+        .map_err(|e| SimpleError::new(format!("hour not utf8, {}", e)))?
+        .parse::<u8>()
+        .map_err(|e| SimpleError::new(format!("invalid hour string, {}", e)))?;
+
+    let minute = std::str::from_utf8(&update_time[3..5])
+        .map_err(|e| SimpleError::new(format!("minute not utf8, {}", e)))?
+        .parse::<u8>()
+        .map_err(|e| SimpleError::new(format!("invalid minute string, {}", e)))?;
+
+    let second = std::str::from_utf8(&update_time[6..8])
+        .map_err(|e| SimpleError::new(format!("second not utf8, {}", e)))?
+        .parse::<u8>()
+        .map_err(|e| SimpleError::new(format!("invalid second string, {}", e)))?;
+
+    let nanosec = *update_millisec as i32 * 1_000_000;
+
+    let date = time::Date::from_calendar_date(year, month, day)
+        .map_err(|e| SimpleError::new(format!("invalid date: {}", e)))?;
+    
+    let time = time::Time::from_hms_nano(hour, minute, second, nanosec as u32)
+        .map_err(|e| SimpleError::new(format!("invalid time: {}", e)))?;
+
+    let datetime = PrimitiveDateTime::new(date, time);
+    
+    // Adjust for UTC+8
+    Ok(datetime.assume_utc().to_offset(time::UtcOffset::from_hms(8, 0, 0).unwrap()))
 }
 
 pub fn set_cstr_from_str(buffer: &mut [u8], text: &str) -> Result<(), SimpleError> {
