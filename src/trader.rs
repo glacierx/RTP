@@ -15,8 +15,8 @@ pub use super::binding::*;
 pub use super::common::*;
 
 #[allow(dead_code)]
-#[cfg_attr(feature = "ctp", link(name = "libthosttraderapi_ctp"))]
-#[cfg_attr(feature = "atp", link(name = "libthosttraderapi_atp"))]
+#[cfg_attr(feature = "ctp", link(name = "thosttraderapi_ctp"))]
+#[cfg_attr(feature = "atp", link(name = "thosttraderapi_atp"))]
 extern "C" {
     #[link_name = "_ZN19CThostFtdcTraderApi19CreateFtdcTraderApiEPKc"]
     fn CThostFtdcTraderApiCreateFtdcTraderApi(pszFlowPath: *const c_char) -> *mut c_void;

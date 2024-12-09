@@ -1,6 +1,6 @@
 [package]
 name = "rtpx"
-version = "1.0.2"
+version = "1.0.3"
 authors = ["glacierx <rong.xian@gmail.com>"]
 edition = "2021"
 description = "Safe Rust bindings for CTP (Comprehensive Transaction Platform) and its variations for Chinese financial markets"
@@ -17,7 +17,7 @@ path = "src/lib.rs"
 
 [features]
 channel = ["crossbeam-channel"]
-default = ["ctp"]  # Default SDK to build
+default = ["atp"]  # Default SDK to build
 ctp = []          # CTP SDK
 atp = []          # ATP SDK
 xtp = []          # XTP SDK
