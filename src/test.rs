@@ -11,6 +11,7 @@
 fn create_ctp_instance() {
     use super::trader::*;
     let flow_path = ::std::ffi::CString::new("").unwrap();
-    let api = TraderApi::new(flow_path);
+    let mut api = TraderApi::new(flow_path);
+    println!("version={}", api.version());
     drop(api);
 }

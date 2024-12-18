@@ -1,3 +1,5 @@
 target
 .devcontainer
 .github
+**/.DS_Store
+**/*.con
