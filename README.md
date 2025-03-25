@@ -32,8 +32,7 @@ use std::time::Duration;
 
 // Import the RTP trader API with required features
 use rtp::trader::{GenericTraderApi, TraderApi, TraderSpi, ResumeType};
-use rtp::common::{DisconnectionReason, RspResult};
-use rtp::binding::*;
+use rtp::trader::{DisconnectionReason, RspResult};
 
 // Create a simple TraderSpi implementation
 struct MyTraderSpi {
@@ -125,6 +124,40 @@ cargo build --release --no-default-features --features=atp
 cargo test
 ```
 
+## 📚 Running Examples
+
+The repository includes examples demonstrating basic usage of the trading API. The most comprehensive example is `basic_usage.rs`, which demonstrates connecting to a trading server, logging in, and querying account information and positions.
+
+To run the examples:
+
+```bash
+# Run the basic usage example with CTP (default)
+cargo run --example basic_usage
+
+# Run the basic usage example with ATP
+cargo run --example basic_usage --no-default-features --features=atp
+
+# Run the basic usage example with XTP
+cargo run --example basic_usage --no-default-features --features=xtp
+```
+
+### Configuring the Examples
+
+Before running the examples, you'll need to modify the connection parameters in the source code:
+
+1. Open the example file (e.g., `examples/basic_usage.rs`)
+2. Update the following values with your actual credentials:
+   ```rust
+   let front_address = "tcp://180.168.146.187:10130"; // Change to your server
+   let broker_id = "9999";                            // Change to your broker ID
+   let investor_id = "your_investor_id";              // Change to your actual ID
+   let password = "your_password";                    // Change to your actual password
+   ```
+
+### Note on Flow Path Files
+
+The examples create flow files in the current directory. These files are used by the CTP/ATP/XTP APIs to store session information. The default flow path is `./flow_path`, but you can change it if needed.
+
 ## 🧪 Testing
 
 The library includes tests showing basic usage patterns for CTP and ATP. These are non-connecting tests that demonstrate API initialization and proper structure but don't connect to real servers.
@@ -145,8 +178,55 @@ When writing your own tests, be aware that the import structure uses:
 
 ```rust
 use rtp::trader::{GenericTraderApi, TraderApi, TraderSpi, ResumeType};
-use rtp::common::{DisconnectionReason, RspResult};
-use rtp::binding::*;
+use rtp::trader::{DisconnectionReason, RspResult};
+```
+
+## 🔍 Troubleshooting
+
+### Working with CTP Enum Values
+
+CTP/ATP/XTP have many enum values that are defined in their C++ headers. In the Rust binding, these are often represented as primitive types (like `u8`) with specific values. When working with these values, you may need to use the raw numeric values rather than trying to access enum variants.
+
+For example, when dealing with position direction (TThostFtdcPosiDirectionType):
+
+```rust
+// Correct way - use direct numeric values:
+let position_char = match position.PosiDirection {
+    2 => 'L', // Long position
+    3 => 'S', // Short position
+    1 => 'N', // Net position
+    _ => '?', // Unknown
+};
+```
+
+Common CTP enum values:
+- Position Direction (TThostFtdcPosiDirectionType): 1=Net, 2=Long, 3=Short
+- Direction (TThostFtdcDirectionType): '0'=Buy, '1'=Sell
+- Order Status (TThostFtdcOrderStatusType): '0'=AllTraded, '1'=PartTradedQueueing, '2'=PartTradedNotQueueing, '3'=NoTradeQueueing, '4'=NoTradeNotQueueing, '5'=Canceled, 'a'=Unknown, 'b'=NotTouched, 'c'=Touched
+
+### Setting String Values in CTP Structs
+
+When setting string values in CTP structs, you need to handle the conversion from Rust strings to C-style character arrays:
+
+```rust
+// Example of setting BrokerID and UserID in a login field
+unsafe {
+    use std::ptr::copy_nonoverlapping;
+    let broker_bytes = broker_id.as_bytes();
+    let user_bytes = user_id.as_bytes();
+    
+    copy_nonoverlapping(
+        broker_bytes.as_ptr(), 
+        req_user_login.BrokerID.as_mut_ptr() as *mut u8,
+        std::cmp::min(broker_bytes.len(), req_user_login.BrokerID.len() - 1)
+    );
+    
+    copy_nonoverlapping(
+        user_bytes.as_ptr(), 
+        req_user_login.UserID.as_mut_ptr() as *mut u8,
+        std::cmp::min(user_bytes.len(), req_user_login.UserID.len() - 1)
+    );
+}
 ```
 
 ## ⚠️ Disclaimer

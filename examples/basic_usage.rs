@@ -11,7 +11,6 @@ use rtp::trader::{
     CThostFtdcRspAuthenticateField, CThostFtdcRspUserLoginField, CThostFtdcUserLogoutField,
     CThostFtdcTradingAccountField, CThostFtdcInvestorPositionField, TThostFtdcRequestIDType,
     CThostFtdcReqUserLoginField, CThostFtdcQryTradingAccountField, CThostFtdcQryInvestorPositionField,
-    TThostFtdcPosiDirectionType,
 };
 
 // A complete trader SPI implementation for basic usage demonstration
@@ -203,9 +202,19 @@ impl TraderSpi for DemoTraderSpi {
                     
                     // Print position information
                     let instrument_id = rtp::trader::gb18030_cstr_to_str(&position.InstrumentID);
+                    
+                    // Get position direction as a character
+                    // In CTP: 2=Long, 3=Short, 1=Net
+                    let position_char = match position.PosiDirection {
+                        2 => 'L',
+                        3 => 'S',
+                        1 => 'N',
+                        _ => '?',
+                    };
+                    
                     println!("Position: {} ({}) - Volume: {}, Cost: {:.2}", 
                              instrument_id,
-                             if position.PosiDirection == TThostFtdcPosiDirectionType::THOST_FTDC_PD_Long {'L'} else {'S'},
+                             position_char,
                              position.Position,
                              position.OpenCost);
                 }
