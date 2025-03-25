@@ -1,6 +1,6 @@
 [package]
 name = "rtpx"
-version = "1.0.3"
+version = "1.0.4"
 authors = ["glacierx <rong.xian@gmail.com>"]
 edition = "2021"
 description = "Safe Rust bindings for CTP (Comprehensive Transaction Platform) and its variations for Chinese financial markets"

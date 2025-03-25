@@ -5,7 +5,7 @@ use std::time::Duration;
 
 // Update imports to use only public modules and types
 use rtp::trader::{GenericTraderApi, TraderApi, TraderSpi, ResumeType};
-use rtp::trader::{DisconnectionReason, RspResult, ApiResult, from_api_return_to_api_result};
+use rtp::trader::{DisconnectionReason, RspResult};
 // Import CThostFtdc types from trader module instead of directly from binding
 use rtp::trader::{
     CThostFtdcRspAuthenticateField, CThostFtdcRspUserLoginField, CThostFtdcUserLogoutField,
@@ -29,15 +29,10 @@ struct DemoTraderSpi {
     
     // Request IDs for tracking different requests
     request_id: Arc<Mutex<i32>>,
-    
-    // Trading server parameters
-    broker_id: String,
-    investor_id: String,
-    password: String,
 }
 
 impl DemoTraderSpi {
-    fn new(broker_id: &str, investor_id: &str, password: &str) -> Self {
+    fn new(_broker_id: &str, _investor_id: &str, _password: &str) -> Self {
         DemoTraderSpi {
             connected: Arc::new(Mutex::new(false)),
             authenticated: Arc::new(Mutex::new(false)),
@@ -46,36 +41,7 @@ impl DemoTraderSpi {
             account_info: Arc::new(Mutex::new(None)),
             positions: Arc::new(Mutex::new(Vec::new())),
             request_id: Arc::new(Mutex::new(0)),
-            broker_id: broker_id.to_string(),
-            investor_id: investor_id.to_string(),
-            password: password.to_string(),
         }
-    }
-    
-    fn next_request_id(&self) -> i32 {
-        let mut req_id = self.request_id.lock().unwrap();
-        *req_id += 1;
-        *req_id
-    }
-    
-    fn is_connected(&self) -> bool {
-        *self.connected.lock().unwrap()
-    }
-    
-    fn is_logged_in(&self) -> bool {
-        *self.logged_in.lock().unwrap()
-    }
-    
-    fn is_login_failed(&self) -> bool {
-        *self.login_failed.lock().unwrap()
-    }
-    
-    fn get_account_info(&self) -> Option<CThostFtdcTradingAccountField> {
-        self.account_info.lock().unwrap().clone()
-    }
-    
-    fn get_positions(&self) -> Vec<CThostFtdcInvestorPositionField> {
-        self.positions.lock().unwrap().clone()
     }
 }
 
@@ -94,10 +60,10 @@ impl TraderSpi for DemoTraderSpi {
     
     fn on_rsp_authenticate(
         &mut self,
-        rsp_authenticate_field: Option<&CThostFtdcRspAuthenticateField>,
+        _rsp_authenticate_field: Option<&CThostFtdcRspAuthenticateField>,
         result: RspResult,
-        request_id: TThostFtdcRequestIDType,
-        is_last: bool,
+        _request_id: TThostFtdcRequestIDType,
+        _is_last: bool,
     ) {
         match result {
             Ok(()) => {
@@ -115,8 +81,8 @@ impl TraderSpi for DemoTraderSpi {
         &mut self,
         rsp_user_login: Option<&CThostFtdcRspUserLoginField>,
         result: RspResult,
-        request_id: TThostFtdcRequestIDType,
-        is_last: bool,
+        _request_id: TThostFtdcRequestIDType,
+        _is_last: bool,
     ) {
         match result {
             Ok(()) => {
@@ -145,10 +111,10 @@ impl TraderSpi for DemoTraderSpi {
     
     fn on_rsp_user_logout(
         &mut self,
-        rsp_user_logout: Option<&CThostFtdcUserLogoutField>,
-        result: RspResult,
-        request_id: TThostFtdcRequestIDType,
-        is_last: bool,
+        _rsp_user_logout: Option<&CThostFtdcUserLogoutField>,
+        _result: RspResult,
+        _request_id: TThostFtdcRequestIDType,
+        _is_last: bool,
     ) {
         println!("Logged out from trading server.");
         *self.logged_in.lock().unwrap() = false;
@@ -158,8 +124,8 @@ impl TraderSpi for DemoTraderSpi {
         &mut self,
         trading_account: Option<&CThostFtdcTradingAccountField>,
         result: RspResult,
-        request_id: TThostFtdcRequestIDType,
-        is_last: bool,
+        _request_id: TThostFtdcRequestIDType,
+        _is_last: bool,
     ) {
         match result {
             Ok(()) => {
@@ -190,7 +156,7 @@ impl TraderSpi for DemoTraderSpi {
         &mut self,
         investor_position: Option<&CThostFtdcInvestorPositionField>,
         result: RspResult,
-        request_id: TThostFtdcRequestIDType,
+        _request_id: TThostFtdcRequestIDType,
         is_last: bool,
     ) {
         match result {

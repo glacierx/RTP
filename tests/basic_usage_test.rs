@@ -4,8 +4,9 @@ use std::thread;
 
 // Import the RTP trader API
 use rtp::trader::{GenericTraderApi, TraderApi, TraderSpi, ResumeType};
-use rtp::common::{DisconnectionReason, RspResult};
-use rtp::binding::*;
+use rtp::trader::{DisconnectionReason, RspResult};
+use rtp::trader::CThostFtdcRspUserLoginField;
+use rtp::binding::TThostFtdcRequestIDType;
 
 // A simple implementation of TraderSpi to handle callbacks
 struct TestTraderSpi {

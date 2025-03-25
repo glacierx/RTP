@@ -1,14 +1,12 @@
 // This test specifically targets the ATP implementation
 // To run: cargo test --features=atp --no-default-features
 
-use std::ffi::CString;
-use std::time::Duration;
-use std::thread;
-
-// Import the RTP trader API
-use rtp::trader::{GenericTraderApi, TraderApi, TraderSpi, ResumeType};
-use rtp::common::{DisconnectionReason, RspResult};
-use rtp::binding::*;
+use rtp::trader::{TraderSpi};
+use rtp::trader::{DisconnectionReason, RspResult};
+use rtp::trader::{
+    CThostFtdcRspAuthenticateField, CThostFtdcRspUserLoginField
+};
+use rtp::binding::TThostFtdcRequestIDType;
 
 // A simple ATP trader SPI implementation
 struct AtpTraderSpi {
@@ -40,36 +38,36 @@ impl TraderSpi for AtpTraderSpi {
     
     fn on_rsp_authenticate(
         &mut self,
-        rsp_authenticate: Option<&CThostFtdcRspAuthenticateField>,
+        _rsp_authenticate: Option<&CThostFtdcRspAuthenticateField>,
         result: RspResult,
-        request_id: TThostFtdcRequestIDType,
-        is_last: bool,
+        _request_id: TThostFtdcRequestIDType,
+        _is_last: bool,
     ) {
-        println!("ATP API: Authentication response received");
-        if let Ok(()) = result {
-            println!("ATP API: Authentication successful");
-            self.authenticated = true;
-        } else {
-            println!("ATP API: Authentication failed: {:?}", result);
+        match result {
+            Ok(()) => {
+                println!("Authentication successful");
+            },
+            Err(e) => {
+                println!("Authentication failed: [{0}] {1}", e.id, e.msg);
+            }
         }
     }
 
     fn on_rsp_user_login(
         &mut self,
-        rsp_user_login: Option<&CThostFtdcRspUserLoginField>,
+        login_field: Option<&CThostFtdcRspUserLoginField>,
         result: RspResult,
-        request_id: TThostFtdcRequestIDType,
-        is_last: bool,
+        _request_id: TThostFtdcRequestIDType,
+        _is_last: bool,
     ) {
-        println!("ATP API: Login response received");
-        if let Ok(()) = result {
-            if let Some(login_field) = rsp_user_login {
-                let trading_day = rtp::common::gb18030_cstr_to_str(&login_field.TradingDay);
-                println!("ATP API: Login successful. Trading day: {}", trading_day);
-                self.login_success = true;
+        match result {
+            Ok(()) => {
+                let trading_day = rtp::trader::gb18030_cstr_to_str(&login_field.unwrap().TradingDay);
+                println!("Login successful! Trading day: {}", trading_day);
+            },
+            Err(e) => {
+                println!("Login failed: [{0}] {1}", e.id, e.msg);
             }
-        } else {
-            println!("ATP API: Login failed: {:?}", result);
         }
     }
 }
@@ -78,6 +76,11 @@ impl TraderSpi for AtpTraderSpi {
 #[cfg(test)]
 #[cfg(feature = "atp")]
 mod tests {
+    use std::ffi::CString;
+    use std::thread;
+    use std::time::Duration;
+    use rtp::trader::{TraderApi, ResumeType};
+    
     use super::*;
     
     #[test]

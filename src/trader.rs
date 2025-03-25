@@ -1909,7 +1909,7 @@ mod tests {
 
     #[test]
     fn spi_output_size() {
-        let expected_size = 712;
+        let expected_size = 920;
         let actual_size = size_of::<TraderSpiOutput>();
         assert_eq!(expected_size, actual_size, "TraderSpiOutput expected size {}, actual size {}", expected_size, actual_size);
     }

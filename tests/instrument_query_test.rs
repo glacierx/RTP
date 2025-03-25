@@ -5,8 +5,11 @@ use std::thread;
 
 // Import the RTP trader API
 use rtp::trader::{GenericTraderApi, TraderApi, TraderSpi, ResumeType};
-use rtp::common::{DisconnectionReason, RspResult};
-use rtp::binding::*;
+use rtp::trader::{DisconnectionReason, RspResult};
+use rtp::trader::{
+    CThostFtdcInstrumentField, CThostFtdcQryInstrumentField,
+};
+use rtp::binding::TThostFtdcRequestIDType;
 
 // A more complex TraderSpi implementation that handles instrument queries
 struct InstrumentQueryTraderSpi {
@@ -50,33 +53,26 @@ impl TraderSpi for InstrumentQueryTraderSpi {
     
     fn on_rsp_qry_instrument(
         &mut self,
-        instrument: Option<&CThostFtdcInstrumentField>,
+        instrument_data: Option<&CThostFtdcInstrumentField>,
         result: RspResult,
-        request_id: TThostFtdcRequestIDType,
+        _request_id: TThostFtdcRequestIDType,
         is_last: bool,
     ) {
-        println!("Received instrument query response");
-        
-        // Process the response
-        if let Ok(()) = result {
-            if let Some(instrument_data) = instrument {
-                // Add the instrument to our collection
-                let mut instruments = self.instruments_received.lock().unwrap();
-                instruments.push(*instrument_data);
+        match result {
+            Ok(()) => {
+                if let Some(instrument_data) = instrument_data {
+                    let instrument_id = rtp::trader::gb18030_cstr_to_str(&instrument_data.InstrumentID);
+                    let exchange_id = rtp::trader::gb18030_cstr_to_str(&instrument_data.ExchangeID);
+                    println!("Instrument: {} on {}", instrument_id, exchange_id);
+                }
                 
-                // Extract and print some information about the instrument
-                let instrument_id = rtp::common::gb18030_cstr_to_str(&instrument_data.InstrumentID);
-                let exchange_id = rtp::common::gb18030_cstr_to_str(&instrument_data.ExchangeID);
-                println!("Instrument: {}, Exchange: {}", instrument_id, exchange_id);
+                if is_last {
+                    println!("All instruments received.");
+                }
+            },
+            Err(e) => {
+                println!("Failed to query instrument: [{0}] {1}", e.id, e.msg);
             }
-        } else {
-            println!("Error in instrument query: {:?}", result);
-        }
-        
-        // If this is the last packet, mark the query as complete
-        if is_last {
-            println!("Instrument query completed (request_id: {})", request_id);
-            *self.query_finished.lock().unwrap() = true;
         }
     }
 }
@@ -125,7 +121,7 @@ mod tests {
             println!("Connected to server, proceeding with instrument query");
             
             // Create a query request
-            let mut query_req = CThostFtdcQryInstrumentField::default();
+            let query_req = CThostFtdcQryInstrumentField::default();
             
             // You can filter by specific instrument ID or exchange ID
             // For example:

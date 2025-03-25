@@ -107,6 +107,69 @@ Feature flags allow you to choose which implementation to use:
 
 Only one variant can be enabled at a time.
 
+## 🔄 Using Different SDK Versions
+
+This package supports multiple versions of CTP and ATP SDKs. Here's how to use different versions:
+
+### Using a Different CTP Version
+
+1. Download your desired CTP version from the official website (http://www.sfit.com.cn/)
+2. Place the SDK files in your project:
+   ```bash
+   your_project/
+   ├── sdk/
+   │   └── ctp/
+   │       ├── include/
+   │       │   ├── ThostFtdcMdApi.h
+   │       │   ├── ThostFtdcTraderApi.h
+   │       │   └── ThostFtdcUserApiStruct.h
+   │       └── lib/
+   │           ├── libthostmduserapi_se.so      # Linux
+   │           └── libthosttraderapi_se.so      # Linux
+   ```
+
+3. Update your project's build configuration:
+   ```toml
+   [dependencies]
+   rtpx = { version = "1.0.4", default-features = false, features = ["ctp"] }
+
+   [package.metadata.rtpx]
+   ctp_sdk_path = "sdk/ctp"  # Path to your CTP SDK
+   ```
+
+### Using a Different ATP Version
+
+1. Obtain the ATP SDK files from your broker
+2. Place the SDK files similarly:
+   ```bash
+   your_project/
+   ├── sdk/
+   │   └── atp/
+   │       ├── include/
+   │       │   ├── AtpTraderApi.h
+   │       │   └── AtpUserApiStruct.h
+   │       └── lib/
+   │           ├── libatptraderapi.so           # Linux
+   │           └── libatpmduserapi.so           # Linux
+   ```
+
+3. Update your project's build configuration:
+   ```toml
+   [dependencies]
+   rtpx = { version = "1.0.4", default-features = false, features = ["atp"] }
+
+   [package.metadata.rtpx]
+   atp_sdk_path = "sdk/atp"  # Path to your ATP SDK
+   ```
+
+### Important Notes
+
+- Always ensure binary compatibility between your chosen SDK version and your broker's trading system
+- Test thoroughly with your specific SDK version in a simulation environment before using in production
+- Some features might vary between different SDK versions
+- When upgrading SDK versions, review the changelog for breaking changes
+- The package's default SDK versions are tested and known to work, but you can override them as shown above
+
 ## 🛠️ Building from Source
 
 ```bash
@@ -247,7 +310,7 @@ at your option.
 - CTP development team for the original C++ SDK
 - Rust FFI community for guidance and tools
 - Contributors who helped make this project possible
-
+- Author of the project [ctp-rs](https://github.com/WiSaGaN/ctp-rs). (This project is the cornerstone of CTP migrations in the world of RustLang helped a lot of people. It is archived and read only, hopefully the author is rich enough to retire) 
 ---
 
 *Note: This is an unofficial Rust binding. CTP is a trademark of Shanghai Futures Exchange.*

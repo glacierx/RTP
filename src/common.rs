@@ -296,12 +296,14 @@ pub fn set_cstr_from_str(buffer: &mut [u8], text: &str) -> Result<(), SimpleErro
 }
 
 pub fn set_cstr_from_str_truncate(buffer: &mut [u8], text: &str) {
-    for (place, data) in buffer.split_last_mut().expect("buffer len 0 in set_cstr_from_str_truncate").1.iter_mut().zip(text.as_bytes().iter()) {
-        *place = *data;
+    let buffer_len = buffer.len();
+    if buffer_len == 0 {
+        panic!("buffer len 0 in set_cstr_from_str_truncate");
     }
-    unsafe {
-        *buffer.get_unchecked_mut(text.len()) = 0u8;
-    }
+    let text_bytes = text.as_bytes();
+    let copy_len = std::cmp::min(text_bytes.len(), buffer_len - 1);
+    buffer[..copy_len].copy_from_slice(&text_bytes[..copy_len]);
+    buffer[copy_len] = 0u8;
 }
 
 pub fn normalize_double(d: f64) -> Option<f64> {

@@ -1,4 +1,4 @@
 mod test;
-mod binding;
+pub mod binding;
 mod common;
 pub mod trader;
