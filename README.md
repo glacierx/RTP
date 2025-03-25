@@ -1,15 +1,13 @@
-# rtp
-Rust binding for CTP and it's variations
+# rtpx (RTP)
+Safe Rust bindings for CTP and its variations
 
-# 🦀 rtp: Safe Rust Bindings for CTP Trading System(and it's variations)
+# 🦀 rtpx: Safe Rust Bindings for CTP Trading System and its variations
 
-[![Crates.io](https://img.shields.io/crates/v/rtp)](https://crates.io/crates/rtp)
-[![Documentation](https://docs.rs/rtp/badge.svg)](https://docs.rs/rtp)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](LICENSE)
 
-`rtp` provides safe and ergonomic Rust bindings for the CTP (Comprehensive Transaction Platform) trading system, widely used in Chinese financial markets. This project aims to bring Rust's safety and performance guarantees to the CTP ecosystem while maintaining compatibility with various CTP-compatible implementations.
+`rtpx` provides safe and ergonomic Rust bindings for the CTP (Comprehensive Transaction Platform) trading system and its variants (ATP, XTP), widely used in Chinese financial markets. This project aims to bring Rust's safety and performance guarantees to the CTP ecosystem while maintaining compatibility with various CTP-compatible implementations.
 
-## CTP versions
+## Supported SDK versions
 
 |sdk|version|original URL|
 |--|--|--|
@@ -19,39 +17,68 @@ Rust binding for CTP and it's variations
 ## 🌟 Features
 
 - **Safe Abstractions**: Zero-cost abstractions over CTP's C++ interfaces with Rust's safety guarantees
-- **Multiple CTP Variants**: Support for different CTP implementations across brokers and markets
+- **Multiple CTP Variants**: Support for CTP, ATP and XTP through feature flags
 - **Error Handling**: Rust-native error handling replacing C++ exceptions
-- **Async Support**: Modern async/await API for event handling
 - **Cross-Platform**: Windows and Linux support
 - **Zero Overhead**: Direct FFI bindings with no runtime cost
 - **Type Safety**: Strong typing for market data and trading interfaces
 
-## 🚀 Quick Start
+## 🚀 Basic Usage
 
 ```rust
-use rust_ctp::prelude::*;
+use std::ffi::CString;
+use std::thread;
+use std::time::Duration;
 
-#[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    // Create a new CTP client
-    let mut client = CtpTradingClient::new()
-        .front_addr("tcp://180.168.146.187:10130")
-        .broker_id("9999")
-        .build()?;
+// Import the RTP trader API with required features
+use rtp::trader::{GenericTraderApi, TraderApi, TraderSpi, ResumeType};
+use rtp::common::{DisconnectionReason, RspResult};
+use rtp::binding::*;
 
-    // Connect and login
-    client.connect().await?;
-    client.login("YOUR_USERNAME", "YOUR_PASSWORD").await?;
+// Create a simple TraderSpi implementation
+struct MyTraderSpi {
+    connected: bool,
+}
 
-    // Subscribe to market data
-    client.subscribe(&["rb2410"]).await?;
+impl MyTraderSpi {
+    fn new() -> Self {
+        MyTraderSpi { connected: false }
+    }
+}
 
-    // Handle market data
-    while let Some(data) = client.next_tick().await {
-        println!("Received tick: {:?}", data);
+impl TraderSpi for MyTraderSpi {
+    fn on_front_connected(&mut self) {
+        println!("Connected to trading server");
+        self.connected = true;
     }
 
-    Ok(())
+    fn on_front_disconnected(&mut self, reason: DisconnectionReason) {
+        println!("Disconnected from trading server: {:?}", reason);
+        self.connected = false;
+    }
+}
+
+fn main() {
+    // Create a new instance of TraderApi
+    let flow_path = CString::new("./flow_path").unwrap();
+    let mut trader = TraderApi::new(flow_path);
+    
+    // Register SPI for callbacks
+    let trader_spi = Box::new(MyTraderSpi::new());
+    trader.register_spi(trader_spi);
+    
+    // Configure the trader API
+    trader.subscribe_public_topic(ResumeType::Quick);
+    trader.subscribe_private_topic(ResumeType::Quick);
+    
+    // Register a trading server front
+    trader.register_front(CString::new("tcp://trading.server.address:port").unwrap());
+    
+    // Initialize API (non-blocking call)
+    trader.init();
+    
+    // Allow some time for connection and processing
+    thread::sleep(Duration::from_secs(5));
 }
 ```
 
@@ -61,46 +88,66 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-rtp = "0.1.0"
+rtpx = "1.0.3"
+```
+
+By default, the CTP variant is enabled. To use ATP or XTP instead:
+
+```toml
+[dependencies]
+rtpx = { version = "1.0.3", default-features = false, features = ["atp"] }
 ```
 
 ## 🔧 Supported CTP Variants
 
-- CTP Standard Version (CTPSE)
-- CTPMIN (Simulated Trading)
-- Simnow Trading Platform
-- Custom broker implementations (extensible)
+Feature flags allow you to choose which implementation to use:
+
+- `ctp` - Standard CTP implementation (default)
+- `atp` - ATP implementation
+- `xtp` - XTP implementation
+
+Only one variant can be enabled at a time.
 
 ## 🛠️ Building from Source
 
 ```bash
 # Clone the repository
-git clone https://github.com/glacierx/rtp
-cd rtp
+git clone https://github.com/glacierx/RTP
+cd RTP
 
-# Build the project
+# Build with CTP (default)
 cargo build --release
+
+# Build with ATP
+cargo build --release --no-default-features --features=atp
 
 # Run tests
 cargo test
 ```
 
-## 📚 Documentation
+## 🧪 Testing
 
-For detailed documentation and examples, visit [docs.rs/rtp](https://docs.rs/rtp).
+The library includes tests showing basic usage patterns for CTP and ATP. These are non-connecting tests that demonstrate API initialization and proper structure but don't connect to real servers.
 
-The documentation includes:
-- Complete API reference
-- Trading examples
-- Market data handling
-- Error handling patterns
-- Best practices
+To run the tests:
 
-## 🤝 Contributing
+```bash
+# Run CTP tests (default)
+cargo test
 
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+# Run ATP tests
+cargo test --no-default-features --features=atp
+```
 
-Please make sure to update tests as appropriate.
+## ⚠️ Note on Writing Tests
+
+When writing your own tests, be aware that the import structure uses:
+
+```rust
+use rtp::trader::{GenericTraderApi, TraderApi, TraderSpi, ResumeType};
+use rtp::common::{DisconnectionReason, RspResult};
+use rtp::binding::*;
+```
 
 ## ⚠️ Disclaimer
 
